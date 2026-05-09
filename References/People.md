@@ -4,6 +4,8 @@ A compact list of **globally and historically consequential individuals** in or 
 
 **German army organization (ranks, units, doctrine):** [Military.md](Military.md)
 
+**Fiction setting — named cast, locations, AU timeline:** [Glossary.md](Glossary.md)
+
 ---
 
 ## Sovereigns and heads of state
