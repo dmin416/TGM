@@ -4,6 +4,8 @@ Reference: Imperial German Army (*Deutsches Heer*) at **late January 1914** — 
 
 *Companion list of named individuals:* [People.md](People.md)
 
+*Weapons, kit, and national inventories (Jan 1914):* [Baseline-1914.md](Baseline-1914.md)
+
 ---
 
 ## Supreme command
