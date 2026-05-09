@@ -2,7 +2,7 @@
 
 Weapons, equipment, and vehicles **existing and in service or inventory** as of **January 1914**, scoped to the five countries used most often in this setting.
 
-*Story-specific weapons, magitech, characters, and AU notes:* [Glossary.md](Glossary.md)
+*Story cast and AU timeline:* [People.md](People.md) · *Locations, units, magitech weapons:* [Glossary.md](Glossary.md)
 
 *German unit-level allotment (MG companies, field batteries):* [Military.md](Military.md)
 
