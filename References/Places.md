@@ -1,5 +1,7 @@
 # Places
 
+**References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
+
 **Units, weapons, organizations, resources:** [Glossary.md](Glossary.md)  
 **Historical sovereign-state snapshot:** [Countries.md](Countries.md)
 

@@ -2,11 +2,9 @@
 
 Reference: Imperial German Army (*Deutsches Heer*) at **late January 1914** — peacetime footing, pre–World War I offensive doctrine still dominant. Bavarian, Saxon, and Württemberg contingents followed the same general pattern with state-specific nuances.
 
-*Companion list of named individuals:* [People.md](People.md)
+**References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
 
-*Weapons, kit, and national inventories (Jan 1914):* [Baseline-1914.md](Baseline-1914.md)
-
-*Story characters:* [People.md](People.md) · *Places:* [Places.md](Places.md) · *Units, magitech:* [Glossary.md](Glossary.md)
+*Named individuals:* [People.md](People.md) · *Places:* [Places.md](Places.md) · *Glossary (units, magitech, Britain/Belgium/France/Spain Jan 1914):* [Glossary.md](Glossary.md)
 
 ---
 
@@ -181,6 +179,103 @@ Reference: Imperial German Army (*Deutsches Heer*) at **late January 1914** — 
 - Battalion = smallest combined-arms element; can operate on its own axis.
 - Major = first level of true operational independence.
 - Machine guns present but not yet fully appreciated as decisive (1914 perspective).
+
+---
+
+## Germany (Deutsches Heer / Kaiserliche Marine) — January 1914 equipment
+
+Weapons, equipment, and vehicles **existing and in service or inventory** as of **January 1914**. Representative strengths and “baseline used in this setting” where marked are for fiction consistency, not a claim of perfect uniformity across every historical regiment.
+
+### Late January 1914 baseline kit (German field infantry baseline)
+
+**Rifle:** Gewehr 98, 7.92×57mm, 5-round internal mag, 1,250mm, 4.1kg. Kar 98AZ (short carbine) to cavalry, artillery, pioneers only — **not** line infantry. Bayonet: S98/05 “Butcher blade” (37cm) and older S98 (52cm quillback); sawback variants to pioneers and select NCOs.
+
+**Sidearm:** P08 Luger (9×19mm, 8-round) to officers, senior NCOs, MG crews, signalers, dispatch riders, pioneers. LP 08 “Artillery Luger” (200mm barrel, 800m tangent sight) authorized 2 July 1913 for artillery and aviation only.
+
+**Ammunition:** 120 rounds in two M1909 *Patronentaschen* (three-pocket brown pebbled leather, 60 rds each) + 30 in *Tornister* flap = **150 rounds total.**
+
+**Headgear:** Pickelhaube M1895 (boiled cowhide, brass fittings, removable spike, state *Wappen* plate) with reseda field-gray *Überzug* cover showing red regimental number.
+
+**Belt / LBE:** M1895 *Koppel* (45mm brown leather), state-stamped *Koppelschloss* buckle. No Y-straps.
+
+**Pack:** Tornister M1895 — rigid cowhide frame, hair-on exterior (“pony fur”). Contents: spare shirt, socks, underpants, razor, soap, sewing kit, spare boots, cleaning kit, *Soldbuch*, 30 spare rounds, iron ration (250g hard biscuit, 200g canned meat, 150g preserved veg, 25g coffee, 25g salt). M1907 *Mantel* greatcoat and M1892 *Zeltbahn* shelter quarter wrapped outside. *Kochgeschirr* M1910 (black-lacquered aluminum, 2.5L kidney-shaped) strapped to flap.
+
+**Grenades:** *Kugelhandgranate* M1913 — pioneers and fortification assault only. None for line infantry.
+
+**Entrenching tool:** Linnemann M1898 *Kleiner Spaten*, carried by ~⅔ of each squad in black M1909 *Spatentasche* with bayonet frogged on top.
+
+**Water / food:** *Feldflasche* M1907 (aluminum, 0.75L, felt-covered, clip-on aluminum *Trinkbecher*). *Brotbeutel* M1893 (ochre cotton).
+
+**Uniform:** *Waffenrock* M1907/10 *Feldrock* (field-gray wool, standing collar, 8 buttons, regional cuff styles, red infantry piping). *Feldhose* in *Steingrau* stone-gray. *Marschstiefel* M1866 “*Knobelbecher*” calf-high brown jackboots, hobnailed.
+
+**Total load:** 27–30 kg (60–65 lb) marching.
+
+### Infantry weapons (inventory detail)
+
+- **Gewehr 98**
+  - Caliber: 7.92×57mm Mauser
+  - Capacity: 5 rounds (internal magazine)
+  - Technology: Mauser bolt-action, controlled-round feed
+- **Kar 98AZ**
+  - Short carbine variant
+  - Issued to: cavalry, artillery, pioneers (Jan 1914)
+- **Bayonets**
+  - S98/05 “Butcher blade” (37cm)
+  - S98 quillback (52cm), older pattern still present
+  - Sawback variants: pioneers / select NCOs
+
+### Sidearms (inventory detail)
+
+- **P08 Luger**
+  - Caliber: 9×19mm
+  - Capacity: 8 rounds
+  - Technology: toggle-lock semi-automatic
+- **LP 08 “Artillery Luger”**
+  - 200mm barrel; tangent sight
+  - Authorized 2 July 1913 (artillery / aviation)
+
+### Machine guns (inventory detail)
+
+- **MG 08**
+  - Caliber: 7.92×57mm
+  - Feed: 250-round belt
+  - Technology: Maxim-derived, recoil-operated, water-cooled
+  - Typical allotment: MG companies (e.g. 6 per regiment baseline used in this setting)
+- **MG 14 Parabellum**
+  - Role: aircraft / airship machine gun
+  - Technology: lighter, air-cooled automatic weapon (aviation use; not standard infantry issue in Jan 1914)
+
+### Field kit (representative baseline)
+
+- **Ammunition load concept:** 150 rounds carried (pouches + pack reserve baseline used in this setting)
+- **Pickelhaube M1895** with field cover (red regimental numbers still present in Jan 1914)
+- **Tornister M1895**, **M1895 Koppel**, bread bag, canteen, entrenching tools per unit SOP
+
+### Artillery (representative inventory)
+
+- **7.7 cm FK 96 n/A**
+- **10.5 cm leFH 98/09**
+- **15 cm sFH 02**
+- **42 cm M-Gerät** (siege; in existence / formation)
+
+### Crew-served weapons (Germany, 1913–1914 baseline set)
+
+**MG 08:** 7.92×57mm, recoil-operated, water-cooled, 450–500 rpm, 2,000 m effective, 26.5 kg gun + ~70 kg with sled mount and water. 250-round fabric belt, 4–6 man crew. **6 per regiment in MG company.**
+
+**77 mm FK 96 n/A:** Standard field gun, ~5,500 m range, 12 guns per artillery battalion.
+
+**105 mm leFH 98/09:** Light field howitzer.
+
+**150 mm sFH 02:** Heavy field howitzer.
+
+**420 mm M-Gerät “Big Bertha”:** Siege howitzer; first units nearing completion July 1913.
+
+### Vehicles, air, and sea (Germany)
+
+- **Rail:** military rail detachments; strategic rail mobility
+- **Motor:** staff cars, trucks, motorcycles (limited quantities)
+- **Air:** reconnaissance aircraft; **Zeppelin** rigid airships
+- **Sea:** dreadnought-era fleet, cruisers, destroyers / torpedo boats, submarines, mines
 
 ---
 

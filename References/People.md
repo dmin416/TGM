@@ -1,7 +1,9 @@
 # People
 
+**References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
+
 **Organization and ranks (Germany):** [Military.md](Military.md)  
-**Equipment baselines:** [Baseline-1914.md](Baseline-1914.md)  
+**Equipment (Jan 1914):** Germany [Military.md](Military.md) · Britain, Belgium, France, Spain [Glossary.md](Glossary.md)  
 **Places:** [Places.md](Places.md) · **Units, weapons (no places):** [Glossary.md](Glossary.md)
 
 ---

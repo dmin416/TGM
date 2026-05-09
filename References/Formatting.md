@@ -2,7 +2,7 @@
 
 Editorial, layout, and setting rules for *Trenches, Guns and Magic*. Verify facts against reference files in this folder.
 
-*People:* [People.md](People.md) · *Places:* [Places.md](Places.md) · *Equipment:* [Baseline-1914.md](Baseline-1914.md) · *German military structure:* [Military.md](Military.md) · *Glossary (units, weapons, magitech):* [Glossary.md](Glossary.md) · *Countries (1914):* [Countries.md](Countries.md)
+**References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
 
 ---
 
@@ -100,7 +100,7 @@ Outside of battle they are collectively unable to update. Demonstrations of over
 
 **Max has two power systems running in parallel:**
 
-- *D&D 5e magic* — grows through XP and the spellbook. Structured, learnable, level-capped until progression unlocks the next tier.
+- *D&D 5e magic* — grows through XP and the spellbook. Structured, learnable, level-capped until progression unlocks the next tier. World-level framework (slots, energy, prevalence): [Magic.md](Magic.md).
 - *His personal system* — the HUD, Intel tab, Encyclopedia, locked tabs. Develops on its own track. Does not follow D&D rules. Can combine with the magic system in ways neither anticipates.
 
 He will eventually be a nuclear-level combatant. That is the destination. Getting there is the story.
