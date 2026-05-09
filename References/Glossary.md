@@ -1,79 +1,9 @@
 # Name Glossary
 
-Setting reference: **locations, units, weapons, organizations, and resources** for *Trenches, Guns and Magic*. **Character and biography entries** live in [People.md](People.md).
+Setting reference: **units, weapons, organizations, and resources** for *Trenches, Guns and Magic*. **People** → [People.md](People.md). **Places** → [Places.md](Places.md).
 
 *Historical equipment baselines (January 1914):* [Baseline-1914.md](Baseline-1914.md)  
 *German tables of organization:* [Military.md](Military.md)
-
----
-
-## Locations — Spain
-
-**Seville** — Southern Spain; opening campaign.
-
-**Andalusia** — Region; Seville is its capital.
-
-**Vallecas Heights** — Urban battle site near Seville.
-
-**Madrid** — Spanish capital; second campaign.
-
-**Cuenca** — Spanish city.
-
-**Valencia** — Spanish city.
-
-**San Isidro** — Village outside Seville.
-
----
-
-## Locations — Western Front
-
-**Paris** — French capital.
-
-**Liège** — Belgian fortress city.
-
-**Barchon Fort** — Easternmost fort in Liège ring.
-
-**Charleroi** — Belgian city.
-
-**Arras** — France.
-
-**Cambrai** — France.
-
-**Saint-Quentin** — France.
-
-**Amiens** — France; Somme river.
-
-**Somme River** — France.
-
----
-
-## Locations — Germany
-
-**Dresden** — German city; Falkenstein Manor nearby; Imperial Magitech Research Institute.
-
-**Wilhelmshaven** — German naval base; High Seas Fleet home port.
-
-**Lichterfelde** — Berlin district; German Main Cadet Institute.
-
----
-
-## Locations — Austria-Hungary
-
-**Vienna** — Austro-Hungarian capital.
-
-**Sarajevo** — Bosnia; assassination attempt site.
-
----
-
-## Locations — strategic
-
-**Gibraltar** — Controlled by **France** in this world.
-
-**Port Montana** — German Mediterranean Fleet home port.
-
-**North Sea** — High Seas Fleet operating theater.
-
-**Baltic Sea** — German naval operating area.
 
 ---
 

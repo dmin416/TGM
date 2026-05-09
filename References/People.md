@@ -2,7 +2,7 @@
 
 **Organization and ranks (Germany):** [Military.md](Military.md)  
 **Equipment baselines:** [Baseline-1914.md](Baseline-1914.md)  
-**Locations, units, weapons (no biographies):** [Glossary.md](Glossary.md)
+**Places:** [Places.md](Places.md) · **Units, weapons (no places):** [Glossary.md](Glossary.md)
 
 ---
 

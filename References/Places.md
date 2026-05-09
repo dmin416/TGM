@@ -1,6 +1,57 @@
-# Places (1914)
+# Places
 
-**Historically weighty place names** for **1914**: imperial capitals, strategic chokepoints, industrial regions, colonial hubs, and theatres that became (or almost became) synonymous with the Great War. Spelling follows common English usage of the period.
+**Units, weapons, organizations, resources:** [Glossary.md](Glossary.md)  
+**Historical sovereign-state snapshot:** [Countries.md](Countries.md)
+
+---
+
+# Part I — *Trenches, Guns and Magic* (setting)
+
+## Spain
+
+- **Seville** — Southern Spain; opening campaign.
+- **Andalusia** — Region; Seville is its capital.
+- **Vallecas Heights** — Urban battle site near Seville.
+- **Madrid** — Spanish capital; second campaign.
+- **Cuenca** — Spanish city.
+- **Valencia** — Spanish city.
+- **San Isidro** — Village outside Seville.
+
+## Western Front (story theatres)
+
+- **Paris** — French capital.
+- **Liège** — Belgian fortress city.
+- **Barchon Fort** — Easternmost fort in Liège ring.
+- **Charleroi** — Belgian city.
+- **Arras** — France.
+- **Cambrai** — France.
+- **Saint-Quentin** — France.
+- **Amiens** — France; Somme river.
+- **Somme River** — France.
+
+## Germany (setting)
+
+- **Dresden** — German city; Falkenstein Manor nearby; Imperial Magitech Research Institute.
+- **Wilhelmshaven** — German naval base; High Seas Fleet home port.
+- **Lichterfelde** — Berlin district; German Main Cadet Institute.
+
+## Austria-Hungary (setting)
+
+- **Vienna** — Austro-Hungarian capital.
+- **Sarajevo** — Bosnia; assassination attempt site.
+
+## Strategic — alternate geography
+
+- **Gibraltar** — Controlled by **France** in this world.
+- **Port Montana** — German Mediterranean Fleet home port.
+- **North Sea** — High Seas Fleet operating theater.
+- **Baltic Sea** — German naval operating area.
+
+---
+
+# Part II — Broader historical reference (≈1914)
+
+**Historically weighty place names** for **1914**: imperial capitals, strategic chokepoints, industrial regions, colonial hubs, and theatres that became (or almost became) synonymous with the Great War. Spelling follows common English usage of the period. *In-story geography and AU differences: **Part I**.*
 
 ## European capitals and seats of power
 
@@ -121,6 +172,7 @@
 - **Mediterranean Sea** — French fleet zones; Dardanelles closure effect.
 - **South Atlantic** — German commerce raiders (*Emden*, etc.).
 - **Pacific Ocean** — German colonial islands; Australian–New Zealand seizures 1914.
+- **Gibraltar** — *(OTL)* British fortress; *TGM: French-controlled — see **Part I**.*
 
 ## Industrial and resource regions (strategic, not only urban)
 
@@ -134,4 +186,4 @@
 
 ---
 
-*Colonial micro-stations (every West African railway terminus, every Pacific atoll) mattered locally; this list emphasizes names that recur in **global** 1914–1918 narratives.*
+*Colonial micro-stations mattered locally; Part II emphasizes names that recur in **global** 1914–1918 narratives.*
