@@ -2,10 +2,14 @@
 
 A compact list of **globally and historically consequential individuals** in or around **1914**: heads of state and government, empire-builders, military commanders, revolutionary or anti-colonial figures, and thinkers whose influence intersected with the Great War and its world order. Names are grouped by rough category; order within a group is not a strict rank.
 
+**German army organization (ranks, units, doctrine):** [Military.md](Military.md)
+
+---
+
 ## Sovereigns and heads of state
 
 - **George V** — King of the United Kingdom and the British Dominions, Emperor of India.
-- **Wilhelm II** — German Emperor and King of Prussia; central to July Crisis decisions.
+- **Wilhelm II** — German Emperor and King of Prussia; **Supreme War Lord** (*Oberster Kriegsherr*) of German land and sea forces; central to July Crisis decisions and formal supreme command (see [Military.md](Military.md)).
 - **Franz Joseph I** — Emperor of Austria, King of Hungary; aged symbol of the Habsburg monarchy.
 - **Nicholas II** — Tsar of Russia; monarchy under strain before 1917.
 - **Mehmed V** — Sultan of the Ottoman Empire (constitutional; power with the Committee of Union and Progress).
@@ -25,6 +29,8 @@ A compact list of **globally and historically consequential individuals** in or 
 - **Manuel II** — King of Portugal (until 1910); republic after him; colonial empire continues under the First Republic.
 - **Pope Benedict XV** — Elected Sept 1914; peace appeals and humanitarian stance.
 
+---
+
 ## Heads of government and senior ministers (selection)
 
 - **H. H. Asquith** — British Prime Minister.
@@ -41,24 +47,36 @@ A compact list of **globally and historically consequential individuals** in or 
 - **Antonio Salandra** — Italian Prime Minister; neutrality then Treaty of London (1915).
 - **Woodrow Wilson** — U.S. President; neutrality and mediation rhetoric.
 - **William Howard Taft** — U.S. President until March 1913; Chief Justice from 1921 (included for continuity of U.S. statecraft).
-- **Ernest Augustus** / **Canadian figures** — **Robert Borden** (Canadian PM); dominion war entry.
+- **Robert Borden** — Canadian Prime Minister; dominion war entry.
 - **Andrew Fisher** / **Joseph Cook** — Australian PM turnover; expeditionary force commitment.
 
-## Military commanders (high command by late 1914)
+---
 
-- **Helmuth von Moltke the Younger** — German Chief of the General Staff (replaced after the Marne).
-- **Erich von Falkenhayn** — Prussian Minister of War, then Chief of the General Staff.
-- **Paul von Hindenburg** & **Erich Ludendorff** — Eastern Front prestige after Tannenberg.
+## German Empire — supreme command and war ministry (January 1914)
+
+Peacetime split: **Kaiser** as formal supreme commander; **Great General Staff** under **Moltke** for operations and mobilization plans; **Prussian War Ministry** for personnel, supply, and administration.
+
+- **Wilhelm II** — Supreme War Lord; appoints / receives chiefs (constitutional-monarchical command prerogative).
+- **Helmuth von Moltke the Younger** — Chief of the Great General Staff; Schlieffen–Moltke deployment planning, corps–army exercises, mobilization execution after July 1914.
+- **Erich von Falkenhayn** — Prussian Minister of War (from 1913); army expansion, procurement, inspectorates; becomes Chief of the General Staff Sept 1914 after Moltke (wartime transition).
+
+---
+
+## Military commanders (other powers; high command by late 1914)
+
+- **Paul von Hindenburg** & **Erich Ludendorff** — Eastern Front prestige after Tannenberg (Ludendorff initially as 8th Army *Oberquartiermeister*).
 - **John French** — BEF commander (First Battle of the Marne, Ypres).
 - **Douglas Haig** — BEF corps then army command; later Commander-in-Chief.
 - **Joseph Joffre** — French Commander-in-Chief (“Miracle of the Marne”).
 - **Ferdinand Foch** — French army command; coordination with BEF.
-- **Louis Bonneau** / **Michel-Joseph Maunoury** / others — early Western Front French generals.
+- **Louis Bonneau** / **Michel-Joseph Maunoury** — early Western Front French generals.
 - **Nikolai Ivanov** / **Nikolai Ruzsky** — Russian Southwestern / Northwestern command (East Prussia, Galicia).
 - **Radomir Putnik** — Serbian field marshal; 1914 campaigns.
 - **Oskar Potiorek** — Austro-Hungarian Balkan commander; early failures against Serbia.
 - **Svetozar Boroević** — Austro-Hungarian defensive reputation (later Isonzo).
-- **Mustafa Kemal** — Ottoman lieutenant colonel at Gallipoli (1915); listed for 1914 Ottoman officer corps trajectory.
+- **Mustafa Kemal** — Ottoman lieutenant colonel; Gallipoli (1915); listed for 1914 Ottoman officer corps trajectory.
+
+---
 
 ## Revolutionaries, nationalists, and anti-imperial figures
 
@@ -70,6 +88,8 @@ A compact list of **globally and historically consequential individuals** in or 
 - **Marcus Garvey** — Pan-African organizer (early Universal Negro Improvement Association).
 - **Mohandas Gandhi** — Returned to India 1915; 1914 South African satyagraha reputation.
 - **Emiliano Zapata** & **Pancho Villa** — Mexican Revolution military leaders (North American neighbourhood crisis).
+
+---
 
 ## Science, industry, and culture (names whose 1914 work or fame intersects the era)
 
@@ -84,12 +104,16 @@ A compact list of **globally and historically consequential individuals** in or 
 - **Charlie Chaplin** — Keystone films; emergence of global cinema.
 - **Sergei Diaghilev** — Ballets Russes; wartime exile circuit.
 
+---
+
 ## Already dead but shaping 1914 (legacies)
 
 - **Otto von Bismarck** — German unification system; alliance templates.
+- **Alfred von Schlieffen** — Former Chief of General Staff; deployment plan inherited by Moltke (died Jan 1913; plan still debated).
+- **Helmuth von Moltke the Elder** — Symbol of 1870 victory; institutional memory of the General Staff.
 - **Clemens von Metternich** — Concert of Europe memory in diplomacy.
 - **Giuseppe Garibaldi** / **Count Cavour** — Italian unification memory in intervention debates.
 
 ---
 
-*For diplomatic minutiae of the July Crisis, standard reference works list dozens more ambassadors and chiefs of staff; this file stays at the level of names most often met in general 1914 narratives.*
+*For diplomatic minutiae of the July Crisis, standard reference works list dozens more ambassadors and chiefs of staff; this file stays at the level of names most often met in general 1914 narratives. German unit strengths and rank-to-command mapping: [Military.md](Military.md).*
