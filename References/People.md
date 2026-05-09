@@ -168,7 +168,7 @@ The Great Russian Empire (Romanov dynasty) collapsed in **1913**. Most Romanovs 
 
 - **Archbishop Maurice** — Archbishop of Paris.
 - **Auxiliary Bishop Troyes** — Maurice’s deputy at Notre Dame.
-- **Pierre de Cuvier** — 9th-ring mage; Loire River Eye Mage Corps leader.
+- **Pierre de Cuvier** — 9th-ring mage; Loire Iris Corps leader.
 
 ---
 

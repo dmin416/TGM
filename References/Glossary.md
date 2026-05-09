@@ -19,7 +19,7 @@ Setting reference: **units, weapons, organizations, and resources** for *Trenche
 
 **Highland Mage Corps** — Britain’s premier battle mage force.
 
-**Loire River Eye Mage Corps** — French elite mage corps.
+**Loire Iris Corps** (*Corps Iris de la Loire*) — French elite battle-mage formation; Loire basin; *iris* = far-sight / scrying and national symbol.
 
 **Northumberland Fusiliers, 4th Battalion** — British infantry; Seville campaign.
 
