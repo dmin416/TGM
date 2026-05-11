@@ -1,0 +1,18 @@
+---
+description: No deletions without permission; no hyphens or em dashes in prose
+alwaysApply: true
+---
+
+# Agent constraints
+
+## Deletions
+
+1. Do **not** delete files, directories, or large spans of content unless the user **explicitly** asks for that deletion in the current task.
+2. If removal seems useful, **ask first** or suggest it; default to **keeping** material (leave files in place, comment out, or move to a clearly named archive only if the user agrees).
+3. Prefer **editing in place** over destructive cleanup.
+
+## Punctuation and typography
+
+1. In user facing prose for this project (fiction, notes, commit messages, chat summaries the user will paste elsewhere): **do not** use ASCII hyphen minus between words as a dash, and **do not** use the em dash character (Unicode U+2014).
+2. Use commas, periods, colons, or parentheses instead of dash shaped punctuation in sentences.
+3. Asterisk style markdown list markers and fenced code blocks are fine; keep flowing narrative free of hyphen and em dash punctuation.

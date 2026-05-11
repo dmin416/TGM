@@ -1,6 +1,6 @@
 # Magic Reference
 
-**References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
+**References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [MaxSystem.md](MaxSystem.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
 
 *Units, organizations, magitech weapons:* [Glossary.md](Glossary.md)
 
@@ -11,6 +11,8 @@
 Mages in this world do not know they are following game rules. They simply practice magic as their culture and training shaped it. The underlying framework uses Pathfinder 2e spell slot progression with D&D 5e spell lists and effects — a hybrid structure that describes how their magic works at a mechanical level (spell rings, slot limits, energy caps) without any of them being aware of that architecture. It is a descriptive tool, not something that exists in the world.
 
 Magic users access different traditions based on their faction and training: the Vatican has clerical magic, bards have their own schools, necromancers practice death arts. All follow the same underlying architecture (Pathfinder 2e slots, D&D 5e effects) but access different spell lists appropriate to their tradition.
+
+**Max (protagonist):** Dual lineage, druid circles, ring spell access, power words, and XP method live in [MaxSystem.md](MaxSystem.md). Compare that sheet to the generic tables here when you need Max specific unlock cadence or spell names.
 
 ---
 

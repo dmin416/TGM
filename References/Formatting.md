@@ -24,7 +24,7 @@ All weapons, equipment, doctrine, and military technology must be historically a
 
 Write in tight third-person limited filtered through Max's consciousness. Occasional narration from other characters' points of view is permitted when the scene calls for it.
 
-No hyphens. No em dashes. No colons inside dialogue. No oxford commas.
+No hyphens. No em dashes. No colons inside dialogue. No Oxford commas. Do not place a comma immediately before the coordinating conjunctions *and*, *but*, or *or* when they join parallel words, phrases, series members, or parts of the same predicate in narrative or dialogue.
 
 Do not invent new similes or comparisons. Similes already present in the source are preserved as written, but Claude adds none of its own. This specifically forbids hollow recursive descriptors of the form "walked with the confidence of a person who had always known how to walk," "smiled the smile of someone who had smiled before," and any comparison where the vehicle restates the tenor. Also forbidden: weather-as-mood comparisons, body-part-as-object comparisons, and any "like a" or "as if" construction Claude generates itself.
 
@@ -33,6 +33,8 @@ Every sentence is at least four words long.
 Every prose paragraph's opening sentence must contain the named subject of that paragraph. Paragraphs cannot open with pronouns (he, his, they, their, it, its) referring to that subject before the subject is named.
 
 When a named subject leads two consecutive sentences, the second sentence must use a pronoun instead of repeating the name.
+
+Prefer the main noun before its scope, using an explicit prepositional phrase when it reads more clearly than a compressed noun noun construction, for example *reaper of the battlefield* instead of *battlefield reaper*.
 
 ---
 
