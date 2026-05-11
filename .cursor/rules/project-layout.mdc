@@ -1,0 +1,51 @@
+---
+description: Repository layout; orient before edits and place work in the correct folder
+alwaysApply: true
+---
+
+# Project layout
+
+Trenches, Guns and Magic (TGM). Before edits, searches, or new files, map where material belongs and read the closest existing file in that area.
+
+## Root
+
+- `README.md`: project title only.
+- `System.md`: tooling and workflow notes.
+- `Status.md`: live protagonist sheet (Maximilian Friedrich); stats, gear, kills, magic, system state.
+- `LICENSE`: license text.
+
+## `Story/`
+
+Working narrative chapters. Numbered `01.md` through `13.md`, plus `01.5.md`. New chapter prose belongs here unless the task names another path.
+
+## `Source/`
+
+Upstream novel material: numbered chapter files (currently through `480.md`) and bulk `.txt` sources. Reference for continuity and wording; do not treat as the edited manuscript.
+
+## `References/`
+
+Canon and editorial references. Verify names, places, gear, magic, and military detail here before changing `Story/` or `Status.md`.
+
+- `Formatting.md`: prose, layout, and verification rules.
+- `Notes-for-the-Future.md`: forward continuity notes for editors and agents.
+- `Countries.md`, `Places.md`, `Theaters.md`: geography and war theaters.
+- `People.md`, `Military.md`, `Magic.md`, `Glossary.md`: cast, forces, magic, terms.
+- `MaxSystem.md`: game style system rules for Max.
+
+## `Tools/`
+
+Automation only (`people-localize.ps1`, `run-people-localize.ps1`, `people-name-replacements.json`). Do not store fiction or reference notes here.
+
+## `.cursor/rules/`
+
+Persistent agent rules for this repo.
+
+## Placement
+
+- Fiction and chapter drafts: `Story/`.
+- Worldbuilding, style, and fact sheets: `References/`.
+- Raw or upstream chapters: `Source/`.
+- Character or system state tracking: `Status.md`.
+- Scripts and replacement data: `Tools/`.
+
+When a task spans folders, read `Story/` for the current draft, `Source/` for upstream wording, `References/` for canon, and `Status.md` for present state before editing.
