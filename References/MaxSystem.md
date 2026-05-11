@@ -247,6 +247,6 @@ Start at 50. Add and subtract using the categories below.
 | Vickers position (crew, destroyed) | 700 |
 | Teutonic Knight | 2300 |
 | Garter Knight | 5900 |
-| Saxon battle mage (low ring) | 700 |
+| German battle mage (low ring) | 700 |
 | Highland Mage | 1800 |
 | Highland Great Mage | 18000 |
