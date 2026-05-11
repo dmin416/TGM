@@ -6,6 +6,13 @@ Max will introduce vacuum tubes, better batteries, better guns, more efficient f
 
 Max will buy Feldberg and land around the world.
 
+## Animal Companions
+
+- Pine marten that sits on his head (from wherever)
+- Peregrine falcon from Spain
+- Imperial eagle from Germany
+- Snake from Spain
+
 ## Max's Humanitarian Initiatives
 
 **Nobel Prizes:** Physics 1919 (Aetherium theory), Medicine 1920 (battlefield medicine), Peace 1921 (League founding), Chemistry 1921 (ammonia with Haber), Medicine 1926 (vitamins), Medicine 1928 (virus identification)
