@@ -1,0 +1,2279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maximilian Friedrich - Interactive Character Sheet</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --bg-primary: #2c3e50;
+    --bg-secondary: #34495e;
+    --bg-card: rgba(52, 73, 94, 0.8);
+    --border-color: #95a5a6;
+    --text-primary: #ecf0f1;
+    --text-secondary: #bdc3c7;
+    --accent-red: #e74c3c;
+    --accent-green: #2ecc71;
+    --accent-blue: #3498db;
+    --accent-yellow: #f39c12;
+    --accent-purple: #9b59b6;
+  }
+
+  body.theme-light {
+    --bg-primary: #ecf0f1;
+    --bg-secondary: #bdc3c7;
+    --bg-card: rgba(255, 255, 255, 0.9);
+    --border-color: #7f8c8d;
+    --text-primary: #2c3e50;
+    --text-secondary: #34495e;
+  }
+
+  body.theme-blood {
+    --bg-primary: #1a0000;
+    --bg-secondary: #3d0000;
+    --bg-card: rgba(61, 0, 0, 0.8);
+    --border-color: #8b0000;
+    --text-primary: #ffcccc;
+    --text-secondary: #cc9999;
+    --accent-red: #ff0000;
+  }
+
+  body.theme-forest {
+    --bg-primary: #0d2818;
+    --bg-secondary: #1a4731;
+    --bg-card: rgba(26, 71, 49, 0.8);
+    --border-color: #2d7a4a;
+    --text-primary: #e8f5e9;
+    --text-secondary: #c8e6c9;
+    --accent-green: #4caf50;
+  }
+
+  body.theme-gold {
+    --bg-primary: #1a1200;
+    --bg-secondary: #332200;
+    --bg-card: rgba(51, 34, 0, 0.8);
+    --border-color: #d4af37;
+    --text-primary: #fff8dc;
+    --text-secondary: #f0e68c;
+    --accent-yellow: #ffd700;
+  }
+
+  body {
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    color: var(--text-primary);
+    padding: 20px;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: var(--bg-card);
+    border: 3px solid var(--border-color);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .header {
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    padding: 30px;
+    border-bottom: 3px solid var(--border-color);
+    text-align: center;
+    position: relative;
+  }
+
+  .settings-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .settings-icon:hover {
+    transform: rotate(90deg);
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal.active {
+    display: flex;
+  }
+
+  .modal-content {
+    background: var(--bg-card);
+    border: 3px solid var(--border-color);
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--border-color);
+  }
+
+  .close-modal {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: var(--accent-red);
+  }
+
+  .header h1 {
+    font-size: 2.5em;
+    color: var(--text-primary);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+
+  .header .rank {
+    font-size: 1.2em;
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+  }
+
+  .header .unit {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+  }
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card {
+    background: var(--bg-card);
+    border: 2px solid var(--border-color);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+
+  .card h2 {
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .stat-box {
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid var(--border-color);
+    padding: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .stat-box:hover {
+    border-color: var(--accent-blue);
+    transform: scale(1.05);
+  }
+
+  .stat-modifier {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 0.8em;
+    color: var(--accent-green);
+  }
+
+  .stat-label {
+    font-size: 0.8em;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+  }
+
+  .stat-value {
+    font-size: 2em;
+    color: var(--accent-red);
+    font-weight: bold;
+  }
+
+  .stat-controls {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .stat-btn {
+    background: var(--accent-blue);
+    color: white;
+    border: none;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+
+  .stat-btn:hover {
+    background: var(--accent-green);
+    transform: scale(1.1);
+  }
+
+  .progress-bar {
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid var(--border-color);
+    height: 30px;
+    position: relative;
+    margin-top: 10px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .progress-bar:hover {
+    border-color: var(--accent-blue);
+  }
+
+  .progress-fill {
+    background: linear-gradient(90deg, var(--accent-red) 0%, var(--accent-yellow) 100%);
+    height: 100%;
+    transition: width 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+
+  .mana-bar .progress-fill {
+    background: linear-gradient(90deg, var(--accent-blue) 0%, var(--accent-purple) 100%);
+  }
+
+  .health-bar .progress-fill {
+    background: linear-gradient(90deg, var(--accent-green) 0%, var(--accent-red) 100%);
+  }
+
+  .item-list {
+    list-style: none;
+  }
+
+  .item-list li {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 8px;
+    border-left: 3px solid var(--border-color);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .item-list li:hover {
+    background: rgba(0, 0, 0, 0.4);
+    border-left-color: var(--accent-blue);
+    transform: translateX(5px);
+  }
+
+  .item-equipped {
+    border-left-color: var(--accent-green) !important;
+    background: rgba(46, 204, 113, 0.1);
+  }
+
+  .item-controls {
+    display: flex;
+    gap: 5px;
+  }
+
+  .item-btn {
+    background: var(--accent-blue);
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: all 0.2s ease;
+  }
+
+  .item-btn:hover {
+    background: var(--accent-green);
+  }
+
+  .item-btn.delete {
+    background: var(--accent-red);
+  }
+
+  .kill-entry {
+    background: rgba(231, 76, 60, 0.1);
+    border-left: 3px solid var(--accent-red);
+    padding: 10px;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .kill-entry:hover {
+    background: rgba(231, 76, 60, 0.2);
+    transform: translateX(5px);
+  }
+
+  .xp-badge {
+    background: var(--accent-red);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+    float: right;
+  }
+
+  .status-active {
+    color: var(--accent-green);
+    font-weight: bold;
+  }
+
+  .status-locked {
+    color: var(--accent-red);
+    font-weight: bold;
+  }
+
+  .system-section {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .system-section h3 {
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+
+  .ability-box {
+    background: rgba(46, 204, 113, 0.1);
+    border: 2px solid var(--accent-green);
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .ability-box:hover {
+    background: rgba(46, 204, 113, 0.2);
+    transform: translateX(5px);
+  }
+
+  .ability-box.on-cooldown {
+    opacity: 0.5;
+    border-color: var(--accent-red);
+  }
+
+  .ability-name {
+    color: var(--accent-green);
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .ability-desc {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+  }
+
+  .spell-slot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--border-color);
+    margin: 3px;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  .spell-slot.used {
+    background: rgba(231, 76, 60, 0.5);
+    border-color: var(--accent-red);
+  }
+
+  .spell-slot.available {
+    background: rgba(46, 204, 113, 0.3);
+    border-color: var(--accent-green);
+  }
+
+  .spell-slot:hover {
+    transform: scale(1.2);
+  }
+
+  .btn {
+    background: var(--accent-blue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    margin: 5px;
+  }
+
+  .btn:hover {
+    background: var(--accent-green);
+    transform: scale(1.05);
+  }
+
+  .btn-danger {
+    background: var(--accent-red);
+  }
+
+  .btn-success {
+    background: var(--accent-green);
+  }
+
+  .btn-warning {
+    background: var(--accent-yellow);
+  }
+
+  .theme-selector {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  .theme-btn {
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--border-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .theme-btn:hover {
+    transform: scale(1.1);
+    border-color: white;
+  }
+
+  .theme-btn.active {
+    border-color: var(--accent-green);
+    box-shadow: 0 0 15px var(--accent-green);
+  }
+
+  .theme-default { background: linear-gradient(135deg, #2c3e50, #34495e); }
+  .theme-light-btn { background: linear-gradient(135deg, #ecf0f1, #bdc3c7); }
+  .theme-blood-btn { background: linear-gradient(135deg, #1a0000, #3d0000); }
+  .theme-forest-btn { background: linear-gradient(135deg, #0d2818, #1a4731); }
+  .theme-gold-btn { background: linear-gradient(135deg, #1a1200, #332200); }
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid var(--border-color);
+    color: var(--text-primary);
+    font-family: 'Courier New', monospace;
+  }
+
+  .input-field:focus {
+    outline: none;
+    border-color: var(--accent-blue);
+  }
+
+  .tab-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--border-color);
+  }
+
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid var(--border-color);
+    border-bottom: none;
+    transition: all 0.3s ease;
+  }
+
+  .tab:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .tab.active {
+    background: var(--accent-blue);
+    color: white;
+  }
+
+  .tab-content {
+    display: none;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+
+  .notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--accent-green);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.3s ease;
+    z-index: 2000;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(400px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .combat-log {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 0.9em;
+    border: 2px solid var(--border-color);
+  }
+
+  .combat-entry {
+    padding: 5px;
+    margin: 3px 0;
+    border-left: 3px solid var(--accent-blue);
+  }
+
+  .combat-entry.damage {
+    border-left-color: var(--accent-red);
+  }
+
+  .combat-entry.heal {
+    border-left-color: var(--accent-green);
+  }
+
+  .dice-roller {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .dice-result {
+    font-size: 2em;
+    color: var(--accent-yellow);
+    font-weight: bold;
+    min-width: 60px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .main-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="settings-icon" onclick="openSettings()">⚙️</div>
+    <h1 id="characterName">MAXIMILIAN FRIEDRICH</h1>
+    <div class="rank" id="characterRank">Second Lieutenant</div>
+    <div class="unit" id="characterUnit">16th Infantry Brigade / 33rd Regiment / 1st Battalion / 3rd Company / 3rd Platoon</div>
+  </div>
+
+  <div class="main-grid">
+    
+    <!-- Progression Card -->
+    <div class="card">
+      <h2>Progression</h2>
+      <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+        <div>
+          <div class="stat-label">Current XP</div>
+          <div style="font-size: 1.5em; color: var(--accent-red); font-weight: bold;" id="currentXP">2650</div>
+        </div>
+        <div>
+          <div class="stat-label">Level</div>
+          <div style="font-size: 1.5em; color: var(--accent-green); font-weight: bold;" id="currentLevel">2</div>
+        </div>
+        <div>
+          <div class="stat-label">Next Level</div>
+          <div style="font-size: 1.5em; color: var(--accent-blue); font-weight: bold;" id="nextLevelXP">2700</div>
+        </div>
+      </div>
+      <div class="progress-bar" onclick="openXPModal()">
+        <div class="progress-fill" id="xpBar" style="width: 98.15%;">98.15%</div>
+      </div>
+      <div style="margin-top: 15px;">
+        <button class="btn" onclick="addXP(50)">+50 XP</button>
+        <button class="btn" onclick="addXP(100)">+100 XP</button>
+        <button class="btn btn-success" onclick="levelUp()">LEVEL UP</button>
+      </div>
+    </div>
+
+    <!-- Stats Card -->
+    <div class="card">
+      <h2>Attributes</h2>
+      <div id="statPointsAvailable" style="margin-bottom: 10px; color: var(--accent-yellow); font-weight: bold;">
+        Available Points: <span id="availablePoints">0</span>
+      </div>
+      <div class="stats-grid" id="statsGrid">
+        <!-- Stats will be generated here -->
+      </div>
+      <button class="btn" onclick="openStatRollModal()" style="width: 100%; margin-top: 10px;">Roll Stats</button>
+    </div>
+
+    <!-- Health & Mana Card -->
+    <div class="card">
+      <h2>Vitals</h2>
+      <div style="margin-bottom: 15px;">
+        <div class="stat-label">Health Points</div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+          <span id="currentHP">100</span>
+          <span id="maxHP">100</span>
+        </div>
+        <div class="progress-bar health-bar">
+          <div class="progress-fill" id="hpBar" style="width: 100%;">100%</div>
+        </div>
+        <div style="margin-top: 10px;">
+          <button class="btn" onclick="modifyHP(10)">+10 HP</button>
+          <button class="btn btn-danger" onclick="modifyHP(-10)">-10 HP</button>
+          <button class="btn btn-success" onclick="restoreHP()">Rest</button>
+        </div>
+      </div>
+      <div>
+        <div class="stat-label">Mana Points</div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+          <span id="currentMana">0</span>
+          <span id="maxMana">9 MJ</span>
+        </div>
+        <div class="progress-bar mana-bar">
+          <div class="progress-fill" id="manaBar" style="width: 0%;">Inactive</div>
+        </div>
+        <div style="margin-top: 10px;">
+          <button class="btn" onclick="activateMana()">Activate Magic</button>
+          <button class="btn" onclick="restoreMana()">Restore Mana</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spell Slots Card -->
+    <div class="card">
+      <h2>Spell Slots</h2>
+      <div id="spellSlotsContainer">
+        <div style="margin-bottom: 15px;">
+          <div class="stat-label">Cantrips (5)</div>
+          <div id="cantrips" style="margin-top: 5px;"></div>
+        </div>
+        <div style="margin-bottom: 15px;">
+          <div class="stat-label">1st Ring (3 slots)</div>
+          <div id="ring1" style="margin-top: 5px;"></div>
+        </div>
+        <div style="margin-bottom: 15px;">
+          <div class="stat-label">2nd Ring (0 slots)</div>
+          <div style="opacity: 0.5;">Unlocks at Level 4</div>
+        </div>
+      </div>
+      <button class="btn" onclick="shortRest()">Short Rest</button>
+      <button class="btn btn-success" onclick="longRest()">Long Rest</button>
+    </div>
+
+    <!-- Kills Card -->
+    <div class="card" style="grid-column: span 2;">
+      <h2>Confirmed Kills: <span id="killCount">23</span></h2>
+      <button class="btn" onclick="openAddKillModal()">Add Kill</button>
+      <button class="btn btn-danger" onclick="clearKills()">Clear All</button>
+      <div id="killsList" style="margin-top: 15px;"></div>
+    </div>
+
+    <!-- Inventory Card -->
+    <div class="card">
+      <h2>Equipment</h2>
+      <button class="btn" onclick="openAddItemModal()">Add Item</button>
+      <ul class="item-list" id="inventoryList"></ul>
+    </div>
+
+    <!-- Druid Circles Card -->
+    <div class="card">
+      <h2>Druid Circles</h2>
+      <div id="druidCircles"></div>
+      <button class="btn" onclick="openAbilityModal()">Use Ability</button>
+    </div>
+
+    <!-- Combat Log Card -->
+    <div class="card" style="grid-column: span 2;">
+      <h2>Combat Log</h2>
+      <button class="btn" onclick="clearCombatLog()">Clear Log</button>
+      <div class="combat-log" id="combatLog"></div>
+    </div>
+
+    <!-- Dice Roller Card -->
+    <div class="card">
+      <h2>Dice Roller</h2>
+      <div class="dice-roller">
+        <button class="btn" onclick="rollDice(4)">d4</button>
+        <button class="btn" onclick="rollDice(6)">d6</button>
+        <button class="btn" onclick="rollDice(8)">d8</button>
+        <button class="btn" onclick="rollDice(10)">d10</button>
+        <button class="btn" onclick="rollDice(12)">d12</button>
+        <button class="btn" onclick="rollDice(20)">d20</button>
+        <button class="btn" onclick="rollDice(100)">d100</button>
+      </div>
+      <div class="dice-result" id="diceResult">-</div>
+      <div style="margin-top: 10px;">
+        <input type="number" id="customDice" class="input-field" placeholder="Custom dice sides" min="2" max="1000">
+        <button class="btn btn-success" onclick="rollCustomDice()">Roll Custom</button>
+      </div>
+    </div>
+
+    <!-- Skills Card -->
+    <div class="card" style="grid-column: span 2;">
+      <h2>Skill Proficiencies</h2>
+      <div class="tab-container">
+        <div class="tab active" onclick="switchSkillTab('weapons')">Weapons</div>
+        <div class="tab" onclick="switchSkillTab('languages')">Languages</div>
+        <div class="tab" onclick="switchSkillTab('military')">Military</div>
+        <div class="tab" onclick="switchSkillTab('survival')">Survival</div>
+      </div>
+      <button class="btn" onclick="openAddSkillModal()">Add Skill</button>
+      <div id="skillsDisplay" style="margin-top: 15px;"></div>
+    </div>
+
+    <!-- Achievements Card -->
+    <div class="card">
+      <h2>Achievements (<span id="achievementCount">0</span>/<span id="totalAchievements">0</span>)</h2>
+      <button class="btn" onclick="openAddAchievementModal()">Add Achievement</button>
+      <div id="achievementsList" style="margin-top: 15px;"></div>
+    </div>
+
+    <!-- Timeline Card -->
+    <div class="card">
+      <h2>Timeline & Journal</h2>
+      <button class="btn" onclick="openAddTimelineModal()">Add Entry</button>
+      <button class="btn btn-danger" onclick="clearTimeline()">Clear All</button>
+      <div id="timelineDisplay" style="margin-top: 15px; max-height: 400px; overflow-y: auto;"></div>
+    </div>
+
+    <!-- Location & Weather Card -->
+    <div class="card">
+      <h2>Location & Weather</h2>
+      <div style="margin-bottom: 15px;">
+        <div class="stat-label">Current Location</div>
+        <div style="font-size: 1.2em; font-weight: bold; color: var(--accent-blue);" id="currentLocation">Seville, Spain</div>
+        <div style="color: var(--text-secondary); font-size: 0.9em;" id="locationRegion">Andalusia, Mediterranean</div>
+      </div>
+      <div style="margin-bottom: 15px;">
+        <div class="stat-label">Weather</div>
+        <div style="font-size: 1.5em; font-weight: bold; color: var(--accent-yellow);" id="weatherDisplay">
+          <span id="weatherTemp">12</span>°C - <span id="weatherCondition">Partly Cloudy</span>
+        </div>
+        <div id="weatherEffects" style="margin-top: 10px; color: var(--text-secondary);"></div>
+      </div>
+      <button class="btn" onclick="openChangeLocationModal()">Change Location</button>
+      <button class="btn" onclick="updateWeather()">Update Weather</button>
+    </div>
+
+    <!-- Loot Generator Card -->
+    <div class="card">
+      <h2>Loot Generator</h2>
+      <div style="margin-bottom: 15px;">
+        <label class="stat-label">Loot Quality</label>
+        <select id="lootQuality" class="input-field">
+          <option value="common">Common</option>
+          <option value="uncommon">Uncommon</option>
+          <option value="rare">Rare</option>
+          <option value="military">Military Equipment</option>
+          <option value="magical">Magical Item</option>
+        </select>
+      </div>
+      <button class="btn btn-success" onclick="generateLoot()">Generate Loot</button>
+      <button class="btn" onclick="generateMultipleLoot()">Generate 5x</button>
+      <div id="lootDisplay" style="margin-top: 15px; max-height: 300px; overflow-y: auto;"></div>
+    </div>
+
+    <!-- System Status Card -->
+    <div class="card" style="grid-column: span 2;">
+      <h2>System Status</h2>
+      <div class="tab-container">
+        <div class="tab active" onclick="switchTab('map')">Map</div>
+        <div class="tab" onclick="switchTab('intel')">Intelligence</div>
+        <div class="tab" onclick="switchTab('tech')">Technology</div>
+      </div>
+      
+      <div class="tab-content active" id="mapTab">
+        <h3>Map System — <span class="status-active">ACTIVE</span></h3>
+        <div style="color: var(--text-secondary); font-size: 0.9em;">
+          Overlays field of vision; displays blue friendly icons and red enemy icons; fog of war clears on observation
+        </div>
+        <button class="btn" style="margin-top: 10px;" onclick="toggleMapFeature('fog')">Toggle Fog of War</button>
+      </div>
+      
+      <div class="tab-content" id="intelTab">
+        <h3>Intelligence Tab — <span class="status-active">ACTIVE</span></h3>
+        <div style="margin-bottom: 10px;">
+          <strong>Current collection:</strong> <span style="color: var(--accent-red); font-weight: bold;" id="intelProgress">23</span>%
+        </div>
+        <div class="progress-bar" style="height: 20px;">
+          <div class="progress-fill" id="intelBar" style="width: 23%; font-size: 0.8em;">23%</div>
+        </div>
+        <button class="btn" style="margin-top: 10px;" onclick="gatherIntel()">Gather Intelligence</button>
+      </div>
+      
+      <div class="tab-content" id="techTab">
+        <h3>Technology Tab — <span class="status-active">UNLOCKED</span></h3>
+        <div id="techList"></div>
+        <button class="btn" style="margin-top: 10px;" onclick="openResearchModal()">Research Technology</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Settings Modal -->
+<div class="modal" id="settingsModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Settings</h2>
+      <span class="close-modal" onclick="closeModal('settingsModal')">×</span>
+    </div>
+    <div>
+      <h3>Theme Selection</h3>
+      <div class="theme-selector">
+        <div class="theme-btn theme-default active" onclick="setTheme('default')"></div>
+        <div class="theme-btn theme-light-btn" onclick="setTheme('light')"></div>
+        <div class="theme-btn theme-blood-btn" onclick="setTheme('blood')"></div>
+        <div class="theme-btn theme-forest-btn" onclick="setTheme('forest')"></div>
+        <div class="theme-btn theme-gold-btn" onclick="setTheme('gold')"></div>
+      </div>
+      
+      <h3 style="margin-top: 20px;">Character Information</h3>
+      <input type="text" id="nameInput" class="input-field" placeholder="Character Name" value="Maximilian Friedrich">
+      <input type="text" id="rankInput" class="input-field" placeholder="Rank" value="Second Lieutenant">
+      <input type="text" id="unitInput" class="input-field" placeholder="Unit" value="16th Infantry Brigade / 33rd Regiment">
+      <button class="btn btn-success" style="width: 100%;" onclick="updateCharacterInfo()">Save Changes</button>
+      
+      <h3 style="margin-top: 20px;">Data Management</h3>
+      <button class="btn" style="width: 100%;" onclick="exportData()">Export Character</button>
+      <button class="btn" style="width: 100%; margin-top: 10px;" onclick="importData()">Import Character</button>
+      <button class="btn btn-danger" style="width: 100%; margin-top: 10px;" onclick="resetCharacter()">Reset All Data</button>
+    </div>
+  </div>
+</div>
+
+<!-- Add Kill Modal -->
+<div class="modal" id="addKillModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Add Kill</h2>
+      <span class="close-modal" onclick="closeModal('addKillModal')">×</span>
+    </div>
+    <input type="text" id="killName" class="input-field" placeholder="Target name and rank">
+    <input type="text" id="killMethod" class="input-field" placeholder="Method (e.g., bayonet, rifle)">
+    <input type="text" id="killLocation" class="input-field" placeholder="Location">
+    <input type="number" id="killXP" class="input-field" placeholder="XP value" value="50">
+    <button class="btn btn-success" style="width: 100%;" onclick="addKill()">Add Kill</button>
+  </div>
+</div>
+
+<!-- Add Item Modal -->
+<div class="modal" id="addItemModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Add Item</h2>
+      <span class="close-modal" onclick="closeModal('addItemModal')">×</span>
+    </div>
+    <input type="text" id="itemName" class="input-field" placeholder="Item name">
+    <input type="text" id="itemDesc" class="input-field" placeholder="Description">
+    <button class="btn btn-success" style="width: 100%;" onclick="addItem()">Add Item</button>
+  </div>
+</div>
+
+<!-- Add Skill Modal -->
+<div class="modal" id="addSkillModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Add Skill</h2>
+      <span class="close-modal" onclick="closeModal('addSkillModal')">×</span>
+    </div>
+    <input type="text" id="skillName" class="input-field" placeholder="Skill name">
+    <select id="skillCategory" class="input-field">
+      <option value="weapons">Weapons</option>
+      <option value="languages">Languages</option>
+      <option value="military">Military</option>
+      <option value="survival">Survival</option>
+    </select>
+    <input type="number" id="skillLevel" class="input-field" placeholder="Level (1-5)" min="1" max="5" value="1">
+    <input type="number" id="skillXP" class="input-field" placeholder="XP" value="0">
+    <button class="btn btn-success" style="width: 100%;" onclick="addSkill()">Add Skill</button>
+  </div>
+</div>
+
+<!-- Add Achievement Modal -->
+<div class="modal" id="addAchievementModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Add Achievement</h2>
+      <span class="close-modal" onclick="closeModal('addAchievementModal')">×</span>
+    </div>
+    <input type="text" id="achievementName" class="input-field" placeholder="Achievement name">
+    <input type="text" id="achievementDesc" class="input-field" placeholder="Description">
+    <label style="display: flex; align-items: center; margin: 10px 0; color: var(--text-primary);">
+      <input type="checkbox" id="achievementUnlocked" checked style="margin-right: 10px;">
+      Unlocked
+    </label>
+    <button class="btn btn-success" style="width: 100%;" onclick="addAchievement()">Add Achievement</button>
+  </div>
+</div>
+
+<!-- Add Timeline Modal -->
+<div class="modal" id="addTimelineModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Add Timeline Entry</h2>
+      <span class="close-modal" onclick="closeModal('addTimelineModal')">×</span>
+    </div>
+    <input type="text" id="timelineDate" class="input-field" placeholder="Date (e.g., Late January 1914)">
+    <input type="text" id="timelineLocation" class="input-field" placeholder="Location">
+    <input type="text" id="timelineEvent" class="input-field" placeholder="Event description">
+    <select id="timelineType" class="input-field">
+      <option value="combat">Combat</option>
+      <option value="achievement">Achievement</option>
+      <option value="milestone">Milestone</option>
+      <option value="travel">Travel</option>
+      <option value="personal">Personal</option>
+      <option value="social">Social</option>
+    </select>
+    <button class="btn btn-success" style="width: 100%;" onclick="addTimelineEntry()">Add Entry</button>
+  </div>
+</div>
+
+<!-- Change Location Modal -->
+<div class="modal" id="changeLocationModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Change Location</h2>
+      <span class="close-modal" onclick="closeModal('changeLocationModal')">×</span>
+    </div>
+    <select id="locationPreset" class="input-field" onchange="fillLocationPreset()">
+      <option value="">-- Select Preset Location --</option>
+      <option value="seville">Seville, Spain</option>
+      <option value="madrid">Madrid, Spain</option>
+      <option value="dresden">Dresden, Germany</option>
+      <option value="paris">Paris, France</option>
+      <option value="london">London, Britain</option>
+      <option value="vienna">Vienna, Austria-Hungary</option>
+      <option value="custom">Custom Location</option>
+    </select>
+    <input type="text" id="locationCity" class="input-field" placeholder="City">
+    <input type="text" id="locationRegion" class="input-field" placeholder="Region">
+    <input type="text" id="locationCountry" class="input-field" placeholder="Country">
+    <select id="locationClimate" class="input-field">
+      <option value="Mediterranean">Mediterranean</option>
+      <option value="Continental">Continental</option>
+      <option value="Oceanic">Oceanic</option>
+      <option value="Subarctic">Subarctic</option>
+      <option value="Desert">Desert</option>
+      <option value="Tropical">Tropical</option>
+    </select>
+    <select id="locationSeason" class="input-field">
+      <option value="Spring">Spring</option>
+      <option value="Summer">Summer</option>
+      <option value="Autumn">Autumn</option>
+      <option value="Winter">Winter</option>
+    </select>
+    <button class="btn btn-success" style="width: 100%;" onclick="changeLocation()">Change Location</button>
+  </div>
+</div>
+
+<script>
+// Character Data
+let character = {
+  name: "Maximilian Friedrich",
+  rank: "Second Lieutenant",
+  unit: "16th Infantry Brigade / 33rd Regiment / 1st Battalion / 3rd Company / 3rd Platoon",
+  xp: 2650,
+  level: 2,
+  stats: {
+    STR: 12, DEX: 12, CON: 12, INT: 12, WIS: 12, CHA: 12, LCK: 12
+  },
+  statPoints: 0,
+  hp: 100,
+  maxHp: 100,
+  mana: 0,
+  maxMana: 9,
+  manaActive: false,
+  spellSlots: {
+    cantrips: [false, false, false, false, false],
+    ring1: [false, false, false]
+  },
+  kills: [
+    {name: "Juan de Rivera, Lt. Colonel, 24th Infantry Division", method: "bayonet", location: "Seville", xp: 125},
+    {name: "6x Royal Army soldiers", method: "boobytrap grenades", location: "Seville", xp: 150},
+    {name: "1x Highland Mage apprentice, British Empire", method: "boobytrap grenades", location: "Seville", xp: 525},
+    {name: "9x Royal Army soldiers", method: "Gewehr 98, flanking fire", location: "Seville", xp: 450},
+    {name: "1x Northumberland Fusilier, full armor", method: "Kugelhandgranate", location: "Seville", xp: 600},
+    {name: "4x Royal Army soldiers", method: "Gewehr 98, bayonet, P08, Webley", location: "Seville", xp: 200},
+    {name: "1x Northumberland Fusilier, full armor", method: "bayonet, Gewehr 98 point-blank", location: "Seville", xp: 600}
+  ],
+  inventory: [
+    {name: "Gewehr 98", desc: "bolt-action rifle", equipped: true},
+    {name: "Bayonet S98/05", desc: '"Butcher blade" bayonet', equipped: true},
+    {name: "Luger P08", desc: "pistol", equipped: true},
+    {name: "Patronentaschen M1909", desc: "rifle ammo pouches, 7.92x57mm S-Patrone (90 rounds)", equipped: true},
+    {name: "Pistolentasche", desc: "pistol magazine pouch, 9x19mm Parabellum (2 magazines, 13 rounds)", equipped: true},
+    {name: "Kugelhandgranate", desc: "field grenades, friction igniter (0)", equipped: false},
+    {name: "M1892 Tornister", desc: "field pack", equipped: true},
+    {name: "Pickelhaube", desc: "leather spike helmet", equipped: true},
+    {name: "Webley Mk V", desc: ".455 Webley, 4 rounds (captured)", equipped: false},
+    {name: "Maxim machine gun", desc: "captured, assigned to 3rd Platoon", equipped: false},
+    {name: "Cigarette ration", desc: "1 packet", equipped: false},
+    {name: "Coca-Schnapps", desc: "1 flat bottle", equipped: false}
+  ],
+  skills: {
+    weapons: {
+      "Rifle Marksmanship": {level: 3, xp: 450, category: "weapons"},
+      "Pistol": {level: 2, xp: 200, category: "weapons"},
+      "Bayonet Fighting": {level: 2, xp: 180, category: "weapons"},
+      "Machine Gun": {level: 1, xp: 50, category: "weapons"},
+      "Grenade": {level: 2, xp: 150, category: "weapons"}
+    },
+    languages: {
+      "German": {level: 5, xp: 999, category: "languages"},
+      "Spanish": {level: 4, xp: 800, category: "languages"},
+      "French": {level: 4, xp: 750, category: "languages"},
+      "English": {level: 2, xp: 200, category: "languages"}
+    },
+    military: {
+      "Tactics": {level: 3, xp: 500, category: "military"},
+      "Field Engineering": {level: 2, xp: 300, category: "military"},
+      "Cartography": {level: 2, xp: 250, category: "military"},
+      "Logistics": {level: 2, xp: 220, category: "military"}
+    },
+    survival: {
+      "Foraging": {level: 1, xp: 80, category: "survival"},
+      "First Aid": {level: 2, xp: 180, category: "survival"},
+      "Tracking": {level: 1, xp: 60, category: "survival"}
+    }
+  },
+  achievements: [
+    {name: "First Blood", desc: "First confirmed kill", unlocked: true, date: "Late January 1914"},
+    {name: "Officer Slayer", desc: "Killed an enemy officer in melee", unlocked: true, date: "Late January 1914"},
+    {name: "Mage Hunter", desc: "Killed a Highland Mage", unlocked: true, date: "Late January 1914"},
+    {name: "Armored Killer", desc: "Destroyed full-armored infantry", unlocked: true, date: "Late January 1914"},
+    {name: "Level 2", desc: "Reached level 2", unlocked: true, date: "Late January 1914"}
+  ],
+  timeline: [
+    {date: "Late January 1914", location: "Seville", event: "Battle of Seville - First major combat", type: "combat"},
+    {date: "Late January 1914", location: "Seville", event: "Killed Lt. Colonel Juan de Rivera in melee", type: "achievement"},
+    {date: "Late January 1914", location: "Seville", event: "Reached Level 2", type: "milestone"}
+  ],
+  location: {
+    current: "Seville, Spain",
+    region: "Andalusia",
+    country: "Spain",
+    climate: "Mediterranean",
+    season: "Winter"
+  },
+  weather: {
+    temperature: 12,
+    condition: "Partly Cloudy",
+    effects: []
+  },
+  druidCircles: [
+    {name: "Natural Recovery", desc: "Sustained by the land and the air; faster physical and spiritual recovery; does not function in mana voided zones", cooldown: 0},
+    {name: "Wild Shape", desc: "Can reshape physical form without requiring mana; body becomes malleable; can take animal shapes", cooldown: 0}
+  ],
+  technologies: [
+    {name: "Shaped Charge Armor Piercing Round", status: "can be improved"}
+  ],
+  intelProgress: 23,
+  combatLog: []
+};
+
+// Rest System State
+let restTimer = null;
+let restType = null;
+let restStartTime = 0;
+let restDuration = 0;
+
+// Save Slot System
+const MAX_SAVE_SLOTS = 5;
+
+const xpTable = {
+  1: 300, 2: 900, 3: 2700, 4: 6500, 5: 14000, 6: 23000, 7: 34000, 8: 48000, 
+  9: 64000, 10: 85000, 11: 100000, 12: 120000, 13: 140000, 14: 165000, 
+  15: 195000, 16: 225000, 17: 265000, 18: 305000, 19: 355000, 20: 450000
+};
+
+// Initialize
+function init() {
+  loadFromStorage();
+  renderStats();
+  renderInventory();
+  renderKills();
+  renderDruidCircles();
+  renderTechnologies();
+  renderSpellSlots();
+  updateXPBar();
+  updateVitals();
+  renderCombatLog();
+  renderSkills();
+  renderAchievements();
+  renderTimeline();
+  updateLocationDisplay();
+  updateWeatherDisplay();
+}
+
+// Save/Load
+function saveToStorage() {
+  localStorage.setItem('maxCharacter', JSON.stringify(character));
+}
+
+function loadFromStorage() {
+  const saved = localStorage.getItem('maxCharacter');
+  if (saved) {
+    character = JSON.parse(saved);
+  }
+}
+
+// Stats
+function renderStats() {
+  const grid = document.getElementById('statsGrid');
+  grid.innerHTML = '';
+  Object.entries(character.stats).forEach(([stat, value]) => {
+    const modifier = Math.floor((value - 10) / 2);
+    const modifierStr = modifier >= 0 ? `+${modifier}` : modifier;
+    grid.innerHTML += `
+      <div class="stat-box" onclick="showStatInfo('${stat}')">
+        <div class="stat-modifier">${modifierStr}</div>
+        <div class="stat-label">${stat}</div>
+        <div class="stat-value">${value}</div>
+        <div class="stat-controls">
+          <button class="stat-btn" onclick="event.stopPropagation(); modifyStat('${stat}', 1)">+</button>
+          <button class="stat-btn" onclick="event.stopPropagation(); modifyStat('${stat}', -1)">-</button>
+        </div>
+      </div>
+    `;
+  });
+  document.getElementById('availablePoints').textContent = character.statPoints;
+}
+
+function modifyStat(stat, change) {
+  if (change > 0 && character.statPoints <= 0) {
+    notify("No stat points available", "warning");
+    return;
+  }
+  if (change < 0 && character.stats[stat] <= 1) {
+    notify("Stat cannot go below 1", "warning");
+    return;
+  }
+  character.stats[stat] += change;
+  character.statPoints -= change;
+  renderStats();
+  saveToStorage();
+  logCombat(`${stat} ${change > 0 ? 'increased' : 'decreased'} to ${character.stats[stat]}`);
+}
+
+function showStatInfo(stat) {
+  const value = character.stats[stat];
+  const modifier = Math.floor((value - 10) / 2);
+  notify(`${stat}: ${value} (${modifier >= 0 ? '+' : ''}${modifier})`, "info");
+}
+
+// XP and Leveling
+function addXP(amount) {
+  character.xp += amount;
+  updateXPBar();
+  saveToStorage();
+  notify(`+${amount} XP gained`, "success");
+  logCombat(`Gained ${amount} XP`);
+  
+  if (character.xp >= xpTable[character.level]) {
+    notify("Ready to level up!", "success");
+  }
+}
+
+function levelUp() {
+  if (character.xp < xpTable[character.level]) {
+    notify("Not enough XP to level up", "warning");
+    return;
+  }
+  
+  character.level++;
+  character.statPoints += 2;
+  character.maxHp += 10;
+  character.hp = character.maxHp;
+  
+  updateXPBar();
+  updateVitals();
+  renderStats();
+  saveToStorage();
+  
+  notify(`LEVEL UP! Now level ${character.level}`, "success");
+  logCombat(`LEVELED UP to ${character.level}!`);
+}
+
+function updateXPBar() {
+  const current = character.xp;
+  const nextLevel = xpTable[character.level] || 999999;
+  const prevLevel = character.level > 1 ? xpTable[character.level - 1] : 0;
+  const progress = ((current - prevLevel) / (nextLevel - prevLevel)) * 100;
+  
+  document.getElementById('currentXP').textContent = current;
+  document.getElementById('currentLevel').textContent = character.level;
+  document.getElementById('nextLevelXP').textContent = nextLevel;
+  document.getElementById('xpBar').style.width = progress + '%';
+  document.getElementById('xpBar').textContent = progress.toFixed(2) + '%';
+}
+
+// Health and Mana
+function modifyHP(amount) {
+  character.hp = Math.max(0, Math.min(character.maxHp, character.hp + amount));
+  updateVitals();
+  saveToStorage();
+  const type = amount > 0 ? 'heal' : 'damage';
+  logCombat(`${amount > 0 ? 'Healed' : 'Took damage'} ${Math.abs(amount)} HP`, type);
+  notify(`${amount > 0 ? '+' : ''}${amount} HP`, type === 'heal' ? 'success' : 'danger');
+}
+
+function restoreHP() {
+  character.hp = character.maxHp;
+  updateVitals();
+  saveToStorage();
+  notify("HP fully restored", "success");
+  logCombat("HP fully restored", "heal");
+}
+
+function activateMana() {
+  if (character.manaActive) {
+    notify("Mana already active", "warning");
+    return;
+  }
+  character.manaActive = true;
+  character.mana = character.maxMana;
+  updateVitals();
+  saveToStorage();
+  notify("Magic activated!", "success");
+  logCombat("Magic system activated");
+}
+
+function restoreMana() {
+  if (!character.manaActive) {
+    notify("Mana system not active", "warning");
+    return;
+  }
+  character.mana = character.maxMana;
+  updateVitals();
+  saveToStorage();
+  notify("Mana restored", "success");
+  logCombat("Mana fully restored");
+}
+
+function updateVitals() {
+  document.getElementById('currentHP').textContent = character.hp;
+  document.getElementById('maxHP').textContent = character.maxHp;
+  const hpPercent = (character.hp / character.maxHp) * 100;
+  document.getElementById('hpBar').style.width = hpPercent + '%';
+  document.getElementById('hpBar').textContent = Math.round(hpPercent) + '%';
+  
+  if (character.manaActive) {
+    document.getElementById('currentMana').textContent = character.mana + ' MJ';
+    const manaPercent = (character.mana / character.maxMana) * 100;
+    document.getElementById('manaBar').style.width = manaPercent + '%';
+    document.getElementById('manaBar').textContent = Math.round(manaPercent) + '%';
+  } else {
+    document.getElementById('currentMana').textContent = '0';
+    document.getElementById('manaBar').style.width = '0%';
+    document.getElementById('manaBar').textContent = 'Inactive';
+  }
+}
+
+// Spell Slots
+function renderSpellSlots() {
+  const cantripsDiv = document.getElementById('cantrips');
+  const ring1Div = document.getElementById('ring1');
+  
+  cantripsDiv.innerHTML = character.spellSlots.cantrips.map((used, i) => 
+    `<div class="spell-slot ${used ? 'used' : 'available'}" onclick="toggleSpellSlot('cantrips', ${i})">${used ? '✗' : '○'}</div>`
+  ).join('');
+  
+  ring1Div.innerHTML = character.spellSlots.ring1.map((used, i) => 
+    `<div class="spell-slot ${used ? 'used' : 'available'}" onclick="toggleSpellSlot('ring1', ${i})">${used ? '✗' : '○'}</div>`
+  ).join('');
+}
+
+function toggleSpellSlot(ring, index) {
+  character.spellSlots[ring][index] = !character.spellSlots[ring][index];
+  renderSpellSlots();
+  saveToStorage();
+  const used = character.spellSlots[ring][index];
+  logCombat(`Spell slot ${ring} ${index + 1} ${used ? 'used' : 'restored'}`);
+}
+
+function shortRest() {
+  // Restore half spell slots
+  notify("Short rest taken", "success");
+  logCombat("Short rest completed");
+}
+
+function longRest() {
+  character.hp = character.maxHp;
+  character.mana = character.manaActive ? character.maxMana : 0;
+  character.spellSlots.cantrips.fill(false);
+  character.spellSlots.ring1.fill(false);
+  character.druidCircles.forEach(c => c.cooldown = 0);
+  
+  updateVitals();
+  renderSpellSlots();
+  renderDruidCircles();
+  saveToStorage();
+  
+  notify("Long rest completed", "success");
+  logCombat("Long rest completed - all resources restored", "heal");
+}
+
+// Inventory
+function renderInventory() {
+  const list = document.getElementById('inventoryList');
+  list.innerHTML = character.inventory.map((item, i) => `
+    <li class="${item.equipped ? 'item-equipped' : ''}">
+      <div>
+        <strong>${item.name}</strong> — ${item.desc}
+      </div>
+      <div class="item-controls">
+        <button class="item-btn" onclick="toggleEquip(${i})">${item.equipped ? 'Unequip' : 'Equip'}</button>
+        <button class="item-btn delete" onclick="deleteItem(${i})">Delete</button>
+      </div>
+    </li>
+  `).join('');
+}
+
+function toggleEquip(index) {
+  character.inventory[index].equipped = !character.inventory[index].equipped;
+  renderInventory();
+  saveToStorage();
+  const item = character.inventory[index];
+  logCombat(`${item.equipped ? 'Equipped' : 'Unequipped'} ${item.name}`);
+}
+
+function deleteItem(index) {
+  const item = character.inventory[index];
+  if (confirm(`Delete ${item.name}?`)) {
+    character.inventory.splice(index, 1);
+    renderInventory();
+    saveToStorage();
+    notify("Item deleted", "danger");
+    logCombat(`Deleted ${item.name}`);
+  }
+}
+
+function openAddItemModal() {
+  document.getElementById('addItemModal').classList.add('active');
+}
+
+function addItem() {
+  const name = document.getElementById('itemName').value;
+  const desc = document.getElementById('itemDesc').value;
+  
+  if (!name) {
+    notify("Item name required", "warning");
+    return;
+  }
+  
+  character.inventory.push({name, desc, equipped: false});
+  renderInventory();
+  saveToStorage();
+  closeModal('addItemModal');
+  notify("Item added", "success");
+  logCombat(`Added item: ${name}`);
+  
+  document.getElementById('itemName').value = '';
+  document.getElementById('itemDesc').value = '';
+}
+
+// Kills
+function renderKills() {
+  const list = document.getElementById('killsList');
+  document.getElementById('killCount').textContent = character.kills.length;
+  
+  list.innerHTML = character.kills.map((kill, i) => `
+    <div class="kill-entry" onclick="deleteKill(${i})">
+      ${kill.name} — ${kill.method}, ${kill.location}
+      <span class="xp-badge">${kill.xp} XP</span>
+    </div>
+  `).join('');
+}
+
+function openAddKillModal() {
+  document.getElementById('addKillModal').classList.add('active');
+}
+
+function addKill() {
+  const name = document.getElementById('killName').value;
+  const method = document.getElementById('killMethod').value;
+  const location = document.getElementById('killLocation').value;
+  const xp = parseInt(document.getElementById('killXP').value) || 50;
+  
+  if (!name) {
+    notify("Target name required", "warning");
+    return;
+  }
+  
+  character.kills.push({name, method, location, xp});
+  addXP(xp);
+  renderKills();
+  saveToStorage();
+  closeModal('addKillModal');
+  notify("Kill recorded", "success");
+  logCombat(`Kill recorded: ${name} (+${xp} XP)`, "damage");
+  
+  document.getElementById('killName').value = '';
+  document.getElementById('killMethod').value = '';
+  document.getElementById('killLocation').value = '';
+  document.getElementById('killXP').value = '50';
+}
+
+function deleteKill(index) {
+  if (confirm('Delete this kill entry?')) {
+    const kill = character.kills[index];
+    character.kills.splice(index, 1);
+    renderKills();
+    saveToStorage();
+    notify("Kill entry deleted", "danger");
+    logCombat(`Deleted kill: ${kill.name}`);
+  }
+}
+
+function clearKills() {
+  if (confirm('Clear ALL kill entries? This cannot be undone.')) {
+    character.kills = [];
+    renderKills();
+    saveToStorage();
+    notify("All kills cleared", "danger");
+    logCombat("All kill entries cleared");
+  }
+}
+
+// Druid Circles
+function renderDruidCircles() {
+  const div = document.getElementById('druidCircles');
+  div.innerHTML = character.druidCircles.map((ability, i) => `
+    <div class="ability-box ${ability.cooldown > 0 ? 'on-cooldown' : ''}" onclick="useAbility(${i})">
+      <div class="ability-name">${ability.name} ${ability.cooldown > 0 ? '(Cooldown: ' + ability.cooldown + ')' : ''}</div>
+      <div class="ability-desc">${ability.desc}</div>
+    </div>
+  `).join('');
+}
+
+function useAbility(index) {
+  const ability = character.druidCircles[index];
+  if (ability.cooldown > 0) {
+    notify("Ability on cooldown", "warning");
+    return;
+  }
+  
+  ability.cooldown = 3;
+  renderDruidCircles();
+  saveToStorage();
+  notify(`Used ${ability.name}`, "success");
+  logCombat(`Activated ability: ${ability.name}`);
+}
+
+function openAbilityModal() {
+  notify("Click an ability to use it", "info");
+}
+
+// Technologies
+function renderTechnologies() {
+  const div = document.getElementById('techList');
+  div.innerHTML = character.technologies.map((tech, i) => `
+    <div style="margin-top: 8px; padding: 10px; background: rgba(46, 204, 113, 0.1); border-left: 3px solid var(--accent-green);">
+      ${tech.name} <span style="color: var(--accent-yellow);">(${tech.status})</span>
+    </div>
+  `).join('');
+}
+
+function openResearchModal() {
+  const techName = prompt("Enter technology name:");
+  if (techName) {
+    character.technologies.push({name: techName, status: "researching"});
+    renderTechnologies();
+    saveToStorage();
+    notify("Research started", "success");
+    logCombat(`Started researching: ${techName}`);
+  }
+}
+
+// Intelligence
+function gatherIntel() {
+  character.intelProgress = Math.min(100, character.intelProgress + 5);
+  document.getElementById('intelProgress').textContent = character.intelProgress;
+  document.getElementById('intelBar').style.width = character.intelProgress + '%';
+  document.getElementById('intelBar').textContent = character.intelProgress + '%';
+  saveToStorage();
+  notify("Intelligence gathered", "success");
+  logCombat(`Intelligence progress: ${character.intelProgress}%`);
+}
+
+// Dice Rolling
+function rollDice(sides) {
+  const result = Math.floor(Math.random() * sides) + 1;
+  document.getElementById('diceResult').textContent = result;
+  notify(`Rolled d${sides}: ${result}`, "info");
+  logCombat(`Rolled d${sides}: ${result}`);
+}
+
+function rollCustomDice() {
+  const sides = parseInt(document.getElementById('customDice').value);
+  if (sides < 2) {
+    notify("Dice must have at least 2 sides", "warning");
+    return;
+  }
+  rollDice(sides);
+}
+
+// Combat Log
+function logCombat(message, type = 'normal') {
+  const timestamp = new Date().toLocaleTimeString();
+  character.combatLog.unshift({message, type, timestamp});
+  if (character.combatLog.length > 100) character.combatLog.pop();
+  renderCombatLog();
+}
+
+function renderCombatLog() {
+  const log = document.getElementById('combatLog');
+  log.innerHTML = character.combatLog.map(entry => `
+    <div class="combat-entry ${entry.type}">[${entry.timestamp}] ${entry.message}</div>
+  `).join('');
+}
+
+function clearCombatLog() {
+  character.combatLog = [];
+  renderCombatLog();
+  saveToStorage();
+}
+
+// Theme
+function setTheme(theme) {
+  document.body.className = theme === 'default' ? '' : `theme-${theme}`;
+  document.querySelectorAll('.theme-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelector(`.theme-${theme === 'default' ? 'default' : theme + '-btn'}`).classList.add('active');
+  localStorage.setItem('theme', theme);
+  notify(`Theme changed to ${theme}`, "success");
+}
+
+// Settings
+function openSettings() {
+  document.getElementById('settingsModal').classList.add('active');
+}
+
+function closeModal(id) {
+  document.getElementById(id).classList.remove('active');
+}
+
+function updateCharacterInfo() {
+  character.name = document.getElementById('nameInput').value;
+  character.rank = document.getElementById('rankInput').value;
+  character.unit = document.getElementById('unitInput').value;
+  
+  document.getElementById('characterName').textContent = character.name.toUpperCase();
+  document.getElementById('characterRank').textContent = character.rank;
+  document.getElementById('characterUnit').textContent = character.unit;
+  
+  saveToStorage();
+  notify("Character info updated", "success");
+  closeModal('settingsModal');
+}
+
+function exportData() {
+  const data = JSON.stringify(character, null, 2);
+  const blob = new Blob([data], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'character-export.json';
+  a.click();
+  notify("Character exported", "success");
+}
+
+function importData() {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = 'application/json';
+  input.onchange = e => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+    reader.onload = event => {
+      try {
+        character = JSON.parse(event.target.result);
+        saveToStorage();
+        init();
+        notify("Character imported", "success");
+        closeModal('settingsModal');
+      } catch (err) {
+        notify("Import failed", "danger");
+      }
+    };
+    reader.readAsText(file);
+  };
+  input.click();
+}
+
+function resetCharacter() {
+  if (confirm('Reset ALL character data? This cannot be undone.')) {
+    localStorage.removeItem('maxCharacter');
+    location.reload();
+  }
+}
+
+// Tabs
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  
+  event.target.classList.add('active');
+  document.getElementById(tab + 'Tab').classList.add('active');
+}
+
+// Notifications
+function notify(message, type = 'info') {
+  const colors = {
+    success: 'var(--accent-green)',
+    danger: 'var(--accent-red)',
+    warning: 'var(--accent-yellow)',
+    info: 'var(--accent-blue)'
+  };
+  
+  const notif = document.createElement('div');
+  notif.className = 'notification';
+  notif.textContent = message;
+  notif.style.background = colors[type];
+  document.body.appendChild(notif);
+  
+  setTimeout(() => notif.remove(), 3000);
+}
+
+// Stat Rolling
+function openStatRollModal() {
+  if (confirm('Roll all stats randomly (4d6 drop lowest)?')) {
+    Object.keys(character.stats).forEach(stat => {
+      const rolls = [rollD6(), rollD6(), rollD6(), rollD6()].sort((a,b) => b-a);
+      character.stats[stat] = rolls[0] + rolls[1] + rolls[2];
+    });
+    renderStats();
+    saveToStorage();
+    notify("Stats rolled!", "success");
+    logCombat("All stats rolled");
+  }
+}
+
+function rollD6() {
+  return Math.floor(Math.random() * 6) + 1;
+}
+
+// Additional Features
+function openXPModal() {
+  const amount = prompt("Enter XP amount to add:");
+  if (amount) {
+    addXP(parseInt(amount));
+  }
+}
+
+function toggleMapFeature(feature) {
+  notify(`${feature} toggled`, "info");
+  logCombat(`Map feature ${feature} toggled`);
+}
+
+// Skills System
+let currentSkillTab = 'weapons';
+
+function renderSkills() {
+  switchSkillTab(currentSkillTab);
+}
+
+function switchSkillTab(category) {
+  currentSkillTab = category;
+  const display = document.getElementById('skillsDisplay');
+  const skills = character.skills[category];
+  
+  if (!skills || Object.keys(skills).length === 0) {
+    display.innerHTML = '<div style="color: var(--text-secondary); padding: 20px; text-align: center;">No skills in this category</div>';
+    return;
+  }
+  
+  display.innerHTML = Object.entries(skills).map(([name, skill]) => {
+    const xpToNext = skill.level * 200;
+    const progress = (skill.xp % 200) / 200 * 100;
+    return `
+      <div style="background: rgba(0,0,0,0.2); padding: 15px; margin-bottom: 10px; border-left: 3px solid var(--accent-blue);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+          <div>
+            <strong style="font-size: 1.1em;">${name}</strong>
+            <span style="color: var(--accent-green); margin-left: 10px;">Level ${skill.level}</span>
+          </div>
+          <div>
+            <button class="btn" onclick="trainSkill('${category}', '${name}')">Train</button>
+            <button class="btn btn-danger" onclick="deleteSkill('${category}', '${name}')">Delete</button>
+          </div>
+        </div>
+        <div style="font-size: 0.9em; color: var(--text-secondary);">XP: ${skill.xp} / ${xpToNext}</div>
+        <div class="progress-bar" style="height: 20px; margin-top: 5px;">
+          <div class="progress-fill" style="width: ${progress}%;">${Math.round(progress)}%</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function openAddSkillModal() {
+  document.getElementById('addSkillModal').classList.add('active');
+}
+
+function addSkill() {
+  const name = document.getElementById('skillName').value;
+  const category = document.getElementById('skillCategory').value;
+  const level = parseInt(document.getElementById('skillLevel').value) || 1;
+  const xp = parseInt(document.getElementById('skillXP').value) || 0;
+  
+  if (!name) {
+    notify("Skill name required", "warning");
+    return;
+  }
+  
+  if (!character.skills[category]) {
+    character.skills[category] = {};
+  }
+  
+  character.skills[category][name] = {level, xp, category};
+  renderSkills();
+  saveToStorage();
+  closeModal('addSkillModal');
+  notify(`Skill added: ${name}`, "success");
+  logCombat(`New skill learned: ${name} (Level ${level})`);
+  
+  document.getElementById('skillName').value = '';
+  document.getElementById('skillLevel').value = '1';
+  document.getElementById('skillXP').value = '0';
+}
+
+function trainSkill(category, name) {
+  const skill = character.skills[category][name];
+  const xpGain = Math.floor(Math.random() * 50) + 25;
+  skill.xp += xpGain;
+  
+  const xpToNext = skill.level * 200;
+  if (skill.xp >= xpToNext) {
+    skill.level++;
+    notify(`${name} leveled up to ${skill.level}!`, "success");
+    logCombat(`${name} skill leveled up to ${skill.level}!`);
+  } else {
+    notify(`+${xpGain} XP to ${name}`, "success");
+  }
+  
+  renderSkills();
+  saveToStorage();
+  logCombat(`Trained ${name} (+${xpGain} XP)`);
+}
+
+function deleteSkill(category, name) {
+  if (confirm(`Delete skill: ${name}?`)) {
+    delete character.skills[category][name];
+    renderSkills();
+    saveToStorage();
+    notify("Skill deleted", "danger");
+    logCombat(`Deleted skill: ${name}`);
+  }
+}
+
+// Achievements System
+function renderAchievements() {
+  const list = document.getElementById('achievementsList');
+  const unlocked = character.achievements.filter(a => a.unlocked).length;
+  const total = character.achievements.length;
+  
+  document.getElementById('achievementCount').textContent = unlocked;
+  document.getElementById('totalAchievements').textContent = total;
+  
+  if (character.achievements.length === 0) {
+    list.innerHTML = '<div style="color: var(--text-secondary); padding: 20px; text-align: center;">No achievements yet</div>';
+    return;
+  }
+  
+  list.innerHTML = character.achievements.map((ach, i) => `
+    <div style="background: ${ach.unlocked ? 'rgba(46, 204, 113, 0.1)' : 'rgba(0,0,0,0.2)'}; 
+                padding: 12px; margin-bottom: 8px; 
+                border-left: 3px solid ${ach.unlocked ? 'var(--accent-green)' : 'var(--border-color)'}; 
+                opacity: ${ach.unlocked ? 1 : 0.5};">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <strong>${ach.unlocked ? '✓' : '🔒'} ${ach.name}</strong>
+          <div style="font-size: 0.9em; color: var(--text-secondary); margin-top: 3px;">${ach.desc}</div>
+          ${ach.unlocked && ach.date ? `<div style="font-size: 0.8em; color: var(--accent-blue); margin-top: 3px;">${ach.date}</div>` : ''}
+        </div>
+        <div>
+          ${!ach.unlocked ? `<button class="btn btn-success" onclick="unlockAchievement(${i})">Unlock</button>` : ''}
+          <button class="btn btn-danger" onclick="deleteAchievement(${i})">Delete</button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function openAddAchievementModal() {
+  document.getElementById('addAchievementModal').classList.add('active');
+}
+
+function addAchievement() {
+  const name = document.getElementById('achievementName').value;
+  const desc = document.getElementById('achievementDesc').value;
+  const unlocked = document.getElementById('achievementUnlocked').checked;
+  const date = unlocked ? new Date().toLocaleDateString() : null;
+  
+  if (!name) {
+    notify("Achievement name required", "warning");
+    return;
+  }
+  
+  character.achievements.push({name, desc, unlocked, date});
+  renderAchievements();
+  saveToStorage();
+  closeModal('addAchievementModal');
+  
+  if (unlocked) {
+    notify(`Achievement Unlocked: ${name}`, "success");
+    logCombat(`Achievement unlocked: ${name}`);
+  } else {
+    notify("Achievement added", "success");
+  }
+  
+  document.getElementById('achievementName').value = '';
+  document.getElementById('achievementDesc').value = '';
+  document.getElementById('achievementUnlocked').checked = true;
+}
+
+function unlockAchievement(index) {
+  character.achievements[index].unlocked = true;
+  character.achievements[index].date = new Date().toLocaleDateString();
+  renderAchievements();
+  saveToStorage();
+  const ach = character.achievements[index];
+  notify(`Achievement Unlocked: ${ach.name}`, "success");
+  logCombat(`Achievement unlocked: ${ach.name}`);
+}
+
+function deleteAchievement(index) {
+  if (confirm('Delete this achievement?')) {
+    const ach = character.achievements[index];
+    character.achievements.splice(index, 1);
+    renderAchievements();
+    saveToStorage();
+    notify("Achievement deleted", "danger");
+    logCombat(`Deleted achievement: ${ach.name}`);
+  }
+}
+
+// Timeline System
+function renderTimeline() {
+  const display = document.getElementById('timelineDisplay');
+  
+  if (character.timeline.length === 0) {
+    display.innerHTML = '<div style="color: var(--text-secondary); padding: 20px; text-align: center;">No timeline entries</div>';
+    return;
+  }
+  
+  const typeColors = {
+    combat: 'var(--accent-red)',
+    achievement: 'var(--accent-yellow)',
+    milestone: 'var(--accent-green)',
+    travel: 'var(--accent-blue)',
+    personal: 'var(--accent-purple)',
+    social: 'var(--text-secondary)'
+  };
+  
+  display.innerHTML = character.timeline.map((entry, i) => `
+    <div style="background: rgba(0,0,0,0.2); padding: 12px; margin-bottom: 10px; border-left: 3px solid ${typeColors[entry.type]}; position: relative;">
+      <div style="display: flex; justify-content: space-between; align-items: start;">
+        <div style="flex: 1;">
+          <div style="font-size: 0.8em; color: ${typeColors[entry.type]}; text-transform: uppercase; margin-bottom: 3px;">${entry.type}</div>
+          <div style="font-weight: bold; margin-bottom: 3px;">${entry.date}</div>
+          <div style="color: var(--accent-blue); font-size: 0.9em; margin-bottom: 5px;">${entry.location}</div>
+          <div style="color: var(--text-primary);">${entry.event}</div>
+        </div>
+        <button class="btn btn-danger" onclick="deleteTimelineEntry(${i})" style="margin-left: 10px;">Delete</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function openAddTimelineModal() {
+  document.getElementById('addTimelineModal').classList.add('active');
+  document.getElementById('timelineLocation').value = character.location.current;
+}
+
+function addTimelineEntry() {
+  const date = document.getElementById('timelineDate').value;
+  const location = document.getElementById('timelineLocation').value;
+  const event = document.getElementById('timelineEvent').value;
+  const type = document.getElementById('timelineType').value;
+  
+  if (!date || !event) {
+    notify("Date and event required", "warning");
+    return;
+  }
+  
+  character.timeline.unshift({date, location, event, type});
+  renderTimeline();
+  saveToStorage();
+  closeModal('addTimelineModal');
+  notify("Timeline entry added", "success");
+  logCombat(`Timeline: ${event}`);
+  
+  document.getElementById('timelineDate').value = '';
+  document.getElementById('timelineEvent').value = '';
+}
+
+function deleteTimelineEntry(index) {
+  if (confirm('Delete this timeline entry?')) {
+    const entry = character.timeline[index];
+    character.timeline.splice(index, 1);
+    renderTimeline();
+    saveToStorage();
+    notify("Timeline entry deleted", "danger");
+    logCombat(`Deleted timeline entry: ${entry.event}`);
+  }
+}
+
+function clearTimeline() {
+  if (confirm('Clear ALL timeline entries? This cannot be undone.')) {
+    character.timeline = [];
+    renderTimeline();
+    saveToStorage();
+    notify("Timeline cleared", "danger");
+    logCombat("Timeline cleared");
+  }
+}
+
+// Location & Weather System
+const locationPresets = {
+  seville: {
+    current: "Seville, Spain",
+    region: "Andalusia",
+    country: "Spain",
+    climate: "Mediterranean",
+    tempRange: [10, 25]
+  },
+  madrid: {
+    current: "Madrid, Spain",
+    region: "Central Spain",
+    country: "Spain",
+    climate: "Continental",
+    tempRange: [5, 20]
+  },
+  dresden: {
+    current: "Dresden, Germany",
+    region: "Saxony",
+    country: "Germany",
+    climate: "Continental",
+    tempRange: [0, 15]
+  },
+  paris: {
+    current: "Paris, France",
+    region: "Île-de-France",
+    country: "France",
+    climate: "Oceanic",
+    tempRange: [5, 18]
+  },
+  london: {
+    current: "London, Britain",
+    region: "England",
+    country: "Britain",
+    climate: "Oceanic",
+    tempRange: [6, 15]
+  },
+  vienna: {
+    current: "Vienna, Austria-Hungary",
+    region: "Lower Austria",
+    country: "Austria-Hungary",
+    climate: "Continental",
+    tempRange: [2, 18]
+  }
+};
+
+const weatherConditions = [
+  "Clear Skies", "Partly Cloudy", "Overcast", "Light Rain", "Heavy Rain",
+  "Drizzle", "Thunderstorm", "Fog", "Mist", "Snow", "Light Snow", "Blizzard"
+];
+
+function updateLocationDisplay() {
+  document.getElementById('currentLocation').textContent = character.location.current;
+  document.getElementById('locationRegion').textContent = 
+    `${character.location.region}, ${character.location.climate}`;
+}
+
+function updateWeatherDisplay() {
+  const temp = character.weather.temperature;
+  const condition = character.weather.condition;
+  
+  document.getElementById('weatherTemp').textContent = temp;
+  document.getElementById('weatherCondition').textContent = condition;
+  
+  const effects = character.weather.effects;
+  const effectsDiv = document.getElementById('weatherEffects');
+  
+  if (effects.length > 0) {
+    effectsDiv.innerHTML = effects.map(e => 
+      `<div style="padding: 5px; background: rgba(255, 193, 7, 0.2); border-left: 3px solid var(--accent-yellow); margin: 3px 0;">⚠ ${e}</div>`
+    ).join('');
+  } else {
+    effectsDiv.innerHTML = '<div style="color: var(--text-secondary);">No weather effects</div>';
+  }
+}
+
+function openChangeLocationModal() {
+  document.getElementById('changeLocationModal').classList.add('active');
+}
+
+function fillLocationPreset() {
+  const preset = document.getElementById('locationPreset').value;
+  
+  if (preset === 'custom' || !preset) {
+    document.getElementById('locationCity').value = '';
+    document.getElementById('locationRegion').value = '';
+    document.getElementById('locationCountry').value = '';
+    return;
+  }
+  
+  const loc = locationPresets[preset];
+  const parts = loc.current.split(', ');
+  document.getElementById('locationCity').value = parts[0];
+  document.getElementById('locationRegion').value = loc.region;
+  document.getElementById('locationCountry').value = loc.country;
+  document.getElementById('locationClimate').value = loc.climate;
+}
+
+function changeLocation() {
+  const city = document.getElementById('locationCity').value;
+  const region = document.getElementById('locationRegion').value;
+  const country = document.getElementById('locationCountry').value;
+  const climate = document.getElementById('locationClimate').value;
+  const season = document.getElementById('locationSeason').value;
+  
+  if (!city || !country) {
+    notify("City and country required", "warning");
+    return;
+  }
+  
+  character.location = {
+    current: `${city}, ${country}`,
+    region,
+    country,
+    climate,
+    season
+  };
+  
+  updateLocationDisplay();
+  updateWeather();
+  saveToStorage();
+  closeModal('changeLocationModal');
+  notify(`Traveled to ${character.location.current}`, "success");
+  logCombat(`Traveled to ${character.location.current}`);
+  
+  addTimelineEntry();
+  document.getElementById('timelineDate').value = new Date().toLocaleDateString();
+  document.getElementById('timelineLocation').value = character.location.current;
+  document.getElementById('timelineEvent').value = `Arrived at ${character.location.current}`;
+  document.getElementById('timelineType').value = 'travel';
+}
+
+function updateWeather() {
+  const preset = Object.values(locationPresets).find(p => p.current === character.location.current);
+  let tempRange = [0, 20];
+  
+  if (preset) {
+    tempRange = preset.tempRange;
+  }
+  
+  const seasonMod = {
+    Spring: 0,
+    Summer: 5,
+    Autumn: -2,
+    Winter: -8
+  }[character.location.season] || 0;
+  
+  const temp = Math.floor(Math.random() * (tempRange[1] - tempRange[0])) + tempRange[0] + seasonMod;
+  const condition = weatherConditions[Math.floor(Math.random() * weatherConditions.length)];
+  
+  character.weather = {
+    temperature: temp,
+    condition,
+    effects: []
+  };
+  
+  if (temp < 0) {
+    character.weather.effects.push("Extreme cold - Movement slowed");
+  }
+  if (temp > 30) {
+    character.weather.effects.push("Extreme heat - Exhaustion risk");
+  }
+  if (condition.includes("Rain") || condition.includes("Snow")) {
+    character.weather.effects.push("Wet conditions - Vision reduced");
+  }
+  if (condition === "Blizzard") {
+    character.weather.effects.push("Blizzard - Severe visibility reduction, movement impossible");
+  }
+  if (condition === "Fog" || condition === "Mist") {
+    character.weather.effects.push("Poor visibility - Ranged attacks penalized");
+  }
+  
+  updateWeatherDisplay();
+  saveToStorage();
+  notify("Weather updated", "success");
+  logCombat(`Weather: ${temp}°C, ${condition}`);
+}
+
+// Loot Generator System
+const lootTables = {
+  common: [
+    "Rations (1 day)", "Waterskin", "Rope (50 ft)", "Torch", "Bedroll",
+    "Mess kit", "Tinderbox", "Candles (10)", "Chalk", "String (10 ft)",
+    "Iron rations", "Bandages", "Compass", "Pocket knife", "Matches",
+    "Blanket", "Soap", "Sewing kit", "Whistle", "Mirror"
+  ],
+  uncommon: [
+    "Military rations (1 week)", "Field glasses", "Climbing gear", "Camouflage netting",
+    "Signal flares (3)", "Entrenching tool", "Gas mask", "Medical kit", "Map case",
+    "Officer's compass", "Leather gloves", "Wool overcoat", "Field manual",
+    "Pocket watch", "Brass telescope", "Waterproof bag", "Emergency blanket"
+  ],
+  rare: [
+    "Enchanted compass (never fails)", "Officer's saber", "Master-crafted pistol",
+    "Spyglass of far seeing", "Boots of silent movement", "Cloak of blending",
+    "Ring of cold resistance", "Amulet of health (+2 CON)", "Belt of strength (+1 STR)",
+    "Gloves of dexterity (+1 DEX)", "Headband of intellect (+1 INT)"
+  ],
+  military: [
+    "Gewehr 98 rifle", "Luger P08 pistol", "Mauser C96", "MP18 submachine gun",
+    "Stielhandgranate (3)", "Kugelhandgranate (3)", "Ammunition (100 rounds)",
+    "Bayonet", "Gas mask", "Steel helmet", "Body armor (partial)", "Field telephone",
+    "Signal lamp", "Binoculars", "Trench periscope", "Wire cutters", "Combat knife"
+  ],
+  magical: [
+    "Wand of magic missile (7 charges)", "Potion of healing", "Scroll of fireball",
+    "Ring of protection (+1 AC)", "Cloak of resistance (+1 saves)", "Bag of holding",
+    "Everburning torch", "Rope of climbing", "Dust of disappearance", "Potion of invisibility",
+    "Ring of feather falling", "Amulet of natural armor (+1)", "Boots of speed",
+    "Bracers of armor (+2 AC)", "Crystal of power perception"
+  ]
+};
+
+function generateLoot() {
+  const quality = document.getElementById('lootQuality').value;
+  const table = lootTables[quality];
+  const item = table[Math.floor(Math.random() * table.length)];
+  
+  const lootDiv = document.getElementById('lootDisplay');
+  const timestamp = new Date().toLocaleTimeString();
+  
+  const qualityColors = {
+    common: 'var(--text-secondary)',
+    uncommon: 'var(--accent-green)',
+    rare: 'var(--accent-blue)',
+    military: 'var(--accent-yellow)',
+    magical: 'var(--accent-purple)'
+  };
+  
+  lootDiv.innerHTML = `
+    <div style="background: rgba(0,0,0,0.3); padding: 12px; margin-bottom: 8px; border-left: 3px solid ${qualityColors[quality]};">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <div style="color: ${qualityColors[quality]}; text-transform: uppercase; font-size: 0.8em; margin-bottom: 3px;">${quality}</div>
+          <strong>${item}</strong>
+          <div style="font-size: 0.8em; color: var(--text-secondary); margin-top: 3px;">${timestamp}</div>
+        </div>
+        <button class="btn" onclick="addLootToInventory('${item}', '${quality} loot')">Add to Inventory</button>
+      </div>
+    </div>
+  ` + lootDiv.innerHTML;
+  
+  notify(`Loot: ${item}`, "success");
+  logCombat(`Generated loot: ${item} (${quality})`);
+}
+
+function generateMultipleLoot() {
+  for (let i = 0; i < 5; i++) {
+    setTimeout(() => generateLoot(), i * 100);
+  }
+}
+
+function addLootToInventory(name, desc) {
+  character.inventory.push({name, desc, equipped: false});
+  renderInventory();
+  saveToStorage();
+  notify("Added to inventory", "success");
+  logCombat(`Added to inventory: ${name}`);
+}
+
+// Initialize on load
+window.onload = init;
+
+// Load saved theme
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) {
+  setTheme(savedTheme);
+}
+</script>
+
+</body>
+</html>
