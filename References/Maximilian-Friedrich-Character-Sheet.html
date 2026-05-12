@@ -843,6 +843,99 @@
       <div id="lootDisplay" style="margin-top: 15px; max-height: 300px; overflow-y: auto;"></div>
     </div>
 
+    <!-- Rest System Card -->
+    <div class="card">
+      <h2>Rest & Recovery</h2>
+      <div id="restStatus" style="margin-bottom: 15px;">
+        <div class="stat-label">Status</div>
+        <div id="restStatusText" style="font-size: 1.2em; color: var(--accent-green); font-weight: bold;">Ready</div>
+      </div>
+      <div id="restTimer" style="display: none; margin-bottom: 15px;">
+        <div class="stat-label">Time Remaining</div>
+        <div id="restTimeDisplay" style="font-size: 1.5em; color: var(--accent-yellow); font-weight: bold;">00:00</div>
+        <div class="progress-bar" style="margin-top: 10px;">
+          <div class="progress-fill" id="restProgressBar" style="width: 0%;">0%</div>
+        </div>
+      </div>
+      <div style="margin-bottom: 15px;">
+        <div style="background: rgba(0,0,0,0.2); padding: 12px; margin-bottom: 8px; border-left: 3px solid var(--accent-blue);">
+          <strong>Short Rest (1 hour)</strong>
+          <div style="font-size: 0.9em; color: var(--text-secondary); margin-top: 5px;">
+            Restore 50% HP, restore half spell slots
+          </div>
+        </div>
+        <div style="background: rgba(0,0,0,0.2); padding: 12px; border-left: 3px solid var(--accent-green);">
+          <strong>Long Rest (8 hours)</strong>
+          <div style="font-size: 0.9em; color: var(--text-secondary); margin-top: 5px;">
+            Restore full HP and mana, restore all spell slots, clear ability cooldowns
+          </div>
+        </div>
+      </div>
+      <button class="btn" onclick="startRest('short')" id="shortRestBtn">Short Rest (1 hour)</button>
+      <button class="btn btn-success" onclick="startRest('long')" id="longRestBtn">Long Rest (8 hours)</button>
+      <button class="btn btn-danger" onclick="cancelRest()" id="cancelRestBtn" style="display: none;">Cancel Rest</button>
+    </div>
+
+    <!-- Save System Card -->
+    <div class="card">
+      <h2>Save & Backup</h2>
+      <div style="margin-bottom: 15px;">
+        <div class="stat-label">Quick Actions</div>
+        <button class="btn btn-success" style="width: 100%; margin-bottom: 5px;" onclick="quickSave()">💾 Quick Save</button>
+        <button class="btn" style="width: 100%; margin-bottom: 5px;" onclick="autoBackup()">🔄 Create Backup</button>
+        <button class="btn btn-warning" style="width: 100%;" onclick="openSaveSlotManager()">📁 Manage Save Slots</button>
+      </div>
+      <div style="margin-bottom: 15px;">
+        <div class="stat-label">Export Options</div>
+        <button class="btn" style="width: 100%; margin-bottom: 5px;" onclick="exportToPDF()">📄 Export to PDF</button>
+        <button class="btn" style="width: 100%; margin-bottom: 5px;" onclick="exportData()">📦 Export JSON</button>
+        <button class="btn" style="width: 100%;" onclick="importData()">📥 Import JSON</button>
+      </div>
+      <div id="lastSaveInfo" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 10px;">
+        Last saved: Never
+      </div>
+    </div>
+
+    <!-- Spell Effects Simulator Card -->
+    <div class="card" style="grid-column: span 2;">
+      <h2>Spell Effects Simulator</h2>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+        <div>
+          <label class="stat-label">Spell Type</label>
+          <select id="spellType" class="input-field" onchange="updateSpellPreview()">
+            <option value="ray">Ray/Line</option>
+            <option value="cone">Cone</option>
+            <option value="sphere">Sphere/Radius</option>
+            <option value="cube">Cube</option>
+            <option value="cylinder">Cylinder</option>
+          </select>
+        </div>
+        <div>
+          <label class="stat-label">Area Size (feet)</label>
+          <input type="number" id="spellSize" class="input-field" value="20" min="5" max="100" step="5" onchange="updateSpellPreview()">
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+        <div>
+          <label class="stat-label">Damage Dice</label>
+          <input type="text" id="spellDice" class="input-field" placeholder="e.g., 8d6" value="8d6">
+        </div>
+        <div>
+          <label class="stat-label">Save DC</label>
+          <input type="number" id="spellDC" class="input-field" value="15" min="10" max="30">
+        </div>
+      </div>
+      <div style="margin-bottom: 15px;">
+        <canvas id="spellCanvas" width="600" height="400" style="width: 100%; max-width: 600px; border: 2px solid var(--border-color); background: rgba(0,0,0,0.3);"></canvas>
+      </div>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <button class="btn" onclick="rollSpellDamage()">Roll Damage</button>
+        <button class="btn" onclick="rollSpellSave()">Roll Save</button>
+        <button class="btn btn-success" onclick="castSpell()">Cast Spell</button>
+      </div>
+      <div id="spellResults" style="margin-top: 15px; font-size: 1.1em; font-weight: bold; color: var(--accent-yellow);"></div>
+    </div>
+
     <!-- System Status Card -->
     <div class="card" style="grid-column: span 2;">
       <h2>System Status</h2>
@@ -1037,6 +1130,17 @@
   </div>
 </div>
 
+<!-- Save Slot Manager Modal -->
+<div class="modal" id="saveSlotModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Save Slot Manager</h2>
+      <span class="close-modal" onclick="closeModal('saveSlotModal')">×</span>
+    </div>
+    <div id="saveSlotsList"></div>
+  </div>
+</div>
+
 <script>
 // Character Data
 let character = {
@@ -1174,6 +1278,9 @@ function init() {
   renderTimeline();
   updateLocationDisplay();
   updateWeatherDisplay();
+  updateSpellPreview();
+  updateLastSaveTime();
+  startAutoSave();
 }
 
 // Save/Load
@@ -2263,6 +2370,515 @@ function addLootToInventory(name, desc) {
   saveToStorage();
   notify("Added to inventory", "success");
   logCombat(`Added to inventory: ${name}`);
+}
+
+// Rest System
+function startRest(type) {
+  if (restTimer) {
+    notify("Already resting", "warning");
+    return;
+  }
+  
+  restType = type;
+  restDuration = type === 'short' ? 3600000 : 28800000; // 1 hour or 8 hours in ms
+  restStartTime = Date.now();
+  
+  document.getElementById('restTimer').style.display = 'block';
+  document.getElementById('shortRestBtn').disabled = true;
+  document.getElementById('longRestBtn').disabled = true;
+  document.getElementById('cancelRestBtn').style.display = 'inline-block';
+  document.getElementById('restStatusText').textContent = type === 'short' ? 'Short Rest in Progress' : 'Long Rest in Progress';
+  document.getElementById('restStatusText').style.color = 'var(--accent-yellow)';
+  
+  restTimer = setInterval(updateRestTimer, 1000);
+  
+  notify(`${type === 'short' ? 'Short' : 'Long'} rest started`, "success");
+  logCombat(`Started ${type} rest`);
+}
+
+function updateRestTimer() {
+  const elapsed = Date.now() - restStartTime;
+  const remaining = restDuration - elapsed;
+  
+  if (remaining <= 0) {
+    completeRest();
+    return;
+  }
+  
+  const hours = Math.floor(remaining / 3600000);
+  const minutes = Math.floor((remaining % 3600000) / 60000);
+  const seconds = Math.floor((remaining % 60000) / 1000);
+  
+  const timeStr = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+  document.getElementById('restTimeDisplay').textContent = timeStr;
+  
+  const progress = (elapsed / restDuration) * 100;
+  document.getElementById('restProgressBar').style.width = progress + '%';
+  document.getElementById('restProgressBar').textContent = Math.round(progress) + '%';
+}
+
+function completeRest() {
+  clearInterval(restTimer);
+  restTimer = null;
+  
+  if (restType === 'short') {
+    character.hp = Math.min(character.maxHp, Math.floor(character.hp + character.maxHp * 0.5));
+    character.spellSlots.ring1 = character.spellSlots.ring1.map((used, i) => i < Math.ceil(character.spellSlots.ring1.length / 2) ? false : used);
+  } else {
+    character.hp = character.maxHp;
+    character.mana = character.manaActive ? character.maxMana : 0;
+    character.spellSlots.cantrips.fill(false);
+    character.spellSlots.ring1.fill(false);
+    character.druidCircles.forEach(c => c.cooldown = 0);
+  }
+  
+  updateVitals();
+  renderSpellSlots();
+  renderDruidCircles();
+  saveToStorage();
+  
+  document.getElementById('restTimer').style.display = 'none';
+  document.getElementById('shortRestBtn').disabled = false;
+  document.getElementById('longRestBtn').disabled = false;
+  document.getElementById('cancelRestBtn').style.display = 'none';
+  document.getElementById('restStatusText').textContent = 'Ready';
+  document.getElementById('restStatusText').style.color = 'var(--accent-green)';
+  
+  notify(`${restType === 'short' ? 'Short' : 'Long'} rest completed!`, "success");
+  logCombat(`${restType === 'short' ? 'Short' : 'Long'} rest completed - resources restored`, "heal");
+  
+  restType = null;
+}
+
+function cancelRest() {
+  if (!restTimer) return;
+  
+  if (confirm('Cancel rest? No resources will be restored.')) {
+    clearInterval(restTimer);
+    restTimer = null;
+    
+    document.getElementById('restTimer').style.display = 'none';
+    document.getElementById('shortRestBtn').disabled = false;
+    document.getElementById('longRestBtn').disabled = false;
+    document.getElementById('cancelRestBtn').style.display = 'none';
+    document.getElementById('restStatusText').textContent = 'Ready';
+    document.getElementById('restStatusText').style.color = 'var(--accent-green)';
+    
+    notify("Rest cancelled", "warning");
+    logCombat("Rest cancelled");
+    
+    restType = null;
+  }
+}
+
+// Save System
+function quickSave() {
+  saveToStorage();
+  localStorage.setItem('maxCharacter_quicksave', JSON.stringify(character));
+  localStorage.setItem('maxCharacter_lastSave', Date.now());
+  updateLastSaveTime();
+  notify("Quick save complete", "success");
+  logCombat("Quick saved");
+}
+
+function autoBackup() {
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+  localStorage.setItem(`maxCharacter_backup_${timestamp}`, JSON.stringify(character));
+  
+  const backups = Object.keys(localStorage).filter(k => k.startsWith('maxCharacter_backup_'));
+  if (backups.length > 10) {
+    backups.sort();
+    localStorage.removeItem(backups[0]);
+  }
+  
+  notify("Backup created", "success");
+  logCombat("Created backup");
+}
+
+function startAutoSave() {
+  setInterval(() => {
+    saveToStorage();
+    localStorage.setItem('maxCharacter_lastSave', Date.now());
+    updateLastSaveTime();
+  }, 300000); // Auto-save every 5 minutes
+}
+
+function updateLastSaveTime() {
+  const lastSave = localStorage.getItem('maxCharacter_lastSave');
+  if (lastSave) {
+    const date = new Date(parseInt(lastSave));
+    document.getElementById('lastSaveInfo').textContent = `Last saved: ${date.toLocaleString()}`;
+  }
+}
+
+function openSaveSlotManager() {
+  document.getElementById('saveSlotModal').classList.add('active');
+  renderSaveSlots();
+}
+
+function renderSaveSlots() {
+  const list = document.getElementById('saveSlotsList');
+  let html = '<div style="margin-bottom: 15px;"><strong>Save Slots (Max 5)</strong></div>';
+  
+  for (let i = 1; i <= MAX_SAVE_SLOTS; i++) {
+    const slotKey = `maxCharacter_slot${i}`;
+    const slotData = localStorage.getItem(slotKey);
+    
+    if (slotData) {
+      const data = JSON.parse(slotData);
+      const saveDate = localStorage.getItem(`${slotKey}_date`);
+      const date = saveDate ? new Date(parseInt(saveDate)).toLocaleString() : 'Unknown';
+      
+      html += `
+        <div style="background: rgba(0,0,0,0.2); padding: 12px; margin-bottom: 8px; border-left: 3px solid var(--accent-green);">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+              <strong>Slot ${i}: ${data.name}</strong>
+              <div style="font-size: 0.9em; color: var(--text-secondary); margin-top: 3px;">
+                Level ${data.level} | ${data.location.current}
+              </div>
+              <div style="font-size: 0.8em; color: var(--accent-blue); margin-top: 3px;">${date}</div>
+            </div>
+            <div>
+              <button class="btn" onclick="loadSlot(${i})">Load</button>
+              <button class="btn btn-warning" onclick="saveToSlot(${i})">Overwrite</button>
+              <button class="btn btn-danger" onclick="deleteSlot(${i})">Delete</button>
+            </div>
+          </div>
+        </div>
+      `;
+    } else {
+      html += `
+        <div style="background: rgba(0,0,0,0.2); padding: 12px; margin-bottom: 8px; border-left: 3px solid var(--border-color); opacity: 0.5;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+              <strong>Slot ${i}: Empty</strong>
+            </div>
+            <div>
+              <button class="btn btn-success" onclick="saveToSlot(${i})">Save Here</button>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+  }
+  
+  html += '<div style="margin-top: 20px;"><strong>Backups</strong></div>';
+  const backups = Object.keys(localStorage).filter(k => k.startsWith('maxCharacter_backup_')).sort().reverse();
+  
+  if (backups.length === 0) {
+    html += '<div style="color: var(--text-secondary); padding: 10px;">No backups available</div>';
+  } else {
+    backups.forEach(key => {
+      const timestamp = key.replace('maxCharacter_backup_', '');
+      const date = new Date(timestamp.replace(/-/g, ':')).toLocaleString();
+      html += `
+        <div style="background: rgba(0,0,0,0.2); padding: 8px; margin-bottom: 5px; border-left: 3px solid var(--accent-blue);">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-size: 0.9em;">${date}</div>
+            <div>
+              <button class="btn" onclick="loadBackup('${key}')">Load</button>
+              <button class="btn btn-danger" onclick="deleteBackup('${key}')">Delete</button>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+  }
+  
+  list.innerHTML = html;
+}
+
+function saveToSlot(slot) {
+  const slotKey = `maxCharacter_slot${slot}`;
+  localStorage.setItem(slotKey, JSON.stringify(character));
+  localStorage.setItem(`${slotKey}_date`, Date.now());
+  renderSaveSlots();
+  notify(`Saved to slot ${slot}`, "success");
+  logCombat(`Saved to slot ${slot}`);
+}
+
+function loadSlot(slot) {
+  if (confirm('Load this save? Current progress will be lost unless saved.')) {
+    const slotKey = `maxCharacter_slot${slot}`;
+    const data = localStorage.getItem(slotKey);
+    if (data) {
+      character = JSON.parse(data);
+      saveToStorage();
+      init();
+      closeModal('saveSlotModal');
+      notify(`Loaded slot ${slot}`, "success");
+      logCombat(`Loaded slot ${slot}`);
+    }
+  }
+}
+
+function deleteSlot(slot) {
+  if (confirm('Delete this save slot?')) {
+    const slotKey = `maxCharacter_slot${slot}`;
+    localStorage.removeItem(slotKey);
+    localStorage.removeItem(`${slotKey}_date`);
+    renderSaveSlots();
+    notify("Save slot deleted", "danger");
+  }
+}
+
+function loadBackup(key) {
+  if (confirm('Load this backup? Current progress will be lost unless saved.')) {
+    const data = localStorage.getItem(key);
+    if (data) {
+      character = JSON.parse(data);
+      saveToStorage();
+      init();
+      closeModal('saveSlotModal');
+      notify("Backup loaded", "success");
+      logCombat("Loaded backup");
+    }
+  }
+}
+
+function deleteBackup(key) {
+  if (confirm('Delete this backup?')) {
+    localStorage.removeItem(key);
+    renderSaveSlots();
+    notify("Backup deleted", "danger");
+  }
+}
+
+// PDF Export
+function exportToPDF() {
+  notify("Generating PDF...", "info");
+  
+  const content = `
+MAXIMILIAN FRIEDRICH - CHARACTER SHEET
+=====================================
+
+IDENTITY
+--------
+Name: ${character.name}
+Rank: ${character.rank}
+Unit: ${character.unit}
+
+PROGRESSION
+-----------
+Level: ${character.level}
+XP: ${character.xp} / ${xpTable[character.level]}
+
+ATTRIBUTES
+----------
+STR: ${character.stats.STR} (${Math.floor((character.stats.STR - 10) / 2) >= 0 ? '+' : ''}${Math.floor((character.stats.STR - 10) / 2)})
+DEX: ${character.stats.DEX} (${Math.floor((character.stats.DEX - 10) / 2) >= 0 ? '+' : ''}${Math.floor((character.stats.DEX - 10) / 2)})
+CON: ${character.stats.CON} (${Math.floor((character.stats.CON - 10) / 2) >= 0 ? '+' : ''}${Math.floor((character.stats.CON - 10) / 2)})
+INT: ${character.stats.INT} (${Math.floor((character.stats.INT - 10) / 2) >= 0 ? '+' : ''}${Math.floor((character.stats.INT - 10) / 2)})
+WIS: ${character.stats.WIS} (${Math.floor((character.stats.WIS - 10) / 2) >= 0 ? '+' : ''}${Math.floor((character.stats.WIS - 10) / 2)})
+CHA: ${character.stats.CHA} (${Math.floor((character.stats.CHA - 10) / 2) >= 0 ? '+' : ''}${Math.floor((character.stats.CHA - 10) / 2)})
+LCK: ${character.stats.LCK} (${Math.floor((character.stats.LCK - 10) / 2) >= 0 ? '+' : ''}${Math.floor((character.stats.LCK - 10) / 2)})
+
+VITALS
+------
+HP: ${character.hp} / ${character.maxHp}
+Mana: ${character.manaActive ? character.mana + ' / ' + character.maxMana + ' MJ' : 'Inactive'}
+
+SKILLS
+------
+${Object.entries(character.skills).map(([cat, skills]) => 
+  `${cat.toUpperCase()}:\n` + Object.entries(skills).map(([name, skill]) => 
+    `  ${name}: Level ${skill.level} (${skill.xp} XP)`
+  ).join('\n')
+).join('\n\n')}
+
+EQUIPMENT
+---------
+${character.inventory.map(item => `${item.equipped ? '[E]' : '[ ]'} ${item.name} - ${item.desc}`).join('\n')}
+
+DRUID CIRCLES
+-------------
+${character.druidCircles.map(circle => `${circle.name}\n  ${circle.desc}`).join('\n\n')}
+
+CONFIRMED KILLS: ${character.kills.length}
+----------------
+${character.kills.map(kill => `${kill.name} - ${kill.method}, ${kill.location} (${kill.xp} XP)`).join('\n')}
+
+ACHIEVEMENTS: ${character.achievements.filter(a => a.unlocked).length}/${character.achievements.length}
+------------
+${character.achievements.map(ach => `${ach.unlocked ? '[X]' : '[ ]'} ${ach.name} - ${ach.desc}${ach.date ? ' (' + ach.date + ')' : ''}`).join('\n')}
+
+LOCATION
+--------
+Current: ${character.location.current}
+Region: ${character.location.region}
+Climate: ${character.location.climate}
+Season: ${character.location.season}
+
+WEATHER
+-------
+Temperature: ${character.weather.temperature}°C
+Condition: ${character.weather.condition}
+Effects: ${character.weather.effects.length > 0 ? character.weather.effects.join(', ') : 'None'}
+
+Generated: ${new Date().toLocaleString()}
+`;
+
+  const blob = new Blob([content], {type: 'text/plain'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${character.name.replace(/\s/g, '_')}_Character_Sheet.txt`;
+  a.click();
+  
+  notify("PDF exported (as text file)", "success");
+  logCombat("Exported character sheet");
+}
+
+// Spell Effects Simulator
+function updateSpellPreview() {
+  const canvas = document.getElementById('spellCanvas');
+  if (!canvas) return;
+  
+  const ctx = canvas.getContext('2d');
+  const type = document.getElementById('spellType').value;
+  const size = parseInt(document.getElementById('spellSize').value) || 20;
+  
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+  const centerX = canvas.width / 2;
+  const centerY = canvas.height / 2;
+  const scale = 4;
+  
+  ctx.fillStyle = 'rgba(100, 100, 100, 0.3)';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  
+  for (let x = 0; x < canvas.width; x += 20) {
+    ctx.strokeStyle = 'rgba(150, 150, 150, 0.3)';
+    ctx.beginPath();
+    ctx.moveTo(x, 0);
+    ctx.lineTo(x, canvas.height);
+    ctx.stroke();
+  }
+  for (let y = 0; y < canvas.height; y += 20) {
+    ctx.strokeStyle = 'rgba(150, 150, 150, 0.3)';
+    ctx.beginPath();
+    ctx.moveTo(0, y);
+    ctx.lineTo(canvas.width, y);
+    ctx.stroke();
+  }
+  
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+  ctx.beginPath();
+  ctx.arc(centerX, centerY, 8, 0, Math.PI * 2);
+  ctx.fill();
+  
+  ctx.fillStyle = 'rgba(255, 100, 100, 0.3)';
+  ctx.strokeStyle = 'rgba(255, 50, 50, 0.8)';
+  ctx.lineWidth = 2;
+  
+  switch(type) {
+    case 'ray':
+      ctx.fillRect(centerX, centerY - 10, size * scale, 20);
+      ctx.strokeRect(centerX, centerY - 10, size * scale, 20);
+      break;
+    case 'cone':
+      ctx.beginPath();
+      ctx.moveTo(centerX, centerY);
+      ctx.lineTo(centerX + size * scale, centerY - size * scale / 2);
+      ctx.lineTo(centerX + size * scale, centerY + size * scale / 2);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+      break;
+    case 'sphere':
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, size * scale / 2, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+      break;
+    case 'cube':
+      const cubeSize = size * scale / 2;
+      ctx.fillRect(centerX - cubeSize / 2, centerY - cubeSize / 2, cubeSize, cubeSize);
+      ctx.strokeRect(centerX - cubeSize / 2, centerY - cubeSize / 2, cubeSize, cubeSize);
+      break;
+    case 'cylinder':
+      ctx.fillRect(centerX - 20, centerY - size * scale / 2, 40, size * scale);
+      ctx.strokeRect(centerX - 20, centerY - size * scale / 2, 40, size * scale);
+      break;
+  }
+  
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+  ctx.font = '14px Courier New';
+  ctx.fillText(`Area: ${size} ft`, 10, 20);
+  ctx.fillText(`Type: ${type}`, 10, 40);
+}
+
+function rollSpellDamage() {
+  const diceStr = document.getElementById('spellDice').value;
+  const match = diceStr.match(/(\d+)d(\d+)/);
+  
+  if (!match) {
+    notify("Invalid dice format (use XdY)", "warning");
+    return;
+  }
+  
+  const numDice = parseInt(match[1]);
+  const diceSides = parseInt(match[2]);
+  let total = 0;
+  let rolls = [];
+  
+  for (let i = 0; i < numDice; i++) {
+    const roll = Math.floor(Math.random() * diceSides) + 1;
+    rolls.push(roll);
+    total += roll;
+  }
+  
+  document.getElementById('spellResults').textContent = 
+    `Damage: ${total} (${rolls.join(' + ')})`;
+  
+  notify(`Spell damage: ${total}`, "success");
+  logCombat(`Spell damage: ${diceStr} = ${total}`, "damage");
+}
+
+function rollSpellSave() {
+  const dc = parseInt(document.getElementById('spellDC').value);
+  const roll = Math.floor(Math.random() * 20) + 1;
+  const success = roll >= dc;
+  
+  document.getElementById('spellResults').textContent = 
+    `Save: ${roll} vs DC ${dc} - ${success ? 'SUCCESS' : 'FAILURE'}`;
+  
+  notify(`Save: ${success ? 'Success' : 'Failure'}`, success ? "success" : "danger");
+  logCombat(`Spell save: d20=${roll} vs DC ${dc} (${success ? 'Success' : 'Fail'})`);
+}
+
+function castSpell() {
+  if (!character.manaActive) {
+    notify("Mana system not active", "warning");
+    return;
+  }
+  
+  if (character.mana <= 0) {
+    notify("No mana remaining", "warning");
+    return;
+  }
+  
+  const ring1Used = character.spellSlots.ring1.filter(s => s).length;
+  if (ring1Used >= character.spellSlots.ring1.length) {
+    notify("No spell slots remaining", "warning");
+    return;
+  }
+  
+  const freeSlot = character.spellSlots.ring1.indexOf(false);
+  if (freeSlot !== -1) {
+    character.spellSlots.ring1[freeSlot] = true;
+  }
+  
+  character.mana = Math.max(0, character.mana - 1);
+  
+  rollSpellDamage();
+  updateVitals();
+  renderSpellSlots();
+  saveToStorage();
+  
+  notify("Spell cast!", "success");
+  logCombat("Cast spell - 1st ring slot and 1 MJ consumed");
 }
 
 // Initialize on load
