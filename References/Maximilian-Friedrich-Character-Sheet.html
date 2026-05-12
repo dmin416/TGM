@@ -562,6 +562,8 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     animation: slideIn 0.3s ease;
     z-index: 2000;
+    font-weight: bold;
+    border-left: 5px solid rgba(255,255,255,0.5);
   }
 
   @keyframes slideIn {
@@ -573,6 +575,58 @@
       transform: translateX(0);
       opacity: 1;
     }
+  }
+
+  .loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 0.8s linear infinite;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  .tooltip {
+    position: absolute;
+    background: rgba(0,0,0,0.9);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    pointer-events: none;
+    z-index: 3000;
+    white-space: nowrap;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+
+  .confirm-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--bg-card);
+    border: 3px solid var(--accent-yellow);
+    padding: 30px;
+    z-index: 2500;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    min-width: 300px;
+    text-align: center;
+  }
+
+  .confirm-overlay h3 {
+    margin-bottom: 20px;
+    color: var(--accent-yellow);
+  }
+
+  .confirm-overlay .btn {
+    margin: 5px;
   }
 
   .combat-log {
@@ -741,7 +795,11 @@
     <!-- Inventory Card -->
     <div class="card">
       <h2>Equipment</h2>
+      <input type="text" id="inventorySearch" class="input-field" placeholder="🔍 Search equipment..." 
+             onkeyup="filterInventory()" style="margin-bottom: 10px;">
       <button class="btn" onclick="openAddItemModal()">Add Item</button>
+      <button class="btn" onclick="sortInventory('name')">Sort A-Z</button>
+      <button class="btn" onclick="sortInventory('equipped')">Sort Equipped</button>
       <ul class="item-list" id="inventoryList"></ul>
     </div>
 
@@ -801,7 +859,11 @@
     <!-- Timeline Card -->
     <div class="card">
       <h2>Timeline & Journal</h2>
+      <input type="text" id="timelineSearch" class="input-field" placeholder="🔍 Search timeline..." 
+             onkeyup="filterTimeline()" style="margin-bottom: 10px;">
       <button class="btn" onclick="openAddTimelineModal()">Add Entry</button>
+      <button class="btn" onclick="sortTimeline('date')">Sort Date</button>
+      <button class="btn" onclick="sortTimeline('type')">Sort Type</button>
       <button class="btn btn-danger" onclick="clearTimeline()">Clear All</button>
       <div id="timelineDisplay" style="margin-top: 15px; max-height: 400px; overflow-y: auto;"></div>
     </div>
@@ -918,7 +980,7 @@
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
         <div>
           <label class="stat-label">Damage Dice</label>
-          <input type="text" id="spellDice" class="input-field" placeholder="e.g., 8d6" value="8d6">
+          <input type="text" id="spellDice" class="input-field" placeholder="e.g., 8d6+3" value="8d6">
         </div>
         <div>
           <label class="stat-label">Save DC</label>
@@ -1142,6 +1204,12 @@
 </div>
 
 <script>
+// Load saved theme FIRST to prevent flash
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme && savedTheme !== 'default') {
+  document.body.className = `theme-${savedTheme}`;
+}
+
 // Character Data
 let character = {
   name: "Maximilian Friedrich",
@@ -1233,7 +1301,8 @@ let character = {
   weather: {
     temperature: 12,
     condition: "Partly Cloudy",
-    effects: []
+    effects: [],
+    statModifiers: {}
   },
   druidCircles: [
     {name: "Natural Recovery", desc: "Sustained by the land and the air; faster physical and spiritual recovery; does not function in mana voided zones", cooldown: 0},
@@ -1299,14 +1368,21 @@ function loadFromStorage() {
 function renderStats() {
   const grid = document.getElementById('statsGrid');
   grid.innerHTML = '';
+  
+  // Get weather modifiers if they exist
+  const weatherMods = character.weather?.statModifiers || {};
+  
   Object.entries(character.stats).forEach(([stat, value]) => {
-    const modifier = Math.floor((value - 10) / 2);
+    const weatherMod = weatherMods[stat] || 0;
+    const effectiveValue = value + weatherMod;
+    const modifier = Math.floor((effectiveValue - 10) / 2);
     const modifierStr = modifier >= 0 ? `+${modifier}` : modifier;
+    
     grid.innerHTML += `
       <div class="stat-box" onclick="showStatInfo('${stat}')">
         <div class="stat-modifier">${modifierStr}</div>
         <div class="stat-label">${stat}</div>
-        <div class="stat-value">${value}</div>
+        <div class="stat-value">${effectiveValue}${weatherMod !== 0 ? `<span style="font-size: 0.5em; color: ${weatherMod > 0 ? 'var(--accent-green)' : 'var(--accent-red)'};">(${weatherMod > 0 ? '+' : ''}${weatherMod})</span>` : ''}</div>
         <div class="stat-controls">
           <button class="stat-btn" onclick="event.stopPropagation(); modifyStat('${stat}', 1)">+</button>
           <button class="stat-btn" onclick="event.stopPropagation(); modifyStat('${stat}', -1)">-</button>
@@ -1459,6 +1535,54 @@ function renderSpellSlots() {
   ring1Div.innerHTML = character.spellSlots.ring1.map((used, i) => 
     `<div class="spell-slot ${used ? 'used' : 'available'}" onclick="toggleSpellSlot('ring1', ${i})">${used ? '✗' : '○'}</div>`
   ).join('');
+  
+  // Add rings 2-9 display
+  const spellSlotsContainer = document.getElementById('spellSlotsContainer');
+  const ringUnlockLevels = {2: 4, 3: 6, 4: 8, 5: 10, 6: 12, 7: 14, 8: 16, 9: 18};
+  const ringSlotCounts = {2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0};
+  
+  // Calculate slot counts based on level
+  if (character.level >= 4) ringSlotCounts[2] = Math.min(4, Math.floor((character.level - 2) / 2));
+  if (character.level >= 6) ringSlotCounts[3] = Math.min(4, Math.floor((character.level - 4) / 2));
+  if (character.level >= 8) ringSlotCounts[4] = Math.min(4, Math.floor((character.level - 6) / 2));
+  if (character.level >= 10) ringSlotCounts[5] = Math.min(4, Math.floor((character.level - 8) / 2));
+  if (character.level >= 12) ringSlotCounts[6] = Math.min(4, Math.floor((character.level - 10) / 2));
+  if (character.level >= 14) ringSlotCounts[7] = Math.min(4, Math.floor((character.level - 12) / 2));
+  if (character.level >= 16) ringSlotCounts[8] = Math.min(4, Math.floor((character.level - 14) / 2));
+  if (character.level >= 18) ringSlotCounts[9] = Math.min(4, Math.floor((character.level - 16) / 2));
+  
+  // Initialize missing rings in character data
+  for (let ring = 2; ring <= 9; ring++) {
+    if (!character.spellSlots[`ring${ring}`]) {
+      character.spellSlots[`ring${ring}`] = new Array(ringSlotCounts[ring]).fill(false);
+    }
+  }
+  
+  // Remove old ring displays beyond ring 1
+  const oldRings = spellSlotsContainer.querySelectorAll('[id^="ring"]:not(#ring1)');
+  oldRings.forEach(el => el.parentElement.remove());
+  
+  // Add ring 2-9 displays
+  for (let ring = 2; ring <= 9; ring++) {
+    const unlockLevel = ringUnlockLevels[ring];
+    const slotCount = ringSlotCounts[ring];
+    const isUnlocked = character.level >= unlockLevel;
+    
+    const ringDiv = document.createElement('div');
+    ringDiv.style.marginBottom = '15px';
+    ringDiv.innerHTML = `
+      <div class="stat-label">${ring}${ring === 2 ? 'nd' : ring === 3 ? 'rd' : 'th'} Ring (${slotCount} slot${slotCount !== 1 ? 's' : ''})</div>
+      <div id="ring${ring}" style="margin-top: 5px;">
+        ${isUnlocked ? 
+          character.spellSlots[`ring${ring}`].map((used, i) => 
+            `<div class="spell-slot ${used ? 'used' : 'available'}" onclick="toggleSpellSlot('ring${ring}', ${i})">${used ? '✗' : '○'}</div>`
+          ).join('') :
+          `<div style="opacity: 0.5;">Unlocks at Level ${unlockLevel}</div>`
+        }
+      </div>
+    `;
+    spellSlotsContainer.appendChild(ringDiv);
+  }
 }
 
 function toggleSpellSlot(ring, index) {
@@ -1469,42 +1593,51 @@ function toggleSpellSlot(ring, index) {
   logCombat(`Spell slot ${ring} ${index + 1} ${used ? 'used' : 'restored'}`);
 }
 
-function shortRest() {
-  // Restore half spell slots
-  notify("Short rest taken", "success");
-  logCombat("Short rest completed");
-}
-
-function longRest() {
-  character.hp = character.maxHp;
-  character.mana = character.manaActive ? character.maxMana : 0;
-  character.spellSlots.cantrips.fill(false);
-  character.spellSlots.ring1.fill(false);
-  character.druidCircles.forEach(c => c.cooldown = 0);
-  
-  updateVitals();
-  renderSpellSlots();
-  renderDruidCircles();
-  saveToStorage();
-  
-  notify("Long rest completed", "success");
-  logCombat("Long rest completed - all resources restored", "heal");
-}
+// Rest System - integrated with timer
 
 // Inventory
 function renderInventory() {
   const list = document.getElementById('inventoryList');
-  list.innerHTML = character.inventory.map((item, i) => `
-    <li class="${item.equipped ? 'item-equipped' : ''}">
-      <div>
-        <strong>${item.name}</strong> — ${item.desc}
-      </div>
-      <div class="item-controls">
-        <button class="item-btn" onclick="toggleEquip(${i})">${item.equipped ? 'Unequip' : 'Equip'}</button>
-        <button class="item-btn delete" onclick="deleteItem(${i})">Delete</button>
-      </div>
-    </li>
-  `).join('');
+  const search = document.getElementById('inventorySearch')?.value.toLowerCase() || '';
+  
+  const filtered = character.inventory.filter(item => 
+    item.name.toLowerCase().includes(search) || 
+    item.desc.toLowerCase().includes(search)
+  );
+  
+  list.innerHTML = filtered.map((item, i) => {
+    const originalIndex = character.inventory.indexOf(item);
+    return `
+      <li class="${item.equipped ? 'item-equipped' : ''}">
+        <div>
+          <strong>${item.name}</strong> — ${item.desc}
+        </div>
+        <div class="item-controls">
+          <button class="item-btn" onclick="toggleEquip(${originalIndex})">${item.equipped ? 'Unequip' : 'Equip'}</button>
+          <button class="item-btn delete" onclick="deleteItem(${originalIndex})">Delete</button>
+        </div>
+      </li>
+    `;
+  }).join('');
+  
+  if (filtered.length === 0 && search) {
+    list.innerHTML = '<li style="text-align: center; color: var(--text-secondary);">No items match search</li>';
+  }
+}
+
+function filterInventory() {
+  renderInventory();
+}
+
+function sortInventory(sortBy) {
+  if (sortBy === 'name') {
+    character.inventory.sort((a, b) => a.name.localeCompare(b.name));
+  } else if (sortBy === 'equipped') {
+    character.inventory.sort((a, b) => b.equipped - a.equipped);
+  }
+  renderInventory();
+  saveToStorage();
+  notify("Inventory sorted", "success");
 }
 
 function toggleEquip(index) {
@@ -1852,6 +1985,18 @@ function renderSkills() {
 
 function switchSkillTab(category) {
   currentSkillTab = category;
+  
+  // Update tab active states
+  const tabs = document.querySelectorAll('.tab');
+  tabs.forEach(tab => {
+    const tabText = tab.textContent.toLowerCase();
+    if (tabText === category) {
+      tab.classList.add('active');
+    } else {
+      tab.classList.remove('active');
+    }
+  });
+  
   const display = document.getElementById('skillsDisplay');
   const skills = character.skills[category];
   
@@ -2034,9 +2179,20 @@ function deleteAchievement(index) {
 // Timeline System
 function renderTimeline() {
   const display = document.getElementById('timelineDisplay');
+  const search = document.getElementById('timelineSearch')?.value.toLowerCase() || '';
   
-  if (character.timeline.length === 0) {
-    display.innerHTML = '<div style="color: var(--text-secondary); padding: 20px; text-align: center;">No timeline entries</div>';
+  let filtered = character.timeline;
+  if (search) {
+    filtered = character.timeline.filter(entry => 
+      entry.date.toLowerCase().includes(search) ||
+      entry.location.toLowerCase().includes(search) ||
+      entry.event.toLowerCase().includes(search) ||
+      entry.type.toLowerCase().includes(search)
+    );
+  }
+  
+  if (filtered.length === 0) {
+    display.innerHTML = '<div style="color: var(--text-secondary); padding: 20px; text-align: center;">No timeline entries' + (search ? ' match search' : '') + '</div>';
     return;
   }
   
@@ -2049,19 +2205,37 @@ function renderTimeline() {
     social: 'var(--text-secondary)'
   };
   
-  display.innerHTML = character.timeline.map((entry, i) => `
-    <div style="background: rgba(0,0,0,0.2); padding: 12px; margin-bottom: 10px; border-left: 3px solid ${typeColors[entry.type]}; position: relative;">
-      <div style="display: flex; justify-content: space-between; align-items: start;">
-        <div style="flex: 1;">
-          <div style="font-size: 0.8em; color: ${typeColors[entry.type]}; text-transform: uppercase; margin-bottom: 3px;">${entry.type}</div>
-          <div style="font-weight: bold; margin-bottom: 3px;">${entry.date}</div>
-          <div style="color: var(--accent-blue); font-size: 0.9em; margin-bottom: 5px;">${entry.location}</div>
-          <div style="color: var(--text-primary);">${entry.event}</div>
+  display.innerHTML = filtered.map((entry, i) => {
+    const originalIndex = character.timeline.indexOf(entry);
+    return `
+      <div style="background: rgba(0,0,0,0.2); padding: 12px; margin-bottom: 10px; border-left: 3px solid ${typeColors[entry.type]}; position: relative;">
+        <div style="display: flex; justify-content: space-between; align-items: start;">
+          <div style="flex: 1;">
+            <div style="font-size: 0.8em; color: ${typeColors[entry.type]}; text-transform: uppercase; margin-bottom: 3px;">${entry.type}</div>
+            <div style="font-weight: bold; margin-bottom: 3px;">${entry.date}</div>
+            <div style="color: var(--accent-blue); font-size: 0.9em; margin-bottom: 5px;">${entry.location}</div>
+            <div style="color: var(--text-primary);">${entry.event}</div>
+          </div>
+          <button class="btn btn-danger" onclick="deleteTimelineEntry(${originalIndex})" style="margin-left: 10px;">Delete</button>
         </div>
-        <button class="btn btn-danger" onclick="deleteTimelineEntry(${i})" style="margin-left: 10px;">Delete</button>
       </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
+}
+
+function filterTimeline() {
+  renderTimeline();
+}
+
+function sortTimeline(sortBy) {
+  if (sortBy === 'date') {
+    character.timeline.sort((a, b) => new Date(b.date) - new Date(a.date));
+  } else if (sortBy === 'type') {
+    character.timeline.sort((a, b) => a.type.localeCompare(b.type));
+  }
+  renderTimeline();
+  saveToStorage();
+  notify("Timeline sorted", "success");
 }
 
 function openAddTimelineModal() {
@@ -2265,26 +2439,36 @@ function updateWeather() {
   character.weather = {
     temperature: temp,
     condition,
-    effects: []
+    effects: [],
+    statModifiers: {} // Track actual stat changes
   };
   
+  // Apply actual stat effects
   if (temp < 0) {
     character.weather.effects.push("Extreme cold - Movement slowed");
+    character.weather.statModifiers.DEX = -2;
   }
   if (temp > 30) {
     character.weather.effects.push("Extreme heat - Exhaustion risk");
+    character.weather.statModifiers.CON = -1;
+    character.weather.statModifiers.STR = -1;
   }
   if (condition.includes("Rain") || condition.includes("Snow")) {
     character.weather.effects.push("Wet conditions - Vision reduced");
+    character.weather.statModifiers.WIS = -1;
   }
   if (condition === "Blizzard") {
     character.weather.effects.push("Blizzard - Severe visibility reduction, movement impossible");
+    character.weather.statModifiers.DEX = -4;
+    character.weather.statModifiers.WIS = -3;
   }
   if (condition === "Fog" || condition === "Mist") {
     character.weather.effects.push("Poor visibility - Ranged attacks penalized");
+    character.weather.statModifiers.DEX = -1;
   }
   
   updateWeatherDisplay();
+  renderStats(); // Re-render to show modified stats
   saveToStorage();
   notify("Weather updated", "success");
   logCombat(`Weather: ${temp}°C, ${condition}`);
@@ -2429,6 +2613,12 @@ function completeRest() {
     character.mana = character.manaActive ? character.maxMana : 0;
     character.spellSlots.cantrips.fill(false);
     character.spellSlots.ring1.fill(false);
+    // Restore all higher ring slots
+    for (let ring = 2; ring <= 9; ring++) {
+      if (character.spellSlots[`ring${ring}`]) {
+        character.spellSlots[`ring${ring}`].fill(false);
+      }
+    }
     character.druidCircles.forEach(c => c.cooldown = 0);
   }
   
@@ -2811,16 +3001,17 @@ function updateSpellPreview() {
 
 function rollSpellDamage() {
   const diceStr = document.getElementById('spellDice').value;
-  const match = diceStr.match(/(\d+)d(\d+)/);
+  const match = diceStr.match(/(\d+)d(\d+)([+\-]\d+)?/);
   
   if (!match) {
-    notify("Invalid dice format (use XdY)", "warning");
+    notify("Invalid dice format (use XdY or XdY+Z)", "warning");
     return;
   }
   
   const numDice = parseInt(match[1]);
   const diceSides = parseInt(match[2]);
-  let total = 0;
+  const modifier = match[3] ? parseInt(match[3]) : 0;
+  let total = modifier;
   let rolls = [];
   
   for (let i = 0; i < numDice; i++) {
@@ -2829,8 +3020,12 @@ function rollSpellDamage() {
     total += roll;
   }
   
+  const resultStr = modifier !== 0 ? 
+    `${rolls.join(' + ')} ${modifier >= 0 ? '+' : ''} ${modifier}` : 
+    rolls.join(' + ');
+  
   document.getElementById('spellResults').textContent = 
-    `Damage: ${total} (${rolls.join(' + ')})`;
+    `Damage: ${total} (${resultStr})`;
   
   notify(`Spell damage: ${total}`, "success");
   logCombat(`Spell damage: ${diceStr} = ${total}`, "damage");
@@ -2884,11 +3079,28 @@ function castSpell() {
 // Initialize on load
 window.onload = init;
 
-// Load saved theme
-const savedTheme = localStorage.getItem('theme');
-if (savedTheme) {
-  setTheme(savedTheme);
-}
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  // Ctrl+S - Quick Save
+  if (e.ctrlKey && e.key === 's') {
+    e.preventDefault();
+    quickSave();
+  }
+  // R - Rest menu (when not typing in input)
+  if (e.key === 'r' && !e.target.matches('input, textarea')) {
+    e.preventDefault();
+    document.getElementById('shortRestBtn').scrollIntoView({behavior: 'smooth', block: 'center'});
+  }
+  // I - Inventory (when not typing in input)
+  if (e.key === 'i' && !e.target.matches('input, textarea')) {
+    e.preventDefault();
+    openAddItemModal();
+  }
+  // ESC - Close any open modal
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.modal.active').forEach(modal => modal.classList.remove('active'));
+  }
+});
 </script>
 
 </body>
