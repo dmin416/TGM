@@ -1,14 +1,56 @@
-# German Military Structure (1914)
+# Military Reference (January 1914)
 
-Reference: Imperial German Army (*Deutsches Heer*) at **late January 1914** — peacetime footing, pre–World War I offensive doctrine still dominant. Bavarian, Saxon, and Württemberg contingents followed the same general pattern with state-specific nuances.
+**Late January 1914** baseline: great-power posture, then Imperial German Army (*Deutsches Heer*) organization and kit. Bavarian, Saxon, and Württemberg contingents followed the same general pattern with state-specific nuances. Mage headcounts and ring distribution: [Magic.md](Magic.md). Named weapons and Jan 1914 inventories (Britain, Belgium, France, Spain): [Glossary.md](Glossary.md).
 
 **References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
 
-*Named individuals:* [People.md](People.md) · *Places:* [Places.md](Places.md) · *Glossary (units, magitech, Britain/Belgium/France/Spain Jan 1914):* [Glossary.md](Glossary.md)
+*Named individuals:* [People.md](People.md) · *Places:* [Places.md](Places.md)
 
 ---
 
-## Supreme command
+## Great-power posture (baseline)
+
+### Comparative doctrine
+
+- **Britain:** Magic and magitech forward; largest Aetherium reserves and colonial reach; conventional arms solid but secondary. Global deployment dilutes concentration; staffs often overrate technological edge.
+- **France:** Second Aetherium pool; offensive *élan* and bayonet doctrine; magical metallurgy and mobile magic artillery; casualties run high when magic cannot carry the day.
+- **Germany:** Negligible domestic Aetherium; Luminite industry, mechanized logistics, and staff/NCO excellence offset the mage gap. Combined arms and massed fires; *Auftragstaktik* at tactical level.
+
+### Britain — ground forces (roles)
+
+- **Highland Mage Corps:** Premier colonial and European battle-mage formation; combat experience from imperial wars.
+- **Line infantry** (e.g. **Northumberland Fusiliers**): SMLE-armed rifle regiments; standard discipline and colonial veterans.
+- **Broadsword Type 2 Powered Armor:** Lighter powered plate than armored knights; shock infantry and close-quarters work alongside rifles; magic-reinforced plate resists small arms.
+- **Order of the Garter:** Saint George Type 3 armored knights; Aetherium cores; white livery; national strategic assets, not line ORBAT.
+- **Artillery:** Magic crystal cannon (Comet, Griffin families) plus conventional field park (18-pounder, 4.5-inch howitzer); Vickers MG line.
+- **Navy:** Dreadnought-era sea-lane control; Mediterranean contested by German and French fleets.
+
+### France — ground forces (roles)
+
+- **Line infantry:** Lebel and limited Berthier; offensive doctrine favors the bayonet.
+- **Armored cavalry:** Magic-reinforced plate; shock mounted role; French magical metallurgy leads Europe.
+- **Loire Iris Corps** (*Corps Iris de la Loire*): Elite mage formation from the Loire basin; combat-experienced leadership ([People.md](People.md)).
+- **Artillery:** Smaller Aetherium magic-gun park than Britain, stressed for mobility; **Canon de 75 modèle 1897** dominates the conventional field-gun role; St. Étienne and Hotchkiss MGs.
+
+### Spain — civil war forces (1912 onward)
+
+Peninsular war over southern **Aetherium** access; great powers back opposing sides ([Glossary.md](Glossary.md) premise).
+
+- **Royalist Army:** British kit, advisors, and detachments; British-supplied magic crystal cannon; **Highland Mage Corps** support; conventional rifles and artillery.
+- **Republican National Army:** German kit and advisors; Mauser-family rifles and conventional artillery; **International Brigades** on the Republican side.
+- **Both sides:** Conventional doctrine; limited machine guns; **no armored knights** in Spanish service.
+
+### Armored knights (all powers)
+
+Saint George Type 3 (**Order of the Garter**, Aetherium) and Siegfried Type 1 (**Teutonic Knights**, Luminite) are **extremely rare** worldwide: strategic assets, not corps-scale ORBAT. No standing employment doctrine; field use remains experimental. Walking fortresses dominate conventional infantry until anti-armor shaped charges enter service ([Notes-for-the-Future.md](Notes-for-the-Future.md)). French knights, if any, are unconfirmed in Jan 1914 inventories.
+
+---
+
+## Germany — organization and equipment
+
+Peacetime footing; pre–World War I offensive doctrine still dominant.
+
+### Supreme command
 
 - **Kaiser Wilhelm II** — Supreme War Lord (*Oberster Kriegsherr*).
 - **Great General Staff** (*Großer Generalstab*) — Chief: **Helmuth von Moltke (the Younger)**; operational planning, mobilization timetables, deployment plans.

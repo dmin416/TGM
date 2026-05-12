@@ -26,7 +26,8 @@ Upstream novel material: numbered chapter files (currently through `480.md`) and
 
 Canon and editorial references. Verify names, places, gear, magic, and military detail here before changing `Story/` or `Status.md`.
 
-- `Formatting.md`: prose, layout, and verification rules.
+- `Prose-Mechanics.md`: mechanical editing rules for *Trenches, Guns and Magic*.
+- `World-and-Setting.md`: world rules, characters, and the player framework for *Trenches, Guns and Magic*.
 - `Notes-for-the-Future.md`: forward continuity notes for editors and agents.
 - `Countries.md`, `Places.md`, `Theaters.md`: geography and war theaters.
 - `People.md`, `Military.md`, `Magic.md`, `Glossary.md`: cast, forces, magic, terms.
