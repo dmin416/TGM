@@ -10,27 +10,27 @@ Unit: 16th Infantry Brigade / 33rd Regiment / 1st Battalion / 3rd Company / 3rd 
 
 ## Progression
 
-XP: 2650  
-Level: 2  
-Next level at: 2700 XP
+XP: 3750  
+Level: 3  
+Next level at: 6500 XP
 
 ---
 
 ## Stats
 
-STR: 12  
-DEX: 12  
-CON: 12  
-INT: 12  
-WIS: 12  
-CHA: 12  
-LCK: 12
+STR: 13  
+DEX: 13  
+CON: 13  
+INT: 13  
+WIS: 13  
+CHA: 13  
+LCK: 13
 
 ---
 
 ## Kills
 
-Confirmed: 23
+Confirmed: 26
 
 - Juan de Rivera, Lt. Colonel, 24th Infantry Division, bayonet, Seville (125 XP)
 - 6x Royal Army soldiers, boobytrap grenades, Seville (150 XP)
@@ -39,6 +39,9 @@ Confirmed: 23
 - 1x Northumberland Fusilier, full armor, Kugelhandgranate, Seville (600 XP)
 - 4x Royal Army soldiers, Gewehr 98, bayonet, P08, Webley, Seville (200 XP)
 - 1x Northumberland Fusilier, full armor, bayonet, Gewehr 98 point-blank, Seville (600 XP)
+- 1x British officer (Northumberland Fusiliers), Gewehr 98, Seville (450 XP)
+- 1x Northumberland Fusiliers senior NCO, Gewehr 98, Seville (200 XP)
+- 1x British officer, Gewehr 98, flank ambush column, Seville (450 XP)
 
 ---
 
@@ -70,6 +73,7 @@ Druid Circles:
 
 - Natural Recovery (Circle of the Land), sustained by the land and the air; faster physical and spiritual recovery; does not function in mana voided zones
 - Wild Shape (Circle of the Moon), can reshape his physical form without requiring mana; body becomes malleable; can take animal shapes, alter size and structure through pure physical transformation
+- Circle Spells 0 (Circle of the Land), environmental attunement; can draw ambient power from surroundings to enhance spells; basic channeling
 
 Power Words: none
 

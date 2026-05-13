@@ -91,7 +91,7 @@ Spells work as they do in D&D 5e. When a spell appears here, its D&D 5e descript
 
 ### Cantrips (unlocked at Level 1)
 
-Light, Blade Ward, Mage Hand, Message, Control of Nature, Druidcraft, Poison Spray, Plant Manipulation, Mending, On/Off
+Light, Blade Ward, Mage Hand, Message, Control of Nature, Druidcraft, Poison Spray, Plant Manipulation, Mending, On/Off, Life Detect
 
 **Power words:** Hush, Flinch, Awake
 
