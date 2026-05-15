@@ -10,7 +10,7 @@ Unit: 16th Infantry Brigade / 33rd Regiment / 1st Battalion / 3rd Company / 3rd 
 
 ## Progression
 
-XP: 4475  
+XP: 4725  
 Level: 3  
 Next level at: 6500 XP
 
@@ -30,7 +30,7 @@ LCK: 13
 
 ## Kills
 
-Confirmed: 28
+Confirmed: 33
 
 - Juan de Rivera, Lt. Colonel, 24th Infantry Division, bayonet, Seville (125 XP)
 - 6x Royal Army soldiers, boobytrap grenades, Seville (150 XP)
@@ -44,6 +44,7 @@ Confirmed: 28
 - 1x British officer, Gewehr 98, flank ambush column, Seville (450 XP)
 - 1x British soldier (Northumberland Fusiliers), bayonet, Seville (200 XP)
 - 1x Highland Mage apprentice, British Empire, bayonet (S98/05), close street fight, Seville (525 XP)
+- 5x British soldiers, Gewehr 98, Seville counterattack street fight, chapter 15 (250 XP)
 
 ---
 
