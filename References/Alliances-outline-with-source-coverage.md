@@ -161,9 +161,9 @@ China factions (hook: Sino-German War) — Chinese warlords and nationalist fact
 
 **`Source/`:** `133.md`, `289.md`, `292.md`, `335.md`.
 
-Vatican (hook: assassinates Franz Ferdinand) — Opposes Franz Ferdinand's reforms that would strengthen Catholic Habsburgs, arranges Sarajevo assassination.
+Vatican — **OTL 1913:** Holy See after 1870; no restored Papal States; spiritual and diplomatic weight only (see [Countries.md](Countries.md)). **Franz Ferdinand** killed in Sarajevo (June 1914): **Gavrilo Princip arrested before the attack**; other conspirators (mage cell, fireball) complete the killing. Nationalist chain + magical escalation per `Source/` `135.md`–`136.md`. Do not use “Vatican arranged Sarajevo” as canon.
 
-**Upstream:** papal state power, Vatican wording, fleet and diplomacy weight. The Sarajevo chain in source follows **Serbian nationalist** channels, not this Vatican hook as written in the outline.
+**Upstream:** papal wording and fleet flavor in source may exceed OTL; **TGM canon** scales Vatican to real 1913 unless a later chapter explicitly retcons.
 
 **`Source/`:** overlap **Italy (papal)** list; add `289.md`, `292.md` for public church reaction beats. Full index: `rg "教皇神权国|梵蒂冈|教皇" Source --files-with-matches`.
 

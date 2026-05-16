@@ -75,7 +75,7 @@
 
 ## Germany — fictional civilians and associates
 
-- **Cecilia von Falkenstein** — Max’s patron; arms industrialist; Falkenstein-Eisenstein Industries; widow; calls Max “Max”.
+- **Cecilia von Falkenstein** — Max’s patron; head of Falkenstein-Eisenstein Industries (Luminite mining, refining, combustion vehicles and arms); widow; calls Max “Max”. Not an Aetherium supplier (Germany’s magitech ore is scarce; Aetherium is Britain/France/Spain war prize).
 - **Helga** — Falkenstein Manor engineer; designed MP14 submachine gun.
 - **Anna** — Falkenstein Manor head housekeeper.
 
@@ -129,7 +129,7 @@
 
 ## Austro-Hungarian
 
-- **Archduke Franz Ferdinand** — Survived first assassination attempt; reformist; age 51.
+- **Archduke Franz Ferdinand** — Assassinated in Sarajevo (June 1914) by a **mage hit team** (fireball on the motorcade); reformist; death helps trigger general European war.
 - **Archduchess Sophie** — Franz Ferdinand’s wife.
 - **Franz Joseph I** — Emperor; age 84 at war’s start.
 - **Franz Conrad von Hötzendorf** — Chief of General Staff; preventive war advocate.
@@ -139,14 +139,14 @@
 
 ## Serbia / Balkans
 
-- **Gavrilo Princip** — Arrested before first assassination attempt.
+- **Gavrilo Princip** — Black Hand conspirator; **arrested before the motorcade attack**; did not fire the fatal shots. The killings are carried out by other plotters (high-tier casters per Austro-Hungarian investigation; see upstream `135.md`, `136.md`).
 - **Colonel Dragutin Dimitrievich** — Serbian intel chief; Black Hand supreme leader; suicide in Belgrade.
 
 ---
 
 ## Russia (alternate timeline)
 
-The Great Russian Empire (Romanov dynasty) collapsed in **1913**. Most Romanovs executed. Initial revolutionary leadership killed during overthrow due to Kolchak’s double-dealing and royalist intervention. Russia is fragmented into multiple warring factions with ongoing civil war. **Lenin / Ulyanov does not exist** in this timeline.
+The Great Russian Empire (Romanov dynasty) collapsed in **1913**. Most Romanovs executed. Initial revolutionary leadership killed during overthrow due to Kolchak’s double-dealing and royalist intervention. Russia is fragmented into multiple warring factions with ongoing civil war. **Lenin / Ulyanov does not exist** in this timeline. Britain and France arm and back rival fragments (especially Kolchak and Denikin) as a **proxy stick** against Germany and Austria-Hungary in the Balkans and east: no unitary Russia, but the Entente still wields “Russia” on the map and in diplomacy.
 
 - **Admiral Kolchak** — Former Imperial Navy Admiral; leads Russian Empire / Universal Supreme Duchy of All Russia (royalist restoration faction); British-backed; most powerful warlord; controls significant former imperial territory.
 - **General Denikin** — Former Army General; leads second major warlord faction; also British-backed; strong military but less organized than Kolchak.

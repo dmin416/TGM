@@ -67,7 +67,7 @@ He will eventually be a nuclear-level combatant. That is the destination. Gettin
 
 **Sponsor:** Lieutenant General August von Mackensen (Death's Head Hussars, 1st Army Group Commander, knew Max's grandfather)
 
-**Patron:** Cecilia von Falkenstein (widow, head of Falkenstein-Eisenstein United Industries, Germany's largest Aetherium crystal supplier, raised Max after family collapsed)
+**Patron:** Cecilia von Falkenstein (widow, head of Falkenstein-Eisenstein Industries, Germany's leading Luminite industrialist; raised Max after family collapsed)
 
 **Recent History:** Fought in Spain Campaign (Seville, Madrid) on German/National Army side against British/Royalist forces. Earns nicknames through combat.
 

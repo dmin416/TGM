@@ -24,9 +24,11 @@ Max will buy Feldberg and land around the world.
 - **Mass and sacraments:** Christ resacrificed in the Mass; cup withheld; seven rites as automatic grace; host and image worship; relic idolatry.
 - **Clergy and church law:** Celibacy mandate; simony; canon courts and immunity; priesthood of believers denied; salvation monopoly outside Rome.
 - **Violence and empire:** Crusades and Inquisition in God’s name; temporal state, banking, fleets, clerical magic hoarded (see alliance outline, `Magic.md`).
-- **Plot hooks:** Papal conspiracy beats (e.g. Franz Ferdinand); Max’s holy war must read as rescue of misled souls, not Rome-style territorial crusade.
+- **Plot hooks:** Franz Ferdinand **killed in Sarajevo** (June 1914): Princip **arrested before** the motorcade hit; **other plotters** (mage team) do the killing. Vatican at **OTL 1913** scale (Holy See, not restored Papal States). Max’s holy war must read as rescue of misled souls, not Rome-style territorial crusade.
 
-**Holy war:** He will wage a holy war against the Catholic cult (the institutional church power treated as enemy faction in canon, not generic Catholic laity).
+**Holy war (canon):** Max **wages** a holy war against the Catholic cult (institutional church power as enemy faction, not generic Catholic laity). Allied Catholic states: target Rome-linked cells and corrupt clergy, not open war on Vienna or Munich without plot cause.
+
+**Repentant Catholic giving:** Postwar **Christian** revenue (see [Market-Crash-Wealth-Reference.md](Market-Crash-Wealth-Reference.md)) includes gifts from Catholics who **know they served evil** and fund Protestant-led relief or reformation, not Curia endowment.
 
 **Teutonic Knights:** Max joins the order in some capacity (rank, oath, and formal status TBD). He wears livery marked with the Celtic cross (his personal badge, distinct from standard black and white Teutonic cross on order armored knights in the field).
 
@@ -35,6 +37,91 @@ Max will buy Feldberg and land around the world.
 *German Catholic regions and sees (1913):* Bavaria; Baden and Württemberg; Rheinprovinz; Westphalia; Saar; bishoprics of Münster, Augsburg, Freiburg, Mainz, Cologne, Trier, Würzburg, Paderborn, Fulda.
 
 *Predominantly Catholic countries and territories (1913):* France; Spain; Portugal; Italy; Austria-Hungary; Belgium; Poland (partitioned, culturally Catholic); Ireland; Brazil; Argentina; Mexico; Colombia; Peru; Chile; Philippines; Croatia; Slovenia; Lithuania; Malta.
+
+**Catholic Church crimes by location** (historical charges Max may cite or uncover; maps to purge geography; not every item proven on page):
+
+### Rome / Vatican, Italy
+- Formally authorized torture in inquisitorial proceedings
+- Established and ran the Roman Inquisition
+- Issued papal bulls enabling the African slave trade and conquest of the Americas
+- Suppressed scientific knowledge via the Index of Forbidden Books
+- Tried and imprisoned Galileo for astronomy
+- Burned Giordano Bruno at the stake
+- Hosted the "Joust of Whores": documented papal moral corruption
+- Declared papal infallibility, institutionalizing unquestionable human authority
+- Forcibly seized the Jewish child Edgardo Mortara and refused to return him
+- Issued the *Syllabus of Errorum* condemning freedom of religion and the press
+- Stayed largely silent during the Armenian Genocide of 1.5 million Christians
+- Canonized Joan of Arc in 1920, 489 years after burning her for heresy
+
+### Spain
+- Established the Spanish Inquisition: torture, burning, and expulsion of Jews and Muslims
+- Expelled all Jews under the Alhambra Decree
+- Forced mass conversions and massacres of Jews
+- Continued Inquisition torture into the early 1800s
+- Blessed and enabled Spanish colonial genocide in the Americas
+
+### France
+- St. Bartholomew's Day Massacre: tens of thousands of Protestants killed; Pope celebrated with a Te Deum
+- Burned Jan Hus and Joan of Arc on heresy charges
+- Conducted the Albigensian Crusade, massacring Cathar Christians
+- Church courts documented covering up clerical child sexual abuse (1891 to 1913)
+- Catholic Church amplified antisemitism during the Dreyfus Affair
+- Executed teenager Chevalier de la Barre for blasphemy with Church support
+
+### Ireland
+- Ran Magdalene Laundries: forced unpaid labour and abuse of women deemed "fallen"
+- Established Industrial Schools: systematic physical and sexual abuse of children by clergy
+- Bishop of Cork excommunicated IRA fighters rather than condemning British forces burning Cork city
+- Catholic Church opposed labor movements and sided with ruling classes against workers
+- Built a Catholic nationalist state after independence that institutionalized Church control over law and society
+
+### England
+- Pressured expulsion of Jews from England
+- Burned nearly 300 Protestants under Queen Mary I's Catholic restoration
+- Executed Archbishop Cranmer and other reformers
+
+### Germany / Central Europe
+- Incited massacres of Jews blamed for the Black Plague
+- Burned Jan Hus at the Council of Constance despite a promise of safe conduct
+- Published *Malleus Maleficarum*, enabling mass execution of women as witches
+- Participated in the Thirty Years War, killing an estimated 8 million people
+- Catholic forces on both sides blessed soldiers in World War I
+
+### Holy Land / Middle East
+- Launched and led the Crusades: mass killing of Muslims, Jews, and Eastern Christians
+- Multiple crusading campaigns ordered by popes over two centuries
+
+### Latin America (Mexico, Peru, Brazil, Colombia, etc.)
+- Destroyed Aztec, Mayan, and Incan records, temples, and civilizations
+- Forced conversion and enslavement of indigenous peoples under Church blessing
+- Divided the Americas between Spain and Portugal via papal decree
+- Opposed labor rights and worker movements throughout the 19th and early 20th centuries
+
+### Africa
+- Papal bull *Romanus Pontifex* (1455) authorized enslavement of Africans
+- Blessed and enabled the transatlantic slave trade for centuries
+- Catholic missionaries largely silent during the Herero and Nama Genocide in Namibia (1904 to 1908)
+
+### Ottoman Empire / Armenia (modern Turkey)
+- Vatican remained largely silent during the systematic massacre of 1.5 million Armenian Christians in 1915
+- Diplomatic caution prioritized over moral condemnation of a genocide against Christians
+
+### Portugal
+- Ran its own Inquisition with torture and execution of heretics into the early 1800s
+- Authorized and blessed Portuguese colonial conquest and enslavement via papal decree
+
+### Italy (general)
+- Papal States used as a mechanism of political oppression for centuries
+- Pope Pius IX persecuted opponents of Italian unification
+- Catholic hierarchy blessed soldiers on all sides during World War I
+
+### Europe-wide
+- Medieval Inquisition operated across the continent for centuries
+- Index of Forbidden Books suppressed knowledge across all Catholic nations
+- Church opposed freedom of religion, press, and separation of Church and state
+- Provided spiritual cover for mass slaughter in both the Thirty Years War and World War I
+- Opposed worker rights and labor unions across multiple countries simultaneously
 
 *Establish belief and motive before open crusade beats. Tie to Vatican hooks in alliance outline and any Sarajevo or papal conspiracy arcs when those chapters are written.*
 
@@ -46,7 +133,7 @@ Max intends to rebuild House of Zähringen influence through family power and pa
 
 **Heidelberg:** Fund and reform Ruprecht-Karls-Universität Heidelberg (faculty endowments, engineering and natural science faculties, laboratories, scholarships for Baden officers and engineers).
 
-**Industry:** Found **Baden Motorenwerke** (Baden motor works), a Baden based firm for engines, vehicles and later military/industrial contracts. Tie it to Cecilia's network, Aetherium industry and postwar reconstruction capital.
+**Industry:** Found **Baden Motorenwerke** (Baden motor works), a Baden based firm for engines, vehicles and later military/industrial contracts. Tie it to Cecilia's network, Luminite industry and postwar reconstruction capital.
 
 *These are ambitions for later arcs. Nothing is achieved in early Spain chapters.*
 
@@ -82,6 +169,12 @@ Upstream novel dropped **信息收集度** / Intel collection progress after the
 **Organizations Founded:** League of Nations 1920 (US member, enforcement authority, colonial mandate oversight), ILO 1919 (eight-hour day, child labor ban, workplace safety), Red Cross expansion 1914-1920 (POW inspection, war crimes documentation), UNICEF precursor 1919 (child welfare), Amnesty International 1920 (prisoner advocacy), Refugee Organization 1921 (Nansen passport, resettlement)
 
 **Economic Initiatives:** Friedrich Plan 1924 (restructured war debts, prevented hyperinflation), European Reconstruction Bank 1920 (Cecilia initial capital, financed Belgium/France/Serbia rebuilding), Development Commission 1922 (agricultural modernization, infrastructure, education)
+
+**Postwar economics if Germany wins the world war:** Great Depression causes and timing shift sharply, but some wider economic crisis still likely.
+
+*What changes:* No Versailles-style reparations; no German hyperinflation in the early 1920s. France and Britain keep war debts without reparations income to offset them. European debt unwinds on a different path than OTL.
+
+*American shock:* U.S. banks lent heavily to the Entente during the war. Central Powers victory means those loans default sooner. American financial crisis may land **1918–1920** instead of 1929. European reconstruction never reaches OTL scale; Friedrich Plan and reconstruction bank beats assume a managed settlement, not a repeat of 1929 collapse unless plotted otherwise.
 
 **Scientific Foundations:** Friedrich Institute 1921 Dresden (Einstein, Curie, Bohr faculty, pure research), Science Cooperation Office 1923 (international collaboration, protected persecuted scientists)
 
@@ -119,6 +212,18 @@ Upstream novel dropped **信息收集度** / Intel collection progress after the
 - Tank intercom systems
 - Improved periscopes and vision blocks
 - Stabilized gun platforms
+
+#### Bicycles and Motorcycles (1913 baseline → modern target)
+
+*Bicycles (1913):* single or fixed gear; heavy steel frames (40 to 50+ lb); rod or coaster brakes; solid rubber or basic pneumatics; no derailleurs; oil or early battery lamps; one general-purpose design.
+
+*Bicycles (patent path):* multi-speed derailleurs; aluminum, carbon, titanium frames (15 to 20 lb class); hydraulic disc or advanced caliper brakes; compound tires; e-bike assist; LED lighting; road, mountain, gravel, BMX specializations; MTB suspension.
+
+*Motorcycles (1913):* single or basic V-twin (2 to 5 hp); rigid or simple spring forks; belt or chain drive; acetylene or oil lamps; weak brakes; kick-start; ~40 to 50 mph; total-loss oiling; manual ignition timing.
+
+*Motorcycles (patent path):* multi-cylinder high-output engines; fuel injection; adjustable suspension; LED lighting; ABS (including cornering); electric start; 150+ mph class; traction control, ride modes, wheelie control; electric motorcycles; advanced materials and aero.
+
+1913 machines were skilled-rider mechanical devices; modern equivalents are electronic, material, and safety systems unrecognizable to a 1913 rider.
 
 #### Civilian Technology
 - Ballpoint pen

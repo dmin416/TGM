@@ -595,39 +595,32 @@
 
 ---
 
-## Vatican
+## Vatican (Holy See)
 
-**Top 10 Prettiest Cities:**
-(Vatican controls multiple Italian cities in this timeline)
-1. Vatican City
-2. Rome
-3. Florence
-4. Venice
-5. Siena
-6. Assisi
-7. Perugia
-8. Ravenna
-9. Pisa
-10. Urbino
+**TGM canon:** Follows **OTL 1913**. Papal States dissolved **1870**; sovereign Holy See in law and diplomacy; **no** Vatican City State territory until **1929**; enclave within the **Kingdom of Italy**. Spiritual authority and nunciatures worldwide, not rule of Florence, Venice, or Po Valley.
 
-**Top 10 Most Important Resources:**
+**Sites of note (pilgrimage and curia, not territorial control):**
+1. St. Peter's and Vatican Hill enclave (Rome)
+2. Rome (Italian kingdom; papal residence and curia)
+3. Castel Sant'Angelo (fortress, historical papal refuge)
+4. Assisi (Franciscan pilgrimage)
+5. Other Italian shrine cities (access via Italy, not papal state)
+
+**Top resources (institutional, not territorial empire):**
 1. Papal spiritual authority (global Catholic influence)
 2. St. Peter's Basilica and Vatican complex
 3. Diplomatic networks (nuncios worldwide)
-4. Banking (Vatican Bank)
-5. Art and cultural treasures
-6. Pilgrimage economy
-7. Adriatic fleet capacity
-8. Northern Italian industrial base
-9. Po Valley agriculture
-10. Alpine passes control
+4. Art and cultural treasures
+5. Pilgrimage economy
+6. Curia administration and canon law
+7. (Modern) Vatican banking footprint; **1913:** limited compared to later century
 
-**Top 5 Nature Reserves:**
-1. Italian Alps (Papal controlled territories)
-2. Apennines
-3. Umbrian hills
-4. Tuscan countryside
-5. Adriatic coastline
+**Top 5 Nature Reserves (Italian landscapes tied to pilgrimage, not papal territory):**
+1. Apennines
+2. Umbrian hills
+3. Tuscan countryside
+4. Adriatic coastline (Italian littoral)
+5. Lake Trasimeno region
 
 ---
 

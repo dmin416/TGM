@@ -40,7 +40,7 @@
 ## Austria-Hungary (setting)
 
 - **Vienna** — Austro-Hungarian capital.
-- **Sarajevo** — Bosnia; assassination attempt site.
+- **Sarajevo** — Bosnia; June 1914 assassination of Franz Ferdinand (Princip arrested before the attack; mage hit team kills the archduke).
 
 ## Strategic — alternate geography
 
@@ -106,7 +106,7 @@
 
 ## Balkans and Adriatic
 
-- **Sarajevo** — June 1914 assassination site (if extending slightly past “January” lists, still the defining 1914 place name).
+- **Sarajevo** — June 1914 assassination site; Princip arrested before the motorcade; mage hit team kills Franz Ferdinand.
 - **Skopje**, **Bitola** — Macedonian front logistics (later).
 - **Salonika** — Greek port; Entente base after 1915.
 - **Durrës** (Durazzo), **Vlorë** — Albanian provisional politics.

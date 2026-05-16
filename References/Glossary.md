@@ -40,9 +40,9 @@ Survey work revealed a significant Aetherium belt in the southern Spanish mounta
 - **Germany–France:** Enemies since 1870. France wants Alsace-Lorraine back.
 - **Britain–France:** Entente Cordiale allies since 1904.
 - **Triple Alliance:** Germany, Austria-Hungary, Italy (since 1882).
-- **Triple Entente:** Britain, France, Russia (since 1907).
-- **Germany–Russia:** The Great Russian Empire (Romanov dynasty) collapsed in 1913. Russia is now fragmented into warring factions: Kolchak's royalist forces (British-backed), Denikin's warlord faction, Kerensky's Western Provisional National Government (German-aligned), ethnic independence movements, and various warlords. Germany supports Kerensky's faction as a counter to British influence.
-- **Austria-Hungary–Serbia:** Austria views Serbia as Balkan threat. Russia backs Serbia.
+- **Triple Entente:** Britain, France, and the **Russian fragments** (treaty habit still says “Russia” since 1907; no Romanov unitary state since 1913).
+- **Germany–Russia:** The Great Russian Empire (Romanov dynasty) collapsed in 1913. Russia is now fragmented into warring factions: Kolchak's royalist forces (British-backed), Denikin's warlord faction, Kerensky's Western Provisional National Government (German-aligned), ethnic independence movements, and various warlords. Germany supports Kerensky's faction as a counter to British influence. Britain and France use their backed fragments as a **proxy stick** in the east and Balkans where OTL used a single empire.
+- **Austria-Hungary–Serbia:** Austria views Serbia as Balkan threat. Anglo-French-backed Russian factions and Serbian nationalism pressure Vienna (no single tsar, same strategic lever for the Entente).
 - **Britain–Belgium:** Britain guarantees Belgian neutrality (since 1839).
 - **United States:** Isolationist. No European entanglements.
 - **Britain–Japan:** Naval alliance since 1902.
