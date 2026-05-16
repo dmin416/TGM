@@ -216,7 +216,7 @@ Peacetime footing; pre–World War I offensive doctrine still dominant.
 ## Key characteristics
 
 - NCO corps = institutional backbone; independent tactical capability.
-- Officer corps = Junker and bourgeois mix; *Kriegsakademie* elite; technically educated.
+- Officer corps = Hochadel and bourgeois mix; *Kriegsakademie* elite; technically educated.
 - Company = smallest independent command (*Hauptmann* first true autonomy).
 - Battalion = smallest combined-arms element; can operate on its own axis.
 - Major = first level of true operational independence.

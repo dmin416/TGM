@@ -55,7 +55,7 @@ He will eventually be a nuclear-level combatant. That is the destination. Gettin
 
 ## Max
 
-**Name:** Maximilian Friedrich (also called Max, Molin)
+**Name:** Maximilian Friedrich Zähringen (also called Max, Molin). Baden Hochadel, House of Zähringen (cadet line). Grandfather was a man of note in Baden and in the army; after him the line faded into obscurity through weak descendants. Mackensen knew the grandfather and watched the decline.
 
 **Current Status:** Second Lieutenant
 
@@ -70,6 +70,8 @@ He will eventually be a nuclear-level combatant. That is the destination. Gettin
 **Patron:** Cecilia von Falkenstein (widow, head of Falkenstein-Eisenstein United Industries, Germany's largest Aetherium crystal supplier, raised Max after family collapsed)
 
 **Recent History:** Fought in Spain Campaign (Seville, Madrid) on German/National Army side against British/Royalist forces. Earns nicknames through combat.
+
+**Long-term ambitions (not yet active in story):** Use restored family power to reclaim Swiss lands for Baden, hold the Black Forest as a Zähringen domain, rebuild Heidelberg University and found Baden Motorenwerke. See Notes-for-the-Future.md.
 
 ---
 

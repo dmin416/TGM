@@ -6,6 +6,34 @@ Max will introduce vacuum tubes, better batteries, better guns, more efficient f
 
 Max will buy Feldberg and land around the world.
 
+## Max's Baden and Family Power (Long-Term)
+
+Max intends to rebuild House of Zähringen influence through family power and patronage, not only combat fame.
+
+**Territory:** Recover Swiss lands tied to the old Zähringen reach and bring them under Baden control. Consolidate the Black Forest as a core family domain (estates, forestry, industry and garrison influence).
+
+**Heidelberg:** Fund and reform Ruprecht-Karls-Universität Heidelberg (faculty endowments, engineering and natural science faculties, laboratories, scholarships for Baden officers and engineers).
+
+**Industry:** Found **Baden Motorenwerke** (Baden motor works), a Baden based firm for engines, vehicles and later military/industrial contracts. Tie it to Cecilia's network, Aetherium industry and postwar reconstruction capital.
+
+*These are ambitions for later arcs. Nothing is achieved in early Spain chapters.*
+
+## Max's System: Information Collection and Full Globe (Edited Canon)
+
+Upstream novel dropped **信息收集度** / Intel collection progress after the early arc. This project revives it on an **accelerated** track.
+
+**When:** During the arc of the return to Germany.
+
+**Beat:** World-knowledge dump in one pass: briefing, newspapers, Mackensen, station or staff maps, crown-prince politics, Russia and colonies, alliance blocs. Jump collection sharply (target roughly **40–50%** unless a later chapter needs a higher milestone).
+
+**Map payoff:** Map tab clears to **full globe**: coastlines, capitals, major theaters, static strategic pins (fortresses, mage towers, aetherium fields, rail backbones where known). Remove or soften the eastern hard gate (**这片区域以后再来探索吧** style message from upstream `048.md`).
+
+**What 100% is not:** Live omniscience. Tactical fog and enemy unit icons still require recon, scouts, and aircraft (Civ-style split: revealed world map vs current vision).
+
+**Parallel tabs:** **Intel** and **Info** keep dripping secrets (plots, labs, coups). Full globe is basemap plus encyclopedic coverage, not every hidden unit. Remaining `???` tabs may still gate on collection or on separate deeds (Tech and Spells already unlock by achievement elsewhere).
+
+**Status.md:** Bump Intel collection % to match the return beat when that chapter is written.
+
 ## Animal Companions
 
 - Pine marten that sits on his head (from wherever)

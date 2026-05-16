@@ -12,7 +12,7 @@
 
 ## Player character
 
-- **Maximilian Friedrich** — Full name; Second Lieutenant; 3rd Platoon Leader, 3rd Company, 1st Battalion, 33rd Infantry Regiment, 16th Brigade. Called “Max” by Cecilia, and referred to as “Max” in meta/narrative contexts. Other characters use his rank or formal name.
+- **Maximilian Friedrich Zähringen** — Full name; Baden Hochadel, House of Zähringen (cadet line); Second Lieutenant; 3rd Platoon Leader, 3rd Company, 1st Battalion, 33rd Infantry Regiment, 16th Brigade. Called “Max” by Cecilia, and referred to as “Max” in meta/narrative contexts. Other characters use his rank or formal name.
 
 ---
 

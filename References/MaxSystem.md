@@ -2,7 +2,7 @@
 
 **References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [MaxSystem.md](MaxSystem.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
 
-Protagonist mechanics for Maximilian Friedrich. General mage architecture, slots, and energy caps remain in [Magic.md](Magic.md). Where this sheet conflicts with generic tables, treat this as Max specific unless you reconcile them in story.
+Protagonist mechanics for Maximilian Friedrich Zähringen. General mage architecture, slots, and energy caps remain in [Magic.md](Magic.md). Where this sheet conflicts with generic tables, treat this as Max specific unless you reconcile them in story.
 
 ---
 

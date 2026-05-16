@@ -2,7 +2,7 @@
 
 ## Identity
 
-Name: Maximilian Friedrich  
+Name: Maximilian Friedrich Zähringen  
 Rank: Second Lieutenant  
 Unit: 16th Infantry Brigade / 33rd Regiment / 1st Battalion / 3rd Company / 3rd Platoon
 
@@ -125,4 +125,5 @@ Status: locked
 
 Current chapter: 14  
 Languages: German (native to body), Spanish (fluent, body's memory), French (fluent, body's memory), Viennese German dialect (body's memory), original body had a natural talent for languages and pursued them as a personal hobby; acquired socially through travel and aristocratic circles  
-Officer training: Kadettenkorps (Lichterfelde, Berlin) then Kriegsschule, tactics, military history, field engineering, logistics, cartography, French as standard curriculum
+Origin: Baden, House of Zähringen (cadet line); grandfather a man of note, line faded into obscurity through weak descendants by Max's youth  
+Officer training: Königliche Badische Kadettenanstalt (Karlsruhe), then Königliche Badische Kriegsschule; tactics, military history, field engineering, logistics, cartography, French as standard curriculum
