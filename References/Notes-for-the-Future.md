@@ -6,6 +6,38 @@ Max will introduce vacuum tubes, better batteries, better guns, more efficient f
 
 Max will buy Feldberg and land around the world.
 
+## Faith and the Catholic Cult (Long-Term)
+
+**Religion:** Max is Christian, Protestant and Presbyterian in conviction and practice (Reformed line, not Roman obedience).
+
+**What he sees in Rome:** Catholicism as heresy: power seized and wielded to abuse the faithful. Ordinary believers are misled; that path leads them to hell. The institution is the enemy, not every soul trapped inside it.
+
+**Sins he charges against Rome (Reformed polemic, in character):**
+- **Redemption through works:** Merit sold as labor; grace traded for ritual and penance instead of faith alone.
+- **The pope:** Belief that one man stands between God and the flock; usurped headship Christ never gave a bishop of Rome.
+- **Child abuse:** Predation hidden behind vows and confession; victims silenced, predators moved, not judged.
+- **Wealth and greed:** Gold plate, indulgences, estates; the poor taxed while curia lives like princes.
+- **Corruption:** Offices bought, politics dressed as doctrine, truth bent to keep power.
+- **Saints without power:** Men and women declared holy by appointment, relic trade, and feast days; no sign of God in the naming, only hierarchy stamping its favorites.
+- **Tradition over Scripture:** Magisterium and unwritten tradition equal or above the Bible; Apocrypha; Latin liturgy keeps the Word from the people; banned books.
+- **Other mediators:** Confession to priests; prayers to Mary and saints; Marian cult; purgatory, masses for the dead, treasury of merit.
+- **Mass and sacraments:** Christ resacrificed in the Mass; cup withheld; seven rites as automatic grace; host and image worship; relic idolatry.
+- **Clergy and church law:** Celibacy mandate; simony; canon courts and immunity; priesthood of believers denied; salvation monopoly outside Rome.
+- **Violence and empire:** Crusades and Inquisition in God’s name; temporal state, banking, fleets, clerical magic hoarded (see alliance outline, `Magic.md`).
+- **Plot hooks:** Papal conspiracy beats (e.g. Franz Ferdinand); Max’s holy war must read as rescue of misled souls, not Rome-style territorial crusade.
+
+**Holy war:** He will wage a holy war against the Catholic cult (the institutional church power treated as enemy faction in canon, not generic Catholic laity).
+
+**Teutonic Knights:** Max joins the order in some capacity (rank, oath, and formal status TBD). He wears livery marked with the Celtic cross (his personal badge, distinct from standard black and white Teutonic cross on order armored knights in the field).
+
+**Where Max personally roots out corrupt and evil Catholics** (institutional targets, predatory clergy, cult cells; not a blanket war on every lay believer):
+
+*German Catholic regions and sees (1913):* Bavaria; Baden and Württemberg; Rheinprovinz; Westphalia; Saar; bishoprics of Münster, Augsburg, Freiburg, Mainz, Cologne, Trier, Würzburg, Paderborn, Fulda.
+
+*Predominantly Catholic countries and territories (1913):* France; Spain; Portugal; Italy; Austria-Hungary; Belgium; Poland (partitioned, culturally Catholic); Ireland; Brazil; Argentina; Mexico; Colombia; Peru; Chile; Philippines; Croatia; Slovenia; Lithuania; Malta.
+
+*Establish belief and motive before open crusade beats. Tie to Vatican hooks in alliance outline and any Sarajevo or papal conspiracy arcs when those chapters are written.*
+
 ## Max's Baden and Family Power (Long-Term)
 
 Max intends to rebuild House of Zähringen influence through family power and patronage, not only combat fame.
