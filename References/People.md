@@ -113,7 +113,7 @@
 - **Queen Victoria** — British Monarch; “Eternal Queen”.
 - **General Haig** — BEF Commander, Spain campaign.
 - **Major Cavendish** — Prometheus Project field supervisor; captured at Liège.
-- **Eldridge** — Highland Mage Corps senior instructor; 7th-ring mage; dies at Seville.
+- **Eldridge** — Highland Mage Corps senior instructor; 6th-ring adept; dies at Seville.
 - **Colonel Marcus** — Order of the Garter mech unit commander; dies at Seville.
 
 ---

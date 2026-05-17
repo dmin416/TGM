@@ -247,6 +247,27 @@ Start at 50. Add and subtract using the categories below.
 | Vickers position (crew, destroyed) | 700 |
 | Teutonic Knight | 2300 |
 | Garter Knight | 5900 |
-| German battle mage (low ring) | 700 |
-| Highland Mage | 1800 |
-| Highland Great Mage | 18000 |
+| German battle mage (low ring) | see mage table (ring 3) |
+| Highland Mage (corps, typical journeyman) | see mage table (ring 4) |
+| Highland Great Mage (corps, typical adept) | see mage table (ring 6) |
+
+**Mages (by highest ring they can cast in combat)**
+
+Use the row for the **highest ring** the target has engraved and can channel under stress, not their institution title. Corps names (Highland Mage, German battle mage, and so on) often lag or oversell actual ring depth; see [Magic.md](Magic.md) tier labels.
+
+| Ring | Typical tier | Reference XP |
+|------|--------------|--------------|
+| Cantrip only | Untrained / latent | 25 |
+| 1st | Apprentice (low) | 75 |
+| 2nd | Apprentice | 225 |
+| 3rd | Apprentice (German battle mage, low ring) | 700 |
+| 4th | Journeyman (Highland Mage, typical) | 2100 |
+| 5th | Journeyman (deep) / Adept (low) | 6300 |
+| 6th | Adept (Highland Great Mage, typical) | 12000 |
+| 7th | Master (low) | 36000 |
+| 8th | Master (high) | 108000 |
+| 9th | Peak | 324000 |
+
+Scaling: **×3 per ring** from ring 1 upward, anchored at ring 3 (700, German low ring). Ring 6 is held at **12000** instead of strict 18900 so adept kills stay below three Garter knights and do not outrun the level curve as harshly as the old flat 18000 line implied.
+
+**XP method magic modifier** (stacks on the 50 base when building ad hoc): rings 1 to 3 plus 500; rings 4 to 6 plus 1500; ring 7 and above plus 10000. That modifier is separate from the reference table above.
