@@ -2,7 +2,7 @@
 
 Reference for *Trenches, Guns and Magic*. Historical 1913 issue versus Max driven 1914 program. Energy figures are approximate; modern column reflects improved propellant and load development from the 1914 program where applicable.
 
-**Related:** [1914-Propellant-Technology.md](1914-Propellant-Technology.md) · [Weapons-vs-Armor-Reference.md](Weapons-vs-Armor-Reference.md) · [Military.md](Military.md)
+**Related:** [1914-Propellant-Technology.md](1914-Propellant-Technology.md) · [German-Artillery-1914.md](German-Artillery-1914.md) · [Weapons-vs-Armor-Reference.md](Weapons-vs-Armor-Reference.md) · [Military.md](Military.md)
 
 ---
 

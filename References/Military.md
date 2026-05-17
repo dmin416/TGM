@@ -1,6 +1,6 @@
 # Military Reference (January 1914)
 
-**Late January 1914** baseline: great-power posture, then Imperial German Army (*Deutsches Heer*) organization and kit. Bavarian, Saxon, and Württemberg contingents followed the same general pattern with state-specific nuances. Mage headcounts and ring distribution: [Magic.md](Magic.md). Named weapons and Jan 1914 inventories (Britain, Belgium, France, Spain): [Glossary.md](Glossary.md).
+**Late January 1914** baseline: great-power posture, then Imperial German Army (*Deutsches Heer*) organization and kit. Bavarian, Saxon, and Württemberg contingents followed the same general pattern with state-specific nuances. Mage headcounts and ring distribution: [Magic.md](Magic.md). German conventional artillery (August 1914): [German-Artillery-1914.md](German-Artillery-1914.md). Named weapons and Jan 1914 inventories (Britain, Belgium, France, Spain): [Glossary.md](Glossary.md).
 
 **References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
 
@@ -14,7 +14,7 @@
 
 - **Britain:** Magic and magitech forward; largest Aetherium reserves and colonial reach; conventional arms solid but secondary. Global deployment dilutes concentration; staffs often overrate technological edge.
 - **France:** Second Aetherium pool; offensive *élan* and bayonet doctrine; magical metallurgy and mobile magic artillery; casualties run high when magic cannot carry the day.
-- **Germany:** Negligible domestic Aetherium; Luminite industry, mechanized logistics, and staff/NCO excellence offset the mage gap. Combined arms and massed fires; *Auftragstaktik* at tactical level.
+- **Germany:** Negligible domestic Aetherium; Luminite industry, mechanized logistics, and staff/NCO excellence offset the mage gap. Combined arms and massed fires; *Auftragstaktik* at tactical level. Heer artillery August 1914: [German-Artillery-1914.md](German-Artillery-1914.md). **L class** armored airship main battery (**210 mm**, four twin turrets): [German-Armored-Airship-Armament.md](German-Armored-Airship-Armament.md).
 
 ### Britain — ground forces (roles)
 
@@ -77,7 +77,7 @@ Peacetime footing; pre–World War I offensive doctrine still dominant.
 
 - 4 infantry regiments (2 brigades × 2 regiments).
 - 1 cavalry regiment (4 squadrons, ~600 men).
-- 1 field artillery brigade (2 regiments, 72 × 77 mm FK 96 n/A guns).
+- 1 field artillery brigade (FK 96 n.A. field guns; divisional 10.5 cm leFH 98/09 howitzers; see [German-Artillery-1914.md](German-Artillery-1914.md)).
 - 1 pioneer company.
 - Communications, medical, supply, veterinary units.
 
@@ -134,13 +134,17 @@ Peacetime footing; pre–World War I offensive doctrine still dominant.
 
 ## Artillery
 
+Full 1914 inventory by caliber and role: **[German-Artillery-1914.md](German-Artillery-1914.md)**.
+
 | Type | Weapon | Organization |
 |------|--------|--------------|
 | **Field artillery battery** | 6 × 77 mm FK 96 n/A | ~200 men, 8–10 per gun crew |
 | **Field artillery battalion** | 3 batteries | 18 guns total |
 | **Field artillery regiment** | 2 battalions | 36 guns total |
-| **Heavy field howitzers** | 105 mm, 150 mm | Corps level |
-| **Heavy artillery** | 210 mm+ | Corps / army level |
+| **Divisional howitzer** | 10.5 cm leFH 98/09 | Alongside FK 96 at division level |
+| **Heavy field (corps)** | 13 cm Kanone; 15 cm sFH 02 / sFH 13 | Corps level |
+| **Foot / siege** | 10 cm K 04; 15 cm Kanone; 21 cm Mörser 99 / 10 | *Fußartillerie* |
+| **Super heavy siege** | 28 cm; 30.5 cm M11; 42 cm Gamma / M-Gerät | Special deployment (e.g. Belgium 1914) |
 
 ---
 
@@ -295,28 +299,39 @@ Weapons, equipment, and vehicles **existing and in service or inventory** as of 
 
 ### Artillery (representative inventory)
 
-- **7.7 cm FK 96 n/A**
-- **10.5 cm leFH 98/09**
-- **15 cm sFH 02**
-- **42 cm M-Gerät** (siege; in existence / formation)
+See **[German-Artillery-1914.md](German-Artillery-1914.md)** for the full 1914 table. Summary:
+
+- **Divisional:** 7.7 cm FK 96 n/A (standard); 7.7 cm FK 16 (limited, 1914); 10.5 cm leFH 98/09 (standard howitzer)
+- **Corps heavy field:** 13 cm Kanone; 15 cm sFH 02; 15 cm sFH 13 (entering service 1913 to 1914)
+- **Foot / siege:** 10 cm Kanone 04; 15 cm Kanone; 21 cm Mörser 99 / 10
+- **Super heavy siege:** 28 cm Haubitze L/12; 30.5 cm Mörser M11 (Austrian, joint use); 42 cm Gamma-Gerät; 42 cm M-Gerät ("Big Bertha")
+- **Scale (August 1914):** ~5,000 FK 96 n/A; ~6,000 guns total mobilized
 
 ### Crew-served weapons (Germany, 1913–1914 baseline set)
 
 **MG 08:** 7.92×57mm, recoil-operated, water-cooled, 450–500 rpm, 2,000 m effective, 26.5 kg gun + ~70 kg with sled mount and water. 250-round fabric belt, 4–6 man crew. **6 per regiment in MG company.**
 
-**77 mm FK 96 n/A:** Standard field gun, ~5,500 m range, 12 guns per artillery battalion.
+**77 mm FK 96 n/A:** Standard divisional field gun; flat trajectory; high rate of fire; ~5,500 m range; 6 guns per battery, 18 per battalion; ~5,000 in service at mobilization.
 
-**105 mm leFH 98/09:** Light field howitzer.
+**77 mm FK 16:** Improved field gun; some in service by 1914, wider issue mid war.
 
-**150 mm sFH 02:** Heavy field howitzer.
+**105 mm leFH 98/09:** Standard divisional light howitzer; gave Germany a howitzer capability French divisions initially lacked.
 
-**420 mm M-Gerät “Big Bertha”:** Siege howitzer; first units nearing completion July 1913.
+**130 mm Kanone:** Corps level long range gun.
+
+**150 mm sFH 02:** Older corps heavy howitzer; still widely in service 1914.
+
+**150 mm sFH 13:** Newer corps heavy howitzer; entering service 1913 to 1914.
+
+**21 cm Mörser 10:** Principal heavy siege piece in 1914 (Belgian forts); bulk of siege work, not the 42 cm pieces alone.
+
+**42 cm M-Gerät (“Big Bertha”):** Mobile siege howitzer; few completed by July 1913; press fame, limited numbers.
 
 ### Vehicles, air, and sea (Germany)
 
 - **Rail:** military rail detachments; strategic rail mobility
 - **Motor:** staff cars, trucks, motorcycles (limited quantities)
-- **Air:** reconnaissance aircraft; **Zeppelin** rigid airships
+- **Air:** reconnaissance aircraft; **Zeppelin** rigid airships; **L class** armored airships with **210 mm** deck battery ([German-Armored-Airship-Armament.md](German-Armored-Airship-Armament.md))
 - **Sea:** dreadnought-era fleet, cruisers, destroyers / torpedo boats, submarines, mines
 
 ---

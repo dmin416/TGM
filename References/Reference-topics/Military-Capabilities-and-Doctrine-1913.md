@@ -14,7 +14,7 @@ World leader coal production 190 million tons annually, steel output 17.6 millio
 General Staff system Schlieffen Plan derivatives emphasizing speed, concentration, envelopment through Belgium and Luxembourg targeting Paris within six weeks before pivoting east against Russia. Auftragstaktik mission-type orders grant subordinate commanders tactical freedom within strategic intent. Combined arms coordination infantry, artillery, cavalry, engineers rehearsed in annual maneuvers. Emphasis rapid deployment, offensive spirit, decisive battle seeking enemy annihilation.
 
 **Technological Edge**
-Maxim machine guns standard allocation, heavy artillery including 420mm siege mortars, advanced field telephones and signal equipment. Zeppelin airships reconnaissance and potential bombing roles. Mauser rifle universal issue. Breech-loading field guns with recoil mechanisms enable sustained fire without re-aiming.
+Maxim machine guns standard allocation. Field park centered on 77mm FK 96 n.A. and 10.5cm leFH 98/09 at division level; corps 150mm howitzers; foot artillery 21cm Mörser 10 for siege work; few 42cm pieces for fortresses (see German-Artillery-1914.md). Advanced field telephones and signal equipment. Zeppelin airships reconnaissance and potential bombing roles. Mauser rifle universal issue. Breech-loading field guns with recoil mechanisms enable sustained fire without re-aiming.
 
 **Weaknesses**
 Encirclement geography between France and Russia requires two-front capability. Navy cannot match Royal Navy tonnage or global reach. Dependency on imported nitrates for explosives vulnerable to blockade. Colonial holdings small compared to Britain and France limiting raw material access.

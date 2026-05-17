@@ -104,8 +104,26 @@ Submachine gun; designed by Helga; 9mm; 32 rounds.
 **Stielhandgranate**  
 German stick grenade; 10–15m radius.
 
-**FK 96 77mm**  
-German field gun.
+**FK 96 n.A. (7.7 cm Feldkanone 96 n.A.)**  
+German standard divisional field gun, 1914; ~5,000 at mobilization. [German-Artillery-1914.md](German-Artillery-1914.md).
+
+**10.5 cm leFH 98/09**  
+German standard divisional light howitzer, 1914. [German-Artillery-1914.md](German-Artillery-1914.md).
+
+**15 cm sFH 02 / 15 cm sFH 13**  
+German corps heavy howitzers, 1914. [German-Artillery-1914.md](German-Artillery-1914.md).
+
+**21 cm Mörser 10**  
+German foot siege mortar/howitzer; principal siege workhorse against Belgian forts, 1914. [German-Artillery-1914.md](German-Artillery-1914.md).
+
+**42 cm M-Gerät (Big Bertha)**  
+German super heavy siege howitzer; few pieces, August 1914. [German-Artillery-1914.md](German-Artillery-1914.md).
+
+**German artillery (1914, Heer table)**  
+Divisional, corps, foot, and super heavy **Heer** pieces August 1914. [German-Artillery-1914.md](German-Artillery-1914.md).
+
+**German armored airship battery (210 mm, L class)**  
+Four twin **210 mm** turrets, eight barrels, on L28–L32 including **L30**; setting canon. [German-Armored-Airship-Armament.md](German-Armored-Airship-Armament.md).
 
 **SMLE Mk III**  
 British bolt-action rifle; .303; 10 rounds.
@@ -151,7 +169,7 @@ British lighter armor.
 German heavy mecha; Teutonic Knights.
 
 **Zeppelin-Class Armored Airship L-30**  
-German; 203mm guns.
+German armored airship; **eight 210 mm barrels** in **four twin deck turrets** (L class standard; see [German-Armored-Airship-Armament.md](German-Armored-Airship-Armament.md)). Heer field and siege table: [German-Artillery-1914.md](German-Artillery-1914.md).
 
 ---
 
@@ -177,7 +195,7 @@ Refined into diesel fuel; powers German armored knights.
 
 ## January 1914 inventories (other powers)
 
-Equipment **in service or inventory** as of **January 1914** for Britain, Belgium, France, and Spain (Germany: [Military.md](Military.md)). Representative notes are for fiction consistency.
+Equipment **in service or inventory** as of **January 1914** for Britain, Belgium, France, and Spain. Germany conventional artillery: [German-Artillery-1914.md](German-Artillery-1914.md); organization and small arms: [Military.md](Military.md). Representative notes are for fiction consistency.
 
 ### United Kingdom (British Army / Royal Navy)
 
