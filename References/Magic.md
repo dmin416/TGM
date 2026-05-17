@@ -8,70 +8,155 @@
 
 ## System Framework
 
-Mages in this world do not know they are following game rules. They simply practice magic as their culture and training shaped it. The underlying framework uses Pathfinder 2e spell slot progression with D&D 5e spell lists and effects — a hybrid structure that describes how their magic works at a mechanical level (spell rings, slot limits, energy caps) without any of them being aware of that architecture. It is a descriptive tool, not something that exists in the world.
+Mages in this world do not know they are following game rules. They simply practice magic as their culture and training shaped it. Spell **effects** (range, area, duration, saves) follow D&D 5e lists by tradition. Limits come from the **mage core** (soul geometry): what is engraved, how many **stars** each ring earns, and how deep **meditation** has grown the internal reservoir.
 
-Magic users access different traditions based on their faction and training: the Vatican has clerical magic, bards have their own schools, necromancers practice death arts. All follow the same underlying architecture (Pathfinder 2e slots, D&D 5e effects) but access different spell lists appropriate to their tradition.
+There is **no overall mage level**. Each spell ring is developed independently and rated in **stars** (★). Stars at a ring equal **prepared casts per day** at that ring for spells already engraved there.
 
-**Max (protagonist):** Dual lineage, druid circles, ring spell access, power words, and XP method live in [MaxSystem.md](MaxSystem.md). Compare that sheet to the generic tables here when you need Max specific unlock cadence or spell names.
+Magic users access different traditions by faction: Vatican clerical magic, bardic schools, necromantic lines, and so on. All share the same core rules; spell lists differ.
 
----
-
-## Spell Slots and Soul Geometry
-
-Spell slots represent the surface of a sphere or cube that is the mage's soul and mana reservoir. The internal volume represents the robustness of the soul and the total volume of mana available. The surface area represents the available space to inscribe spells for typical casters.
-
-As a mage grows in power, their internal volume expands much faster than their surface area. A Level 1 mage has a small sphere with limited surface and limited volume. A Level 20 mage has a massive sphere with enormous internal capacity but only moderately more surface area available for spell inscriptions.
-
-This is why spell slots grow slowly while total mana capacity grows exponentially. The volume scales with the cube of the radius while the surface scales with only the square. A mage's raw power increases dramatically but the number of distinct spells they can hold ready at once increases much more gradually.
-
-When a mage's capacity grows, unskilled practitioners unconsciously let their spell inscriptions expand to match the new scale of their soul's surface. The inscriptions stretch and deepen to fill the available area, drawing proportionally more mana from the vastly larger internal reservoir. This is why they lose finesse and simply blast with more power. A fireball inscription that once covered a small patch of surface now sprawls across a much larger area, automatically channeling far more energy through the same basic pattern.
-
-They do not know how to keep an inscription small and tight while their soul has grown large. The spell scales with the soul itself. Skilled mages who understand this principle can inscribe spells at any scale, maintaining fine control regardless of their total capacity.
+**Max (protagonist):** Dual lineage, druid circles, power words, and combat progression live in [MaxSystem.md](MaxSystem.md). Treat that sheet as Max-specific where it diverges from this file.
 
 ---
 
-## Spell Energy Caps
+## Rumors, Reputation, and Reality
 
-Spell power caps at 3^level MJ per ring. Cantrips cap at 1 MJ.
+**Editorial default for story and dialogue:** What ordinary soldiers, peasants, and junior officers *believe* about mages is **hugely exaggerated**. Write rumor as rumor. Use the tables in this file for what is actually true when a named mage acts on page.
 
-| Ring | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
-|---|---|---|---|---|---|---|---|---|---|
-| **Cap** | 3 MJ | 9 MJ | 27 MJ | 81 MJ | 243 MJ | 729 MJ | 2.19 GJ | 6.56 GJ | 19.7 GJ |
+### The same pattern as the Tankgewehr
 
-Spell slots per day follow Pathfinder 2e progression. New spell rings unlock every odd level (1, 3, 5, 7, 9, 11, 13, 15, 17). Rings 1-3 start with 2 slots and grow every level to a maximum of 4. Rings 4-9 start with 1 slot and grow every other level to a maximum of 4.
+Frontline gossip about the **Tankgewehr** (anti-tank rifle) runs wild: one shot **snaps every bone** in the body, the bullet **keeps going** through the man behind, the recoil **breaks the shooter’s shoulder** every time, a single platoon carries fifty of them. In reality the weapon is genuinely fearsome: it **will** kill through plate at range and the kick is brutal. It is also **heavy**, **slow to fire**, **hard to supply**, and **rare** in the line. Rumor inflates frequency, convenience, and omnipotence because fear and awe fill the gaps.
 
-| Level | Cantrips | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
-|-------|----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 1 | 5 | 2 | — | — | — | — | — | — | — | — |
-| 2 | 5 | 3 | — | — | — | — | — | — | — | — |
-| 3 | 5 | 4 | 2 | — | — | — | — | — | — | — |
-| 4 | 5 | 4 | 3 | — | — | — | — | — | — | — |
-| 5 | 5 | 4 | 4 | 2 | — | — | — | — | — | — |
-| 6 | 5 | 4 | 4 | 3 | — | — | — | — | — | — |
-| 7 | 5 | 4 | 4 | 4 | 1 | — | — | — | — | — |
-| 8 | 5 | 4 | 4 | 4 | 2 | — | — | — | — | — |
-| 9 | 5 | 4 | 4 | 4 | 3 | 1 | — | — | — | — |
-| 10 | 5 | 4 | 4 | 4 | 4 | 2 | — | — | — | — |
-| 11 | 5 | 4 | 4 | 4 | 4 | 3 | 1 | — | — | — |
-| 12 | 5 | 4 | 4 | 4 | 4 | 4 | 2 | — | — | — |
-| 13 | 5 | 4 | 4 | 4 | 4 | 4 | 3 | 1 | — | — |
-| 14 | 5 | 4 | 4 | 4 | 4 | 4 | 4 | 2 | — | — |
-| 15 | 5 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 1 | — |
-| 16 | 5 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 2 | — |
-| 17 | 5 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 1 |
-| 18 | 5 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 2 |
-| 19 | 5 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 |
-| 20 | 5 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
+**Mages follow the same curve.** The power is real. The **prevalence and ease** are not.
 
-**Total Daily Mana by Level:**
+### Why mages feel like gods among men
 
-1=6 MJ, 2=9 MJ, 3=30 MJ, 4=39 MJ, 5=102 MJ, 6=129 MJ, 7=237 MJ, 8=318 MJ, 9=642 MJ, 10=966 MJ, 11=1.94 GJ, 12=2.91 GJ, 13=5.83 GJ, 14=8.74 GJ, 15=17.5 GJ, 16=26.2 GJ, 17=52.5 GJ, 18=78.7 GJ, 19=98.4 GJ, 20=118 GJ
+- **Rarity:** Roughly **one person in fifty thousand** can work magic at all. Most “mages” in campfire stories are frauds, cantrip dabblers, or priests with theater.
+- **Visibility:** A trained **apprentice** on a battlefield is already an institutional investment. Seeing one cast is a once-in-a-deployment event for most infantry.
+- **Genuine scale:** A **third-ring** blast really is artillery. A **fifth-ring** adept really can break a cavalry line. Rumor does not invent the terror; it **multiplies** it.
+- **Secrecy:** Corps and towers do not publish star counts, engraving limits, or daily drains. Observers see **one** fireball and infer **endless** fireballs.
+
+So the emotional truth in the trenches is fair: mages **seem** godlike. The mechanical truth is: they are **human-shaped artillery** with a **daily budget** who can be **surrounded**, **shot**, and **spent**.
+
+### Rumors that are almost always wrong
+
+| What soldiers say | What is closer to true |
+|-------------------|-------------------------|
+| “He can cast all day without tiring.” | **Stars** per ring per day; war burns them in one operation. |
+| “She knows every spell in the book.” | Only **engraved** spells; surface is finite; high rings crowd out low. |
+| “A real mage cannot be killed by a rifle.” | **Mage armor** and wards are real; **machine guns**, luck, and exhaustion still kill. |
+| “There’s a master mage in every battalion.” | **Masters** (rings 7–8) are kept in labs; battalions might see an **apprentice** or none. |
+| “He raised an army of the dead / split the sky.” | Peasant tales; or **one** high-ring cast retold as a standing miracle. |
+| “All mages are British / all priests are wizards.” | Colonial pool size fuels myth; **65%** of real talent never leaves cantrip level. |
+
+### Rumors that contain a grain of truth
+
+- “One mage is worth a battery.” **Journeyman** and **adept** tiers, under good conditions, yes **for a few shots per day**.
+- “They wiped our knights in a breath.” A **high-ring** scroll or master’s cast can erase an armored knight; witnesses are not lying, they are **generalizing** from one moment.
+- “Don’t cluster when the robe shows up.” Correct doctrine; area spells are their job.
+
+### Writing guidance
+
+When writing from a **non-mage POV**, default to **inflated** belief unless that character has corps training or has seen a mage **spent** (empty, hiding behind infantry, shaking after one push). When writing a **mage POV** or **after-action** staff scene, use **stars**, **engraving**, and **drain** from this file.
+
+**Max** is an outlier; witnesses may treat him as proof that **all** rumors were true. That is itself a story problem (reputation snowball), not evidence that the world has unlimited mages.
+
+---
+
+## How It Works
+
+**Stars = daily casts at that ring** (for engraved spells the mage can actually channel at that ring).
+
+**Cantrips:** No star limit and no slot cost. A mage either knows a cantrip or does not. Cantrips draw only the cantrip energy cap per cast (see Ring Power).
+
+**Stars are earned** through study, practice, and meditation over time. No hard cap in theory; most mages plateau naturally.
+
+**Spell lists:** When a named spell appears in tradition lists or [MaxSystem.md](MaxSystem.md), use D&D 5e as the baseline for what it does in the world.
+
+---
+
+## Soul Geometry and Engraving
+
+The **mage core** is the soul modeled as a sphere or cube: **internal volume** (mana reservoir, deepened by meditation) and **surface** (where patterns are engraved). Cantrips sit in a separate shallow layer.
+
+Volume scales with the cube of the radius; surface scales with the square. As the core matures, **mana** often grows faster than **room for new symbols**. It becomes easier to **deepen** what is already engraved (cast familiar spells more often, at higher output within the ring cap) than to **carve** new spells or new schools on the same face.
+
+Picture one working face as **concentric rings** from a center, like a target. Each band holds symbols; every symbol competes for arc length. A soul-aware mage spreads **many symbols** across bands. A narrow mage drives one school (evocation, abjuration, and so on) into a **single wedge** of lines. Institutions often train the wedge; generalists need long discipline.
+
+### Spell knowledge
+
+A mage can only cast leveled spells they have **physically engraved** on the core. Surface is finite. Higher-ring inscriptions are larger and deeper and consume more area. A core packed with high-ring work leaves little room for low-ring versatility.
+
+**Engraving over an old pattern erases the old.** Practitioners have wiped years of learned evocation to open space for more abjuration (or the reverse). That trade is deliberate, slow, and costly. Dabbling across schools without scrubbing yields shallow loadouts.
+
+### Slot counts (why high rings have fewer stars)
+
+Mages inscribe on the **surface** of the core. Higher rings take **more surface per inscription**, so a given mage keeps **fewer discrete spells** ready at high rings even when internal volume (raw mana) is vast. A 5th-ring adept has far more total mana than a 1st-ring novice but typically **fewer** high-ring star casts and fewer high-ring engravings than an apprentice has low-ring spells packed on the face.
+
+When volume outruns finesse, unskilled mages let inscriptions **bloat** to fill available area, pouring more mana through the same shape and losing control. Trained mages inscribe **tight** and choose scale per cast (novice baseline up to ring cap).
+
+**Sustained** patterns (flight, wards, auras) occupy surface while active and trickle mana from the reservoir.
+
+### Meditation (reservoir)
+
+Meditation, trance, prayer cycles, and institutional discipline expand **internal volume** (how much mana can be held and recovered). Stars limit **how many times per day** a ring can be discharged; the pool limits **how hard** each discharge can be pushed toward the ring cap. War drains both across many fights in one operation.
+
+---
+
+## Ring Power
+
+Energy listed is **novice output** when first casting at that ring. Experienced mages scale higher within the same ring. **Maximum** per cast caps at **3^ring MJ**.
+
+| Ring | Novice output | TNT equiv. | What a beginner at this ring produces |
+|------|---------------|------------|----------------------------------------|
+| Cantrip | 1 MJ | 0.24 kg | Light fires, slow levitation, minor telekinesis, blind flash |
+| 1st | 3 MJ | 0.7 kg | Fireball kills a squad. Sustained flight. Shield stops small arms and shrapnel |
+| 2nd | 9 MJ | 2.1 kg | Fireball kills 20+ men or demolishes a room. Lift and throw a small group |
+| 3rd | 27 MJ | 6.5 kg | 155mm artillery equivalent. Demolish a building, kill a company in the open |
+| 4th | 81 MJ | 19 kg | Collapse a fort wall or rail bridge. Lift a locomotive |
+| 5th | 243 MJ | 58 kg | Lift 100 cavalry and slam them into the ground. Devastate a battalion |
+| 6th | 729 MJ | 174 kg | Sink a destroyer. Level a city block. Suppress an entire regiment |
+| 7th | 2.19 GJ | 523 kg | Destroy a town center. Battlefield-decisive at operational scale |
+| 8th | 6.56 GJ | 1,570 kg | City district destruction. Fewer than ~324 mages worldwide at this ring |
+| 9th | 19.7 GJ | 4,710 kg | Near-mythical. Fewer than ~36 alive worldwide, almost all scholars |
+
+---
+
+## Tier Labels
+
+Institutional titles map to **typical ring spread** and **star depth**, not a single character level.
+
+| Label | Ring focus | Typical stars (illustrative) | Notes |
+|-------|------------|------------------------------|-------|
+| Untrained / Latent | Cantrip only | — | ~65% of all mages. Never formally trained |
+| Apprentice | 1st–2nd (touch of 3rd) | ★★★ at rings 1–2, ★ at ring 3 | Fireballs, flight, mage shield. Dangerous individually |
+| Journeyman | 3rd–4th | ★★ at rings 3–4 | Artillery-equivalent. Serious military asset |
+| Adept | 5th–6th | ★★★ at rings 5–6 | Lifts and destroys cavalry formations. One mage ≈ one artillery battery |
+| Master | 7th–8th | ★★ at rings 7–8 | Operational-level threat. Institutions usually keep these in labs |
+| Peak | 9th | ★ at ring 9 | Near-mythical. Fewer than ~36 alive. Most have never cast offensively |
+
+Two mages with the same label can differ widely on which rings are engraved and how many stars each ring has earned.
+
+---
+
+## Example Mage Profiles
+
+**Young apprentice battle mage**  
+Ring 1 ★★★ · Ring 2 ★★ · Ring 3 ★  
+A dozen low-ring spells engraved; three fireball-scale casts, flight, and shield work daily. Not invincible. Dies if surrounded.
+
+**Adept teacher, mid-career**  
+Ring 3 ★ · Ring 4 ★★ · Ring 5 ★★★ · Ring 6 ★  
+Deep in rings 5–6. Can lift and destroy a cavalry formation three times per day. Rarely bothers with lower rings.
+
+**Old scholar, peak ring**  
+Ring 7 ★ · Ring 8 ★ · Ring 9 ★  
+Never been in battle. Each high-ring cast is deliberate. One 9th-ring discharge per day, then spent.
 
 ---
 
 ## Mage Prevalence
 
-One person in fifty thousand is capable of magic. That produces approximately 36,000 mages worldwide.
+One person in fifty thousand is capable of magic. That produces approximately **36,000** mages worldwide.
 
 Population figures below are **order-of-magnitude** estimates for mage-headcount math; align territorial scope with [Countries.md](Countries.md) (TGM). **Russia:** no unitary empire — aggregate population of the former imperial space used for pool size. **Korea:** sovereign in TGM, listed separately from Japan.
 
@@ -97,27 +182,27 @@ Population figures below are **order-of-magnitude** estimates for mage-headcount
 
 ## Power Distribution
 
-Most mages never reach meaningful combat ability.
+Most mages never reach meaningful combat ability. Align headcount with **Tier Labels** above.
 
-| Level | Fraction | World Total | Notes |
-|---|---|---|---|
-| Cantrip only (untrained/latent) | 65% | ~23,400 | Latent talent, no formal training |
-| Level 1–5 (low ring) | 28% | ~10,080 | Basic trained mages |
-| Level 7–10 (mid ring) | 6% | ~2,160 | Competent practitioners |
-| Level 11–14 (high ring) | 0.9% | ~324 | Master mages, mostly academic |
-| Level 17–20 (peak) | 0.1% | ~36 | Almost entirely scholars and researchers |
+| Tier | Fraction | World total (approx.) | Notes |
+|------|----------|------------------------|-------|
+| Untrained / Latent (cantrip only) | 65% | ~23,400 | Latent talent, no formal training |
+| Apprentice through journeyman (trained, low–mid ring) | 28% | ~10,080 | Bulk of formally trained mages |
+| Adept (rings 5–6) | 6% | ~2,160 | Competent practitioners; rare in assault roles |
+| Master (rings 7–8) | 0.9% | ~324 | Mostly academic, not battle-tested |
+| Peak (ring 9) | 0.1% | ~36 | Almost entirely scholars and researchers |
 
-**Battle mages are significantly rarer than these numbers suggest.** Most high-ring mages achieved their power through meditation, research, and controlled experimentation over decades. They are scholars, court ritualists, and theoreticians who have never cast a combat spell outside of controlled conditions.
+**Battle mages are significantly rarer than these numbers suggest.** Most high-ring mages earned stars through meditation, research, and controlled experimentation over decades. They are scholars, court ritualists, and theoreticians who have never cast a combat spell outside controlled conditions.
 
-A **5th-ring mage** (Level 9) leading a military operation represents an elite combat asset. A **7th-ring combat-experienced battle mage** (Level 13) would be exceptional. An **8th or 9th-ring battle mage** (Level 15-20) who achieved their power through actual combat rather than academic study would be nearly mythical.
+A **5th-ring adept** leading a military operation is an elite asset. A **7th-ring** mage with real combat experience is exceptional. An **8th- or 9th-ring** mage who gained stars in battle rather than in a tower is nearly mythical.
 
-Of the ~36 peak-level mages worldwide, perhaps fewer than five have significant combat experience. The rest are academics who reached their level through study and ritual in safety.
+Of the ~36 peak-ring mages worldwide, perhaps fewer than five have significant combat experience. The rest reached ring 9 in safety.
 
-**Mage institutions like the German Mage Tower actively ignore battlefield-awakened mages.** When talent manifests under combat stress rather than controlled study, the established towers consider it unreliable and undisciplined. Battlefield awakenings lack the scholarly foundation and methodical mindset that institutional mages value. These awakenings are usually dismissed as erratic or incomplete, regardless of actual potential. The academic establishment and the reality of combat magic operate in almost completely separate worlds.
+**Mage institutions like the German Mage Tower actively ignore battlefield-awakened mages.** Talent that manifests under combat stress without tower study is dismissed as unreliable and undisciplined, regardless of potential. The academic establishment and combat magic operate in almost separate worlds.
 
 ---
 
-Britain's colonial empire gives them nearly 9,000 mages to draw from versus Germany's 1,360. That gap is the war. China's 8,600 is a sleeping giant no European power has figured out how to access. Russia's 3,500 collapsing into civil war factions is a massive destabilizing factor for both sides. Germany's answer has always been that their trained mages punch above their weight and that Luminite industrial output compensates for everything below high ring combat power.
+Britain's colonial empire gives them nearly 9,000 mages to draw from versus Germany's 1,360. That gap is the war. China's 8,600 is a sleeping giant no European power has figured out how to access. Russia's 3,500 collapsing into civil war factions is a massive destabilizing factor for both sides. Germany's answer has always been that their trained mages punch above their weight and that Luminite industrial output compensates for everything below high-ring combat power.
 
 ---
 

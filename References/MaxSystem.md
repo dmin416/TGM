@@ -2,7 +2,7 @@
 
 **References:** [Countries.md](Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](Glossary.md) · [Magic.md](Magic.md) · [MaxSystem.md](MaxSystem.md) · [Military.md](Military.md) · [People.md](People.md) · [Places.md](Places.md) · [Theaters.md](Theaters.md)
 
-Protagonist mechanics for Maximilian Friedrich Zähringen. General mage architecture, slots, and energy caps remain in [Magic.md](Magic.md). Where this sheet conflicts with generic tables, treat this as Max specific unless you reconcile them in story.
+Protagonist mechanics for Maximilian Friedrich Zähringen. General mage architecture (rings, stars, core engraving, ring power, tier labels) remains in [Magic.md](Magic.md). Where this sheet conflicts with generic rules, treat this as Max specific unless you reconcile them in story.
 
 ---
 
@@ -17,7 +17,7 @@ Max operates within the standard magical framework but with several unique advan
 
 ### Unique abilities
 
-- **Faster recovery:** Max recovers mana significantly faster than other mages (see Level 1 Druid Circle: Natural Recovery). He has the same mana capacity limits as standard progression, but rapid regeneration gives him sustained combat advantage.
+- **Faster recovery:** Max recovers mana significantly faster than other mages (see Level 1 Druid Circle: Natural Recovery). His reservoir still follows the same meditation depth rules as other mages at a given tier, but rapid regeneration gives him sustained combat advantage.
 - **Power words:** Bypass saving throws entirely. They simply work. Energy cost scales with conceptual weight (Death is the second highest concept; Life and resurrection is highest).
 - **Druid circles:** Passive abilities developing on a separate track from spells (see Druid Circles section).
 - **Soul geometry mastery:** Unlike other mages who unconsciously let spell inscriptions expand as their soul grows (losing finesse for raw power), Max can inscribe spells at any scale, maintaining fine control regardless of total capacity. (See also skilled inscription discussion in [Magic.md](Magic.md).)
