@@ -10,9 +10,9 @@ Unit: 16th Infantry Brigade / 33rd Regiment / 1st Battalion / 3rd Company / 3rd 
 
 ## Progression
 
-XP: 17325  
-Level: 5  
-Next level at: 23000 XP
+XP: 41325  
+Level: 7  
+Next level at: 48000 XP
 
 ---
 
@@ -48,7 +48,7 @@ Confirmed: 46
 - 5x British soldiers, Gewehr 98, building assault at the thresholds, chapter 15 (250 XP)
 - 5x British soldiers, Gewehr 98, flank building close fight, chapter 15 (250 XP)
 - 2x British soldiers, firebomb, caught in the flames on the stairwell, chapter 15 (100 XP)
-- 1x Eldridge, Highland Mage Corps senior instructor, sixth ring, bayonet (S98/05), rubble after L30 barrage, Seville, chapter 16 (12000 XP)
+- 1x Eldridge, Highland Mage Corps senior instructor, seventh ring, bayonet (S98/05), rubble after L30 barrage, Seville, chapter 16 (36000 XP)
 
 ---
 
@@ -80,10 +80,12 @@ Confirmed: 46
 
 ## Magic
 
-Spellbook: not found  
-Spell tab: unlocked (system), not yet reviewed in depth  
-Spell rings unlocked: 1st ring, not active, no spellbook  
-Daily mana: 9 MJ, not active, no spellbook  
+Spellbook: system spell tab (active)  
+Spell tab: unlocked, reviewed chapter 17  
+Caster status: active (Spell Plague cleared)  
+System level: 7  
+Highest ring for casts: 3rd  
+Schools on tab: Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation  
 
 Druid Circles:
 
@@ -134,7 +136,7 @@ Status: locked
 
 ## Notes
 
-Current chapter: 16 (scene, Eldridge loot and salvage on the street)  
+Current chapter: 17 (spell study, intel tab, Madrid and eastern front collapse)  
 Languages: German (native to body), Spanish (fluent, body's memory), French (fluent, body's memory), Viennese German dialect (body's memory), original body had a natural talent for languages and pursued them as a personal hobby; acquired socially through travel and aristocratic circles  
 Origin: Baden, House of Zähringen (cadet line); grandfather a man of note, line faded into obscurity through weak descendants by Max's youth  
 Officer training: Königliche Badische Kadettenanstalt (Karlsruhe), then Königliche Badische Kriegsschule; tactics, military history, field engineering, logistics, cartography, French as standard curriculum
