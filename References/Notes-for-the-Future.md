@@ -6,6 +6,12 @@ Max will introduce vacuum tubes, better batteries, better guns, more efficient f
 
 Max will buy Feldberg and land around the world.
 
+**Star Map past Level 20:** After the Level 20 ×10 ladder (1,000 km at Unity), further Star Map range is not another fixed multiplier. Max senses wherever **he can receive light**, out to a limit set by his power (not light he emits). See [MaxSystem.md](MaxSystem.md) (Druid circles, past Level 20 note).
+
+**Personal training manuals (Max):** Never change system Level. First use awakens casting; later uses only shortcut open the next spell **ring** tier. Full rules in [MaxSystem.md](MaxSystem.md) (Personal training manuals).
+
+**Plant Manipulation (interesting plants):** When Max uses *Plant Manipulation* in the field, note species that behave well under mana (staff wood, thorn lash, pull/trip). Early candidates to develop on page: **hornbeam** (hard, tight grain for a striking staff) and **blackthorn** (natural thorns, hedge fighting, sloes in Iberia per regional lore). Add more as story needs them.
+
 ## Faith and the Catholic Cult (Long-Term)
 
 **Religion:** Max is Christian, Protestant and Presbyterian in conviction and practice (Reformed line, not Roman obedience).

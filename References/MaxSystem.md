@@ -27,6 +27,30 @@ Max operates within the standard magical framework but with several unique advan
 
 Max levels through combat and decisive action rather than academic study. His progression trajectory differs fundamentally from institutional mages who develop power through meditation and controlled experimentation.
 
+### Spell tab (chapter 17, through line 49)
+
+**Canon state:** Seville rest, immediately after two basic manuals; before Max commits his first inscription choices.
+
+| Field | Value |
+|-------|--------|
+| System Level | 7 (XP only; manuals never change Level) |
+| Highest ring open | 3rd (manuals instilled knowledge through 3rd ring) |
+| Schools on tab | Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation |
+| Spell Plague | Cleared (chapter 16); not locked to one school for future ring work |
+| Cantrips | Unlimited use once learned (system rule on tab) |
+| Engraved on core | None yet at this beat |
+| Repository | All spells the two Seville apprentices used in the fight and all spells from their basic manuals through 3rd ring (Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation); not yet carved on Max's core at line 49 |
+
+**Tab behavior (editors):**
+
+- Records **engraved** spells (patterns on the core) separately from the **repository** (spells available to learn or hold off the core).
+- Guides inscription: when Max looks inward, the system directs attention to viable placement on the core like a tutorial (does not replace real learning time for first inscription of a spell).
+- **Daily usage:** Beyond his own recovery and world **stars** rules, the **system resets his spell usage every morning**. Do not write that Max needs a full night to refresh the tab the way institutional mages prepare stars before dawn.
+- **Inscription cap:** No D&D-style slot table on Max (no “three cantrips, eight first ring” HUD limits). He may inscribe on the core for **every ring now open**. Soul geometry mastery still applies; see [Magic.md](Magic.md) for how other mages are surface-limited.
+- **Specializations:** He casts spells for each school specialization he has developed, same world rule as other mages; his tab exposes multiple schools after plague clearance.
+
+**Sensory after awakening:** Ambient mana visible as motes and elemental threads; energy of creation; senses sharpened. Present from first Level gain; manuals made it impossible to ignore.
+
 ---
 
 ## Progression mechanics
@@ -49,7 +73,7 @@ Passive abilities that develop alongside spell progression on a separate track.
 
 **Level 3:** Circle Spells 0 (Circle of the Land). Environmental attunement. Can draw ambient power from surroundings to enhance spells. A forest thickens his growth magic, a storm amplifies his lightning. Basic channeling.
 
-**Level 4:** Star Map (Circle of Stars). Greatly expanded spatial awareness. Can sense the environment around him in detail. Terrain, life, movement, energy. Can project what he perceives as a holographic star map.
+**Level 4:** Star Map (Circle of Stars). Passive sensing in a **100 m** radius sphere centered on Max; he perceives the world in that volume (terrain, life, movement, energy). Can project what he perceives as a holographic star map. Each additional **Circle of the Stars** on his track multiplies that radius by **×10** (Level 8 → 1 km, Level 12 → 10 km, Level 16 → 100 km, Level 20 → 1,000 km). At system Level 7 only Star Map is active → **100 m**.
 
 **Level 5:** Circle Spells I (Circle of the Land). Environmental channeling. Can actively pull power from the environment to fuel larger effects. A lake provides water for manipulation, volcanic heat intensifies fire magic. Moderate scale environmental borrowing.
 
@@ -57,7 +81,7 @@ Passive abilities that develop alongside spell progression on a separate track.
 
 **Level 7:** Land's Stride (Circle of the Land). Natural movement. Terrain itself accommodates his passage. Thorns part, mud solidifies, ice grips his feet. The world treats him as belonging wherever he walks.
 
-**Level 8:** Starry Form (Circle of Stars). Can channel celestial energy and embody stellar concepts. Taking the aspect of Orion the Hunter grants precision and striking power at range. Different constellations grant different empowerments.
+**Level 8:** Starry Form (Circle of Stars). Second Stars circle; passive sensing radius **1 km** (see Star Map scaling). Can channel celestial energy and embody stellar concepts. Taking the aspect of Orion the Hunter grants precision and striking power at range. Different constellations grant different empowerments.
 
 **Level 9:** Circle Spells II (Circle of the Land). Deep environmental connection. Can tap into the concentrated forces within an environment. Access to a volcano's destructive potential, a forest's life energy, the ocean's pressure and currents. Strong channeling.
 
@@ -65,7 +89,7 @@ Passive abilities that develop alongside spell progression on a separate track.
 
 **Level 11:** Nature's Ward (Circle of the Land). Ontological shift. He registers to existence not as a person but as a feature of nature itself, like stone or wind. Beasts instinctively trust him as part of the natural order.
 
-**Level 12:** Twinkling Constellations (Circle of Stars). Starry Form intensifies. Can begin phasing between physical and celestial states. Flesh flickering into starlight, becoming partially intangible. Not full conversion yet, but the boundary weakens.
+**Level 12:** Twinkling Constellations (Circle of Stars). Third Stars circle; passive sensing radius **10 km**. Starry Form intensifies. Can begin phasing between physical and celestial states. Flesh flickering into starlight, becoming partially intangible. Not full conversion yet, but the boundary weakens.
 
 **Level 13:** Circle Spells III (Circle of the Land). Environmental mastery. Can fully utilize what an environment naturally contains. Bend stone like the mountain's tectonic forces, command storms with a sky's full electrical charge, reshape terrain with geological authority.
 
@@ -73,7 +97,7 @@ Passive abilities that develop alongside spell progression on a separate track.
 
 **Level 15:** Nature's Sanctuary (Circle of the Land). His body becomes almost like an aspect of existence. Cannot be poisoned or diseased. Trying to enchant, fear, or charm him is like trying to cast mental magic on the earth and existence itself.
 
-**Level 16:** Celestial Body (Circle of Stars). Can transform entirely into celestial energy. Starlight, cosmic radiation, the fundamental forces between stars. No longer bound by physical matter when in this state.
+**Level 16:** Celestial Body (Circle of Stars). Fourth Stars circle; passive sensing radius **100 km**. Can transform entirely into celestial energy. Starlight, cosmic radiation, the fundamental forces between stars. No longer bound by physical matter when in this state.
 
 **Level 17:** Circle Spells IV (Circle of the Land). Complete environmental synchronization. Can use the full extent of what an environment offers. All the thermal energy a volcano contains, the complete biomass of a forest, an ocean's total force. Perfect efficiency, nothing wasted.
 
@@ -81,7 +105,9 @@ Passive abilities that develop alongside spell progression on a separate track.
 
 **Level 19:** Timeless Body (Circle of the Land). He no longer ages.
 
-**Level 20:** Unity (Circle of Stars). True integration with existence itself. The boundary between self and nature dissolves. Can manifest natural phenomena, reshape ecosystems, embody elemental forces without limit.
+**Level 20:** Unity (Circle of Stars). Fifth Stars circle; passive sensing radius **1,000 km**. True integration with existence itself. The boundary between self and nature dissolves. Can manifest natural phenomena, reshape ecosystems, embody elemental forces without limit.
+
+**Past Level 20 (Star Map / Stars sensing, editor note):** The ×10 radius ladder caps at Unity. For **Star Map** in particular, further growth does not add another fixed kilometer step. Passive sensing reaches wherever **light can fall on him or enter his perception** (moon, sun, lamps, fire, starlight, reflected glare), out to a limit set by his power. He does not project a sensing radius from his body. True dark with no received light is blind to the map.
 
 ---
 
@@ -92,6 +118,16 @@ Spells work as they do in D&D 5e. When a spell appears here, its D&D 5e descript
 ### Cantrips (unlocked at Level 1)
 
 Light, Blade Ward, Mage Hand, Message, Control of Nature, Druidcraft, Poison Spray, Plant Manipulation, Mending, On/Off, Life Detect
+
+**Blade Ward (TGM):** **50 J × system Level**; Max chooses redirect direction. Stops melee and arrows; deflects bullets. Level 7: **350 J**. See [Magic.md](Magic.md) (Named cantrips).
+
+**Mage Hand (TGM):** **10 J × system Level** of movement within range per action. Level 1: **10 J** (~4.5 kg at 2 m/s). Level 7: **70 J**. See [Magic.md](Magic.md) (Named cantrips).
+
+**Life Detect (TGM):** Detects energy in vicinity. Range **10 m × system Level** (70 m at Level 7). See [Magic.md](Magic.md) (Named cantrips).
+
+**Druidcraft (TGM):** Light or extinguish a candle or small fire; bloom a flower or ripen fruit; predict weather; petals or smoke. **System Level** multiplies **intensity**, **potency**, and **distance** (×Level on each from baseline 1). See [Magic.md](Magic.md) (Named cantrips).
+
+**Plant Manipulation (TGM):** Shillelagh plus Thorn Whip. Pull, trip, strike with empowered plants. **Reach:** always **30 ft**. **Strength:** **100 J × system Level** per action (700 J at Level 7). Requires living plants within 30 ft. See [Magic.md](Magic.md) (Named cantrips).
 
 **Power words:** Hush, Flinch, Awake
 
@@ -271,3 +307,19 @@ Use the row for the **highest ring** the target has engraved and can channel und
 Scaling: **×3 per ring** from ring 1 upward, anchored at ring 3 (700, German low ring). Ring 6 is held at **12000** instead of strict 18900 so adept kills stay below three Garter knights and do not outrun the level curve as harshly as the old flat 18000 line implied.
 
 **XP method magic modifier** (stacks on the 50 base when building ad hoc): rings 1 to 3 plus 500; rings 4 to 6 plus 1500; ring 7 and above plus 10000. That modifier is separate from the reference table above.
+
+---
+
+## Personal training manuals (Max)
+
+Loot items: `personal training manual (basic)`, `personal training manual (advanced)` (e.g. Eldridge's notebook).
+
+**Level:** Manuals **never** grant or increase system Level. Level comes only from XP. Do not write that a manual "left the panel at level N" or "leveled" Max.
+
+**Awakening (once):** The **first** manual use on Max's caster path awakens active casting (Spell tab live, plague already cleared per story). Not a Level reward.
+
+**Ring unlock (repeatable):** Each manual use after awakening is a **shortcut** to open the next **ring tier** he may engrave and cast (Seville: two basic manuals open **3rd ring**). Does not replace inscription time, star preparation or study.
+
+**Advanced manuals:** Same ring rules; may convey spell knowledge when used. Still no Level change.
+
+**HUD:** The panel may show current Level when a manual is consumed; that number reflects XP already earned, not the manual.

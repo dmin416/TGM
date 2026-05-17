@@ -16,6 +16,8 @@ Magic users access different traditions by faction: Vatican clerical magic, bard
 
 **Max (protagonist):** Dual lineage, druid circles, power words, and combat progression live in [MaxSystem.md](MaxSystem.md). Treat that sheet as Max-specific where it diverges from this file.
 
+**Max Spell tab (chapter 17, through line 49):** Active HUD branch, not a physical spellbook. Tracks **engraved** core patterns vs **repository** spells; cantrips unlimited once learned; system-guided placement on the core; **morning reset of spell usage** for Max in addition to normal recovery. Uses **system Level** (7 at that beat) alongside **3rd ring** open from manuals. No protagonist slot table. Full field list and editor rules: [MaxSystem.md](MaxSystem.md) (Spell tab).
+
 ---
 
 ## Rumors, Reputation, and Reality
@@ -66,11 +68,25 @@ When writing from a **non-mage POV**, default to **inflated** belief unless that
 
 **Stars = daily casts at that ring** (for engraved spells the mage can actually channel at that ring).
 
-**Cantrips:** No star limit and no slot cost. A mage either knows a cantrip or does not. Cantrips draw only the cantrip energy cap per cast (see Ring Power).
+**Cantrips:** No star limit and no slot cost. A mage either knows a cantrip or does not. Cantrips draw only the cantrip energy cap per cast (see Ring Power). **Max (system):** once a cantrip is learned, the Spell tab treats it as **unlimited** use.
+
+**Specializations:** A mage carves patterns on the soul's surface and casts spells for **each school specialization** they have developed. Past the third ring, plague-era survivors usually lock to one tradition; Max's plague is cleared (chapter 16).
 
 **Stars are earned** through study, practice, and meditation over time. No hard cap in theory; most mages plateau naturally.
 
 **Spell lists:** When a named spell appears in tradition lists or [MaxSystem.md](MaxSystem.md), use D&D 5e as the baseline for what it does in the world.
+
+### Named cantrips (TGM benchmarks)
+
+D&D narrative still applies where this table is silent.
+
+| Cantrip | TGM limit |
+|---------|-----------|
+| *Blade Ward* | **50 J × caster system Level** impulse; the caster picks the **redirect vector** (any direction). **Melee and arrows:** can **stop** or throw off line. **Bullets:** **deflect** only (slug keeps most of its speed; path changes). At system Level 7 (**350 J**) on a 7.92×57mm at ~800 m/s, a chosen deflection at 1 m can clear the body by roughly **30 cm** when timed well (editorial model: ~16.5° off bore if shoved perpendicular). Timing and aim still matter. |
+| *Mage Hand* | Within range, telekinetic work is capped at **10 J × caster system Level** per sustained action (move, lift, shove). At system Level 1 that is **10 J** (about **4.5 kg** moved at **2 m/s**). At system Level 7 that is **70 J**. D&D range and duration still apply. |
+| *Life Detect* | Senses **energy** in range (life, mana, enchantment, and similar). Range **10 m × caster system Level** (70 m at Level 7). |
+| *Druidcraft* | Minor nature cantrip. **Uses:** light or extinguish a **candle or small fire**; make a **flower bloom** or **ripen fruit**; **predict weather**; conjure **petals or smoke**. **Scaling:** caster **system Level** is the multiplier on **intensity**, **potency**, and **distance** (Level 1 = baseline, Level 7 = ×7 on each). Not a one shot flash; gentle unless forced with extra mana. |
+| *Plant Manipulation* | Hybrid of **Shillelagh** and **Thorn Whip** (TGM). Living plants **obey**: stiffen, lengthen, change shape, fight when mana fed. **Combat:** **pull**, **trip**, or **strike**. **Reach:** always **30 ft** (growth length, not level scaled). **Strength:** **100 J × system Level** per pull, trip, or strike. Requires living plant matter within that reach. |
 
 ---
 

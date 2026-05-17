@@ -80,22 +80,30 @@ Confirmed: 46
 
 ## Magic
 
-Spellbook: system spell tab (active)  
-Spell tab: unlocked, reviewed chapter 17  
+Spell tab: active (chapter 17, through line 49; no physical spellbook)  
 Caster status: active (Spell Plague cleared)  
 System level: 7  
-Highest ring for casts: 3rd  
-Schools on tab: Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation  
+Highest ring open: 3rd (two basic manuals, Seville)  
+Schools on tab: Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation (no single school bound; plague cleared)  
+Cantrips: unlimited once learned (system)  
+Engraved on core: none yet at line 49  
+Repository: every spell the two Seville apprentices had cast in the fight and every spell their basic training manuals held through 3rd ring (Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation); none engraved on Max's core yet at line 49  
+Daily usage: system resets spell usage each morning (beyond normal recovery)  
+Inscription: every open ring; system UI guides placement on core  
 
-Druid Circles:
+Druid Circles (1–7, system level 7; sensed inward chapter 17):
 
-- Natural Recovery (Circle of the Land), sustained by the land and the air; faster physical and spiritual recovery; does not function in mana voided zones
-- Wild Shape (Circle of the Moon), can reshape his physical form without requiring mana; body becomes malleable; can take animal shapes, alter size and structure through pure physical transformation
-- Circle Spells 0 (Circle of the Land), environmental attunement; can draw ambient power from surroundings to enhance spells; basic channeling
+- **1 Natural Recovery** (Circle of the Land): rapid mana recovery wherever existence and mana are present; Celtic markings at heels draw energy in; does not function in mana voided zones
+- **2 Wild Shape** (Circle of the Moon): control over his own body; reshape physical form without mana; malleable flesh; animal shapes, size and structure
+- **3 Circle Spells 0** (Circle of the Land): environmental attunement; pair of circles orbiting the soul; draw ambient power to enhance spells; basic channeling
+- **4 Star Map** (Circle of the Stars): circle on the forehead; **100 m** sensory sphere (terrain, life, movement, energy); holographic star map projection; each further Circle of the Stars multiplies radius ×10
+- **5 Circle Spells I** (Circle of the Land): active environmental channeling; pull power from surroundings for larger effects; moderate scale borrowing
+- **6 Primal Strike** (Circle of the Moon): enhanced shapeshifting; extreme forms; larger, stronger; mana reinforced flesh and bone
+- **7 Land's Stride** (Circle of the Land): circles on the balls of the feet; push energy into surroundings; terrain accommodates passage; thorns part, mud solidifies, ice grips feet
 
 Power Words: none
 
-Known Spells: none
+Known Spells: none engraved yet (choosing loadout after line 49)
 
 ---
 
@@ -136,7 +144,7 @@ Status: locked
 
 ## Notes
 
-Current chapter: 17 (spell study, intel tab, Madrid and eastern front collapse)  
+Current chapter: 17 (Spell tab open through line 49; spell picks and Shield study follow)  
 Languages: German (native to body), Spanish (fluent, body's memory), French (fluent, body's memory), Viennese German dialect (body's memory), original body had a natural talent for languages and pursued them as a personal hobby; acquired socially through travel and aristocratic circles  
 Origin: Baden, House of Zähringen (cadet line); grandfather a man of note, line faded into obscurity through weak descendants by Max's youth  
 Officer training: Königliche Badische Kadettenanstalt (Karlsruhe), then Königliche Badische Kriegsschule; tactics, military history, field engineering, logistics, cartography, French as standard curriculum
