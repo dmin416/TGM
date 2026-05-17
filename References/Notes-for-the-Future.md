@@ -184,6 +184,43 @@ Upstream novel dropped **信息收集度** / Intel collection progress after the
 
 **Paradox:** Most dangerous combatant on Earth with tens of thousands killed personally. Nuclear-level capability by Level 20. Postwar life dedicated to ensuring others need not become what he became.
 
+## War Recommendations
+
+List Max pushes to German command, industry, and allied staff (Seville era onward). Distinct from patents he files himself; many items later appear under **Max's Innovations and Patents** when development begins.
+
+1. Submachine guns and machine guns must be made more portable for frontline infantry
+2. Tank production and deployment must be significantly expanded
+3. Food supply chains to the front must be secured and maintained
+4. High caliber weapons must be researched and brought into active development
+5. Armor piercing weapons and ammunition must be researched and developed
+6. Grenades must be standardized and produced in far greater numbers
+7. Semi automatic rifles must be developed and issued to frontline troops
+8. Smoke and flare munitions must be developed and issued at the infantry level
+9. Ammunition must be standardized across all infantry weapons to prevent resupply failures
+10. Improved shell fusing must be developed for optimal detonation above trenches rather than in mud
+11. Proximity fuses must be researched and developed
+12. Vacuum tubes and radio communications must be developed and fielded at every level of command
+13. Optical equipment must be improved for infantry, artillery spotters, and vehicle crews
+14. Armored supply vehicles must be developed to protect resupply operations under fire
+15. Rail and train infrastructure must be expanded and secured to move troops and materiel to the front faster
+16. Water purification systems must be issued at the company level
+17. Field rations must be developed to be edible without cooking or heat
+18. Tetanus and typhoid vaccination programs must be enforced army wide
+19. Sanitation engineering must be implemented systematically at the unit level
+20. Shell shock must be recognized and treated as a medical condition rather than a disciplinary failure
+21. Incendiary ammunition must be developed for use against bunkers, supplies, and fortifications
+22. Suppressed weapons must be developed for raiding and reconnaissance operations
+23. Tracer ammunition must be developed and issued to machine gun crews
+24. Mortars must be developed and issued at the platoon level for organic indirect fire support
+25. Rifle grenades must be developed and issued to extend grenade range without specialist troops
+26. Man portable flamethrowers must be developed for bunker and trench clearing
+27. Shotguns must be evaluated and issued for close quarters trench clearing
+28. Anti infantry and anti mecha mines must be developed and incorporated into defensive doctrine
+29. Standardized pallets and crating must be adopted across the entire supply chain
+30. Standardized fuel canisters must be developed and issued army wide to prevent waste and spillage
+31. Periscopes must be issued army wide for observation and aimed fire without exposing the head
+32. Parachutes must be developed and issued to all aircrew
+
 ## Max's Innovations and Patents
 
 ### 1914
