@@ -83,11 +83,14 @@ Confirmed: 46
 Spell tab: active (chapter 17, through line 49; no physical spellbook)  
 Caster status: active (Spell Plague cleared)  
 System level: 7  
-Highest ring open: 3rd (two basic manuals, Seville)  
-Schools on tab: Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation (no single school bound; plague cleared)  
+Highest ring open: 3rd (Seville basics; Eldridge advanced manual, ch.17)  
+Repository knowledge: through 7th ring (Eldridge advanced manual, ch.17)  
+Schools on tab: Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation (plague cleared)  
+Specialization bound: Divination (chapter 17, after druid circles)  
+Divination steps (MaxSystem): L2 Portent; L6 Third Eye; L10 Greater Portent; L14 Expert Divination (see someone's future); L18 Even Greater Portent; L20 Enhanced Third Eye; past L20 Portent scales with power spent  
 Cantrips: unlimited once learned (system)  
 Engraved on core: none yet at line 49  
-Repository: every spell the two Seville apprentices had cast in the fight and every spell their basic training manuals held through 3rd ring (Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation); none engraved on Max's core yet at line 49  
+Repository: Seville through 3rd ring plus Eldridge advanced through 7th ring knowledge (six schools); spells through 3rd ring available to inscribe; none engraved on core yet at advanced-manual beat  
 Daily usage: system resets spell usage each morning (beyond normal recovery)  
 Inscription: every open ring; system UI guides placement on core  
 

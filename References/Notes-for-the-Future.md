@@ -172,6 +172,8 @@ Upstream novel dropped **信息收集度** / Intel collection progress after the
 
 **Pharmaceuticals 1916-1945:** Penicillin, sulfonamides, streptomycin, tetracyclines, polio vaccine, typhoid vaccine, insulin, vitamins ABCDEK, IV therapy, blood transfusion, maternal health protocols, Spanish Flu response (deaths reduced 20-25M vs 50-100M historical), veterinary vaccines. Lives saved: 2.6B+
 
+**Poison Spray (Max, field chemistry):** Cantrip framework in [MaxSystem.md](MaxSystem.md) (Poison Spray framework). Yield, complexity modifier, real matter inside the spray sphere, reversion outside unless channeled. Plot tie to scientist-grade **poisons and medicines** above when Max outpaces OTL pharma timelines in the field.
+
 **Organizations Founded:** League of Nations 1920 (US member, enforcement authority, colonial mandate oversight), ILO 1919 (eight-hour day, child labor ban, workplace safety), Red Cross expansion 1914-1920 (POW inspection, war crimes documentation), UNICEF precursor 1919 (child welfare), Amnesty International 1920 (prisoner advocacy), Refugee Organization 1921 (Nansen passport, resettlement)
 
 **Economic Initiatives:** Friedrich Plan 1924 (restructured war debts, prevented hyperinflation), European Reconstruction Bank 1920 (Cecilia initial capital, financed Belgium/France/Serbia rebuilding), Development Commission 1922 (agricultural modernization, infrastructure, education)

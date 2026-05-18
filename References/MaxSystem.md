@@ -34,12 +34,14 @@ Max levels through combat and decisive action rather than academic study. His pr
 | Field | Value |
 |-------|--------|
 | System Level | 7 (XP only; manuals never change Level) |
-| Highest ring open | 3rd (manuals instilled knowledge through 3rd ring) |
+| Highest ring open | 3rd (Seville basics; Eldridge advanced adds repository knowledge, ch.17) |
+| Repository depth | Through 7th ring (Eldridge advanced manual, ch.17) |
 | Schools on tab | Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation |
+| Specialization | **Divination** (bound chapter 17; luck and fate path; 777 habit from prior life) |
 | Spell Plague | Cleared (chapter 16); not locked to one school for future ring work |
 | Cantrips | Unlimited use once learned (system rule on tab) |
 | Engraved on core | None yet at this beat |
-| Repository | All spells the two Seville apprentices used in the fight and all spells from their basic manuals through 3rd ring (Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation); not yet carved on Max's core at line 49 |
+| Repository | Seville basics through 3rd ring; after Eldridge **advanced** manual (ch.17) spell **knowledge** through **7th ring** is in the repository; **inscription and cast availability** through **3rd ring** until the next ring unlock |
 
 **Tab behavior (editors):**
 
@@ -50,6 +52,25 @@ Max levels through combat and decisive action rather than academic study. His pr
 - **Specializations:** He casts spells for each school specialization he has developed, same world rule as other mages; his tab exposes multiple schools after plague clearance.
 
 **Sensory after awakening:** Ambient mana visible as motes and elemental threads; energy of creation; senses sharpened. Present from first Level gain; manuals made it impossible to ignore.
+
+---
+
+## Divination specialization
+
+Six steps on the **Divination** path (bound chapter 17). Unlock at **system Level** 2, 6, 10, 14, 18, and 20.
+
+| System Level | Feature | Rule |
+|--------------|---------|------|
+| **2** | **Portent** | Influence **fate**. **Minor (general):** small nudges on odds, timing, and outcomes he can perceive (a glance lands, a strap snaps, rain shifts). Always available within reason; not a rewrite of physics every moment. **Major (1/day):** once per day, **fully** set the outcome of **one** event he can reach (one shot, one blow, one confession, one escape, one cast resolving; scope fixed when spent). Resets at the next daily cycle or long rest, whichever the tab uses that beat. |
+| **6** | **The Third Eye** | **Once per rest**, gain **one** of: **darkvision 60 ft**; **see invisibility**; **read any language**; **see into the Ethereal Plane**. |
+| **10** | **Greater Portent** | **Two** major fate outcomes per day instead of one. **Minor** influence reaches farther (more targets, harder turns, still not omnipotent). |
+| **14** | **Expert Divination** | See **someone's future**: a focused read on one person Max can perceive (in sight, named and known, or held in a divination link). Shows likely paths, turning points, and dangers ahead; not omniscient and not unchangeable if fate is bent. Cost, depth, and how far forward scale with attention and power spent in scene. |
+| **18** | **Even Greater Portent** | **Three** major fate outcomes per day. **Minor** influence can bend outcomes that were nearly settled (still not omnipotent). |
+| **20** | **Enhanced Third Eye** | All **Third Eye** aspects active **at will**, **all the time**: **darkvision 60 ft**, **see invisibility**, **read any language**, **see into the Ethereal Plane**. No once per rest choice; no picking one mode. |
+
+**Past system Level 20 (Portent):** General fate influence no longer sits on fixed daily tiers alone. **Minor** and **major** nudges **scale with power spent** (mana, stars, or deliberate channeling in scene). More investment can widen scope, stack subtle turns, or push a major outcome harder; cheap spends stay small. Editors set cost and ceiling per beat.
+
+**At chapter 17 (system Level 7):** Divination bound. **Portent** and **The Third Eye** active. **Greater Portent** at Level 10. **Expert Divination** at Level 14. **Even Greater Portent** at Level 18. **Enhanced Third Eye** at Level 20.
 
 ---
 
@@ -115,9 +136,13 @@ Passive abilities that develop alongside spell progression on a separate track.
 
 Spells work as they do in D&D 5e. When a spell appears here, its D&D 5e description is the baseline: range, area, duration, and effect nature. The list below represents Max's accessible spells depending on unlocked level. This is not a ceiling but a foundation: magic of sufficient power bends reality itself. As a druid, Max has access to unnamed spells beyond what is listed here.
 
+**Technomagic (UA *Modern Magic*, 2015):** Spells marked **(technomagic)** in that article interact with electronic devices; they are listed here under their **school**, not under **Special (TGM)**. On Max's repository: **On/Off**, **Remote Access**, **Arcane Hacking**, **Haywire**, **System Backdoor**, **Shutdown**. Same UA also has **Infallible Relay**, **Digital Phantom**, **Invisibility to Cameras**, **Protection from Ballistics**, and **Conjure Knowbot** (not on this list yet). **Find Vehicle**, **Synchronicity**, and **Commune with City** are from the same UA but are **not** technomagic tagged there.
+
+**Special (TGM):** Setting-specific spells not in that UA article: **Gravity**, **Wild Cunning**, **Thunderbolt**.
+
 ### Cantrips (unlocked at Level 1)
 
-Light, Blade Ward, Mage Hand, Message, Control of Nature, Druidcraft, Poison Spray, Plant Manipulation, Mending, On/Off, Life Detect
+Light, Blade Ward, Mage Hand, Message, Control of Nature, Druidcraft, Poison Spray, Plant Manipulation, Mending, On/Off (technomagic), Life Detect
 
 **Blade Ward (TGM):** **50 J × system Level**; Max chooses redirect direction. Stops melee and arrows; deflects bullets. Level 7: **350 J**. See [Magic.md](Magic.md) (Named cantrips).
 
@@ -129,13 +154,39 @@ Light, Blade Ward, Mage Hand, Message, Control of Nature, Druidcraft, Poison Spr
 
 **Plant Manipulation (TGM):** Shillelagh plus Thorn Whip. Pull, trip, strike with empowered plants. **Reach:** always **30 ft**. **Strength:** **100 J × system Level** per action (700 J at Level 7). Requires living plants within 30 ft. See [Magic.md](Magic.md) (Named cantrips).
 
+**Poison Spray (TGM):** See **Poison Spray framework** below and [Magic.md](Magic.md) (Named cantrips).
+
+#### Poison Spray framework
+
+Liquid or powder jet **10 ft** ahead (fixed reach from Level 1). A **scientist** caster (Max) can shape **poisons and even medicines**; default cantrip output is miscellaneous weak toxin.
+
+| Step | Rule |
+|------|------|
+| **Yield** | Generates **100 g × system Level** of material before complexity adjustment. |
+| **Complexity modifier** | **1% to 99%** of that yield, set by the substance. Very **simple** molecules use a **high** modifier (more mass). Extremely **complex** molecules use a **low** modifier (less mass). Higher **system Level** sets which substances are in reach. |
+| **Sphere** | The sprayed volume forms a **sphere** (editorial: **10 ft** reach zone). **Inside the sphere:** matter is **real** and applies damage, poison, or medicinal effect as designed. |
+| **Outside the sphere** | Matter **reverts to raw magic** unless the caster **channels** to hold it real. |
+| **Channeling** | Ongoing cost to keep material real outside the sphere: **Atom count × base magic cost** per molecule (per unit time; set **base magic cost** in scene or reference table when first needed). |
+
 **Power words:** Hush, Flinch, Awake
 
 ---
 
 ### First ring (unlocked at Level 2)
 
-Catapult, Comprehend Languages, Feather Fall, Identify, Mage Armor, Gravity, Sleep, Cure Wounds, Healing Word, Goodberry, Purify Food and Drink, Absorb Elements, Create or Destroy Water, Earth Tremor, Fog, Ice Knife, Thunderwave, Detect Magic, Detect Poison and Disease, Speak with Animals, Jump, Longstrider, Animal Friendship, Entangle, Wild Cunning, Remote Access
+**Abjuration:** Mage Armor, Absorb Elements
+
+**Conjuration:** Entangle, Fog, Ice Knife
+
+**Divination:** Comprehend Languages, Identify, Detect Magic, Detect Poison and Disease, Speak with Animals
+
+**Enchantment:** Sleep, Animal Friendship
+
+**Evocation:** Cure Wounds, Healing Word, Earth Tremor, Thunderwave
+
+**Transmutation:** Catapult, Feather Fall, Goodberry, Purify Food and Drink, Jump, Longstrider, Create or Destroy Water, Remote Access (technomagic)
+
+**Special (TGM):** Gravity, Wild Cunning
 
 **Power words:** Joy, Sorrow, Nap
 
@@ -143,7 +194,21 @@ Catapult, Comprehend Languages, Feather Fall, Identify, Mage Armor, Gravity, Sle
 
 ### Second ring (unlocked at Level 4)
 
-Blur, Darkness, Invisibility, Misty Step, Scorching Ray, Shatter, Wither and Bloom, Healing Spirit, Lesser Restoration, Protection from Poison, Moonbeam, Gust of Wind, Flame Blade, Flaming Sphere, Heat Metal, Earthbind, Continual Flame, Dust Devil, Air Bubble, Warding Wind, Locate Animals or Plants, Locate Object, Find Traps, Darkvision, Skywrite, Pass Without Trace, Find Vehicle, Barkskin, Spike Growth, Enlarge, Reduce, Hold Person, Enhance Ability, Arcane Hacking
+**Abjuration:** Lesser Restoration, Protection from Poison, Pass Without Trace
+
+**Conjuration:** Misty Step, Healing Spirit, Flaming Sphere, Dust Devil, Air Bubble, Find Vehicle
+
+**Divination:** Locate Animals or Plants, Locate Object, Find Traps
+
+**Enchantment:** Hold Person
+
+**Evocation:** Scorching Ray, Shatter, Moonbeam, Gust of Wind, Flame Blade, Continual Flame, Warding Wind
+
+**Illusion:** Blur, Invisibility
+
+**Druid:** Wither and Bloom
+
+**Transmutation:** Darkness, Darkvision, Skywrite, Enlarge, Reduce, Enhance Ability, Arcane Hacking (technomagic), Heat Metal, Earthbind, Spike Growth, Barkskin
 
 **Power words:** Dread, Rage, Calm
 
@@ -151,7 +216,17 @@ Blur, Darkness, Invisibility, Misty Step, Scorching Ray, Shatter, Wither and Blo
 
 ### Third ring (unlocked at Level 6)
 
-Counterspell, Fly, Haste, Life Transference, Nondetection, Aura of Vitality, Feign Death, Revivify, Call Lightning, Daylight, Sleet Storm, Wind Wall, Thunderbolt, Thunderstep, Dispel Magic, Protection from Energy, Erupting Earth, Meld into Stone, Wall of Sand, Elemental Weapon, Flame Arrows, Plant Growth, Speak with Plants, Tidal Wave, Wall of Water, Water Breathing, Water Walk
+**Abjuration:** Counterspell, Nondetection, Dispel Magic, Protection from Energy
+
+**Conjuration:** Revivify, Thunderstep, Call Lightning, Sleet Storm, Tidal Wave
+
+**Evocation:** Aura of Vitality, Daylight, Wind Wall, Wall of Sand, Wall of Water
+
+**Druid:** Life Transference, Feign Death
+
+**Transmutation:** Fly, Haste, Meld into Stone, Plant Growth, Speak with Plants, Water Breathing, Water Walk, Erupting Earth, Elemental Weapon, Flame Arrows
+
+**Special (TGM):** Thunderbolt
 
 **Power words:** Trip, Sleep
 
@@ -159,7 +234,15 @@ Counterspell, Fly, Haste, Life Transference, Nondetection, Aura of Vitality, Fei
 
 ### Fourth ring (unlocked at Level 8)
 
-Gravity Sinkhole, Fabricate, Dimension Door, Control Water, Elemental Bane, Fire Shield, Ice Storm, Stone Shape, Wall of Fire, Water Sphere, Freedom of Movement, Grasping Vine, Guardian of Nature, Stoneskin, Synchronicity, System Backdoor
+**Abjuration:** Freedom of Movement, Stoneskin
+
+**Conjuration:** Dimension Door, Grasping Vine, Water Sphere
+
+**Enchantment:** Synchronicity
+
+**Evocation:** Gravity Sinkhole, Fire Shield, Ice Storm, Wall of Fire
+
+**Transmutation:** Fabricate, Guardian of Nature, Control Water, Elemental Bane, Stone Shape, System Backdoor (technomagic)
 
 **Power words:** Fear, Flee, Silence
 
@@ -167,7 +250,19 @@ Gravity Sinkhole, Fabricate, Dimension Door, Control Water, Elemental Bane, Fire
 
 ### Fifth ring (unlocked at Level 10)
 
-Far Step, Haywire, Immolation, Shutdown, Skill Empowerment, Telekinesis, Wall of Light, Wall of Stone, Cone of Cold, Control Winds, Maelstrom, Transmute Rock, Wrath of Nature, Commune with City, Commune with Nature, Contagion, Reincarnate, Greater Restoration, Mass Cure Wounds, Treestride
+**Abjuration:** Greater Restoration
+
+**Conjuration:** Far Step, Treestride
+
+**Divination:** Commune with City, Commune with Nature
+
+**Enchantment:** Haywire (technomagic)
+
+**Evocation:** Immolation, Wall of Light, Wall of Stone, Cone of Cold, Maelstrom, Wrath of Nature, Mass Cure Wounds
+
+**Druid:** Contagion
+
+**Transmutation:** Skill Empowerment, Telekinesis, Reincarnate, Control Winds, Transmute Rock, Shutdown (technomagic)
 
 **Power words:** Weep, Peace
 
@@ -175,7 +270,15 @@ Far Step, Haywire, Immolation, Shutdown, Skill Empowerment, Telekinesis, Wall of
 
 ### Sixth ring (unlocked at Level 12)
 
-Chain Lightning, Disintegrate, Gravity Fissure, True Seeing, Scatter, Primordial Ward, Heal, Bones of Earth, Move Earth, Flesh to Stone, Wall of Thorns, Transport via Plants, Sunbeam, Wind Walk, Investiture of Flame, Investiture of Ice, Investiture of Stone, Investiture of Wind, Druid Grove, Find the Path
+**Abjuration:** Primordial Ward, Druid Grove
+
+**Conjuration:** Scatter, Wall of Thorns, Transport via Plants
+
+**Divination:** True Seeing, Find the Path
+
+**Evocation:** Chain Lightning, Gravity Fissure, Heal, Sunbeam
+
+**Transmutation:** Disintegrate, Flesh to Stone, Wind Walk, Bones of Earth, Move Earth, Investiture of Flame, Investiture of Ice, Investiture of Stone, Investiture of Wind
 
 **Power words:** Dispel, Return
 
@@ -183,7 +286,13 @@ Chain Lightning, Disintegrate, Gravity Fissure, True Seeing, Scatter, Primordial
 
 ### Seventh ring (unlocked at Level 14)
 
-Crown of Stars, Teleport, Project Image, Prismatic Spray, Draconic Transformation, Regenerate, Reverse Gravity, Firestorm, Whirlwind
+**Conjuration:** Teleport
+
+**Evocation:** Crown of Stars, Prismatic Spray, Firestorm, Whirlwind
+
+**Illusion:** Project Image
+
+**Transmutation:** Draconic Transformation, Regenerate, Reverse Gravity
 
 **Power words:** Despair, Pain
 
@@ -191,7 +300,17 @@ Crown of Stars, Teleport, Project Image, Prismatic Spray, Draconic Transformatio
 
 ### Eighth ring (unlocked at Level 16)
 
-Antimagic Field, Telepathy, Dark Star, Maddening Darkness, Animal Shapes, Antipathy/Sympathy, Control Weather, Earthquake, Incendiary Cloud, Sunburst, Tsunami
+**Abjuration:** Antimagic Field
+
+**Conjuration:** Incendiary Cloud, Tsunami
+
+**Divination:** Telepathy
+
+**Enchantment:** Antipathy/Sympathy
+
+**Evocation:** Dark Star, Maddening Darkness, Sunburst
+
+**Transmutation:** Animal Shapes, Control Weather, Earthquake
 
 **Power words:** Stun
 
@@ -199,7 +318,19 @@ Antimagic Field, Telepathy, Dark Star, Maddening Darkness, Animal Shapes, Antipa
 
 ### Ninth ring (unlocked at Level 18)
 
-Wish, Time Stop, Prismatic Wall, Meteor Swarm, Invulnerability, Teleportation Gate, Psychic Scream, Shapechange, Storm of Vengeance, Foresight, Resurrection
+**Abjuration:** Prismatic Wall, Invulnerability
+
+**Conjuration:** Wish, Teleportation Circle, Storm of Vengeance
+
+**Divination:** Foresight
+
+**Enchantment:** Psychic Scream
+
+**Evocation:** Meteor Swarm
+
+**Druid:** Resurrection
+
+**Transmutation:** Time Stop, Shapechange
 
 **Power words:** Kill, Live
 
@@ -320,6 +451,6 @@ Loot items: `personal training manual (basic)`, `personal training manual (advan
 
 **Ring unlock (repeatable):** Each manual use after awakening is a **shortcut** to open the next **ring tier** he may engrave and cast (Seville: two basic manuals open **3rd ring**). Does not replace inscription time, star preparation or study.
 
-**Advanced manuals:** Same ring rules; may convey spell knowledge when used. Still no Level change.
+**Advanced manuals:** May add **repository** knowledge far above the ring tier opened for casting (Eldridge: **knowledge through 7th ring**, **available through 3rd ring** at Level 7). Still no Level change. HUD may show current Level beside those two lines; Level is XP only.
 
 **HUD:** The panel may show current Level when a manual is consumed; that number reflects XP already earned, not the manual.

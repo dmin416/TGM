@@ -87,6 +87,7 @@ D&D narrative still applies where this table is silent.
 | *Life Detect* | Senses **energy** in range (life, mana, enchantment, and similar). Range **10 m × caster system Level** (70 m at Level 7). |
 | *Druidcraft* | Minor nature cantrip. **Uses:** light or extinguish a **candle or small fire**; make a **flower bloom** or **ripen fruit**; **predict weather**; conjure **petals or smoke**. **Scaling:** caster **system Level** is the multiplier on **intensity**, **potency**, and **distance** (Level 1 = baseline, Level 7 = ×7 on each). Not a one shot flash; gentle unless forced with extra mana. |
 | *Plant Manipulation* | Hybrid of **Shillelagh** and **Thorn Whip** (TGM). Living plants **obey**: stiffen, lengthen, change shape, fight when mana fed. **Combat:** **pull**, **trip**, or **strike**. **Reach:** always **30 ft** (growth length, not level scaled). **Strength:** **100 J × system Level** per pull, trip, or strike. Requires living plant matter within that reach. |
+| *Poison Spray* | **10 ft** jet. **Framework:** **100 g × system Level** yield, adjusted by **complexity modifier (1% to 99%)**; **real** inside the effect **sphere**; **reverts** outside unless **channeled** (**atom count × base magic cost** per molecule). Poisons and medicines for a scientist caster. Full rules: [MaxSystem.md](MaxSystem.md) (Poison Spray framework). |
 
 ---
 
