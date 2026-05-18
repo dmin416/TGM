@@ -57,6 +57,8 @@ Max levels through combat and decisive action rather than academic study. His pr
 
 ## Divination specialization
 
+Binding **Divination** as Max's school specialization (chapter 17) follows the same world rule as other mages: he develops that school on the soul and can **learn, inscribe, and cast** divination spells from his repository for each **ring now open** (ring tier = D&D spell level; see **Divination** under each ring in the spell list). Inscription still takes real time for a spell's first placement on the core. Specialization does **not** lock him to divination alone (Spell Plague cleared; his tab still carries the other schools from Seville and Eldridge). **Portent**, **The Third Eye**, and the later steps below are **features** on top of those spells, not replacements for them.
+
 Six steps on the **Divination** path (bound chapter 17). Unlock at **system Level** 2, 6, 10, 14, 18, and 20.
 
 | System Level | Feature | Rule |
@@ -178,7 +180,7 @@ Liquid or powder jet **10 ft** ahead (fixed reach from Level 1). A **scientist**
 
 **Conjuration:** Entangle, Fog, Ice Knife
 
-**Divination:** Comprehend Languages, Identify, Detect Magic, Detect Poison and Disease, Speak with Animals
+**Divination:** Comprehend Languages, Identify, Detect Magic, Detect Poison and Disease, Speak with Animals, Guiding Hand
 
 **Enchantment:** Sleep, Animal Friendship
 
@@ -198,7 +200,7 @@ Liquid or powder jet **10 ft** ahead (fixed reach from Level 1). A **scientist**
 
 **Conjuration:** Misty Step, Healing Spirit, Flaming Sphere, Dust Devil, Air Bubble, Find Vehicle
 
-**Divination:** Locate Animals or Plants, Locate Object, Find Traps
+**Divination:** Locate Animals or Plants, Locate Object, Find Traps, Augury, Beast Sense, Fortune's Favor, See Invisibility
 
 **Enchantment:** Hold Person
 
@@ -219,6 +221,8 @@ Liquid or powder jet **10 ft** ahead (fixed reach from Level 1). A **scientist**
 **Abjuration:** Counterspell, Nondetection, Dispel Magic, Protection from Energy
 
 **Conjuration:** Revivify, Thunderstep, Call Lightning, Sleet Storm, Tidal Wave
+
+**Divination:** Tongues
 
 **Evocation:** Aura of Vitality, Daylight, Wind Wall, Wall of Sand, Wall of Water
 
@@ -304,11 +308,9 @@ Liquid or powder jet **10 ft** ahead (fixed reach from Level 1). A **scientist**
 
 **Conjuration:** Incendiary Cloud, Tsunami
 
-**Divination:** Telepathy
-
 **Enchantment:** Antipathy/Sympathy
 
-**Evocation:** Dark Star, Maddening Darkness, Sunburst
+**Evocation:** Telepathy, Dark Star, Maddening Darkness, Sunburst
 
 **Transmutation:** Animal Shapes, Control Weather, Earthquake
 

@@ -61,7 +61,8 @@ Confirmed: 46
 - Pistolentasche: pistol magazine pouch, 9x19mm Parabellum (2 magazines, 13 rounds)
 - Field grenades: Kugelhandgranate, friction igniter (0)
 - M1892 Tornister: field pack
-- Pickelhaube: leather spike helmet
+- Pickelhaube: leather spike helmet (lost in Seville street fighting, chapter 15)
+- Captain Hauser's watch: from Hauser's effects; deliver to his wife with his message (chapter 16)
 - Webley Mk V revolver: .455 Webley, 4 rounds loaded (taken from dead British officer, cellar)
 - Maxim machine gun (captured, assigned to 3rd Platoon position)
 - Maxim ammunition (limited, captured)
@@ -80,17 +81,19 @@ Confirmed: 46
 
 ## Magic
 
-Spell tab: active (chapter 17, through line 49; no physical spellbook)  
+Spell tab: active (chapter 17; no physical spellbook)  
 Caster status: active (Spell Plague cleared)  
 System level: 7  
 Highest ring open: 3rd (Seville basics; Eldridge advanced manual, ch.17)  
 Repository knowledge: through 7th ring (Eldridge advanced manual, ch.17)  
 Schools on tab: Abjuration, Conjuration, Divination, Enchantment, Illusion, Transmutation (plague cleared)  
 Specialization bound: Divination (chapter 17, after druid circles)  
-Divination steps (MaxSystem): L2 Portent; L6 Third Eye; L10 Greater Portent; L14 Expert Divination (see someone's future); L18 Even Greater Portent; L20 Enhanced Third Eye; past L20 Portent scales with power spent  
-Cantrips: unlimited once learned (system)  
-Engraved on core: none yet at line 49  
-Repository: Seville through 3rd ring plus Eldridge advanced through 7th ring knowledge (six schools); spells through 3rd ring available to inscribe; none engraved on core yet at advanced-manual beat  
+Divination features active at Level 7: Portent; The Third Eye (MaxSystem for later steps)  
+Cantrips: unlimited once learned (system); seven slots filled (chapter 17)  
+Cantrips known: Blade Ward, Mage Hand, Life Detect, Mending, Druidcraft, Poison Spray, Plant Manipulation  
+Engraved on core: system engraved spells through 3rd ring onto soul after advanced manual (chapter 17); ready at hand within tab rules  
+Repository: Seville basics through 3rd ring plus Eldridge advanced knowledge through 7th ring (six schools); cast and inscription availability through 3rd ring  
+Mana panel: caps reserves at safe for third ring despite large soul capacity (chapter 17)  
 Daily usage: system resets spell usage each morning (beyond normal recovery)  
 Inscription: every open ring; system UI guides placement on core  
 
@@ -106,7 +109,7 @@ Druid Circles (1–7, system level 7; sensed inward chapter 17):
 
 Power Words: none
 
-Known Spells: none engraved yet (choosing loadout after line 49)
+Known Spells: see cantrips above; ring spells through 3rd ring system engraved and available (chapter 17; full list in MaxSystem.md)
 
 ---
 
@@ -119,7 +122,7 @@ Status: active, overlays field of vision; displays blue friendly icons and red e
 ### Intelligence Tab
 
 Status: active  
-Current collection: 23%  
+Current collection: increased (chapter 17; exact percentage not shown after Madrid update)  
 
 Unlocked entries:
 
@@ -129,6 +132,11 @@ Unlocked entries:
 - Denikin's warlord forces (British backed)
 - Russian Civil War (ongoing fragmentation, multiple factions)
 - Eastern territories (fog of war, marked for later exploration)
+- Holy Britannian Empire mage corps composition (chapter 17)
+- Aragon theater: Battle of Madrid concluded; National Army and International Brigade main forces destroyed (chapter 17)
+- Royal Army follow on plan extrapolated (chapter 17)
+- Kingdom of Aragon map expanded beyond Seville; Madrid under enemy control (chapter 17)
+- Cuenca and Valencia fallen; land line to German Empire cut (chapter 17, two days after Madrid news)
 
 ### Technology Tab
 
@@ -147,7 +155,10 @@ Status: locked
 
 ## Notes
 
-Current chapter: 17 (Spell tab open through line 49; spell picks and Shield study follow)  
+Current chapter: 17 (end of file; Seville garrison after Madrid, Cuenca and Valencia falls)  
+Command: sole surviving officer of 3rd Company; holds company on Major Thomas's order (chapter 16)  
+Casualties (chapter 16): Captain Hauser killed; Hans (orderly) killed; most company officers dead or missing; company fights as reinforced platoon  
+Location: Seville municipal hall sector; battalion command in damaged houses; 3rd Company rest near field kitchen (chapter 17)  
 Languages: German (native to body), Spanish (fluent, body's memory), French (fluent, body's memory), Viennese German dialect (body's memory), original body had a natural talent for languages and pursued them as a personal hobby; acquired socially through travel and aristocratic circles  
 Origin: Baden, House of Zähringen (cadet line); grandfather a man of note, line faded into obscurity through weak descendants by Max's youth  
 Officer training: Königliche Badische Kadettenanstalt (Karlsruhe), then Königliche Badische Kriegsschule; tactics, military history, field engineering, logistics, cartography, French as standard curriculum
