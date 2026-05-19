@@ -180,7 +180,7 @@ Liquid or powder jet **10 ft** ahead (fixed reach from Level 1). A **scientist**
 
 **Conjuration:** Entangle, Fog, Ice Knife
 
-**Divination:** Comprehend Languages, Identify, Detect Magic, Detect Poison and Disease, Speak with Animals, Guiding Hand
+**Divination:** Comprehend Languages, Identify, Detect evil and good, Detect Magic, Detect Poison and Disease, Speak with Animals, Guiding Hand
 
 **Enchantment:** Sleep, Animal Friendship
 
@@ -352,6 +352,17 @@ Liquid or powder jet **10 ft** ahead (fixed reach from Level 1). A **scientist**
 
 Compact form: 1=300 | 2=900 | 3=2700 | 4=6500 | 5=14000 | 6=23000 | 7=34000 | 8=48000 | 9=64000 | 10=85000 | 11=100000 | 12=120000 | 13=140000 | 14=165000 | 15=195000 | 16=225000 | 17=265000 | 18=305000 | 19=355000 | 20=450000
 
+**Level from total XP:** Let **T(L)** be the table value for level **L** (cumulative XP required to **be** that level).
+
+- **Levels 1–3 only:** **T(L) = 300 × 3^(L − 1)** (so 300, 900, 2700).
+- **Levels 4–20:** use the table; the curve softens after level 3 (**T(4) = 6500**, not 8100 from continued ×3).
+
+**Current level:** **L** = the largest integer from 1 to 20 such that **total XP ≥ T(L)**. If **total XP < 300**, no level from XP yet.
+
+**XP to next level:** **T(L + 1) − total XP** when **L < 20** (what the HUD shows as “next level at”). At **L = 20**, no further level threshold.
+
+**Example:** 41,325 XP → **T(7) = 34,000** and **41,325 < T(8) = 48,000** → **Level 7**; **6,675** XP to level 8.
+
 ---
 
 ### XP method
@@ -416,26 +427,27 @@ Start at 50. Add and subtract using the categories below.
 | Vickers position (crew, destroyed) | 700 |
 | Teutonic Knight | 2300 |
 | Garter Knight | 5900 |
-| German battle mage (low ring) | see mage table (ring 3) |
-| Highland Mage (corps, typical journeyman) | see mage table (ring 4) |
-| Highland Great Mage (corps, typical adept) | see mage table (ring 6) |
+| German battle mage (treasured apprentice, low) | see mage table (ring 3) |
+| Highland Mage (corps, treasured apprentice) | see mage table (ring 4) |
+| Highland Great Mage (corps, full mage) | see mage table (ring 6) |
+| Highland high instructor (corps) | see mage table (ring 7) |
 
 **Mages (by highest ring they can cast in combat)**
 
-Use the row for the **highest ring** the target has engraved and can channel under stress, not their institution title. Corps names (Highland Mage, German battle mage, and so on) often lag or oversell actual ring depth; see [Magic.md](Magic.md) tier labels.
+Use the row for the **highest ring** the target has engraved and can channel under stress, not their institution title. Corps names (Highland Mage, German battle mage, and so on) often lag or oversell actual ring depth; see [Magic.md](Magic.md) tier labels and **Highland Mage Corps roles**.
 
-| Ring | Typical tier | Reference XP |
-|------|--------------|--------------|
-| Cantrip only | Untrained / latent | 25 |
-| 1st | Apprentice (low) | 75 |
-| 2nd | Apprentice | 225 |
-| 3rd | Apprentice (German battle mage, low ring) | 700 |
-| 4th | Journeyman (Highland Mage, typical) | 2100 |
-| 5th | Journeyman (deep) / Adept (low) | 6300 |
-| 6th | Adept (Highland Great Mage, typical) | 12000 |
-| 7th | Master (low) | 36000 |
-| 8th | Master (high) | 108000 |
-| 9th | Peak | 324000 |
+| Ring | Typical tier | Corps role (Highland) | Reference XP |
+|------|--------------|------------------------|--------------|
+| Cantrip only | Untrained / latent | — | 25 |
+| 1st | Apprentice (low) | Expendable | 75 |
+| 2nd | Apprentice | Expendable | 225 |
+| 3rd | Apprentice (German battle mage, low ring) | Treasured apprentice | 700 |
+| 4th | Journeyman (Highland Mage, typical) | Treasured apprentice | 2100 |
+| 5th | Journeyman (deep) / Adept (low) | Full mage | 6300 |
+| 6th | Adept (Highland Great Mage, typical) | Full mage | 12000 |
+| 7th | Master (low) | High instructor | 36000 |
+| 8th | Master (high) | High instructor | 108000 |
+| 9th | Peak | High instructor | 324000 |
 
 Scaling: **×3 per ring** from ring 1 upward, anchored at ring 3 (700, German low ring). Ring 6 is held at **12000** instead of strict 18900 so adept kills stay below three Garter knights and do not outrun the level curve as harshly as the old flat 18000 line implied.
 

@@ -186,7 +186,10 @@ Armored cruiser.
 ## Resources
 
 **Aetherium Crystals**  
-Extraterrestrial meteorite ore; powers all magitech.
+Extraterrestrial meteorite ore; powers all magitech. Deep mine exposure is tied to the **Spell Plague** outbreak (~240+ years ago). Full rules: [Magic.md](Magic.md) (Spell Plague).
+
+**Spell Plague** (folk: magic plague)  
+Overload of raw magic on an unbalanced soul: delirium like hearing voices (feeling the world, seeing universal energy), physical warping, soul corruption; worst on high ring mages who mixed schools without proper engraving balance. Post plague doctrine: one school past the third ring; balanced multiclass is theorized but never attempted in the towers.
 
 **Luminite Ore**  
 Refined into diesel fuel; powers German armored knights.

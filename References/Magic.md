@@ -70,7 +70,7 @@ When writing from a **non-mage POV**, default to **inflated** belief unless that
 
 **Cantrips:** No star limit and no slot cost. A mage either knows a cantrip or does not. Cantrips draw only the cantrip energy cap per cast (see Ring Power). **Max (system):** once a cantrip is learned, the Spell tab treats it as **unlimited** use.
 
-**Specializations:** A mage carves patterns on the soul's surface and casts spells for **each school specialization** they have developed. Past the third ring, plague-era survivors usually lock to one tradition; Max's plague is cleared (chapter 16).
+**Specializations:** A mage carves patterns on the soul's surface and casts spells for **each school specialization** they have developed. Past the third ring, plague-era survivors usually lock to one tradition; see **Spell Plague** below. Max's plague is cleared (chapter 16).
 
 **Stars are earned** through study, practice, and meditation over time. No hard cap in theory; most mages plateau naturally.
 
@@ -116,6 +116,18 @@ When volume outruns finesse, unskilled mages let inscriptions **bloat** to fill 
 ### Meditation (reservoir)
 
 Meditation, trance, prayer cycles, and institutional discipline expand **internal volume** (how much mana can be held and recovered). Stars limit **how many times per day** a ring can be discharged; the pool limits **how hard** each discharge can be pushed toward the ring cap. War drains both across many fights in one operation.
+
+---
+
+## Spell Plague
+
+**Spell Plague** is the formal name; peasants and trench gossip often say **magic plague**. It is not a germ in the usual sense. It is what happens when a mage takes in **too much raw magic**: ambient mana, Aetherium bleed, or their own reservoir pushed past what the **engraved soul can balance**. The stronger the caster (deeper rings, more stars, heavier daily throughput), the faster the break.
+
+**Onset** looks like a **hearing voices** madness to chaplains and line medics. The victim **feels** the whole field (pressure, weather, distant life, ore in the hill) and **sees** the energy layer of the universe: threads, glare, speech without a speaker. Reason frays while the affliction **physically alters** the body and **corrupts** the soul's surface patterns. Late cases swell into **mindless things made of mana** that still move (chapter 16 briefing tone).
+
+**Why multiclassing is blamed:** Before the mines outbreak, orders routinely carried **more than one leveled school** on a single core past the third ring. Those mages also tended to hold **massive power**. Plague victims were often generalists whose symbols **fought on the same face** without spacing, mediating wedges, or deliberate scrubbing when schools clashed. Doctrine holds that a **proper** multiclass layout (balanced rings, staggered schools, disciplined meditation, engraved load spread across the core) could **distribute** raw intake safely. **No tower has attempted that reconstruction** since the epidemic: survivors locked to **one tradition** for ring four and above instead. Cantrips, reliquaries, and foreign scrolls still allow touches of other work.
+
+**History:** More than two hundred forty years ago the sickness erupted from **deep Aetherium mines** and spread mage to mage. It ended the old mixed school orders. Lower rings may still borrow cantrips from other schools; higher work in the corps and academies demands a **choice** unless wealth cheats the limit. **Max:** system cleared his plague in chapter 16; he is not bound to a single school for future ring work unless story proves otherwise ([MaxSystem.md](MaxSystem.md)).
 
 ---
 
@@ -226,6 +238,19 @@ Britain's colonial empire gives them nearly 9,000 mages to draw from versus Germ
 ## Major Mage Forces
 
 Britain's **Highland Mage Corps** is the premier battle mage force on the continent. France's **Loire Iris Corps** (*Corps Iris de la Loire*) operates from the Loire basin. Germany's mage capacity is smaller but its conventional and mechanical engineering compensates at the operational level.
+
+### Highland Mage Corps roles (Britannian field usage)
+
+Corps doctrine names mages by **highest combat ring**, not by the generic tier labels above. Titles on the roster often lag actual ring depth.
+
+| Corps role | Highest ring | Treatment |
+|------------|--------------|-----------|
+| **Expendable** | 1st–2nd | Massed behind the line; cheap area fire; replaced from the pool without ceremony |
+| **Treasured apprentice** | 3rd–4th | Worth training spend; still fielded as artillery; corps protects the investment |
+| **Full mage** | 5th–6th | Line assets; formation killers; peers and staff take them seriously |
+| **High instructor** | 7th+ | Teachers, senior staff, scroll crafters; rarely wasted on routine bombardment |
+
+**Active roster (Jan 1914 intel, ~642 mobilized):** Expendables (rings 1–2) ~48% · Treasured apprentices (rings 3–4) ~32% · Full mages (rings 5–6) ~17% · High instructors and above (ring 7+) ~3%. School mix on the same roster: evocation ~83%, transmutation ~11%, all other schools ~6%. Pool size for the whole empire remains ~9,000 ([Mage Prevalence](#mage-prevalence)); 642 is the mobilized corps-active headcount, not every imperial mage.
 
 ---
 

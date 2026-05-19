@@ -1,0 +1,30 @@
+---
+description: Limit edits to the user's cursor focus window in open files
+alwaysApply: true
+---
+
+# Edit scope at cursor focus
+
+When editing a file the user has open, treat their **cursor line** as the anchor.
+
+## Allowed range
+
+- **At most 1 line above** the cursor line.
+- **At most 5 lines below** the cursor line.
+
+All changes in that file for that task must fall inside that inclusive window unless the user **explicitly** names another line range, section, or file in the same message.
+
+## Required behavior
+
+1. Read the file and note the cursor line before editing.
+2. If a fix or request would touch lines outside the window, **stop** and limit the edit to what fits inside the window, or ask the user to move focus or name a wider range.
+3. Do not "clean up," reflow, or fix unrelated lines elsewhere in the file while working at the cursor.
+4. Multi file tasks: each file gets its own anchor only when the user has that file focused or names it; otherwise do not edit files they did not anchor.
+
+## Examples
+
+Cursor on line 251: may edit lines 250 through 256 only.
+
+Cursor on line 10: may edit lines 9 through 15 only.
+
+User says "fix line 251 and the Madrid block at line 320": explicit wider permission for those named targets only.

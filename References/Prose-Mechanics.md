@@ -8,91 +8,37 @@ Mechanical editing rules for *Trenches, Guns and Magic*.
 
 ## Pre-Flight
 
-Verify every weapon, equipment item, name, and place against reference files before writing. Every weapon must match its historical introduction date. The source novel makes historical errors; correct them silently. German military competence and equipment history are fully grounded in real history.
+Before writing, verify every weapon, piece of equipment, name and place in the reference files. Weapons must match historical introduction dates. The source novel makes historical errors; correct them silently. German military competence and equipment history follow real history. Gear, weapons, places and people use proper historical names per World-and-Setting.md.
+
+---
+
+## Voice
+
+Plain, direct English. Match the register of the nearest paragraph in the same Story file. No ornate, lyrical or literary padding. No new similes or comparisons; preserve similes already in the source as written. Do not add editor generated "like a" or "as if" lines. Forbidden: recursive descriptors, restatements of the tenor, weather as mood, body part as object. In narrative, write the system map in normal words (units, routed, casualties, named armies and cities), not strategy game UI jargon (`counters`, `extrapolated`, `follow on`, and similar).
 
 ---
 
 ## Punctuation
 
-Do not use hyphens. Do not use em dashes. Do not use colons inside dialogue.
+No hyphens. No em dashes. No colons inside dialogue. No Oxford commas. No comma immediately before *and*, *but* or *or* when they join parallel words, phrases, series members or parts of the same predicate.
 
-Do not use Oxford commas.
-
-Do not place a comma immediately before *and*, *but*, or *or* when they join parallel words, phrases, series members, or parts of the same predicate in narrative or dialogue.
-
-Bad: He loaded the rifle, and fired.
-Good: He loaded the rifle and fired.
-
-Bad: bread, butter, and jam
-Good: bread, butter and jam
+Bad: He loaded the rifle, and fired. / bread, butter, and jam  
+Good: He loaded the rifle and fired. / bread, butter and jam
 
 ---
 
-## Sentence Length
+## Sentences and paragraphs
 
-Every sentence is at least four words long.
-
-Bad: He ran.
-Good: Max ran toward the trench.
-
----
-
-## Paragraph Openers
-
-Every prose paragraph's opening sentence must contain the named subject of that paragraph. Paragraphs cannot open with pronouns referring to that subject before the subject is named.
-
-Bad: He raised the rifle and aimed at the far parapet.
-Good: Max raised the rifle and aimed at the far parapet.
-
----
-
-## Consecutive Sentences
-
-When a named subject leads two consecutive sentences, the second sentence uses a pronoun instead of repeating the name.
-
-Bad: Max raised the rifle. Max fired twice into the dark.
-Good: Max raised the rifle. He fired twice into the dark.
-
----
-
-## Noun Scope
-
-Prefer the main noun before its scope. Use an explicit prepositional phrase when it reads more clearly than a compressed noun-noun construction.
-
-Bad: battlefield reaper
-Good: reaper of the battlefield
-
----
-
-## Similes
-
-Do not invent new similes or comparisons. Similes already in the source are preserved as written.
-
-Forbidden patterns:
-- Recursive descriptors: "walked with the confidence of a person who had always known how to walk"
-- Restatements of the tenor: "smiled the smile of someone who had smiled before"
-- Weather as mood
-- Body part as object
-- Any "like a" or "as if" construction the editor generates
+Every sentence is at least four words long. Each prose paragraph opens with the named subject of that paragraph, not a pronoun for that subject. When the same named subject starts two consecutive sentences, the second uses a pronoun. Prefer the main noun before its scope; use a clear prepositional phrase over compressed noun-noun stacks (reaper of the battlefield, not battlefield reaper).
 
 ---
 
 ## Layout
 
-Dialogue uses quotation marks and italics. Each line of dialogue starts on its own line.
-
-Thoughts use italics only. Each thought starts on its own line.
-
-Sounds use bold onomatopoeia on their own line. Never describe a sound in prose when onomatopoeia can replace it.
-
-System messages and intel readouts use code blocks.
-
-Prose paragraphs are never broken up with blank lines. Only dialogue, thoughts, and sounds get their own lines. Narrative sentences that belong together stay in the same paragraph.
+Dialogue: quotation marks and italics, one line per speech. Thoughts: italics only, one line per thought. Sounds: bold onomatopoeia on its own line; do not describe the sound in prose when onomatopoeia can carry it. System messages and intel readouts: fenced code blocks. Do not break prose paragraphs with blank lines; only dialogue, thoughts and sounds get their own lines.
 
 ---
 
-## Preservation
+## Preservation and POV
 
-Every sentence from the source is preserved. Do not shorten, condense, trim, remove, or cut. Full detail is retained at all times. No editorialization, commentary, or meta remarks unless requested. No battles skipped or condensed unless requested. Do not delete files unless asked.
-
-Point of view is tight third-person limited filtered through Max's consciousness. Occasional narration from other characters' points of view is permitted when the scene calls for it.
+Preserve every source sentence. Do not shorten, condense, trim, remove or cut unless asked. No editorialization, commentary or meta remarks unless requested. Do not skip or condense battles unless requested. Do not delete files unless asked. Tight third person limited through Max; other POV only when the scene requires it.
