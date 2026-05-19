@@ -162,6 +162,8 @@ For a researcher, wargamer, novelist, reenactor, or instructor working with this
 
 # Second Lieutenant (*Leutnant*) in the German Army 1914
 
+**Equipment checklist (1913 battle kit):** [German-Leutnant-1913-Battle-Kit.md](German-Leutnant-1913-Battle-Kit.md)
+
 ## Position in the Hierarchy
 
 **Bottom rung of the officer caste.** A *Leutnant* was the lowest commissioned rank, but still infinitely above the highest NCO (*Feldwebel*). The social gap between a second lieutenant and a sergeant was absolute, different species, not different ranks.

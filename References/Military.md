@@ -256,6 +256,10 @@ Weapons, equipment, and vehicles **existing and in service or inventory** as of 
 
 **Total load:** 27–30 kg (60–65 lb) marching.
 
+### Leutnant (second lieutenant) baseline kit, 1913
+
+Officers privately purchased uniform, sidearm, map case, binoculars, and most field items; enlisted kit above is **not** their full load. Detail: **[Reference-topics/German-Leutnant-1913-Battle-Kit.md](Reference-topics/German-Leutnant-1913-Battle-Kit.md)**. Social and institutional context: [Reference-topics/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md](Reference-topics/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md).
+
 ### Infantry weapons (inventory detail)
 
 - **Gewehr 98**
