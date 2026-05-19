@@ -18,13 +18,53 @@ Next level at: 48000 XP
 
 ## Stats
 
-STR: 13  
-DEX: 13  
-CON: 13  
-INT: 13  
-WIS: 13  
-CHA: 13  
-LCK: 13
+Rule: 10 + level (+1 per level; 10 = average soldier). At level 7 each stat is 17.
+
+STR: 17  
+DEX: 17  
+CON: 17  
+INT: 17  
+WIS: 17  
+CHA: 17  
+LCK: 17
+
+---
+
+## Body
+
+Physical enhancements from Druid inheritance (system level 7) and combat conditioning. Circle markers are felt on the body; effects stack with normal recovery and the system daily reset.
+
+### Physical capability (multipliers)
+
+Reference baseline: an average soldier = 100%.
+
+| Layer | Multiplier | Cumulative vs average soldier |
+|-------|------------|-------------------------------|
+| System leveling (level 7) | **1.70** | **170%** |
+| Wild Shape passive body enhancement (circle 2) | **×1.70** on the above | **289%** (170% × 170%) |
+| Primal Strike active (circle 6, mana fed body enhancement) | **×3** on the passive stack | **867%** (289% × 3) |
+
+Stats on the sheet are separate from this combat body scaling. The multipliers describe strength, speed, toughness and recovery in action, not the six attribute numbers alone.
+
+Primal Strike only applies while Max deliberately channels mana into the Moon circle for a fight. Wild Shape enhancement is the standing rebuild of muscle, bone and tissue from circle 2 (chapter 17 and ongoing).
+
+### Druid circles (system level 7; circles 1–7 active)
+
+| Site | Circle | Effect |
+|------|--------|--------|
+| Heels | **1** Natural Recovery (Land) | Celtic markings draw energy from air and land; rapid physical and spiritual recovery; does not function in mana voided zones |
+| Back of neck | **2** Wild Shape (Moon) | Control over own flesh; reshape without mana; animal shapes, size and structure |
+| Soul (orbit) | **3** Circle Spells 0 (Land) | Environmental attunement; pair of circles around the soul; basic channeling from surroundings |
+| Forehead | **4** Star Map (Stars) | **100 m** sensory sphere (terrain, life, movement, energy); clearer with eyes closed than with tired eyes; can project a holographic star map |
+| Soul (channel) | **5** Circle Spells I (Land) | Active environmental channeling; pull power from surroundings for larger effects |
+| Body (Moon track) | **6** Primal Strike (Moon) | Enhanced shapeshifting; extreme forms; larger, stronger; mana reinforced flesh and bone |
+| Balls of feet | **7** Land's Stride (Land) | Push energy into surroundings; terrain accommodates passage (thorns part, mud solidifies, ice grips; stones feel less sharp underfoot) |
+
+### Chapter 17 awakening (applied once)
+
+- Circulated accumulated mana; reinforced muscles and bones via Moon circle; bayonet point hard to break skin without real force
+- Stopped deliberate further strengthening when hunger spiked (risk of harming the brain if pushed too far)
+- Ambient mana visible as motes and elemental threads; senses sharpened after manuals and specialization bind
 
 ---
 
@@ -96,16 +136,7 @@ Repository: Seville basics through 3rd ring plus Eldridge advanced knowledge thr
 Mana panel: caps reserves at safe for third ring despite large soul capacity (chapter 17)  
 Daily usage: system resets spell usage each morning (beyond normal recovery)  
 Inscription: every open ring; system UI guides placement on core  
-
-Druid Circles (1–7, system level 7; sensed inward chapter 17):
-
-- **1 Natural Recovery** (Circle of the Land): rapid mana recovery wherever existence and mana are present; Celtic markings at heels draw energy in; does not function in mana voided zones
-- **2 Wild Shape** (Circle of the Moon): control over his own body; reshape physical form without mana; malleable flesh; animal shapes, size and structure
-- **3 Circle Spells 0** (Circle of the Land): environmental attunement; pair of circles orbiting the soul; draw ambient power to enhance spells; basic channeling
-- **4 Star Map** (Circle of the Stars): circle on the forehead; **100 m** sensory sphere (terrain, life, movement, energy); holographic star map projection; each further Circle of the Stars multiplies radius ×10
-- **5 Circle Spells I** (Circle of the Land): active environmental channeling; pull power from surroundings for larger effects; moderate scale borrowing
-- **6 Primal Strike** (Circle of the Moon): enhanced shapeshifting; extreme forms; larger, stronger; mana reinforced flesh and bone
-- **7 Land's Stride** (Circle of the Land): circles on the balls of the feet; push energy into surroundings; terrain accommodates passage; thorns part, mud solidifies, ice grips feet
+Druid circles (1–7): see Body  
 
 Power Words: none
 
