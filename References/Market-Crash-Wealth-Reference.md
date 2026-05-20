@@ -1,6 +1,6 @@
 # Market Crash Wealth Reference
 
-Rough draft. Maximilian Friedrich wealth model, stock crash mechanics, industry stakes, and long arc revenue (1914 to 2000). Numbers are planning placeholders until tied to story beats and `Status.md`. See [Notes-for-the-Future.md](Notes-for-the-Future.md) (humanitarian, patents, Friedrich Plan).
+Rough draft. Maximilian Friedrich wealth model, stock crash mechanics, industry stakes, and long arc revenue (1914 to 2000). Numbers are planning placeholders until tied to story beats and `Status.md`. See [Alternate-History-Baseline.md](Alternate-History-Baseline.md) (character, world divergence, 1913 technology floor, Luminite, financial baseline), [Notes-for-the-Future.md](Notes-for-the-Future.md) (humanitarian, patents, Friedrich Plan).
 
 ## Core Mechanics
 
