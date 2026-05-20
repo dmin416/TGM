@@ -1,6 +1,6 @@
 # Ultimate Sun User
 
-Rough draft. Hybrid photosynthesis and photovoltaic plant design, German soil semiconductors, mycelium distribution network, and repository outputs. Planning reference for Max engineered biology; not story canon until cited.
+Rough draft. Hybrid photosynthesis and photovoltaic plant design, German soil semiconductors, mycelium distribution network, and repository outputs. Planning reference for Max engineered biology; not story canon until cited. Glucose repository chemistry: [Biofeedstock-Chemistry-and-Waste.md](Biofeedstock-Chemistry-and-Waste.md).
 
 ## Inputs & Max Output
 

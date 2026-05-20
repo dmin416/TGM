@@ -112,6 +112,8 @@ The world's technology in 1913 is equivalent in development level to real-world 
 
 ## Energy Context
 
+See [Biofeedstock-Chemistry-and-Waste.md](Biofeedstock-Chemistry-and-Waste.md) for glucose vs coal chemistry, lubricants, waste treatment, and no petroleum material substitutes.
+
 - Coal: naturally occurring sedimentary rock; contains sulfur, nitrogen, mineral ash, and volatile compounds depending on grade; lignite through bituminous to anthracite
 - Charcoal: man-made processed carbon; wood heated in low-oxygen environment drives off water and volatiles; burns hotter and cleaner than coal; used in precision smelting; distinct from coal in origin, impurity profile, and combustion behavior
 - Luminite slurry is the primary mobile fuel

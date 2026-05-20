@@ -86,7 +86,7 @@ Physical harm where the primary violation is bodily. Psychological violation is 
 
 ### Consensual Combat
 
-Fighting is not inherently criminal. The empire recognizes that people settle matters with their fists, that honor cultures exist, and that two willing men resolving a dispute physically, even to the point of grave injury, is not the court's business provided magical healing exists to address the consequences. This is not endorsed as the Christian ideal but it is recognized as a human reality and treated accordingly. Unlike the historical Wilhelmine dueling code, this is not gated by rank or standing: the same rules apply from laborer to crown prince.
+Fighting is not inherently criminal. The empire recognizes that people settle matters with their fists, that honor cultures exist, and that two willing men resolving a dispute physically, even to the point of grave injury, is not the court's business provided magical healing exists to address the consequences. This is not endorsed as the Christian ideal but it is recognized as a human reality and treated accordingly. Unlike the historical Wilhelmine dueling code, the same rules apply from laborer to crown prince.
 
 **Combat is lawful when:**
 
@@ -114,9 +114,9 @@ Killing without deliberate intent. Distinct from murder in character but still p
 | Severity | Description | Punishment |
 |---|---|---|
 | S1 | Accidental death through minor negligence | Restitution to family, community service, public record |
-| S2 | Negligent death: careless professional, unsafe employer | Restitution to family, labor sentence |
-| S3 | Gross negligence: reckless disregard for obvious risk of death | Long imprisonment, full restitution, permanent record |
-| S4 | Manslaughter: heat of passion, no premeditation but clear culpability | Extended imprisonment with hard labor, full restitution |
+| S2 | Negligent death: careless professional, unsafe employer | Restitution to family, labor sentence, public record |
+| S3 | Manslaughter: heat of passion, no premeditation but clear culpability | Long imprisonment with hard labor, full restitution to family |
+| S4 | Gross negligence: reckless disregard for obvious risk of death, or repeated negligent harm | Extended imprisonment, full restitution, permanent record |
 | S5 | Mass negligent death: systemic failure causing multiple deaths | Lifetime hard labor with no rights, full asset seizure, permanent erasure from professional record |
 
 ---
@@ -127,7 +127,7 @@ Any deliberate act violating another person's autonomy, identity, or inner safet
 
 | Severity | Description | Punishment |
 |---|---|---|
-| S1 | Minor manipulation, petty coercion, social pressure weaponized for gain | Restitution, public record, mandatory reformation program |
+| S1 | Minor manipulation, petty coercion, social pressure weaponized for gain | Restitution, public record |
 | S2 | Blackmail, sustained coercion, deliberate psychological harm | Labor sentence, restitution, supervised probation |
 | S3 | Grooming, sustained psychological abuse, deliberate identity destruction | Long imprisonment with hard labor |
 | S4 | Rape, enslavement of will, sustained torture of the mind | Extended imprisonment; no mitigation for lesser physical injury |
@@ -144,7 +144,7 @@ Deception that harms others or corrupts the community's ability to function and 
 | S1 | Petty fraud, minor deception for small gain | Doubled restitution, public record |
 | S2 | Defamation, false testimony causing harm to an individual | Labor sentence, full restitution, standing demotion |
 | S3 | Major fraud, sustained deception causing significant material harm | Long imprisonment, full restitution, public record |
-| S4 | Corruption of officials, false accusation of a capital crime | Equivalent punishment to what the false accusation would have brought, asset seizure |
+| S4 | Corruption of officials, false accusation of a capital crime (spell must confirm deliberate malicious intent, not genuine mistaken belief) | Equivalent punishment to what the false accusation would have brought, asset seizure |
 | S5 | Systematic empire scale fraud or deception causing mass harm | Lifetime hard labor with no rights, full asset seizure, erasure from public record |
 
 ---
@@ -169,7 +169,7 @@ Killing an unprotected animal for food, pest control, or legitimate purpose is n
 |---|---|---|
 | S1 | Negligent cruelty, failure of duty of care to a working animal | Restitution, public record |
 | S2 | Deliberate cruelty causing suffering | Labor sentence, barred from owning or working with animals |
-| S3 | Torture of animals: sustained, deliberate infliction of suffering | Extended labor sentence, full psychological assessment, permanent monitoring |
+| S3 | Torture of animals: sustained, deliberate infliction of suffering | Long imprisonment, full psychological assessment, permanent monitoring |
 
 Protected animals (designated as ecologically or strategically vital) fall under Crimes Against Community & Property if killed without state authorization.
 
@@ -194,7 +194,7 @@ Extortion, racketeering, and sustained systems of coercion designed to feed off 
 
 | Severity | Description | Punishment |
 |---|---|---|
-| S1 | Single act of petty extortion | Restitution, labor sentence |
+| S1 | Single act of petty extortion | Restitution, public record |
 | S2 | Sustained extortion of an individual | Labor sentence, restitution, public record |
 | S3 | Small organized criminal operation preying on community | Long imprisonment, full asset seizure |
 | S4 | Significant criminal network with multiple victims | Extended imprisonment, full asset seizure, network dismantled |
@@ -222,10 +222,10 @@ Public conduct that violates the community's shared moral standard. Private beli
 
 | Severity | Description | Punishment |
 |---|---|---|
-| S1 | Public indecency, lewd conduct | Public correction, community service |
+| S1 | Public indecency, lewd conduct | Public correction, community service, public record |
 | S2 | Distribution of obscene material to adults without consent | Labor sentence, restricted movement, public record |
-| S3 | Deliberate exposure of children to corrupting content | Long imprisonment; escalated automatically under Crimes Against the Weak |
-| S4 | Systematic production targeting children | Escalated to S5 under Crimes Against the Weak |
+| S3 | Deliberate exposure of children to corrupting content | Long imprisonment, escalated to S4 under Crimes Against the Weak |
+| S4 | Systematic production targeting children | Extended imprisonment, escalated to S5 under Crimes Against the Weak |
 
 ---
 
@@ -239,7 +239,7 @@ Desertion of a dependent without provision or transfer of care.
 | S2 | Deliberate abandonment causing distress but no lasting harm | Labor sentence, loss of custody or guardianship rights |
 | S3 | Deliberate abandonment causing lasting harm | Long imprisonment, permanent loss of guardianship rights |
 | S4 | Abandonment resulting in serious injury or near death | Extended imprisonment, treated as grievous bodily harm by neglect |
-| S5 | Abandonment resulting in death | Merged with Crimes Against Life; negligent death at minimum, escalated for breach of duty |
+| S5 | Abandonment resulting in death | Long imprisonment minimum, escalated for breach of duty; sentenced under Crimes Against Life with abandonment as aggravating factor |
 
 ---
 
@@ -252,7 +252,7 @@ Deliberate violation of graves, holy sites, war memorials, or the honored dead.
 | S1 | Accidental or minor vandalism of a memorial | Restitution, community service, public apology |
 | S2 | Deliberate vandalism of a grave or memorial | Labor sentence, full restoration at offender's cost, public record |
 | S3 | Targeted desecration of a community's holy site | Long imprisonment, full restoration, public record |
-| S4 | Systematic desecration as hatred or political violence | Extended imprisonment, treated as Crimes Against the Covenant |
+| S4 | Systematic desecration as hatred or political violence | Extended imprisonment, full restoration at offender's cost, compounded with Crimes Against the Imperial Covenant |
 
 ---
 
@@ -312,7 +312,7 @@ Distinct from treason in that the offender may not act directly but organizes, i
 
 | Severity | Description | Punishment |
 |---|---|---|
-| S1 | Spreading deliberate falsehoods that cause public unrest | Restitution, public correction, public record |
+| S1 | Deliberate falsehoods spread with intent to destabilize public order (distinct from Crimes Against Truth in that the target is the community's stability, not personal gain) | Restitution, public correction, public record |
 | S2 | Organized agitation inciting civil disorder without violence | Labor sentence, restricted movement, public record |
 | S3 | Inciting violence against individuals or groups | Long imprisonment, full asset seizure |
 | S4 | Organizing armed insurrection or rebellion | Extended imprisonment, full asset seizure |
@@ -341,11 +341,11 @@ Prisoners of war are entitled to food, shelter, and freedom from torture. They a
 
 ### 18. Magic Crimes
 
-Magic exists and is rare. That rarity makes its misuse particularly serious: the victim typically has no defense and no frame of reference for what was done to them. Magical violation is treated as categorically worse than equivalent non magical harm because it bypasses all natural ability to resist or escape.
+Magic exists and is rare. It is a tool. Using it is not a crime. What a person does with it is subject to the same standards as any other action: the crime is the harm caused or the will imposed, not the magic itself. Magical violation is treated as categorically worse than equivalent non magical harm because it bypasses all natural ability to resist or escape.
 
 | Severity | Description | Punishment |
 |---|---|---|
-| S1 | Unauthorized use of minor magic causing no harm | Fine, public record, magic use restricted pending review |
+| S1 | Magic causing noise, damage, or irritation to others (the magical equivalent of negligence) | Restitution, public record |
 | S2 | Using magic to deceive or manipulate without physical harm | Labor sentence, magic use suspended, restitution |
 | S3 | Enchanting a person without consent: altering their emotions, will, or perception | Long imprisonment, permanent magic license revocation |
 | S4 | Magical coercion: forcing actions against a person's will, magical torture, using healing as extortion | Extended imprisonment, permanent magic license revocation |
@@ -373,39 +373,39 @@ See [Market-Crash-Wealth-Reference.md](Market-Crash-Wealth-Reference.md) (Pricin
 
 ---
 
+## On Imprisonment & Sentence Length
+
+Every person has merit as a person. Prisoners are not lesser human beings: they are people whose current intentions make them dangerous to others or to the empire. That and only that is why they are contained. The sentence length assigned at trial is a rough estimation of the average time it takes for a mind and character to genuinely change. It is not a countdown to freedom. Freedom is determined by the mind, not the clock.
+
+A person who has genuinely changed before their sentence ends should not serve out a clock that no longer reflects who they are. A person whose sentence has expired but whose intent has not changed should not leave. The Sense Good and Evil spell is the measure. The court reviews accordingly.
+
+This applies equally to prisoners of war. They are held because their intentions in the context of conflict make them dangerous, not because they are less than human. The moment the conflict ends or their intent demonstrably changes, the reason for holding them changes with it. They are fed, sheltered, and treated as people for the duration. Cruelty toward any prisoner (criminal or captured enemy) is a crime under this covenant without exception.
+
+---
+
 ## Punishment Philosophy
 
-**S1: Restore.**
+The purpose of punishment in this empire is not vengeance. It is not humiliation. It is the restoration of what was broken: for the victim, for the community, and where possible for the offender themselves. A sentence that serves none of those three purposes is a sentence that serves no one.
 
-The offender repairs what they broke, materially and socially. No imprisonment. The goal is wholeness, not humiliation.
+A person of genuine faith and conscience who has caused harm is already under the weight of that before the court speaks. The court's job in that case is to address what the victim lost, correct the root cause of the failure, and support a person who is already trying to make it right. Crushing a conscience that is already working helps nobody.
 
-**S2: Correct.**
+A person of pure self interest who has caused harm has no internal correction happening. The court must be the entirety of that correction because nothing else is. The sentence carries the full weight it needs to carry and no consideration is given for remorse that the spell has already confirmed is absent.
 
-The offender is held accountable with a labor sentence and restitution. A path back to full standing exists and is expected to be taken.
+Hard labor is not degrading. Every citizen works. A prisoner works because people work: the restriction is on freedom and rights, not on their dignity as a person made in God's image. The labor is hard where the crime had moral weight because the work is the consequence and the debt to the community is paid through it.
 
-**S3: Remove and Reform.**
-
-The offender is separated from the community, put to productive hard labor, and given a genuine path back, contingent on demonstrated change, not time served alone.
-
-**S4: Severe Restriction.**
-
-The offender has committed a grievous act. Return to normal standing is unlikely and not guaranteed. The Sense Good and Evil spell is the determining factor: a person of genuine conscience showing deep remorse receives a structured path through extended imprisonment with hard labor and a defined review period. A person showing no remorse and no conscience receives extended imprisonment with no path to standing restoration and is treated as a candidate for S5 on any subsequent offense.
-
-**S5: Permanent Consequence.**
-
-Lifetime hard labor with no rights. The person contributes labor to the community they violated for the remainder of their life. There is no path to standing restoration.
-
-The empire does not execute. Death is God's jurisdiction, not the emperor's. A good person killed is sent home to God: that is no punishment. A person of pure self interest killed escapes into God's judgment before they have faced any earthly consequence. Lifetime hard labor with no rights forces a person to live inside what they chose, every day, for the rest of their life. That is a heavier burden than death and the empire knows it.
+The empire does not execute. Death is God's jurisdiction, not the emperor's. A good person killed is sent home to God: that is no punishment. A person of pure self interest killed escapes into God's judgment before they have faced any earthly consequence of what they chose. Lifetime hard labor with no rights forces a person to live inside that choice every day for the rest of their life. That is a heavier burden than death and the empire applies it knowing exactly what it is.
 
 ---
 
 ## The First Strike Principle
 
-The empire does not assume the worst of anyone on a first offense. Even serious crimes carry the possibility of reformation where the spell shows genuine conscience and remorse. The door is not closed on a first offense unless the act itself was so systematically depraved (mass harm, organized atrocity, predatory networks) that the scale removes the question.
+The empire gives one chance. Every first offense is assessed fully by the spell, sentenced appropriately, and the person is given a genuine path back. That is the extent of the empire's obligation to someone who has caused harm.
 
-A person of faith and conscience who has committed a serious crime and is genuinely broken by it is already doing the hardest reformative work possible. The court addresses the victim's needs, the root cause, and any structural correction needed, then supports that person's restoration rather than crushing a conscience that is already working.
+**S3 and above: second offense is lifetime hard labor with no rights.** No exceptions. No spell mitigation on the sentence. No appeal on severity. The harm was serious enough the first time. The second confirms character permanently.
 
-A person of pure self interest who has committed even a moderate crime and shows no remorse is treated with the full weight available at that severity because their conscience will not correct them when the court is done. The sentence has to do the work their character will not.
+**S1 and S2: the spell and reparations determine the second offense response.** The line is whether the crime imposed on someone's psychology or caused lasting physical damage. A man who stole twice, made full reparations both times, and is genuinely remorseful is a different case from someone who violated another person and did it again. Genuine remorse confirmed by the spell, combined with full reparations, means the second offense escalates the sentence significantly but does not automatically trigger lifetime hard labor. No remorse and no reparations on a second S1 or S2 offense triggers lifetime hard labor immediately: the character has been read twice and the answer is the same both times.
+
+A person of pure self interest confirmed by the spell at any severity level, on any offense, is sentenced at the ceiling of that severity with no mitigation. The spell reading no conscience removes the consideration that genuine remorse would otherwise earn.
 
 ---
 
@@ -449,7 +449,7 @@ A person whose mind does not function as it should, whether from illness, trauma
 
 A person who has had every opportunity the empire provides and has chosen to take from others rather than contribute. They are not desperate. They are not broken. The spell confirms it.
 
-**Response:** First offense: assigned work, housing provided, trade offered. The empire gives one full chance. Second offense: the offer is made again with supervised labor and restricted movement. Third offense: reclassified as a standard property crime and sentenced accordingly. The empire is not obligated to carry indefinitely a person who has refused every hand extended to them.
+**Response:** First offense: assigned work, housing provided, trade offered. The empire gives one full chance. Second offense: lifetime hard labor with no rights. The empire extended its hand. They slapped it away twice.
 
 The question a judge must ask is not *what did they take* but *why did they take it.* The spell answers this. The community provides context. False claims of desperation are treated as a minor fraud offense.
 
@@ -473,6 +473,8 @@ A person who has completed their punishment and demonstrated genuine change carr
 
 **The Fugitive**
 
-A person who committed a crime and was never captured carries that crime indefinitely. There is no expiration. There is no statute of limitations for the uncaught. Time does not absolve. Distance does not absolve. A man who murdered at twenty and is found at seventy is still a murderer and faces the full consequence of his crime. The only path to relief is to come forward, face the court, and accept judgment, at which point the judge may consider the years lived and the character demonstrated, but is not obligated to reduce the sentence.
+A person who committed a crime and was never captured carries that crime indefinitely. There is no expiration. There is no statute of limitations for the uncaught. Time does not absolve. Distance does not absolve. A man who murdered at twenty and is found at seventy is still a murderer and faces the full consequence of his crime.
 
-The distinction is simple: justice was available to both men. One faced it. One ran from it. The empire does not reward running.
+Turning yourself in always carries merit. It is the act of a person who has faced what they did and chosen to stop running from it. That act is weighed by the court and it is never dismissed. The weight it carries is then multiplied by what the spell reads: genuine remorse and a changed character amplify that merit significantly, reducing what the court adds to the sentence. Absence of remorse reduces it to near nothing. A man who surrenders strategically because capture was imminent and feels nothing about what he did has turned himself in but has not repented. The spell knows the difference and the court acts on it.
+
+A person who comes forward voluntarily, carries genuine remorse, has lived differently, and has done what good they could in the years between, has wide latitude for the court to consider all of it. A person who is dragged back in chains and still feels nothing faces the full sentence with no consideration. The distinction is simple: justice was available to both men. One faced it on his own terms because his conscience demanded it. One did not. The empire recognizes that difference plainly.

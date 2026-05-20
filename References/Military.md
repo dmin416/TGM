@@ -335,7 +335,7 @@ See **[German-Artillery-1914.md](German-Artillery-1914.md)** for the full 1914 t
 
 - **Rail:** military rail detachments; strategic rail mobility
 - **Motor:** staff cars, trucks, motorcycles (limited quantities)
-- **Air:** reconnaissance aircraft; **Zeppelin** rigid airships; **L class** armored airships with **210 mm** deck battery ([German-Armored-Airship-Armament.md](German-Armored-Airship-Armament.md))
+- **Air:** reconnaissance aircraft; **Zeppelin** rigid airships; **L class** armored airships with **210 mm** deck battery ([German-Armored-Airship-Armament.md](German-Armored-Airship-Armament.md)). OTL fixed wing progression from 1913 onward: [Aviation-Progress-1913-Present.md](Aviation-Progress-1913-Present.md).
 - **Sea:** dreadnought-era fleet, cruisers, destroyers / torpedo boats, submarines, mines
 
 ---
