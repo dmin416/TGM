@@ -146,7 +146,7 @@ Complete vertical integration globally: raw materials → manufacturing → dist
 
 ## Pricing Philosophy
 
-Despite controlling global production (pharmaceuticals, food, energy, transport, manufacturing), ownership ensures fair pricing benefiting humanity. Medical patents for universal access. Food at sustainable cost. Energy enables development. Manufacturing efficiency passed to consumers. Monopoly for humanitarian benefit, not rent-seeking. Wealth is mechanism, not purpose.
+Despite controlling global production (pharmaceuticals, food, energy, transport, manufacturing), ownership ensures fair pricing benefiting humanity. Medical patents for universal access. Food at sustainable cost. Energy enables development. Manufacturing efficiency passed to consumers. Monopoly for humanitarian benefit, not rent-seeking. Wealth is mechanism, not purpose. Selling below true cost to destroy competitors or corrupt a market is a financial crime under [Imperial-Judicial-System.md](Imperial-Judicial-System.md); authorized charity, rationing, and disaster relief are excepted when properly declared.
 
 ## Knowledge Sources
 
