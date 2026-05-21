@@ -116,6 +116,9 @@ Confirmed: 46
 - Heavy signet chain (Eldridge)
 - Jeweled robe clips x2 (Eldridge)
 - Sandbag of mage salvage (bent focus rods, cracked lens pieces, staff wood shards; with 3rd Company baggage)
+- Degen: straight infantry officer parade sword; carried in Spain; blackthorn grips fitted with Druidcraft (chapter 17)
+- Feldmesser and S98/05 bayonet: blackthorn grips (chapter 17)
+- Saint George Aetherium salvage (cockpit panels from Teutonic salvage gang, chapter 17): fist sized piece over heart; panel strapped to left shoulder;
 
 ---
 
@@ -189,7 +192,9 @@ Status: locked
 Current chapter: 17 (end of file; Seville garrison after Madrid, Cuenca and Valencia falls)  
 Command: sole surviving officer of 3rd Company; holds company on Major Thomas's order (chapter 16)  
 Casualties (chapter 16): Captain Hauser killed; Hans (orderly) killed; most company officers dead or missing; company fights as reinforced platoon  
-Location: Seville municipal hall sector; battalion command in damaged houses; 3rd Company rest near field kitchen (chapter 17)  
+Location: Seville; 3rd Company in municipal hall sector; garrison intact but land line home cut (chapter 17)  
+Chapter 17 field habits: gear tuned with Mending; body hardened via system and druid circles; storm sense via druid wisps (chapter 17); Ludwig granted Aetherium cockpit salvage from Saint George wrecks for battlefield carry (chapter 17)  
+Chapter 17 magic practice (night, before dawn): Create or Destroy Water, Fortune's Favor, Speak with Plants, Detect Evil and Good, Sleep on self; morning Mending on teeth  
 Languages: German (native to body), Spanish (fluent, body's memory), French (fluent, body's memory), Viennese German dialect (body's memory), original body had a natural talent for languages and pursued them as a personal hobby; acquired socially through travel and aristocratic circles  
 Origin: Baden, House of Zähringen (cadet line); grandfather a man of note, line faded into obscurity through weak descendants by Max's youth  
 Officer training: Königliche Badische Kadettenanstalt (Karlsruhe), then Königliche Badische Kriegsschule; tactics, military history, field engineering, logistics, cartography, French as standard curriculum

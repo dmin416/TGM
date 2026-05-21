@@ -211,7 +211,7 @@ Western Front battle chronology as a table: date, location, attacker vs defender
 
 ### 29. `Weapons-vs-Armor-Reference.md`
 
-Combat lookup for penetration vs targets. Lists weapons by approximate muzzle energy (pistol through naval guns, Panzerfaust). Armor targets: magical human (indestructible plate, blunt trauma rules except shaped charge), trucks, FT, Mark V, A7V, mechs, aircraft, destroyer through dreadnought. Detailed blunt trauma tables for enchanted infantry by weapon class. **Helmet steel notes:** M390 reference, 1913 metal tech, Stahlhelm mild steel, 4140 vs 22MnB5 feasibility, 4140 helmet performance, pointed Stirnpanzer cone. Use for set piece consistency when shooting knights, tanks, or ships, or when writing conventional helmet upgrades.
+Combat lookup for penetration vs targets. Lists weapons by approximate muzzle energy (pistol through naval guns, Panzerfaust). Armor targets: magical human (indestructible plate, blunt trauma rules except shaped charge), trucks, FT, Mark V, A7V, mechs, aircraft, destroyer through dreadnought. Detailed blunt trauma tables for enchanted infantry by weapon class. **Conventional personal armor:** M390 reference, 1913 metal tech, 4140 vs 22MnB5, historical helmet and German trench armor tables (Sappenpanzer, Stirnpanzer, Gesichtsmaske, Schießschartenschutz), time-traveler head and body variants (Sturmkegel, Scharfschützenschild). Use for set piece consistency when shooting knights, tanks, or ships, or when writing conventional helmet upgrades.
 
 ### 31. `World-and-Setting.md`
 

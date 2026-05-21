@@ -211,9 +211,9 @@ Maps individual rounds from the weapons list above to the same blunt trauma band
 
 ---
 
-## Helmet steel notes
+## Conventional personal armor
 
-Historical and metallurgical reference for **conventional** head protection (Pickelhaube, Stahlhelm, Max-era upgrades). Magical plate helmet rules stay in **Magical Armor: Blunt Trauma Rules** above. **Related:** [Military.md](Military.md) (Jan 1914 kit) · [Alternate-History-Baseline.md](Alternate-History-Baseline.md) (no steel helmets in 1914 setting baseline) · [Reference-topics/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md](Reference-topics/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md) (Stahlhelm issue timeline).
+Historical and metallurgical reference for **non-magical** German and comparative head and body protection (Pickelhaube, Stahlhelm, trench plates, Max-era upgrades). Magical plate rules stay in **Magical Armor: Blunt Trauma Rules** above. **Related:** [Military.md](Military.md) (Jan 1914 kit) · [Alternate-History-Baseline.md](Alternate-History-Baseline.md) (no steel helmets in 1914 setting baseline) · [Reference-topics/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md](Reference-topics/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md) (Stahlhelm issue timeline).
 
 ### M390
 
@@ -229,7 +229,7 @@ Historical and metallurgical reference for **conventional** head protection (Pic
 - Cartridge case deep drawing mature
 - Krupp die forging world-class
 
-### Stahlhelm
+### Stahlhelm (steel helmet)
 
 - M1916: ~1.0 to 1.2mm mild steel, 6 pressed sizes (60 to 68cm)
 - Mild steel: barely heat treatable, case harden only
@@ -251,10 +251,63 @@ Historical and metallurgical reference for **conventional** head protection (Pic
 - Plus 4mm 4140 plate: defeats pistol, most fragments, rifle at oblique/distance
 - 8 to 10mm needed to stop direct rifle at combat range: breastplate territory
 
-### Pointed Stirnpanzer (witch's hat cone)
+### Pointed Stirnpanzer (brow plate, witch's hat cone)
 
 - Steep cone = extreme obliquity on all forward angles
 - Ballistically superior to flat plate and ogival curve
 - 4mm 4140 cone likely equals 6mm flat historically
 - Practical limits: height, snag, weight offset from head
 - Ideal for static positions: sentry, gun crew, sniper
+
+### Historical personal armor (as built)
+
+#### Helmets (comparison)
+
+German and foreign helmet names: **German term (English meaning)**.
+
+| Item | Material | Thickness | Geometry | Stops | Weight |
+|---|---|---|---|---|---|
+| Pickelhaube (spiked leather helmet) | Boiled leather | n/a | Flat | Nothing | ~500g |
+| Adrian helmet (French M1915) | Mild steel | 0.7mm | Slight curve | Shrapnel only | ~750g |
+| Brodie helmet (British Mk I) | Manganese steel | 1mm | Flat brim | Shrapnel only | ~900g |
+| Stahlhelm M16 (steel helmet, Model 1916) | Silicon steel ~120 BHN | 1mm | Curved | Shrapnel, pistol glance | ~1.2kg |
+| Stahlhelm M18 (steel helmet, Model 1918) | Silicon steel ~120 BHN | 1mm | Improved curve, ear cutouts | Shrapnel, pistol glance | ~1.2kg |
+
+#### German head attach and face (beyond standard helmet)
+
+| Item | Material | Thickness | Geometry | Stops | Weight | Notes |
+|---|---|---|---|---|---|---|
+| Stirnpanzer (brow plate) | Cast steel ~200 BHN | 5mm | Flat brow plate | Pistol direct, shrapnel | ~2.18kg | Straps to Stahlhelm (steel helmet); ~50,000 made |
+| Gesichtsmaske / Sappenpanzer Gesichtsmaske (face mask / sap-armor face mask) | Krupp hardened steel | ~8.5mm | Angled mask, eye slits, scope cutout | Pistol, rifle glance | ~4.69kg | Sniper and fixed MG; ~1,500 made (August Bier, 1915) |
+
+#### German body and emplacement plates
+
+| Item | Material | Thickness | Geometry | Stops | Weight | Notes |
+|---|---|---|---|---|---|---|
+| Sappenpanzer Brustpanzer (sap-armor breastplate) | Hardened nickel-silicon / Krupp-type | 3 to 4mm | Curved breast only | Shrapnel, pistol glancing | ~9 to 11kg | Also called Brustpanzer (breastplate) or Grabenpanzer (trench armor); observers, pioneers, MG crews; ~400,000 to 500,000 made 1916 to 1918 |
+| Sappenpanzer front and back (sap-armor breast and back set, 1917) | Hardened steel | 3 to 4mm each | Breast + back, rifle cutout | Shrapnel, pistol glancing | ~10 to 12kg | Back strap and plate added; hooks for loads; still not rifle-proof at combat range |
+| Schießschartenschutz (firing-loophole shield) | Mild to silicon steel | 5 to 6mm | Flat loophole shield | Pistol, fragments | ~8 to 15kg (emplaced) | Sandbagged embrasure plate for sniper or MG; fixed position, not marched in |
+
+**Issue pattern:** Stahlhelm (steel helmet) was general issue from 1916 onward (Stoßtruppen / assault troops first). Stirnpanzer (brow plate), Gesichtsmaske (face mask), and Sappenpanzer (sap-armor) were **specialist** items for exposed static roles, not line infantry kit.
+
+### Time traveler versions (~450 BHN nickel-chrome-moly)
+
+#### Head
+
+| Item | Thickness | Geometry | Stops | Weight |
+|---|---|---|---|---|
+| Stahlhelm M16 (steel helmet, Model 1916) | 0.8mm | Curved | Shrapnel, pistol direct | ~950g |
+| Stirnpanzer (brow plate) | 4mm | Flat | Pistol direct, .303 at range | ~1.7kg |
+| Gesichtsmaske (face mask) | 6mm | Angled crude | .303 direct, 7.92 direct | ~3.3kg |
+| Sturmkegel (assault cone) | 4mm | 20° cone | Pistol direct, .303 deflect | ~720g |
+| Scharfschützenschild (sniper shield) | 6mm | 15° cone | .303 + 7.92 deflect | ~4.8kg |
+
+#### Body
+
+| Item | Thickness | Geometry | Stops | Weight |
+|---|---|---|---|---|
+| Sappenpanzer Brustpanzer (sap-armor breastplate) | 2mm | Curved breast | Pistol direct, rifle oblique / distance | ~4.5kg |
+| Sappenpanzer front and back (sap-armor breast and back set) | 2mm each | Curved, rifle cutout | .303 glancing, 7.92 at range | ~6kg |
+| Schießschartenschutz (firing-loophole shield) | 4mm | Flat | .303 direct at range, 7.92 deflect | ~6kg (emplaced) |
+
+**Sturmkegel (assault cone)** matches the time-traveler **Stirnpanzer (brow plate)** rifle performance at **less than half the weight**, purely through geometry.
