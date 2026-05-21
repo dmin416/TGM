@@ -175,7 +175,7 @@ January 1914 military reference (~340 lines). Great power posture: Britain magic
 
 ### 20. `Notes-for-the-Future.md`
 
-Forward continuity for editors (~325 lines). Heat round enemies; Max tech pipeline (vacuum tubes, batteries, adaptive armor); Feldberg purchase; Star Map range past Level 20; plant manipulation candidates (hornbeam, blackthorn). **Faith:** Max as Reformed Protestant, charges against Rome, holy war geography, crimes by region (Rome, Spain, France, Ireland, etc.), Sarajevo plot (Princip arrested, mage team kills Ferdinand), Teutonic Knights and Celtic cross livery. **Baden ambitions,** globe intel system, animal companions, humanitarian initiatives, war recommendations, patent and innovation timeline (1914 Seville through later infantry, armor, energy, optics). Not yet active in story unless cited.
+Forward continuity for editors. Heat round enemies; Max tech pipeline (vacuum tubes, batteries, adaptive armor); Feldberg purchase; Star Map range past Level 20; plant manipulation candidates (hornbeam, blackthorn). **Faith:** Max as Reformed Protestant, charges against Rome, holy war geography, crimes by region (Rome, Spain, France, Ireland, etc.), Sarajevo plot (Princip arrested, mage team kills Ferdinand), Teutonic Knights and Celtic cross livery. **Baden ambitions,** globe intel system, animal companions, humanitarian initiatives, war recommendations, patent and innovation timeline (1914 Seville through later infantry, armor, energy, optics). **Alternate branch:** German colonial subjects as citizens (1914), flipped WWII morality (US/Britain/France vs Germany/Spain civic empire). Not yet active in story unless cited.
 
 ### 21. `People.md`
 
@@ -211,7 +211,7 @@ Western Front battle chronology as a table: date, location, attacker vs defender
 
 ### 29. `Weapons-vs-Armor-Reference.md`
 
-Combat lookup for penetration vs targets. Lists weapons by approximate muzzle energy (pistol through naval guns, Panzerfaust). Armor targets: magical human (indestructible plate, blunt trauma rules except shaped charge), trucks, FT, Mark V, A7V, mechs, aircraft, destroyer through dreadnought. Detailed blunt trauma tables for enchanted infantry by weapon class. Use for set piece consistency when shooting knights, tanks, or ships.
+Combat lookup for penetration vs targets. Lists weapons by approximate muzzle energy (pistol through naval guns, Panzerfaust). Armor targets: magical human (indestructible plate, blunt trauma rules except shaped charge), trucks, FT, Mark V, A7V, mechs, aircraft, destroyer through dreadnought. Detailed blunt trauma tables for enchanted infantry by weapon class. **Helmet steel notes:** M390 reference, 1913 metal tech, Stahlhelm mild steel, 4140 vs 22MnB5 feasibility, 4140 helmet performance, pointed Stirnpanzer cone. Use for set piece consistency when shooting knights, tanks, or ships, or when writing conventional helmet upgrades.
 
 ### 31. `World-and-Setting.md`
 

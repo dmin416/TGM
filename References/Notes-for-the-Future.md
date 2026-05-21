@@ -328,3 +328,73 @@ Related: [1914-Propellant-Technology.md](1914-Propellant-Technology.md), [Villai
 - In-flight refueling
 
 *Timeline tracks innovations Max develops and patents before they historically exist.*
+
+---
+
+## German Empire treats all colonial subjects as citizens (1914)
+
+**Status:** Long-term alternate-history branch. **Not active in story** unless cited on page. Conflicts with OTL 1914 baseline until explicitly adopted in [World-and-Setting.md](World-and-Setting.md) or [Alternate-History-Baseline.md](Alternate-History-Baseline.md).
+
+### Immediate changes
+
+- Forced labor is abolished across all colonies
+- Land stolen from peoples like the Herero and Nama becomes legally contestable
+- Colonial subjects gain voting rights and Reichstag representation
+- The ongoing Herero and Nama genocide stops, saving tens of thousands of lives
+
+### World War I
+
+- Britain and France lose their moral argument for stripping Germany of its colonies at Versailles
+- Colonial troops fight with genuine loyalty as full citizens
+- Germany likely keeps its colonies after the war
+
+### Hitler never rises
+
+A Germany with millions of non-European citizens and Christian moral governance built into law is hostile ground for Nazi racial ideology. The Holocaust most likely never happens.
+
+### Africa's future
+
+- Namibia develops as an integrated territory instead of a genocide site
+- Rwanda and Burundi may avoid the ethnic manipulation that leads to the 1994 genocide
+- African elites gain legal standing, education, and political voice
+- Independence movements emerge through the system rather than against it
+
+### The big picture
+
+No European power (not Britain, France, Belgium, or Portugal) was anywhere close to doing this in 1913. Germany becomes the moral leader of colonial governance, and the 20th century looks almost unrecognizable as a result.
+
+### The twist: America becomes the monster
+
+While Germany is transforming, the United States doubles down.
+
+- Jim Crow is fully entrenched, segregation is law, and lynching goes unpunished
+- The US watches a multiracial German Empire succeed and sees it as a **threat to the white racial order**
+- American eugenics (which Hitler actually admired in our timeline) now develops without competition into full state ideology
+- By the 1930s the US is the world's leading voice for racial hierarchy, with Britain and France quietly aligned through shared colonial interests
+
+### Spain joins the cause
+
+Spain, watching a reinvigorated German Empire thrive morally and economically, makes the same turn.
+
+- Spanish colonial subjects in **Cuba, the Philippines remnants, Morocco, and Equatorial Guinea** are granted full citizenship
+- The Catholic Church in Spain frames it identically: all men are made in the image of God, empire must reflect that
+- Spain and Germany form a **Christian civic alliance**, not built on race but on faith and law
+- Spanish Africa becomes a second model alongside German Africa, giving the new world order two proof points instead of one
+- Spain's late entry gives the bloc access to the **Mediterranean and Atlantic** that Germany alone lacks
+
+This makes the opposing bloc (the US, Britain, and France) nervous on every ocean.
+
+### The new axis of oppression
+
+The US, Britain, and France form a de facto bloc united by one thing: **none of them want a world where colonial subjects are equals.** A prosperous, integrated German Empire is a living rebuke to everything they are built on.
+
+### World War II flips
+
+Germany, now allied with its African and Pacific citizens, goes to war not as an aggressor but as a defender of a new world order. The conflict becomes a war between:
+
+- **Germany and its multiracial empire:** fighting for civic equality and Christian dignity
+- **The US, Britain, and France:** fighting to preserve racial hierarchy and colonial extraction
+
+### The outcome
+
+If Germany wins, the 20th century sees racial equality arrive **decades early**, not through protest and legislation but through warfare and empire. If Germany loses, the most equal society on earth is dismantled by the most unequal ones, and the irony echoes through history forever.

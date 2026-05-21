@@ -208,3 +208,53 @@ Maps individual rounds from the weapons list above to the same blunt trauma band
 | Panzerfaust | Penetrates; flooding risk | Penetrates; flooding risk | Damage only | Dent only | Penetrates; flooding and fire risk |
 
 *Dreadnought note: plunging fire at long range strikes the deck, not the belt. The deck is the vulnerability.*
+
+---
+
+## Helmet steel notes
+
+Historical and metallurgical reference for **conventional** head protection (Pickelhaube, Stahlhelm, Max-era upgrades). Magical plate helmet rules stay in **Magical Armor: Blunt Trauma Rules** above. **Related:** [Military.md](Military.md) (Jan 1914 kit) · [Alternate-History-Baseline.md](Alternate-History-Baseline.md) (no steel helmets in 1914 setting baseline) · [Reference-topics/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md](Reference-topics/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md) (Stahlhelm issue timeline).
+
+### M390
+
+- Powder metallurgy stainless, ~1.9% C, 20% Cr, 4% V
+- Up to 62 to 64 HRC, exceptional edge retention
+- Same as 20CV / CPM-20CV
+
+### 1913 metal tech
+
+- Open-hearth steel dominant
+- HSS (tungsten) mature, vanadium steel in use
+- Stainless discovered 1913 (Brearley), not yet practical
+- Cartridge case deep drawing mature
+- Krupp die forging world-class
+
+### Stahlhelm
+
+- M1916: ~1.0 to 1.2mm mild steel, 6 pressed sizes (60 to 68cm)
+- Mild steel: barely heat treatable, case harden only
+- Pressed soft for toughness: hard steel would shatter on impact
+
+### 4140 vs 22MnB5
+
+| | Yield strength | 1914 feasible |
+|---|---|---|
+| 4140 Q&T | 900 to 1200 MPa | Yes |
+| 22MnB5 press hardened | 1000 to 1200 MPa | No (boron control impossible) |
+
+- 4140 wins for 1914: chrome-moly being developed that exact period
+- 22MnB5 requires ppm-level boron additions, titanium protection: process control did not exist
+
+### 4140 helmet performance
+
+- Same 1.1mm thickness: ~2.5 to 3x fragment resistance over original
+- Plus 4mm 4140 plate: defeats pistol, most fragments, rifle at oblique/distance
+- 8 to 10mm needed to stop direct rifle at combat range: breastplate territory
+
+### Pointed Stirnpanzer (witch's hat cone)
+
+- Steep cone = extreme obliquity on all forward angles
+- Ballistically superior to flat plate and ogival curve
+- 4mm 4140 cone likely equals 6mm flat historically
+- Practical limits: height, snag, weight offset from head
+- Ideal for static positions: sentry, gun crew, sniper
