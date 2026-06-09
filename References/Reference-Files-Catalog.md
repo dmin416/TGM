@@ -1,6 +1,6 @@
 # Reference Files Catalog
 
-Complete inventory of every file under `References/` (79 content files; 80 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
+Complete inventory of every file under `References/` (88 content files; 89 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
 
 **How to use:** Verify canon in the topical file before editing `Story/` or `Status.md`. Core cross links: [World-and-Setting.md](Setting/World-and-Setting.md), [Glossary.md](Setting/Glossary.md), [Magic.md](Magic-and-Systems/Magic.md), [Military.md](Military/Military.md), [People.md](Characters/People.md), [Places.md](Geography/Places.md), [MaxSystem.md](Magic-and-Systems/MaxSystem.md).
 
@@ -96,11 +96,11 @@ Complete inventory of every file under `References/` (79 content files; 80 inclu
 - [Japan-Actions-1880-1914.md](Regional/Japan-Actions-1880-1914.md)
 - [Japanese-Inventions-and-Discoveries.md](Regional/Japanese-Inventions-and-Discoveries.md)
 
-**`Regional/Cultural-Regions/` (12):** austria, belgium, britain, denmark, france, germany, italy, netherlands, portugal, russia, spain, switzerland cultural region files.
+**`Regional/Cultural-Regions/` (15):** austria, belgium, britain, china, denmark, france, germany, italy, japan, korea, netherlands, portugal, russia, spain, switzerland cultural region files.
 
-**`Regional/Flora-and-Fauna/` (7):** belgium, britain, france, germany, italy, russia, spain flora and fauna files.
+**`Regional/Flora-and-Fauna/` (10):** belgium, britain, china, france, germany, italy, japan, korea, russia, spain flora and fauna files.
 
-**`Regional/Food/` (7):** belgium, britain, france, germany, italy, russia, spain regional food files.
+**`Regional/Food/` (10):** belgium, britain, china, france, germany, italy, japan, korea, russia, spain regional food files.
 
 ---
 
