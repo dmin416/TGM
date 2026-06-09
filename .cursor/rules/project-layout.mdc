@@ -24,14 +24,18 @@ Upstream novel material: numbered chapter files (currently through `480.md`) and
 
 ## `References/`
 
-Canon and editorial references. Verify names, places, gear, magic, and military detail here before changing `Story/` or `Status.md`.
+Canon and editorial references. Verify names, places, gear, magic, and military detail here before changing `Story/` or `Status.md`. Index: `Reference-Files-Catalog.md`.
 
-- `Prose-Mechanics.md`: mechanical editing rules for *Trenches, Guns and Magic*.
-- `World-and-Setting.md`: world rules, characters, and the player framework for *Trenches, Guns and Magic*.
-- `Notes-for-the-Future.md`: forward continuity notes for editors and agents.
-- `Countries.md`, `Places.md`, `Theaters.md`: geography and war theaters.
-- `People.md`, `Military.md`, `Magic.md`, `Glossary.md`: cast, forces, magic, terms.
-- `MaxSystem.md`: game style system rules for Max.
+- `Editorial/`: prose mechanics, editor contract.
+- `Setting/`: glossary, world and setting framework.
+- `Geography/`: countries, places, theaters, locations and resources.
+- `Characters/`: people, dynastic notes, character sheet, aides.
+- `Magic-and-Systems/`: magic rules, Max system mechanics.
+- `Military/`: armies, weapons, armor, German kit and doctrine.
+- `Biology-and-Chemistry/`: engineered biology, substances, Lilyvitae.
+- `Planning/`: alternate history drafts, notes for the future, villain bible.
+- `Society/`: religions and denominations.
+- `Regional/`: cultural regions, flora and fauna, food, Japan actions.
 
 ## `Tools/`
 
