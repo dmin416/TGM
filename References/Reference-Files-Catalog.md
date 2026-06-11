@@ -1,6 +1,6 @@
 # Reference Files Catalog
 
-Complete inventory of every file under `References/` (88 content files; 89 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
+Complete inventory of every file under `References/` (92 content files; 93 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
 
 **How to use:** Verify canon in the topical file before editing `Story/` or `Status.md`. Core cross links: [World-and-Setting.md](Setting/World-and-Setting.md), [Glossary.md](Setting/Glossary.md), [Magic.md](Magic-and-Systems/Magic.md), [Military.md](Military/Military.md), [People.md](Characters/People.md), [Places.md](Geography/Places.md), [MaxSystem.md](Magic-and-Systems/MaxSystem.md).
 
@@ -45,8 +45,11 @@ Complete inventory of every file under `References/` (88 content files; 89 inclu
 
 ### `Magic-and-Systems/`
 
+- [Biographene-Superconducting-Mycelium-Planet-Brain.md](Magic-and-Systems/Biographene-Superconducting-Mycelium-Planet-Brain.md)
+- [Druid-Planetary-Network-Powers-and-Capabilities.md](Magic-and-Systems/Druid-Planetary-Network-Powers-and-Capabilities.md)
 - [Magic.md](Magic-and-Systems/Magic.md)
 - [MaxSystem.md](Magic-and-Systems/MaxSystem.md)
+- [Surveillance-Compute-and-Plant-Network.md](Magic-and-Systems/Surveillance-Compute-and-Plant-Network.md)
 
 ### `Military/`
 
@@ -68,6 +71,7 @@ Complete inventory of every file under `References/` (88 content files; 89 inclu
 - [Biofeedstock-Chemistry-and-Waste.md](Biology-and-Chemistry/Biofeedstock-Chemistry-and-Waste.md)
 - [Diesel-Engines-Lilyvitae.md](Biology-and-Chemistry/Diesel-Engines-Lilyvitae.md)
 - [Lilyvitae.md](Biology-and-Chemistry/Lilyvitae.md)
+- [Minimum-Latency-Imaging-Pipeline.md](Biology-and-Chemistry/Minimum-Latency-Imaging-Pipeline.md)
 - [Nitrogen-Fertilizer-Explosives-1913-Strategy.md](Biology-and-Chemistry/Nitrogen-Fertilizer-Explosives-1913-Strategy.md)
 - [Substances-by-Use-and-Molecular-Complexity.md](Biology-and-Chemistry/Substances-by-Use-and-Molecular-Complexity.md)
 - [Ultimate-Sun-User.md](Biology-and-Chemistry/Ultimate-Sun-User.md)
@@ -169,6 +173,22 @@ Rough draft. Max accelerated invention timeline from 1914: medicine, military do
 ### 6e. `Planning/Modern-Life-Prerequisites-Reference.md`
 
 Rough draft. Prerequisites map for modern civilization from a 1914 baseline: medicine, sanitation, energy, communications, transport, food, construction, manufacturing, consumer goods, computing, entertainment, finance, education, and safety standards. Each entry lists what the technology is and what it needs (materials, knowledge, infrastructure). Critical dependency notes on electricity, germ theory, organic chemistry, metals, and antibiotics. Links [Alternate-History-Baseline.md](Planning/Alternate-History-Baseline.md), [Post-1913-Inventions-Bringable-Early.md](Planning/Post-1913-Inventions-Bringable-Early.md), [German-Infrastructure-1913-Present.md](Geography/German-Infrastructure-1913-Present.md), [Biofeedstock-Chemistry-and-Waste.md](Biology-and-Chemistry/Biofeedstock-Chemistry-and-Waste.md), [Nitrogen-Fertilizer-Explosives-1913-Strategy.md](Biology-and-Chemistry/Nitrogen-Fertilizer-Explosives-1913-Strategy.md).
+
+### 6f. `Biology-and-Chemistry/Minimum-Latency-Imaging-Pipeline.md`
+
+Rough draft. Physics floor and optimal all optical imaging pipeline (graphene capture, hollow core fiber, Purcell QD display) vs conventional silicon/OLED baseline. Use for Lilyvitae sensor latency planning. Links [Lilyvitae.md](Biology-and-Chemistry/Lilyvitae.md), [Foundational-Discoveries-Inventions-and-Universal-Limits.md](Setting/Foundational-Discoveries-Inventions-and-Universal-Limits.md), [Druid-Planetary-Network-Powers-and-Capabilities.md](Magic-and-Systems/Druid-Planetary-Network-Powers-and-Capabilities.md).
+
+### 6g. `Magic-and-Systems/Surveillance-Compute-and-Plant-Network.md`
+
+Rough draft. Brute force vs eagle/manager vision compute and power; Europe druid plant network OPS and energy; light travel latency from continental Europe to Faroe Islands throne. Links [Biographene-Superconducting-Mycelium-Planet-Brain.md](Magic-and-Systems/Biographene-Superconducting-Mycelium-Planet-Brain.md), [Druid-Planetary-Network-Powers-and-Capabilities.md](Magic-and-Systems/Druid-Planetary-Network-Powers-and-Capabilities.md), [Minimum-Latency-Imaging-Pipeline.md](Biology-and-Chemistry/Minimum-Latency-Imaging-Pipeline.md).
+
+### 6h. `Magic-and-Systems/Biographene-Superconducting-Mycelium-Planet-Brain.md`
+
+Rough draft. Superconducting biographene mycelium signal speed, cross planet latency, revised 100–1000 Hz clock, compute vs AGI threshold, ~100 MW energy cost, druid as soul not brain. Links [Lilyvitae.md](Biology-and-Chemistry/Lilyvitae.md), [Surveillance-Compute-and-Plant-Network.md](Magic-and-Systems/Surveillance-Compute-and-Plant-Network.md), [Druid-Planetary-Network-Powers-and-Capabilities.md](Magic-and-Systems/Druid-Planetary-Network-Powers-and-Capabilities.md).
+
+### 6i. `Magic-and-Systems/Druid-Planetary-Network-Powers-and-Capabilities.md`
+
+Rough draft. Tier 1–8 druid planetary network capabilities: material routing, pharmacy, energy dispatch, structural growth, weather, deception, military/toxin limits, ocean phytoplankton mesh and coverage map. Hard limits on attention bandwidth and ocean latency. Links [Biographene-Superconducting-Mycelium-Planet-Brain.md](Magic-and-Systems/Biographene-Superconducting-Mycelium-Planet-Brain.md), [Magic.md](Magic-and-Systems/Magic.md), [Notes-for-the-Future.md](Planning/Notes-for-the-Future.md).
 
 ### 7. `Geography/German-Infrastructure-1913-Present.md`
 
