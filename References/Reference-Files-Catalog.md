@@ -1,6 +1,6 @@
 # Reference Files Catalog
 
-Complete inventory of every file under `References/` (92 content files; 93 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
+Complete inventory of every file under `References/` (95 content files; 96 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
 
 **How to use:** Verify canon in the topical file before editing `Story/` or `Status.md`. Core cross links: [World-and-Setting.md](Setting/World-and-Setting.md), [Glossary.md](Setting/Glossary.md), [Magic.md](Magic-and-Systems/Magic.md), [Military.md](Military/Military.md), [People.md](Characters/People.md), [Places.md](Geography/Places.md), [MaxSystem.md](Magic-and-Systems/MaxSystem.md).
 
@@ -40,6 +40,7 @@ Complete inventory of every file under `References/` (92 content files; 93 inclu
 
 - [House-of-Zahringen-and-Baden.md](Characters/House-of-Zahringen-and-Baden.md)
 - [Maximilian-Friedrich-Character-Sheet.html](Characters/Maximilian-Friedrich-Character-Sheet.html)
+- [Maximilian-Friedrich-Honors-and-Decorations.md](Characters/Maximilian-Friedrich-Honors-and-Decorations.md)
 - [People.md](Characters/People.md)
 - [Tanya-Degurechaff.md](Characters/Tanya-Degurechaff.md)
 
@@ -55,6 +56,7 @@ Complete inventory of every file under `References/` (92 content files; 93 inclu
 
 - [1914-Propellant-Technology.md](Military/1914-Propellant-Technology.md)
 - [German-Armored-Airship-Armament.md](Military/German-Armored-Airship-Armament.md)
+- [German-Army-Food-1913-1918.md](Military/German-Army-Food-1913-1918.md)
 - [German-Artillery-1914.md](Military/German-Artillery-1914.md)
 - [German-Heer-Privileges-Pageantry-and-Leutnant-1914.md](Military/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md)
 - [German-Leutnant-1913-Battle-Kit.md](Military/German-Leutnant-1913-Battle-Kit.md)
@@ -70,6 +72,7 @@ Complete inventory of every file under `References/` (92 content files; 93 inclu
 - [Absorption-Routes-Complete-Guide.md](Biology-and-Chemistry/Absorption-Routes-Complete-Guide.md)
 - [Biofeedstock-Chemistry-and-Waste.md](Biology-and-Chemistry/Biofeedstock-Chemistry-and-Waste.md)
 - [Diesel-Engines-Lilyvitae.md](Biology-and-Chemistry/Diesel-Engines-Lilyvitae.md)
+- [Lembas-Bread-Nutritional-Profile.md](Biology-and-Chemistry/Lembas-Bread-Nutritional-Profile.md)
 - [Lilyvitae.md](Biology-and-Chemistry/Lilyvitae.md)
 - [Minimum-Latency-Imaging-Pipeline.md](Biology-and-Chemistry/Minimum-Latency-Imaging-Pipeline.md)
 - [Nitrogen-Fertilizer-Explosives-1913-Strategy.md](Biology-and-Chemistry/Nitrogen-Fertilizer-Explosives-1913-Strategy.md)
@@ -178,6 +181,10 @@ Rough draft. Prerequisites map for modern civilization from a 1914 baseline: med
 
 Rough draft. Physics floor and optimal all optical imaging pipeline (graphene capture, hollow core fiber, Purcell QD display) vs conventional silicon/OLED baseline. Use for Lilyvitae sensor latency planning. Links [Lilyvitae.md](Biology-and-Chemistry/Lilyvitae.md), [Foundational-Discoveries-Inventions-and-Universal-Limits.md](Setting/Foundational-Discoveries-Inventions-and-Universal-Limits.md), [Druid-Planetary-Network-Powers-and-Capabilities.md](Magic-and-Systems/Druid-Planetary-Network-Powers-and-Capabilities.md).
 
+### 6f2. `Biology-and-Chemistry/Lembas-Bread-Nutritional-Profile.md`
+
+Rough draft. Lembas wafer specs (standard and 4× compressed), energy density vs fat/gasoline/TNT, mechanistic hypotheses, full macro/micro/amino/fatty acid profile, real world analog gap, German 1914 ration comparison. Links [German-Leutnant-1913-Battle-Kit.md](Military/German-Leutnant-1913-Battle-Kit.md), [Substances-by-Use-and-Molecular-Complexity.md](Biology-and-Chemistry/Substances-by-Use-and-Molecular-Complexity.md).
+
 ### 6g. `Magic-and-Systems/Surveillance-Compute-and-Plant-Network.md`
 
 Rough draft. Brute force vs eagle/manager vision compute and power; Europe druid plant network OPS and energy; light travel latency from continental Europe to Faroe Islands throne. Links [Biographene-Superconducting-Mycelium-Planet-Brain.md](Magic-and-Systems/Biographene-Superconducting-Mycelium-Planet-Brain.md), [Druid-Planetary-Network-Powers-and-Capabilities.md](Magic-and-Systems/Druid-Planetary-Network-Powers-and-Capabilities.md), [Minimum-Latency-Imaging-Pipeline.md](Biology-and-Chemistry/Minimum-Latency-Imaging-Pipeline.md).
@@ -209,6 +216,10 @@ Setting canon for Imperial German **L class** armored airships (L28–L32, inclu
 ### 9. `German-Artillery-1914.md`
 
 August 1914 **Heer** conventional artillery inventory: divisional 77 mm FK 96 n.A. and 10.5 cm leFH 98/09; corps 150 mm and 130 mm; foot 21 cm Mörser siege lines; super heavy 28 cm, 30.5 cm Austrian, 42 cm Gamma and M-Gerät for Belgian forts. Notes scale (~5,000 field guns, ~6,000 total mobilized), tactical advantage of German divisional howitzers in 1914, and that 21 cm did most siege work while Big Bertha was rare.
+
+### 9a. `Military/German-Army-Food-1913-1918.md`
+
+OTL Imperial German Army diet 1913–1918: garrison Menagen meals, official 1914 field ration table, Kommissbrot recipe and adulteration timeline, Gulaschkanone logistics, Erbswurst iron ration, three tiers of what actually reached soldiers, rank and regional supply divide, blockade caloric collapse arc, tobacco and alcohol ration. Links [German-Leutnant-1913-Battle-Kit.md](Military/German-Leutnant-1913-Battle-Kit.md), [Lembas-Bread-Nutritional-Profile.md](Biology-and-Chemistry/Lembas-Bread-Nutritional-Profile.md), [Regional/Food/germany-regional-foods.md](Regional/Food/germany-regional-foods.md).
 
 ### 10. `German-Military-Calibers.md`
 
@@ -269,6 +280,10 @@ Forward continuity for editors. Heat round enemies; Max tech pipeline (vacuum tu
 ### 22. `People.md`
 
 Cast encyclopedia (~293 lines). **Part I (setting):** Max, German sovereigns (Albert II, Crown Prince Georg), historical commanders (Mackensen, Moltke, Ludendorff, etc.), fictional unit roster (Hauser, Klaus, Baumann), civilians (Cecilia, Helga, Anna), Spain and Britain antagonists and allies, International Brigades, Russian faction leaders, Sarajevo plotters. **Part II:** broader historical figures for reference. Cross links ranks and gear files.
+
+### 22a. `Characters/Maximilian-Friedrich-Honors-and-Decorations.md`
+
+Max's decorations after the fall of the enemy capital: Iron Cross 2nd and 1st Class, Military Karl Friedrich Merit Order, Order of the Zähringer Lion (heat rounds), Pour le Mérite on CO recommendation. Links [People.md](Characters/People.md), [House-of-Zahringen-and-Baden.md](Characters/House-of-Zahringen-and-Baden.md).
 
 ### 23. `Places.md`
 
