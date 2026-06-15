@@ -72,6 +72,7 @@ Complete inventory of every file under `References/` (95 content files; 96 inclu
 
 - [Absorption-Routes-Complete-Guide.md](Biology-and-Chemistry/Absorption-Routes-Complete-Guide.md)
 - [Biofeedstock-Chemistry-and-Waste.md](Biology-and-Chemistry/Biofeedstock-Chemistry-and-Waste.md)
+- [Cement-Through-the-Ages.md](Biology-and-Chemistry/Cement-Through-the-Ages.md)
 - [Diesel-Engines-Lilyvitae.md](Biology-and-Chemistry/Diesel-Engines-Lilyvitae.md)
 - [Lembas-Bread-Nutritional-Profile.md](Biology-and-Chemistry/Lembas-Bread-Nutritional-Profile.md)
 - [Lilyvitae.md](Biology-and-Chemistry/Lilyvitae.md)
@@ -142,6 +143,10 @@ OTL fixed wing aviation timeline in two parts: mechanical, structural, and techn
 ### 6. `Biofeedstock-Chemistry-and-Waste.md`
 
 Rough draft. No petroleum substitutes: glucose syrup vs liquid coal feedstocks, lubricants (CTL, castor, jojoba, engineered wax esters), full material replacement table, 1913 baseline without oil, clean fuels, magical plant ethanol vs hydrogen limits, mangrove and 14× enhanced desalination, belt thickener sludge drying, sewage uses, 1913 and German waste (Rieselfelder, Imhoff tanks), anaerobic digestion and fertilizer balance. Links [Alternate-History-Baseline.md](Planning/Alternate-History-Baseline.md), [Ultimate-Sun-User.md](Biology-and-Chemistry/Ultimate-Sun-User.md).
+
+### 6a. `Biology-and-Chemistry/Cement-Through-the-Ages.md`
+
+OTL cement and concrete chronology from Natufian lime plaster through Roman opus caementicium, medieval gap, Smeaton and Parker rediscovery, Portland clinker (Aspdin, Johnson), modern types and specialty cements (UHPC, geopolymer), Wolfenstein Über Beton fiction note, and low CO₂ frontiers. Links [German-Infrastructure-1913-Present.md](Geography/German-Infrastructure-1913-Present.md), [European-Inventions-and-Discoveries.md](Setting/European-Inventions-and-Discoveries.md).
 
 ### 6a. `Planning/Labor-Solar-Erg-Currency.md`
 

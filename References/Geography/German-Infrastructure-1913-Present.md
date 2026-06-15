@@ -1,6 +1,6 @@
 # German Infrastructure — 1913 vs Present
 
-OTL civil engineering reference for Germany: materials, networks, and standards at the 1913 baseline and at modern (2026) capability, with a chronological road development section between those endpoints. Use for scene dressing, Max's future knowledge pacing, and contrast with in setting Luminite industry. Cross links [Alternate-History-Baseline.md](../Planning/Alternate-History-Baseline.md), [Strategic-Chokepoints-and-Railways-by-Nation-1913.md](../Military/Strategic-Chokepoints-and-Railways-by-Nation-1913.md), [Biofeedstock-Chemistry-and-Waste.md](../Biology-and-Chemistry/Biofeedstock-Chemistry-and-Waste.md).
+OTL civil engineering reference for Germany: materials, networks, and standards at the 1913 baseline and at modern (2026) capability, with a chronological road development section between those endpoints. Use for scene dressing, Max's future knowledge pacing, and contrast with in setting Luminite industry. Cement chemistry and history: [Cement-Through-the-Ages.md](../Biology-and-Chemistry/Cement-Through-the-Ages.md). Cross links [Alternate-History-Baseline.md](../Planning/Alternate-History-Baseline.md), [Strategic-Chokepoints-and-Railways-by-Nation-1913.md](../Military/Strategic-Chokepoints-and-Railways-by-Nation-1913.md), [Biofeedstock-Chemistry-and-Waste.md](../Biology-and-Chemistry/Biofeedstock-Chemistry-and-Waste.md).
 
 ---
 
