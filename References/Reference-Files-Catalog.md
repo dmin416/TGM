@@ -84,6 +84,7 @@ Complete inventory of every file under `References/` (95 content files; 96 inclu
 - [Alliances-outline-with-source-coverage.md](Planning/Alliances-outline-with-source-coverage.md)
 - [Alternate-History-Baseline.md](Planning/Alternate-History-Baseline.md)
 - [Alternate-History-Story-Ideas.md](Planning/Alternate-History-Story-Ideas.md)
+- [World-Premise-1913-1914.md](Planning/World-Premise-1913-1914.md)
 - [Aviation-Progress-1913-Present.md](Planning/Aviation-Progress-1913-Present.md)
 - [Imperial-Judicial-System.md](Planning/Imperial-Judicial-System.md)
 - [Labor-Solar-Erg-Currency.md](Planning/Labor-Solar-Erg-Currency.md)
@@ -124,6 +125,10 @@ Editorial map of alliance blocs (Spanish Civil War Jan–Mar 1914, August 1914 w
 ### 3. `Alternate-History-Baseline.md`
 
 Rough draft, not strict canon until tied to story beats. Max's omniscient tech knowledge, patent and reinvestment rules, world divergence (January 1914 start, Central Powers victory), Germany's bloc (Germany, Austria-Hungary, Spain), 1913 technology floor by domain, Luminite and energy context, magic split (Britain/France magitech vs German conventional focus; Max patents conventional only), financial baseline (signing bonus, three-nation GDP, treaty royalties, strategic premium). Cross links [Market-Crash-Wealth-Reference.md](Planning/Market-Crash-Wealth-Reference.md), [Notes-for-the-Future.md](Planning/Notes-for-the-Future.md).
+
+### 3a. `World-Premise-1913-1914.md`
+
+**Master premise sheet** (March 2026): consolidated author timeline for Aetherium vs Luminite, major powers, Spanish Civil War through WWI western campaign (Liège airdrop, Charleroi, partial Paris 1914), American betrayal hook, and **Conflicts with established canon** table vs [Glossary.md](Setting/Glossary.md), `Story/`, and [Alliances-outline-with-source-coverage.md](Planning/Alliances-outline-with-source-coverage.md). Use when reconciling long arc intent with written chapters.
 
 ### 4. `Alternate-History-Story-Ideas.md`
 

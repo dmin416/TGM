@@ -161,7 +161,7 @@ China factions (hook: Sino-German War) — Chinese warlords and nationalist fact
 
 **`Source/`:** `133.md`, `289.md`, `292.md`, `335.md`.
 
-Vatican — **OTL 1913:** Holy See after 1870; no restored Papal States; spiritual and diplomatic weight only (see [Countries.md](../Geography/Countries.md)). **Franz Ferdinand** killed in Sarajevo (June 1914): **Gavrilo Princip arrested before the attack**; other conspirators (mage cell, fireball) complete the killing. Nationalist chain + magical escalation per `Source/` `135.md`–`136.md`. Do not use “Vatican arranged Sarajevo” as canon.
+Vatican — **OTL 1913:** Holy See after 1870; no restored Papal States; spiritual and diplomatic weight only (see [Countries.md](../Geography/Countries.md)). **Franz Ferdinand** killed in Sarajevo (June 1914): **Vatican or clergy led plot** (ordained conspirators and/or church aligned mage cell). Princip may be arrested before the motorcade per upstream; killers who finish the job tie to Rome. Nationalist chain and magical escalation still apply. **Master premise:** [World-Premise-1913-1914.md](World-Premise-1913-1914.md).
 
 **Upstream:** papal wording and fleet flavor in source may exceed OTL; **TGM canon** scales Vatican to real 1913 unless a later chapter explicitly retcons.
 

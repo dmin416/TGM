@@ -30,7 +30,7 @@ Max will buy Feldberg and land around the world.
 - **Mass and sacraments:** Christ resacrificed in the Mass; cup withheld; seven rites as automatic grace; host and image worship; relic idolatry.
 - **Clergy and church law:** Celibacy mandate; simony; canon courts and immunity; priesthood of believers denied; salvation monopoly outside Rome.
 - **Violence and empire:** Crusades and Inquisition in God’s name; temporal state, banking, fleets, clerical magic hoarded (see alliance outline, `Magic.md`).
-- **Plot hooks:** Franz Ferdinand **killed in Sarajevo** (June 1914): Princip **arrested before** the motorcade hit; **other plotters** (mage team) do the killing. Vatican at **OTL 1913** scale (Holy See, not restored Papal States). Max’s holy war must read as rescue of misled souls, not Rome-style territorial crusade.
+- **Plot hooks:** Franz Ferdinand **killed in Sarajevo** (June 1914): **Vatican or clergy led plot** (Princip may be arrested before the motorcade; church aligned mage team or ordained conspirators complete the killing). Vatican at **OTL 1913** scale (Holy See, not restored Papal States). Max’s holy war must read as rescue of misled souls, not Rome-style territorial crusade. See [World-Premise-1913-1914.md](World-Premise-1913-1914.md).
 
 **Holy war (canon):** Max **wages** a holy war against the Catholic cult (institutional church power as enemy faction, not generic Catholic laity). Allied Catholic states: target Rome-linked cells and corrupt clergy, not open war on Vienna or Munich without plot cause.
 
