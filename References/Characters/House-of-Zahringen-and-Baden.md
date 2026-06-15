@@ -2,7 +2,7 @@
 
 ## A Dynastic History of Southwestern Germany and Beyond
 
-Reference for Maximilian Friedrich Zähringen (cadet line) and long-term Baden ambitions in [Notes-for-the-Future.md](../Planning/Notes-for-the-Future.md), [World-and-Setting.md](../Setting/World-and-Setting.md).
+Reference for Maximilian Friedrich von Zähringen (cadet line) and long-term Baden ambitions in [Notes-for-the-Future.md](../Planning/Notes-for-the-Future.md), [World-and-Setting.md](../Setting/World-and-Setting.md).
 
 ---
 

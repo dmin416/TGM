@@ -55,7 +55,9 @@ He will eventually be a nuclear-level combatant. That is the destination. Gettin
 
 ## Max
 
-**Name:** Maximilian Friedrich Zähringen (also called Max, Molin). Baden Hochadel, House of Zähringen (cadet line). Grandfather was a man of note in Baden and in the army; after him the line faded into obscurity through weak descendants. Mackensen knew the grandfather and watched the decline.
+**Legal name:** Maximilian Friedrich von Zähringen. Baden Hochadel, House of Zähringen (cadet line). Grandfather was a man of note in Baden and in the army; after him the line faded into obscurity through weak descendants. Mackensen knew the grandfather and watched the decline.
+
+**Speech names (default):** **Leutnant Friedrich**, **Friedrich**, **Max**, **Maximilian**. **von Zähringen**, **Zähringen**, or the full legal name only when the cadet line is plot-relevant (Mackensen, the Emperor, court, honors, dynastic ambition). **Never Molin** (upstream Chinese author pen name; not Max). See [People.md](../Characters/People.md).
 
 **Current Status:** Second Lieutenant
 

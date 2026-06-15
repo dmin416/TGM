@@ -30,7 +30,7 @@ One of the two great aetherium powers. Military and institutions are deeply inte
 
 ### France
 
-The other great aetherium power. Alongside Britain, France leads in magical capability and magical technology. Entente partner since 1904. Wants Alsace-Lorraine back. **France holds Gibraltar** in this timeline (not Britain).
+The other great aetherium power. Alongside Britain, France leads in magical capability and magical technology. Entente partner since 1904. Wants Alsace-Lorraine back.
 
 ### The United States
 
@@ -46,7 +46,7 @@ In crisis. Civil war from early 1912. Britain backs Royalists (**Alfonso XIII**)
 
 ### Russia
 
-Gone as a unitary empire. The Romanov state **collapsed in 1913**. Fragmented factions (Kolchak British backed, Denikin, Kerensky German aligned, warlords, ethnic breakaways) shape everything east of Germany.
+Gone as a unitary empire since the **1911 February Revolution**. Nicholas II executed; **no Lenin**. Fragmented civil war: **Kerensky** (German aligned west), **Kolchak** (Petersburg, Entente), **Denikin** (Moscow, Entente), lesser warlords. Entente aid may reunite the east and threaten Germany with **two-front war**. See [Russia-Fragmented-Empire.md](../Geography/Russia-Fragmented-Empire.md).
 
 ### Korea
 
@@ -135,6 +135,7 @@ While Germany is locked in the western campaign and besieged by Britain, the **U
 
 | Topic | Master premise rule | Old line to retire |
 |--------|---------------------|-------------------|
+| Gibraltar | **Britain** holds the Rock (OTL-aligned) | Upstream / old ref: French or Gaul control (`Source/077.md`) |
 | Luminite | Solidifies to crystal; refine and process | "Violently explosive on air contact" |
 | United States | Non aligned but trade deep; opportunist later | Flat "isolationist" with no German trade subtext |
 | Spain Feb 1914 | `Story/17`–`19` **before** victory | Treating chapters 17–19 as post victory |

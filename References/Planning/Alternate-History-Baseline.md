@@ -17,7 +17,7 @@ Rough draft. World rules, technology floor, Luminite, and financial opening term
 
 - Start date: January 1914
 - Germany wins WWI
-- Allied powers (US, France, Britain, Italy, Belgium, Russia) lose
+- Allied powers (US, France, Britain, Italy, Belgium, **Russian fragments**) lose. No unitary Romanov state since **1911** ([Russia-Fragmented-Empire.md](../Geography/Russia-Fragmented-Empire.md)).
 - Covenant Germany (Max's proposal): imperial judicial system with Sense Good and Evil spell, consensual combat rules across classes (not Wilhelmine dueling gates), broader class mutual understanding than OTL 1913 Germany, no state execution. See [Imperial-Judicial-System.md](Imperial-Judicial-System.md).
 
 ## Germany's Allied Bloc
@@ -98,7 +98,7 @@ The world's technology in 1913 is equivalent in development level to real-world 
 
 ## Luminite
 
-- Petroleum solidifies into a stable solid hydrocarbon on contact with air
+- Underground petroleum stays stable; on surfacing it **crystallizes** into a stable solid hydrocarbon (Luminite). **Not** an air-detonation explosive.
 - Known as luminite; mined from surface and near-surface deposits like coal
 - Burns hotter and cleaner than coal; combustion byproducts are CO₂, water vapor, and carbon soot
 - Used as a finely ground slurry suspended in a carrier fluid for engines and furnaces

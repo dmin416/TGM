@@ -2,7 +2,7 @@
 
 **References:** [Countries.md](../Geography/Countries.md) · [Formatting.md](Formatting.md) · [Glossary.md](../Setting/Glossary.md) · [Magic.md](Magic.md) · [MaxSystem.md](MaxSystem.md) · [Military.md](../Military/Military.md) · [People.md](../Characters/People.md) · [Places.md](../Geography/Places.md) · [Theaters.md](../Geography/Theaters.md)
 
-Protagonist mechanics for Maximilian Friedrich Zähringen. General mage architecture (rings, stars, core engraving, ring power, tier labels) remains in [Magic.md](Magic.md). Where this sheet conflicts with generic rules, treat this as Max specific unless you reconcile them in story.
+Protagonist mechanics for Maximilian Friedrich von Zähringen. General mage architecture (rings, stars, core engraving, ring power, tier labels) remains in [Magic.md](Magic.md). Where this sheet conflicts with generic rules, treat this as Max specific unless you reconcile them in story.
 
 ---
 

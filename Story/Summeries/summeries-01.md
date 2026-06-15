@@ -6,7 +6,7 @@ Arc: Capture. Late January 1914, evening, Seville.
 * Past and present memories blur; he does not know where he is or why he is here.
 * A neutral system voice announces intel collection and brings up a fogged map of Europe with Seville clear, plus tabs for Map, Intel, Encyclopedia and locked entries.
 * Encyclopedia entries name Seville as capital of Andalusia in the Spanish Empire and the German Empire as a Wettin monarchy in central Europe.
-* Intel states the attaché delegation was attacked and he is held in a Seville cellar; memories fill in as Maximilian Friedrich Zähringen, new second lieutenant in the Royal Baden Cadet Corps, Karlsruhe, rank ten days old, diverted from reporting to his unit.
+* Intel states the attaché delegation was attacked and he is held in a Seville cellar; memories fill in as Maximilian Friedrich von Zähringen, new second lieutenant in the Royal Baden Cadet Corps, Karlsruhe, rank ten days old, diverted from reporting to his unit.
 * Further blows suspend the HUD; he is kicked and questioned again about Germany and the Spanish civil war.
 * An older, better dressed German prisoner speaks up: August von Mackensen, Imperial Army general.
 * Mackensen claims diplomatic immunity and an invitation from Crown Prince Alfonso of the Spanish National Government; the Britannics reject that authority in Andalusia and demand why Germans are present.

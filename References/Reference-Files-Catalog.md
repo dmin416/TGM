@@ -34,6 +34,7 @@ Complete inventory of every file under `References/` (95 content files; 96 inclu
 - [German-Infrastructure-1913-Present.md](Geography/German-Infrastructure-1913-Present.md)
 - [Locations-Resources-Nature-by-Country.md](Geography/Locations-Resources-Nature-by-Country.md)
 - [Places.md](Geography/Places.md)
+- [Russia-Fragmented-Empire.md](Geography/Russia-Fragmented-Empire.md)
 - [Theaters.md](Geography/Theaters.md)
 
 ### `Characters/`
@@ -208,7 +209,11 @@ OTL German civil infrastructure reference: rail, road, water, sewage, stormwater
 
 ### 8. `Countries.md`
 
-January 1914 ranked list of sovereign states and British dominions by combined global importance, state power, and population. **TGM overrides OTL** where noted: Romanov collapse 1913 and fragmented Russia; independent Korean Empire with German alignment; Spain retaining Cuba, Puerto Rico, Guam, Philippines; peninsular Spanish Civil War context. Explains scope (listed vs colonies), de facto states, and Entente habit of saying “Russia” without a unitary empire. Top entries: UK, Germany, USA, fragmented former Russian Empire, France, Austria-Hungary, Japan, Korea, Italy, Ottoman Empire, then descending through world states.
+January 1914 ranked list of sovereign states and British dominions by combined global importance, state power, and population. **TGM overrides OTL** where noted: Romanov collapse **1911** and fragmented Russia ([Russia-Fragmented-Empire.md](Geography/Russia-Fragmented-Empire.md)); independent Korean Empire with German alignment; Spain retaining Cuba, Puerto Rico, Guam, Philippines; peninsular Spanish Civil War context. Explains scope (listed vs colonies), de facto states, and Entente habit of saying “Russia” without a unitary empire. Top entries: UK, Germany, USA, fragmented former Russian Empire, France, Austria-Hungary, Japan, Korea, Italy, Ottoman Empire, then descending through world states.
+
+### 8. `Russia-Fragmented-Empire.md`
+
+TGM canon for post-Romanov Russia from upstream `Source/`: **1911** February Revolution; Nicholas II executed; no Lenin. Faction table (Kerensky west, Kolchak Petersburg, Denikin Moscow, lesser warlords); Entente reunification arc and German two-front fear. Links [People.md](Characters/People.md), [Countries.md](Geography/Countries.md), [Glossary.md](Setting/Glossary.md), [World-Premise-1913-1914.md](Planning/World-Premise-1913-1914.md).
 
 ### 8. `Christian-Denominations-and-Religions.md`
 
@@ -288,11 +293,11 @@ Cast encyclopedia (~293 lines). **Part I (setting):** Max, German sovereigns (Al
 
 ### 22a. `Characters/Maximilian-Friedrich-Honors-and-Decorations.md`
 
-Max's decorations after the fall of the enemy capital: Iron Cross 2nd and 1st Class, Military Karl Friedrich Merit Order, Order of the Zähringer Lion (heat rounds), Pour le Mérite on CO recommendation. Links [People.md](Characters/People.md), [House-of-Zahringen-and-Baden.md](Characters/House-of-Zahringen-and-Baden.md).
+Max's decorations **after Madrid is taken** in the final Spain victory (~ch 20+, unwritten; **not** held in `Story/01`–`19`). Iron Cross 2nd and 1st Class, Military Karl Friedrich Merit Order, Order of the Zähringer Lion (heat rounds at Madrid), Pour le Mérite on CO recommendation. Links [People.md](Characters/People.md), [World-Premise-1913-1914.md](Planning/World-Premise-1913-1914.md).
 
 ### 23. `Places.md`
 
-Location index in two parts. **Part I (TGM):** Spain campaign sites, Western Front story theatres (Liège, Barchon, Somme towns), Germany (Dresden, Wilhelmshaven, Lichterfelde), Austria-Hungary (Vienna, Sarajevo), alternate geography (French Gibraltar, Port Montana). **Part II (~1914 historical):** capitals, Western Front battle names, colonial hubs, seas, industrial regions. Spelling follows period English; Part I wins for in story geography.
+Location index in two parts. **Part I (TGM):** Spain campaign sites, Western Front story theatres (Liège, Barchon, Somme towns), Germany (Dresden, Wilhelmshaven, Lichterfelde), Austria-Hungary (Vienna, Sarajevo), alternate geography (Port Montana). **Part II (~1914 historical):** capitals, Western Front battle names, colonial hubs, seas, industrial regions. Spelling follows period English; Part I wins for in story geography.
 
 ### 24. `Prose-Mechanics.md`
 

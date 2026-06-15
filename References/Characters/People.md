@@ -12,7 +12,13 @@
 
 ## Player character
 
-- **Maximilian Friedrich Zähringen** — Full name; Baden Hochadel, House of Zähringen (cadet line); Second Lieutenant; 3rd Platoon Leader, 3rd Company, 1st Battalion, 33rd Infantry Regiment, 16th Brigade. Called “Max” by Cecilia, and referred to as “Max” in meta/narrative contexts. Other characters use his rank or formal name. Honors after the fall of the enemy capital: [Maximilian-Friedrich-Honors-and-Decorations.md](Maximilian-Friedrich-Honors-and-Decorations.md) (Iron Cross 1st and 2nd Class, Military Karl Friedrich Merit Order, Order of the Zähringer Lion, Pour le Mérite).
+- **Maximilian Friedrich von Zähringen** — Full legal name; Baden Hochadel, House of Zähringen (cadet line); Second Lieutenant; 3rd Platoon Leader, 3rd Company, 1st Battalion, 33rd Infantry Regiment, 16th Brigade.
+
+  **How others address him (default):** **Leutnant Friedrich**, **Friedrich**, **Max**, or **Maximilian** by rank, intimacy, or formality. Use **von Zähringen**, **Zähringen**, or the full legal name only when the dynasty matters in scene: e.g. Mackensen on the grandfather and the faded line, the Emperor, court or patent ceremony, formal honors citation. Routine military and camp speech does **not** use the family name.
+
+  Cecilia calls him **Max**. Meta/narrative may use **Max**. **Never Molin:** that was upstream author pen-name bleed (Chinese source author 咸嘉湖灵感大王), not a character name; remove if found in `Source/` adaptation.
+
+  **Honors (future):** Iron Cross, Karl Friedrich Merit Order, Zähringer Lion, Pour le Mérite are awarded **only after Madrid is taken** in the final Spain victory (~ch 20+, unwritten). Max does **not** hold them in `Story/01`–`19` (Royalist Madrid in ch 17 is a setback, not the citation). Detail: [Maximilian-Friedrich-Honors-and-Decorations.md](Maximilian-Friedrich-Honors-and-Decorations.md).
 
 ---
 
@@ -140,19 +146,21 @@
 ## Serbia / Balkans
 
 - **Gavrilo Princip** — Black Hand conspirator; **arrested before the motorcade attack**; did not fire the fatal shots. The killings are carried out by other plotters (high-tier casters per Austro-Hungarian investigation; see upstream `135.md`, `136.md`).
-- **Colonel Dragutin Dimitrievich** — Serbian intel chief; Black Hand supreme leader; suicide in Belgrade.
+- **Colonel Dragutin Dimitrijević** ("Apis") — Serbian intel chief; Black Hand supreme leader; suicide in Belgrade.
 
 ---
 
 ## Russia (alternate timeline)
 
-The Great Russian Empire (Romanov dynasty) collapsed in **1913**. Most Romanovs executed. Initial revolutionary leadership killed during overthrow due to Kolchak’s double-dealing and royalist intervention. Russia is fragmented into multiple warring factions with ongoing civil war. **Lenin / Ulyanov does not exist** in this timeline. Britain and France arm and back rival fragments (especially Kolchak and Denikin) as a **proxy stick** against Germany and Austria-Hungary in the Balkans and east: no unitary Russia, but the Entente still wields “Russia” on the map and in diplomacy.
+The Great Russian Empire (Romanov dynasty) collapsed in the **1911 February Revolution** (upstream `Source/378.md`). **Nicholas II** and his family were executed after a brief trial. Initial revolutionary leaders were killed during the overthrow (Kolchak’s double-dealing and royalist intervention). **Lenin / Ulyanov does not exist.** No unitary Russia; ongoing civil war among factions. Full faction map and war arc: [Russia-Fragmented-Empire.md](../Geography/Russia-Fragmented-Empire.md).
 
-- **Admiral Kolchak** — Former Imperial Navy Admiral; leads Russian Empire / Universal Supreme Duchy of All Russia (royalist restoration faction); British-backed; most powerful warlord; controls significant former imperial territory.
-- **General Denikin** — Former Army General; leads second major warlord faction; also British-backed; strong military but less organized than Kolchak.
-- **Kerensky** — Leader of Western Russian Provisional National Government; German-aligned; communist-oriented but lacks governance skills; economy and production chaotic under his leadership.
-- **Andrei** — International Brigade; Commander, 1st Battalion, 2nd Regiment; bearded Slav; pragmatic revolutionary; from Kerensky’s territory.
+- **Admiral Kolchak** — “Supreme Autocrat”; **Universal Supreme Duchy of All Russia**; controls **Saint Petersburg** region; **British and French** backed; mobilizes as WWI opens.
+- **General Denikin** — Second major white warlord; **Moscow** region; **British and French** backed; allies with Kolchak against the west.
+- **Kerensky** — **Western Russian Provisional National Government** (西露西亚临时国民政府); **German aligned**; western grain belt; weak governance; economy chaotic; **not** a Bolshevik (no Lenin in this world).
+- **Andrei** — International Brigade; Commander, 1st Battalion, 2nd Regiment; bearded Slav; pragmatic revolutionary; from Kerensky’s territory (`Source/047.md`, `048.md`).
 - **Russian Chemistry Professor** — Unnamed; fled Western Russia after publishing antiwar statements; wanted by authorities; joined International Brigades; works with Max on shaped charge development.
+
+Britain and France arm **Kolchak** and **Denikin** as a **proxy stick** against Germany; Germany supports **Kerensky** and later may send troops east if the west falls.
 
 ---
 
@@ -185,7 +193,7 @@ Figures below are **our-world context** for the era. Where the story diverges, *
 - **George V** — King of the United Kingdom and the British Dominions, Emperor of India.
 - **Wilhelm II** — *(OTL)* German Emperor and King of Prussia; **Supreme War Lord** (*Oberster Kriegsherr*); July Crisis. *TGM: see **Emperor Albert II**.*
 - **Franz Joseph I** — *TGM: see Part I;* *(OTL)* aged symbol of the Habsburg monarchy.
-- **Nicholas II** — *(OTL)* Tsar of Russia. *TGM: empire collapsed 1913; see Part I.*
+- **Nicholas II** — *(OTL)* Tsar of Russia. *TGM: executed 1911; empire collapsed; see Part I, Russia.*
 - **Mehmed V** — Sultan of the Ottoman Empire (constitutional; CUP power).
 - **Victor Emmanuel III** — King of Italy.
 - **Alfonso XIII** — *(OTL)* neutral Spain; *TGM: see Part I.*

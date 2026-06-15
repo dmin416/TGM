@@ -231,7 +231,7 @@ List Max pushes to German command, industry, and allied staff (Seville era onwar
 
 ## Saltpeter Crisis, Weather Workers, and Haber-Bosch Funding (1914)
 
-Storm mages, shamens, druids, and country wizards have been quietly compensating for declining saltpeter reserves through weather working for decades, keeping the true severity of the crisis off the radar of funding bodies and government ministries alike. The depletion projections sitting in agricultural ministry reports tell a different story. Haber has not been worrying about saltpeter at all; the depletion curve is not on his desk, and Kaiser Wilhelm Institute funding has not been framed as an explosives emergency. Without a visible crisis driving urgency, nothing has moved. The opportunity exists simply because nobody with the right information has connected the dots and pushed it forward yet.
+Storm mages, shamens, druids, and country wizards have been quietly compensating for declining saltpeter reserves through weather working for decades, keeping the true severity of the crisis off the radar of funding bodies and government ministries alike. The depletion projections sitting in agricultural ministry reports tell a different story. Haber has not been worrying about saltpeter at all; the depletion curve is not on his desk, and Imperial chemical research funding has not been framed as an explosives emergency. Without a visible crisis driving urgency, nothing has moved. The opportunity exists simply because nobody with the right information has connected the dots and pushed it forward yet.
 
 Related: [1914-Propellant-Technology.md](../Military/1914-Propellant-Technology.md), [Villain-Bible.md](Villain-Bible.md) (Chile nitrate), [People.md](../Characters/People.md) (Fritz Haber).
 

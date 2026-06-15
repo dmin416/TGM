@@ -52,7 +52,7 @@ Peacetime footing; pre–World War I offensive doctrine still dominant.
 
 ### Supreme command
 
-- **Kaiser Wilhelm II** — Supreme War Lord (*Oberster Kriegsherr*).
+- **Emperor Albert II** — German Kaiser; Supreme War Lord (*Oberster Kriegsherr*). Wettin dynasty. See [People.md](../Characters/People.md).
 - **Great General Staff** (*Großer Generalstab*) — Chief: **Helmuth von Moltke (the Younger)**; operational planning, mobilization timetables, deployment plans.
 - **Prussian War Ministry** (*Preußisches Kriegsministerium*) — Administration, supply, personnel, budgets; in this period distinct from the General Staff’s operational role.
 

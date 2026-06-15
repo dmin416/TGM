@@ -40,8 +40,8 @@ Survey work revealed a significant Aetherium belt in the southern Spanish mounta
 - **Germany–France:** Enemies since 1870. France wants Alsace-Lorraine back.
 - **Britain–France:** Entente Cordiale allies since 1904.
 - **Triple Alliance:** Germany, Austria-Hungary, Italy (since 1882).
-- **Triple Entente:** Britain, France, and the **Russian fragments** (treaty habit still says “Russia” since 1907; no Romanov unitary state since 1913).
-- **Germany–Russia:** The Great Russian Empire (Romanov dynasty) collapsed in 1913. Russia is now fragmented into warring factions: Kolchak's royalist forces (British-backed), Denikin's warlord faction, Kerensky's Western Provisional National Government (German-aligned), ethnic independence movements, and various warlords. Germany supports Kerensky's faction as a counter to British influence. Britain and France use their backed fragments as a **proxy stick** in the east and Balkans where OTL used a single empire.
+- **Triple Entente:** Britain, France, and the **Russian fragments** (treaty habit still says “Russia” since 1907; no Romanov unitary state since **1911**).
+- **Germany–Russia:** Romanov **collapsed 1911**; civil war among **Kolchak** (Entente, Petersburg), **Denikin** (Entente, Moscow), **Kerensky** (German aligned west), and lesser warlords. **Lenin does not exist.** Germany backs Kerensky; Britain and France back Kolchak and Denikin. See [Russia-Fragmented-Empire.md](../Geography/Russia-Fragmented-Empire.md).
 - **Austria-Hungary–Serbia:** Austria views Serbia as Balkan threat. Anglo-French-backed Russian factions and Serbian nationalism pressure Vienna (no single tsar, same strategic lever for the Entente).
 - **Britain–Belgium:** Britain guarantees Belgian neutrality (since 1839).
 - **United States:** Non aligned in European treaties; Monroe Doctrine; **deep trade and cultural sympathy with Germany**; not a 1914 military partner; opportunist colonial moves later (see [World-Premise-1913-1914.md](../Planning/World-Premise-1913-1914.md)).
@@ -192,7 +192,7 @@ Extraterrestrial meteorite ore; powers all magitech. Deep mine exposure is tied 
 Overload of raw magic on an unbalanced soul: delirium like hearing voices (feeling the world, seeing universal energy), physical warping, soul corruption; worst on high ring mages who mixed schools without proper engraving balance. Post plague doctrine: one school past the third ring; balanced multiclass is theorized but never attempted in the towers.
 
 **Luminite Ore**  
-Refined into diesel fuel; powers German armored knights.
+Surfaced petroleum crystallizes into Luminite. Mined and milled, then **refined and processed** into combustion fuels and industrial feedstock (diesel equivalent slurry, armored knight fuel lines). Handling hazards are dust, heat, and fouling; the material is **not** an air-detonation explosive. Powers German industry and armored knights. See [World-Premise-1913-1914.md](../Planning/World-Premise-1913-1914.md).
 
 ---
 

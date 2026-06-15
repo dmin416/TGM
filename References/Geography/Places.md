@@ -44,7 +44,7 @@
 
 ## Strategic — alternate geography
 
-- **Gibraltar** — Controlled by **France** in this world.
+- **Gibraltar** — British fortress; controls the strait (same as OTL).
 - **Port Montana** — German Mediterranean Fleet home port.
 - **North Sea** — High Seas Fleet operating theater.
 - **Baltic Sea** — German naval operating area.
@@ -174,7 +174,7 @@
 - **Mediterranean Sea** — French fleet zones; Dardanelles closure effect.
 - **South Atlantic** — German commerce raiders (*Emden*, etc.).
 - **Pacific Ocean** — German colonial islands; Australian–New Zealand seizures 1914.
-- **Gibraltar** — *(OTL)* British fortress; *TGM: French-controlled — see **Part I**.*
+- **Gibraltar** — British fortress; Mediterranean gateway.
 
 ## Industrial and resource regions (strategic, not only urban)
 

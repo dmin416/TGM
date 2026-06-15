@@ -10,6 +10,8 @@ Mechanical editing rules for *Trenches, Guns and Magic*.
 
 Before writing, verify every weapon, piece of equipment, name and place in the reference files. Weapons must match historical introduction dates. The source novel makes historical errors; correct them silently. German military competence and equipment history follow real history. Gear, weapons, places and people use proper historical names per World-and-Setting.md.
 
+**Maximilian Friedrich:** default dialogue names are **Leutnant Friedrich**, **Friedrich**, **Max**, or **Maximilian**; reserve **von Zähringen** / **Zähringen** or the full legal name for dynastic beats (Mackensen, Emperor, court, honors). **Never Molin** for Max (upstream author pen name, not in-setting). See [People.md](../Characters/People.md).
+
 ---
 
 ## Voice

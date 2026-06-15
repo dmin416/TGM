@@ -2,7 +2,7 @@
 
 ## Identity
 
-Name: Maximilian Friedrich Zähringen  
+Name: Maximilian Friedrich von Zähringen  
 Rank: Second Lieutenant  
 Unit: 16th Infantry Brigade / 33rd Regiment / 1st Battalion / 3rd Company / 3rd Platoon
 
