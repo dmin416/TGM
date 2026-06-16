@@ -243,7 +243,7 @@ Related: [1914-Propellant-Technology.md](../Military/1914-Propellant-Technology.
 - MP18 (with Schmeisser daughter collaboration)
 - MG 15/II (predecessor to MG 42)
 
-#### End of Seville Battle (January 1914)
+#### End of Seville counterattack (7 February 1914; `Story/10`–`11`)
 - HEAT round (shaped charge anti-armor)
 
 ### Later Development

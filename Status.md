@@ -189,6 +189,7 @@ Status: locked
 
 ## Notes
 
+Present date: 10 February 1914  
 Current chapter: 17 (end of file; Seville garrison after Madrid, Cuenca and Valencia falls)  
 Command: sole surviving officer of 3rd Company; holds company on Major Thomas's order (chapter 16)  
 Casualties (chapter 16): Captain Hauser killed; Hans (orderly) killed; most company officers dead or missing; company fights as reinforced platoon  

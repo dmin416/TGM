@@ -1139,7 +1139,7 @@
       <h2>Add Timeline Entry</h2>
       <span class="close-modal" onclick="closeModal('addTimelineModal')">×</span>
     </div>
-    <input type="text" id="timelineDate" class="input-field" placeholder="Date (e.g., Late January 1914)">
+    <input type="text" id="timelineDate" class="input-field" placeholder="Date (e.g., 7 February 1914)">
     <input type="text" id="timelineLocation" class="input-field" placeholder="Location">
     <input type="text" id="timelineEvent" class="input-field" placeholder="Event description">
     <select id="timelineType" class="input-field">
@@ -1280,16 +1280,17 @@ let character = {
     }
   },
   achievements: [
-    {name: "First Blood", desc: "First confirmed kill", unlocked: true, date: "Late January 1914"},
-    {name: "Officer Slayer", desc: "Killed an enemy officer in melee", unlocked: true, date: "Late January 1914"},
-    {name: "Mage Hunter", desc: "Killed a Highland Mage", unlocked: true, date: "Late January 1914"},
-    {name: "Armored Killer", desc: "Destroyed full-armored infantry", unlocked: true, date: "Late January 1914"},
-    {name: "Level 2", desc: "Reached level 2", unlocked: true, date: "Late January 1914"}
+    {name: "First Blood", desc: "First confirmed kill", unlocked: true, date: "6 February 1914"},
+    {name: "Officer Slayer", desc: "Killed an enemy officer in melee", unlocked: true, date: "6 February 1914"},
+    {name: "Mage Hunter", desc: "Killed a Highland Mage", unlocked: true, date: "6 February 1914"},
+    {name: "Armored Killer", desc: "Destroyed full-armored infantry", unlocked: true, date: "7 February 1914"},
+    {name: "Level 2", desc: "Reached level 2", unlocked: true, date: "6 February 1914"}
   ],
   timeline: [
-    {date: "Late January 1914", location: "Seville", event: "Battle of Seville - First major combat", type: "combat"},
-    {date: "Late January 1914", location: "Seville", event: "Killed Lt. Colonel Juan de Rivera in melee", type: "achievement"},
-    {date: "Late January 1914", location: "Seville", event: "Reached Level 2", type: "milestone"}
+    {date: "6 February 1914", location: "Seville (San Isidro)", event: "San Isidro assault, first combat", type: "combat"},
+    {date: "6 February 1914, afternoon", location: "Seville", event: "Killed Lt. Colonel Juan de Rivera (bayonet)", type: "achievement"},
+    {date: "6 February 1914", location: "Seville", event: "Reached Level 2", type: "milestone"},
+    {date: "7 February 1914", location: "Seville (Hill 127)", event: "Hill 127 assault, counterattack, armored kills", type: "combat"}
   ],
   location: {
     current: "Seville, Spain",

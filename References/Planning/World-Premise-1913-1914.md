@@ -40,7 +40,20 @@ The other great aetherium power. Alongside Britain, France leads in magical capa
 
 In crisis. Civil war from early 1912. Britain backs Royalists (**Alfonso XIII**). Germany backs Republicans, National Army loyal to **Crown Prince Alfonso** (German educated), and International Brigades. Southern **Aetherium belt** in the mountains is the strategic prize. Spain retains **Cuba, Puerto Rico, Guam, and the Philippines** (no Spanish American War yet). **Germany shares a land border with Spain** (Mediterranean coast enclave; rail crossing for relief columns). German Mediterranean Fleet bases at **Port Montana**.
 
-**Story position (`Story/17`–`19`):** late January to February 1914, **before** Republican victory. Seville holds, Madrid has fallen to Royalists, expedition was encircled then relieved by Mackensen. Peninsular war still open.
+**Story position (`Story/01`–`19`):** **5–15 February 1914**, **before** Republican victory. Seville holds, Madrid has fallen to Royalists, expedition was encircled then relieved by Mackensen. Peninsular war still open.
+
+**Spain story calendar (field dates):**
+
+| Date | Chapters | Beat |
+|------|----------|------|
+| 5 Feb 1914 | 1, 1.5 | Capture, rescue, Potsdam telegram |
+| 6 Feb 1914 | 2–6 | San Isidro assault, recon, brigade orders |
+| 7 Feb 1914 | 7–10, 17 (open) | Hill 127, capture, counterattack, L30, Eldridge |
+| 8 Feb 1914 | 17 (scene) | Garrison aftermath, spell work |
+| 10 Feb 1914 | 17 (scene) | Cuenca/Valencia news, Mackensen telegram |
+| 11 Feb 1914 | 18 | Encirclement crisis, Berlin |
+| 12 Feb 1914 | 18 (scene) | London audience |
+| 13–15 Feb 1914 | 19 | Post-battle quiet, spell study, Mackensen relief reaches Seville |
 
 **Arc outcome (later):** German backed side and International Brigades **win** the civil war; Britain humiliated; friendly government in Madrid; settlement may include **Alfonso XIV** as constitutional monarch under Republican government per [Glossary.md](../Setting/Glossary.md).
 
@@ -60,9 +73,9 @@ Independent Korean Empire; German military backing; Aetherium deposits; not anne
 
 Spanish Civil War begins. Britain backs Royalists. Germany backs the republican and revolutionary side. International Brigade volunteers pour in from Europe and America.
 
-### Late January – February 1914 (`Story/17`–`19`, present)
+### 5–15 February 1914 (`Story/01`–`19`, present)
 
-Seville counterattack arc. German expedition encircled; **General Mackensen** crosses the border with twelve divisions; rail line reopened. Fleet posturing (Mediterranean and High Seas Fleet sortie; Royal Navy mirrors). Victoria and Albert II both posture hard while keeping diplomatic channels open. **Not** Republican victory yet.
+San Isidro and Seville assault (6–7 Feb). Garrison arc (8–10 Feb, `Story/17`). German expedition encircled (11 Feb, `Story/18`); **General Mackensen** crosses the border with twelve divisions; rail line reopened (15 Feb, `Story/19`). Fleet posturing (Mediterranean and High Seas Fleet sortie; Royal Navy mirrors). Victoria and Albert II both posture hard while keeping diplomatic channels open. **Not** Republican victory yet.
 
 ### Spanish Civil War resolution (after story present)
 
