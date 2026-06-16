@@ -16,7 +16,7 @@
 
   **How others address him (default):** **Leutnant Friedrich**, **Friedrich**, **Max**, or **Maximilian** by rank, intimacy, or formality. Use **von Zähringen**, **Zähringen**, or the full legal name only when the dynasty matters in scene: e.g. Mackensen on the grandfather and the faded line, the Emperor, court or patent ceremony, formal honors citation. Routine military and camp speech does **not** use the family name.
 
-  Cecilia calls him **Max**. Meta/narrative may use **Max**. **Never Molin:** that was upstream author pen-name bleed (Chinese source author 咸嘉湖灵感大王), not a character name; remove if found in `Source/` adaptation.
+  Cecilia calls him **Max**. Meta/narrative may use **Max**. **Never Molin:** that was upstream author pen-name bleed (Chinese source author 咸嘉湖灵感大王), not a character name; fix if found in `Source/` adaptation.
 
   **Honors (future):** Iron Cross, Karl Friedrich Merit Order, Zähringer Lion, Pour le Mérite are awarded **only after Madrid is taken** in the final Spain victory (~ch 20+, unwritten). Max does **not** hold them in `Story/01`–`19` (Royalist Madrid in ch 17 is a setback, not the citation). Detail: [Maximilian-Friedrich-Honors-and-Decorations.md](Maximilian-Friedrich-Honors-and-Decorations.md).
 
