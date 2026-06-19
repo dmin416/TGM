@@ -167,9 +167,9 @@ Unlocked entries:
 - Russian Civil War (ongoing fragmentation, multiple factions)
 - Eastern territories (fog of war, marked for later exploration)
 - Holy Britannian Empire mage corps composition (chapter 17)
-- Aragon theater: Battle of Madrid concluded; National Army and International Brigade main forces destroyed (chapter 17)
+- Spain theater: Battle of Madrid concluded; National Army and International Brigade main forces destroyed (chapter 17)
 - Royal Army follow on plan extrapolated (chapter 17)
-- Kingdom of Aragon map expanded beyond Seville; Madrid under enemy control (chapter 17)
+- Spain map expanded beyond Seville; Madrid under enemy control (chapter 17)
 - Cuenca and Valencia fallen; land line to German Empire cut (chapter 17, two days after Madrid news)
 
 ### Technology Tab
