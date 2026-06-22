@@ -9,6 +9,6 @@ Arc: Seville Counterattack. Late January 1914, shaped charge test and battle beg
 * Ludwig tests on salvaged Garter breastplate; after a flash the plate shows a penny sized through hole; system unlocks Military Technology shaped charge; crowd cheers science over magic.
 * Mass production starts; city warning whistles sound; Max leaves production to Ludwig and Andrei and sprints to third platoon.
 * Seville already has barricades, wire, evacuations and partial street fighting prep; Zeppelin L30 is under four hours out.
-* Klaus reports reinforcements filled the platoon plus two squads and an MG08 team on Sun Avenue, the likely main axis; Max sets crossfire from upper floors, reserves, and hides a 77mm gun and 105mm howitzer behind the machine gun line.
+* Klaus reports reinforcements filled the platoon plus two squads and an MG08 team on Sun Avenue, the likely main axis; Max sets crossfire from upper floors, reserves, and hides a 77mm gun and 105mm howitzer behind the Maxim line.
 * Enemy encircles the city with reinforced regiments and a fresh Northumberland battalion; no artillery prep; British observer Major John sends Royal troops first into quiet streets.
 * At the first barbed wire block a sniper shot drops a cutter and gunfire erupts across Seville.

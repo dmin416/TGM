@@ -105,7 +105,7 @@ Submachine gun; designed by Helga; 9mm; 32 rounds.
 German stick grenade; 10–15m radius.
 
 **FK 96 n.A. (7.7 cm Feldkanone 96 n.A.)**  
-German standard divisional field gun, 1914; ~5,000 at mobilization. [German-Artillery-1914.md](../Military/German-Artillery-1914.md).
+German standard divisional field gun, 1914; maximum range about 8,400 m; ~5,000 at mobilization. [German-Artillery-1914.md](../Military/German-Artillery-1914.md).
 
 **10.5 cm leFH 98/09**  
 German standard divisional light howitzer, 1914. [German-Artillery-1914.md](../Military/German-Artillery-1914.md).

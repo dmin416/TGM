@@ -8,11 +8,11 @@ Reference for *Trenches, Guns and Magic*. Imperial German Army (**Heer**) conven
 
 ## Field Artillery (Divisional Level)
 
-| Piece | Caliber | Type | Notes |
-|---|---|---|---|
-| 7.7cm Feldkanone 96 n.A. | 77mm | Field gun | Standard divisional gun, flat trajectory, high ROF |
-| 7.7cm FK 16 | 77mm | Field gun | Improved version entering service mid war, some in 1914 |
-| 10.5cm leFH 98/09 | 105mm | Light howitzer | Standard divisional howitzer alongside the FK 96 |
+| Piece | Caliber | Type | Max range (approx.) | Notes |
+|---|---|---|---|---|
+| 7.7cm Feldkanone 96 n.A. | 77mm | Field gun | ~8,400 m | Standard divisional gun, flat trajectory, high ROF |
+| 7.7cm FK 16 | 77mm | Field gun | ~11,000 m | Improved version entering service mid war, some in 1914 |
+| 10.5cm leFH 98/09 | 105mm | Light howitzer | ~7,000 m | Standard divisional howitzer alongside the FK 96 |
 
 ---
 
@@ -50,7 +50,7 @@ Reference for *Trenches, Guns and Magic*. Imperial German Army (**Heer**) conven
 
 ## A Few Notes
 
-- The **77mm FK 96 n.A.** was the bread and butter gun. Germany opened the war with roughly **5,000** of them.
+- The **77mm FK 96 n.A.** was the bread and butter gun. Germany opened the war with roughly **5,000** of them. Maximum range with standard ammunition is about **8,400 meters** depending on shell and charge; practical field fire is often shorter.
 - The **10.5cm leFH 98/09** gave German divisions a howitzer capability that French divisions initially lacked, a significant tactical advantage in 1914.
 - The **21cm Mörser 10** was the workhorse heavy siege piece. It destroyed the Belgian ring forts at Liège, Namur, and Antwerp that were supposed to slow the German advance for months.
 - **Big Bertha (42cm)** got the press attention but only a handful existed. The **21cm** pieces did the bulk of actual siege work.

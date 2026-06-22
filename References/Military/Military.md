@@ -315,7 +315,7 @@ See **[German-Artillery-1914.md](German-Artillery-1914.md)** for the full 1914 t
 
 **MG 08:** 7.92×57mm, recoil-operated, water-cooled, 450–500 rpm, 2,000 m effective, 26.5 kg gun + ~70 kg with sled mount and water. 250-round fabric belt, 4–6 man crew. **6 per regiment in MG company.**
 
-**77 mm FK 96 n/A:** Standard divisional field gun; flat trajectory; high rate of fire; ~5,500 m range; 6 guns per battery, 18 per battalion; ~5,000 in service at mobilization.
+**77 mm FK 96 n/A:** Standard divisional field gun; flat trajectory; high rate of fire; maximum range about **8,400 m**; 6 guns per battery, 18 per battalion; ~5,000 in service at mobilization.
 
 **77 mm FK 16:** Improved field gun; some in service by 1914, wider issue mid war.
 

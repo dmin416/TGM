@@ -3,7 +3,7 @@
 Arc: Seville Counterattack. Late January 1914, hold Seville and prepare urban defense.
 
 * At brigade HQ Paul learns the enemy regrouped within eight kilometers with two or three regiments of reinforcements and Garter armored knights up from two to eight; he refuses withdrawal and orders hold Seville until armored airships arrive, calling battalion commanders to conference.
-* Third platoon debrief praises flanking machine gun work and dispersion; soldiers fear British heavy infantry until a messenger summons Max to battalion HQ.
+* Third platoon debrief praises flanking Maxim work and dispersion; soldiers fear British heavy infantry until a messenger summons Max to battalion HQ.
 * Thomas reports imminent enemy counterattack and brigade order to hold the city without tactical detail; officers stare at Max as the only one with fresh academy training.
 * Max briefs street fighting: abandon field lines, squad and platoon strongpoints in buildings with mutual support, move through interiors and breach walls between row houses, expect brutal room to room fighting.
 * Thomas takes the plan to Paul, who copies it to all battalions; Max worries about armored knights and visits Ludwig at the Teutonic camp.

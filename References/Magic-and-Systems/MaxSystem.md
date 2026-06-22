@@ -424,7 +424,7 @@ Start at 50. Add and subtract using the categories below.
 | Gun position (destroyed) | 450 |
 | International Brigade volunteer | 100 |
 | National Army soldier | 50 |
-| Vickers position (crew, destroyed) | 700 |
+| Maxim position (crew, destroyed) | 700 |
 | Teutonic Knight | 2300 |
 | Garter Knight | 5900 |
 | German battle mage (treasured apprentice, low) | see mage table (ring 3) |
