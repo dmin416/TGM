@@ -13,7 +13,7 @@ Arc: San Isidro. Late January 1914, noon, village and battalion rear.
 * Max accepts, plans a small quick team, and requests battalion bicycles for speed and stealth.
 * Thomas authorizes supplies in writing; Hauser warns him to be careful.
 * Max and Klaus pick five men: the debrief squad leader, Corporal Baumann and three steady veterans from the farmhouse assault; rules are observe first, fire only if discovered and cannot break contact.
-* Klaus holds the platoon; Hans fetches bitter army substitute coffee, then cigarettes and Coca Schnapps on Max's order.
+* Klaus holds the platoon; Hans fetches real coffee, then cigarettes and Coca Schnapps on Max's order.
 * At the train park the quartermaster recognizes Max from the flanking raid and issues six bicycles, warning of rough roads.
 * Max sees two Siegfried type Teutonic Order armored knights with attendants, sent to clear strongpoints after the morning's losses.
 * Max drains the coffee, pockets smokes and schnapps, and the recon party mounts bicycles and moves out.

@@ -293,7 +293,7 @@ Related: [1914-Propellant-Technology.md](../Military/1914-Propellant-Technology.
 - Freeze-drying food preservation
 - Sliced bread
 - Instant coffee improvements
-- Ersatz coffee (*Muckefuck* class grain/chicory substitute): not on early Spain field ration (`Story/04`–`05`, real beans still issue). Max to develop an acceptable substitute when he returns to Germany and import shortages bite; introduce in story only after blockade pressure is established, not at mobilization.
+- Ersatz coffee (*Muckefuck* class grain/chicory/acorn substitute): not on early Spain field ration (`Story/04`–`05`, real beans still issue). Max to develop an acceptable substitute when he returns to Germany and import shortages bite; introduce in story only after blockade pressure is established, not at mobilization.
 - Resealable packaging
 - Aluminum foil
 - Plastic wrap

@@ -9,7 +9,7 @@ Arc: Seville Counterattack. Late January 1914, armored duel and entry into Sevil
 * Soldiers cheer; Ludwig salutes the hill; messengers report cavalry hit the hidden mana crystal position; stuck knights are dug out while crystal fire stays silent.
 * Regimental orders pursue a full enemy retreat; International Brigade and Teutonic knights join the battered first battalion into Seville with almost no resistance and the city abandoned.
 * Max warns of a trap; Thomas and Ludwig argue tactical withdrawal and counterattack because Seville cannot be given up; allies mop up and camp outside.
-* Third platoon is down to forty eight men; Sergeant Jonah is dead; Max sends wounded to hospital, Klaus to rearm especially grenades, Baumann to compile casualty lists, then feeds the platoon fried Thuringian sausage and coffee.
+* Third platoon is down to forty eight men; Sergeant Jonah is dead; Max sends wounded to hospital, Klaus to rearm especially grenades, Baumann to compile casualty lists, then feeds the platoon fried Thuringian sausage, potatoes and coffee.
 * Max, Klaus and Hans climb the cathedral bell tower; Ludwig shares the view, gossip about party Max versus battlefield Max, amnesia beatings in Seville, Cecilia's telegram to Mackensen, and sister Patricia's rejection.
 * Seville civilians celebrate National Army and International Brigade; second battalion Germans loot a house after heavy officer losses and hunger, nearly clash guns with allies.
 * Max uses Wild Shape pressure, strips rifles, shames the looters in German and apologizes in Spanish to allies and civilians; Thomas and Ludwig back discipline and alliance; Ludwig leaves on armored knight technical duty.
