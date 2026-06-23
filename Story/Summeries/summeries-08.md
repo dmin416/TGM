@@ -10,6 +10,6 @@ Arc: Seville. Late January 1914, morning battle on the southeastern heights.
 * The 52nd Cavalry charges the exposed British rear and shatters the fourth battalion formation.
 * From the woods Ludwig and Wilhelm on Siegfried knights watch through binoculars and deliberately hold back so casualties will draw larger British elites into their trap.
 * Four white Order of the Garter Saint George Type 3 armored knights arrive with twelve powered armor attendants; the survivors cheer and counterattack.
-* Ludwig signals with three red flares and both Teutonic knights open fire with heavy rifle cannon into the Fusiliers, breaking the renewed British push.
+* Ludwig signals with three red flares and both Teutonic knights open fire with 30mm arm guns into the Fusiliers, breaking the renewed British push.
 * The Garter knights charge the German knights; infantry on both sides tacitly break contact and pull back while cavalry rides off toward the hidden mana crystal gun site Max had reported.
 * Max herds his platoon and confused International Brigade soldiers to the high ground; their commander shakes his hand and everyone watches as more Teutonic knights emerge and encircle the four British knights.

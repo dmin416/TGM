@@ -160,13 +160,13 @@ Range 4500m.
 Siege variant; 6 captured at Madrid.
 
 **Saint George Type 3 Armored Knight**  
-British heavy mecha; Order of the Garter.
+British heavy mecha; Order of the Garter; arm mounted 30mm gun.
 
 **Broadsword Type 2 Powered Armor**  
 British lighter armor.
 
 **Siegfried Type 1 Armored Knight**  
-German heavy mecha; Teutonic Knights.
+German heavy mecha; Teutonic Knights; arm mounted 30mm gun.
 
 **Zeppelin-Class Armored Airship L-30**  
 German armored airship; **eight 210 mm barrels** in **four twin deck turrets** (L class standard; see [German-Armored-Airship-Armament.md](../Military/German-Armored-Airship-Armament.md)). Heer field and siege table: [German-Artillery-1914.md](../Military/German-Artillery-1914.md).

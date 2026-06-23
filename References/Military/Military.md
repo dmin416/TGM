@@ -42,7 +42,7 @@ Peninsular war over southern **Aetherium** access; great powers back opposing si
 
 ### Armored knights (all powers)
 
-Saint George Type 3 (**Order of the Garter**, Aetherium) and Siegfried Type 1 (**Teutonic Knights**, Luminite) are **extremely rare** worldwide: strategic assets, not corps-scale ORBAT. No standing employment doctrine; field use remains experimental. Walking fortresses dominate conventional infantry until anti-armor shaped charges enter service ([Notes-for-the-Future.md](../Planning/Notes-for-the-Future.md)). French knights, if any, are unconfirmed in Jan 1914 inventories.
+Saint George Type 3 (**Order of the Garter**, Aetherium) and Siegfried Type 1 (**Teutonic Knights**, Luminite) are **extremely rare** worldwide: strategic assets, not corps-scale ORBAT. No standing employment doctrine; field use remains experimental. Primary ranged armament is an **arm mounted 30mm gun** (autocannon class, not field artillery). Walking fortresses dominate conventional infantry until anti-armor shaped charges enter service ([Notes-for-the-Future.md](../Planning/Notes-for-the-Future.md)). French knights, if any, are unconfirmed in Jan 1914 inventories.
 
 ---
 

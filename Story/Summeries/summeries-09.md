@@ -2,7 +2,7 @@
 
 Arc: Seville Counterattack. Late January 1914, armored duel and entry into Seville.
 
-* Infantry fall silent as twelve Teutonic knights bombard four Order of the Garter white knights; the British charge under rippling mage shields until cannon fire breaks them and melee armor fighting begins.
+* Infantry fall silent as twelve Teutonic knights bombard four Order of the Garter white knights with 30mm arm guns; the British charge under rippling mage shields until the fire breaks them and melee armor fighting begins.
 * Teutonic hybrid knights trade four fallen machines and heavy squire losses to destroy Garter squires and two knights; two British knights try to break out.
 * Highland instructor Eldridge casts fifth ring Transmute Rock, turning ground to mud and trapping the pursuers; the surviving Garter knights withdraw toward Seville.
 * Max orders the first battalion, third platoon and allies to volley Eldridge at three hundred meters; Mage Armor cracks under mass rifle fire and he breaks off when white retreat flares rise from the city.
