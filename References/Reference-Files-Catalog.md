@@ -1,6 +1,6 @@
 # Reference Files Catalog
 
-Complete inventory of every file under `References/` (95 content files; 96 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
+Complete inventory of every file under `References/` (96 content files; 97 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
 
 **How to use:** Verify canon in the topical file before editing `Story/` or `Status.md`. Core cross links: [World-and-Setting.md](Setting/World-and-Setting.md), [Glossary.md](Setting/Glossary.md), [Magic.md](Magic-and-Systems/Magic.md), [Military.md](Military/Military.md), [People.md](Characters/People.md), [Places.md](Geography/Places.md), [MaxSystem.md](Magic-and-Systems/MaxSystem.md).
 
@@ -77,6 +77,7 @@ Complete inventory of every file under `References/` (95 content files; 96 inclu
 - [Lembas-Bread-Nutritional-Profile.md](Biology-and-Chemistry/Lembas-Bread-Nutritional-Profile.md)
 - [Lilyvitae.md](Biology-and-Chemistry/Lilyvitae.md)
 - [Minimum-Latency-Imaging-Pipeline.md](Biology-and-Chemistry/Minimum-Latency-Imaging-Pipeline.md)
+- [Monte-Kali-Potash-Mine-Sodium-and-Uses.md](Biology-and-Chemistry/Monte-Kali-Potash-Mine-Sodium-and-Uses.md)
 - [Nitrogen-Fertilizer-Explosives-1913-Strategy.md](Biology-and-Chemistry/Nitrogen-Fertilizer-Explosives-1913-Strategy.md)
 - [Substances-by-Use-and-Molecular-Complexity.md](Biology-and-Chemistry/Substances-by-Use-and-Molecular-Complexity.md)
 - [Ultimate-Sun-User.md](Biology-and-Chemistry/Ultimate-Sun-User.md)
@@ -151,6 +152,10 @@ OTL cement and concrete chronology from Natufian lime plaster through Roman opus
 ### 6a. `Planning/Labor-Solar-Erg-Currency.md`
 
 Rough draft. Socialist currency concept anchored to physical energy: Labor Solar Erg (LSE) defined as 1.8 MJ (one solar hour on 1 m² temperate land), labor hour and caloric day equivalents, denominations, skill multipliers tied to certified training hours, weather and cold inclement labor surcharges, Regional Solar Adjustment Index (RSAI) by latitude, anti inflation mechanisms (energy audit, decay, no fractional reserve). Planning reference for postwar or alternate civic economy; not canon until cited. Links [Alternate-History-Baseline.md](Planning/Alternate-History-Baseline.md), [Imperial-Judicial-System.md](Planning/Imperial-Judicial-System.md), [Market-Crash-Wealth-Reference.md](Planning/Market-Crash-Wealth-Reference.md).
+
+### 6a2. `Biology-and-Chemistry/Monte-Kali-Potash-Mine-Sodium-and-Uses.md`
+
+OTL reference. Monte Kali (Kalimanjaro) salt dump near Heringen, Hesse: Werra-Fulda potash district history from 1903, 1913 strategic potash supply, NaCl byproduct scale, Downs Process sodium extraction, industrial and medical uses of sodium and chlorine, NaCl applications, Werra salinization and environmental impact. Links [Nitrogen-Fertilizer-Explosives-1913-Strategy.md](Biology-and-Chemistry/Nitrogen-Fertilizer-Explosives-1913-Strategy.md), [Modern-Life-Prerequisites-Reference.md](Planning/Modern-Life-Prerequisites-Reference.md), [Locations-Resources-Nature-by-Country.md](Geography/Locations-Resources-Nature-by-Country.md), [Places.md](Geography/Places.md).
 
 ### 6b. `Biology-and-Chemistry/Nitrogen-Fertilizer-Explosives-1913-Strategy.md`
 
