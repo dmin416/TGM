@@ -1,6 +1,6 @@
 # Reference Files Catalog
 
-Complete inventory of every file under `References/` (99 content files; 100 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
+Complete inventory of every file under `References/` (102 content files; 103 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
 
 **How to use:** Verify canon in the topical file before editing `Story/` or `Status.md`. Core cross links: [World-and-Setting.md](Setting/World-and-Setting.md), [Glossary.md](Setting/Glossary.md), [Magic.md](Magic-and-Systems/Magic.md), [Military.md](Military/Military.md), [People.md](Characters/People.md), [Places.md](Geography/Places.md), [MaxSystem.md](Magic-and-Systems/MaxSystem.md).
 
@@ -56,10 +56,12 @@ Complete inventory of every file under `References/` (99 content files; 100 incl
 ### `Military/`
 
 - [1914-Propellant-Technology.md](Military/1914-Propellant-Technology.md)
+- [20mm-Standard-Gunpowder-Reference.md](Military/20mm-Standard-Gunpowder-Reference.md)
 - [Best-Cartridges-1920-Onward.md](Military/Best-Cartridges-1920-Onward.md)
 - [German-Armored-Airship-Armament.md](Military/German-Armored-Airship-Armament.md)
 - [German-Army-Food-1913-1918.md](Military/German-Army-Food-1913-1918.md)
 - [German-Artillery-1914.md](Military/German-Artillery-1914.md)
+- [German-Firearms-and-Ammunition-1913.md](Military/German-Firearms-and-Ammunition-1913.md)
 - [German-Heer-Privileges-Pageantry-and-Leutnant-1914.md](Military/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md)
 - [German-Leutnant-1913-Battle-Kit.md](Military/German-Leutnant-1913-Battle-Kit.md)
 - [German-Military-Calibers.md](Military/German-Military-Calibers.md)
@@ -95,6 +97,7 @@ Complete inventory of every file under `References/` (99 content files; 100 incl
 - [Labor-Solar-Erg-Currency.md](Planning/Labor-Solar-Erg-Currency.md)
 - [Market-Crash-Wealth-Reference.md](Planning/Market-Crash-Wealth-Reference.md)
 - [Modern-Life-Prerequisites-Reference.md](Planning/Modern-Life-Prerequisites-Reference.md)
+- [Max-Patentable-Cartridges-Reference.md](Planning/Max-Patentable-Cartridges-Reference.md)
 - [Notes-for-the-Future.md](Planning/Notes-for-the-Future.md)
 - [Post-1913-Inventions-Bringable-Early.md](Planning/Post-1913-Inventions-Bringable-Early.md)
 - [Protestant-Germany-Utopia-Foundations.md](Planning/Protestant-Germany-Utopia-Foundations.md)
@@ -196,6 +199,10 @@ Rough draft. OTL year by year consumer and everyday life inventions 1913 to 2013
 
 Rough draft. Max accelerated invention timeline from 1914: medicine, military doctrine, civilian tech, communications, aviation, energy, and computing grouped by earliest realistic date (immediate 1914 through 1920 to 1930). Notes limiting factors (machining, alloys, electronics, German chemistry) and highest leverage antibiotic research. Links [Alternate-History-Baseline.md](Planning/Alternate-History-Baseline.md), [Notes-for-the-Future.md](Planning/Notes-for-the-Future.md), [World-Inventions-and-Discoveries-by-Civilization.md](Setting/World-Inventions-and-Discoveries-by-Civilization.md), [1914-Propellant-Technology.md](Military/1914-Propellant-Technology.md), [Nitrogen-Fertilizer-Explosives-1913-Strategy.md](Biology-and-Chemistry/Nitrogen-Fertilizer-Explosives-1913-Strategy.md).
 
+### 6d2. `Planning/Max-Patentable-Cartridges-Reference.md`
+
+Rough draft. Forward patent target list: every post-1913 cartridge Max can file ahead of OTL (intermediate rifle, pistol, sporting, precision, magnum, straight-wall, rimfire, high-pressure, subsonic). OTL intro years for pacing. Distinct from the in-character 1914 program in [German-Military-Calibers.md](Military/German-Military-Calibers.md). Links [Best-Cartridges-1920-Onward.md](Military/Best-Cartridges-1920-Onward.md), [Post-1913-Inventions-Bringable-Early.md](Planning/Post-1913-Inventions-Bringable-Early.md), [Notes-for-the-Future.md](Planning/Notes-for-the-Future.md).
+
 ### 6e. `Planning/Modern-Life-Prerequisites-Reference.md`
 
 Rough draft. Prerequisites map for modern civilization from a 1914 baseline: medicine, sanitation, energy, communications, transport, food, construction, manufacturing, consumer goods, computing, entertainment, finance, education, and safety standards. Each entry lists what the technology is and what it needs (materials, knowledge, infrastructure). Critical dependency notes on electricity, germ theory, organic chemistry, metals, and antibiotics. Links [Alternate-History-Baseline.md](Planning/Alternate-History-Baseline.md), [Post-1913-Inventions-Bringable-Early.md](Planning/Post-1913-Inventions-Bringable-Early.md), [German-Infrastructure-1913-Present.md](Geography/German-Infrastructure-1913-Present.md), [Biofeedstock-Chemistry-and-Waste.md](Biology-and-Chemistry/Biofeedstock-Chemistry-and-Waste.md), [Nitrogen-Fertilizer-Explosives-1913-Strategy.md](Biology-and-Chemistry/Nitrogen-Fertilizer-Explosives-1913-Strategy.md).
@@ -251,6 +258,14 @@ OTL reference. Post-1920 pistol, revolver, rifle, shotgun, and anti-materiel car
 ### 9b. `Military/Pump-Action-Rifle-1913-Concept.md`
 
 Rough draft. Max/time-traveler pump action rifle concept for 1913: 7.92×57mm Mauser, pump-driven rotating bolt, 10 or 20-round detachable box magazine, recoil management from ground braced firing, comparison to Gewehr 98, and OTL reasons Germany did not field it. Links [Military.md](Military/Military.md), [German-Military-Calibers.md](Military/German-Military-Calibers.md), [Weapons-vs-Armor-Reference.md](Military/Weapons-vs-Armor-Reference.md), [German-Leutnant-1913-Battle-Kit.md](Military/German-Leutnant-1913-Battle-Kit.md), [Post-1913-Inventions-Bringable-Early.md](Planning/Post-1913-Inventions-Bringable-Early.md), [1914-Propellant-Technology.md](Military/1914-Propellant-Technology.md).
+
+### 9e. `Military/20mm-Standard-Gunpowder-Reference.md`
+
+Combat reference. 20mm standard smokeless propellant loads circa 1913 to 1914: lead core FMJ and steel core AP muzzle velocity bands, mild steel penetration tables (6mm through 80mm). Links [German-Military-Calibers.md](Military/German-Military-Calibers.md), [1914-Propellant-Technology.md](Military/1914-Propellant-Technology.md), [Weapons-vs-Armor-Reference.md](Military/Weapons-vs-Armor-Reference.md).
+
+### 9d. `Military/German-Firearms-and-Ammunition-1913.md`
+
+OTL reference. German Imperial Army firearms and complete ammunition catalog for 1913: Gew 98, Kar 98AZ, Gew 88, MG 08, Luger P08, C96, Reichsrevolver, Dreyse, and Mauser 1914; military S Patrone and sidearm loads; commercial hunting, Schützen, rimfire, gallery, shotshell, and imported foreign calibers; DWM/RWS/Rottweil manufacturers. Links [Military.md](Military/Military.md), [German-Military-Calibers.md](Military/German-Military-Calibers.md), [German-Leutnant-1913-Battle-Kit.md](Military/German-Leutnant-1913-Battle-Kit.md), [German-Heer-Privileges-Pageantry-and-Leutnant-1914.md](Military/German-Heer-Privileges-Pageantry-and-Leutnant-1914.md), [Weapons-vs-Armor-Reference.md](Military/Weapons-vs-Armor-Reference.md).
 
 ### 9a. `Military/German-Army-Food-1913-1918.md`
 
