@@ -1,6 +1,6 @@
 # Reference Files Catalog
 
-Complete inventory of every file under `References/` (102 content files; 103 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
+Complete inventory of every file under `References/` (103 content files; 104 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
 
 **How to use:** Verify canon in the topical file before editing `Story/` or `Status.md`. Core cross links: [World-and-Setting.md](Setting/World-and-Setting.md), [Glossary.md](Setting/Glossary.md), [Magic.md](Magic-and-Systems/Magic.md), [Military.md](Military/Military.md), [People.md](Characters/People.md), [Places.md](Geography/Places.md), [MaxSystem.md](Magic-and-Systems/MaxSystem.md).
 
@@ -49,6 +49,7 @@ Complete inventory of every file under `References/` (102 content files; 103 inc
 
 - [Biographene-Superconducting-Mycelium-Planet-Brain.md](Magic-and-Systems/Biographene-Superconducting-Mycelium-Planet-Brain.md)
 - [Druid-Planetary-Network-Powers-and-Capabilities.md](Magic-and-Systems/Druid-Planetary-Network-Powers-and-Capabilities.md)
+- [Druid-Plant-Enhancement-Reference.md](Magic-and-Systems/Druid-Plant-Enhancement-Reference.md)
 - [Magic.md](Magic-and-Systems/Magic.md)
 - [MaxSystem.md](Magic-and-Systems/MaxSystem.md)
 - [Surveillance-Compute-and-Plant-Network.md](Magic-and-Systems/Surveillance-Compute-and-Plant-Network.md)
@@ -302,6 +303,10 @@ Large gazetteer (~1,850 lines): for each of many countries or factions, three ra
 ### 16. `Magic.md`
 
 World magic rules for all factions. Framework: no “mage level,” per ring **stars** = daily casts; soul surface **engraving** limits; D&D 5e spell effects by tradition; cantrips unlimited once known. **Rumor vs reality** section (Tankgewehr parallel): rarity (~1 in 50,000), visibility, grain of truth table, writing guidance for POV. Ring power, tier labels (apprentice through master), mage armor, institutional corps, Vatican clerical magic. **Max:** Spell tab HUD rules through chapter 17, morning usage reset, repository vs engraved; points to [MaxSystem.md](Magic-and-Systems/MaxSystem.md) for protagonist specifics.
+
+### 16a. `Magic-and-Systems/Druid-Plant-Enhancement-Reference.md`
+
+Rough draft. Druid spell material enhancement: 3× per system Level (3× at L1 through 60× at L20) applied to base plant tensile, compressive strength, hardness, and toughness. Blackthorn and hornbeam worked examples with MPa/Mohs and equivalent materials. Distinct from Lilyvitae engineered biology. Links [Magic.md](Magic-and-Systems/Magic.md), [MaxSystem.md](Magic-and-Systems/MaxSystem.md), [Notes-for-the-Future.md](Planning/Notes-for-the-Future.md).
 
 ### 17. `Market-Crash-Wealth-Reference.md`
 

@@ -154,7 +154,7 @@ Light, Blade Ward, Mage Hand, Message, Control of Nature, Druidcraft, Poison Spr
 
 **Druidcraft (TGM):** Light or extinguish a candle or small fire; bloom a flower or ripen fruit; predict weather; petals or smoke. **System Level** multiplies **intensity**, **potency**, and **distance** (×Level on each from baseline 1). See [Magic.md](Magic.md) (Named cantrips).
 
-**Plant Manipulation (TGM):** Shillelagh plus Thorn Whip. Pull, trip, strike with empowered plants. **Reach:** always **30 ft**. **Strength:** **100 J × system Level** per action (700 J at Level 7). Requires living plants within 30 ft. See [Magic.md](Magic.md) (Named cantrips).
+**Plant Manipulation (TGM):** Shillelagh plus Thorn Whip. Pull, trip, strike with empowered plants. **Reach:** always **30 ft**. **Strength:** **100 J × system Level** per action (700 J at Level 7). Requires living plants within 30 ft. Material enhancement (MPa, Mohs, toughness): [Druid-Plant-Enhancement-Reference.md](Druid-Plant-Enhancement-Reference.md). See [Magic.md](Magic.md) (Named cantrips).
 
 **Poison Spray (TGM):** See **Poison Spray framework** below and [Magic.md](Magic.md) (Named cantrips).
 
