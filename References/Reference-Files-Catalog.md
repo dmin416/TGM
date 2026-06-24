@@ -1,6 +1,6 @@
 # Reference Files Catalog
 
-Complete inventory of every file under `References/` (96 content files; 97 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
+Complete inventory of every file under `References/` (99 content files; 100 including this catalog, June 2026), grouped by topic folder. Paths are relative to `References/`.
 
 **How to use:** Verify canon in the topical file before editing `Story/` or `Status.md`. Core cross links: [World-and-Setting.md](Setting/World-and-Setting.md), [Glossary.md](Setting/Glossary.md), [Magic.md](Magic-and-Systems/Magic.md), [Military.md](Military/Military.md), [People.md](Characters/People.md), [Places.md](Geography/Places.md), [MaxSystem.md](Magic-and-Systems/MaxSystem.md).
 
@@ -56,6 +56,7 @@ Complete inventory of every file under `References/` (96 content files; 97 inclu
 ### `Military/`
 
 - [1914-Propellant-Technology.md](Military/1914-Propellant-Technology.md)
+- [Best-Cartridges-1920-Onward.md](Military/Best-Cartridges-1920-Onward.md)
 - [German-Armored-Airship-Armament.md](Military/German-Armored-Airship-Armament.md)
 - [German-Army-Food-1913-1918.md](Military/German-Army-Food-1913-1918.md)
 - [German-Artillery-1914.md](Military/German-Artillery-1914.md)
@@ -65,6 +66,7 @@ Complete inventory of every file under `References/` (96 content files; 97 inclu
 - [Major-Fortresses-by-Nation-1913.md](Military/Major-Fortresses-by-Nation-1913.md)
 - [Military-Capabilities-and-Doctrine-1913.md](Military/Military-Capabilities-and-Doctrine-1913.md)
 - [Military.md](Military/Military.md)
+- [Pump-Action-Rifle-1913-Concept.md](Military/Pump-Action-Rifle-1913-Concept.md)
 - [Strategic-Chokepoints-and-Railways-by-Nation-1913.md](Military/Strategic-Chokepoints-and-Railways-by-Nation-1913.md)
 - [Weapons-vs-Armor-Reference.md](Military/Weapons-vs-Armor-Reference.md)
 
@@ -96,6 +98,7 @@ Complete inventory of every file under `References/` (96 content files; 97 inclu
 - [Notes-for-the-Future.md](Planning/Notes-for-the-Future.md)
 - [Post-1913-Inventions-Bringable-Early.md](Planning/Post-1913-Inventions-Bringable-Early.md)
 - [Protestant-Germany-Utopia-Foundations.md](Planning/Protestant-Germany-Utopia-Foundations.md)
+- [Time-Traveler-Patent-Portfolio-Consumer-Everyday-Life-1913-2013.md](Planning/Time-Traveler-Patent-Portfolio-Consumer-Everyday-Life-1913-2013.md)
 - [Villain-Bible.md](Planning/Villain-Bible.md)
 
 ### `Society/`
@@ -185,6 +188,10 @@ OTL Asian invention chronology excluding Japan: ancient and modern China, ancien
 
 OTL Americas chronology excluding USA: Mesoamerican and Andean indigenous achievements, North American indigenous technology, Canada, Mexico, Argentina, Brazil, Colombia, Caribbean; global food crop contribution list; notes on quinine, potato demographic impact, Vucetich fingerprints. Links [World-Inventions-and-Discoveries-by-Civilization.md](Setting/World-Inventions-and-Discoveries-by-Civilization.md), [Asian-Inventions-and-Discoveries.md](Setting/Asian-Inventions-and-Discoveries.md), [European-Inventions-and-Discoveries.md](Setting/European-Inventions-and-Discoveries.md).
 
+### 6d2. `Planning/Time-Traveler-Patent-Portfolio-Consumer-Everyday-Life-1913-2013.md`
+
+Rough draft. OTL year by year consumer and everyday life inventions 1913 to 2013: food, clothing, home appliances, entertainment, medicine, computing, and digital services. Companion volume to patent portfolio planning; use for Max omniscient knowledge and consumer goods patent pacing. Links [Post-1913-Inventions-Bringable-Early.md](Planning/Post-1913-Inventions-Bringable-Early.md), [Modern-Life-Prerequisites-Reference.md](Planning/Modern-Life-Prerequisites-Reference.md), [World-Inventions-and-Discoveries-by-Civilization.md](Setting/World-Inventions-and-Discoveries-by-Civilization.md), [German-Inventions-and-Discoveries.md](Setting/German-Inventions-and-Discoveries.md), [Foundational-Discoveries-Inventions-and-Universal-Limits.md](Setting/Foundational-Discoveries-Inventions-and-Universal-Limits.md).
+
 ### 6d. `Planning/Post-1913-Inventions-Bringable-Early.md`
 
 Rough draft. Max accelerated invention timeline from 1914: medicine, military doctrine, civilian tech, communications, aviation, energy, and computing grouped by earliest realistic date (immediate 1914 through 1920 to 1930). Notes limiting factors (machining, alloys, electronics, German chemistry) and highest leverage antibiotic research. Links [Alternate-History-Baseline.md](Planning/Alternate-History-Baseline.md), [Notes-for-the-Future.md](Planning/Notes-for-the-Future.md), [World-Inventions-and-Discoveries-by-Civilization.md](Setting/World-Inventions-and-Discoveries-by-Civilization.md), [1914-Propellant-Technology.md](Military/1914-Propellant-Technology.md), [Nitrogen-Fertilizer-Explosives-1913-Strategy.md](Biology-and-Chemistry/Nitrogen-Fertilizer-Explosives-1913-Strategy.md).
@@ -236,6 +243,14 @@ Setting canon for Imperial German **L class** armored airships (L28–L32, inclu
 ### 9. `German-Artillery-1914.md`
 
 August 1914 **Heer** conventional artillery inventory: divisional 77 mm FK 96 n.A. and 10.5 cm leFH 98/09; corps 150 mm and 130 mm; foot 21 cm Mörser siege lines; super heavy 28 cm, 30.5 cm Austrian, 42 cm Gamma and M-Gerät for Belgian forts. Notes scale (~5,000 field guns, ~6,000 total mobilized), tactical advantage of German divisional howitzers in 1914, and that 21 cm did most siege work while Big Bertha was rare.
+
+### 9c. `Military/Best-Cartridges-1920-Onward.md`
+
+OTL reference. Post-1920 pistol, revolver, rifle, shotgun, and anti-materiel cartridge tables with bullet diameter, case length, full metric designation, introduction year, and role. Links [German-Military-Calibers.md](Military/German-Military-Calibers.md), [Weapons-vs-Armor-Reference.md](Military/Weapons-vs-Armor-Reference.md), [1914-Propellant-Technology.md](Military/1914-Propellant-Technology.md), [Pump-Action-Rifle-1913-Concept.md](Military/Pump-Action-Rifle-1913-Concept.md), [Military.md](Military/Military.md).
+
+### 9b. `Military/Pump-Action-Rifle-1913-Concept.md`
+
+Rough draft. Max/time-traveler pump action rifle concept for 1913: 7.92×57mm Mauser, pump-driven rotating bolt, 10 or 20-round detachable box magazine, recoil management from ground braced firing, comparison to Gewehr 98, and OTL reasons Germany did not field it. Links [Military.md](Military/Military.md), [German-Military-Calibers.md](Military/German-Military-Calibers.md), [Weapons-vs-Armor-Reference.md](Military/Weapons-vs-Armor-Reference.md), [German-Leutnant-1913-Battle-Kit.md](Military/German-Leutnant-1913-Battle-Kit.md), [Post-1913-Inventions-Bringable-Early.md](Planning/Post-1913-Inventions-Bringable-Early.md), [1914-Propellant-Technology.md](Military/1914-Propellant-Technology.md).
 
 ### 9a. `Military/German-Army-Food-1913-1918.md`
 
